@@ -1,0 +1,144 @@
+# Strategy Autopsy — Lessons & house style (READ FULLY before writing anything)
+
+Everything below was learned while producing Autopsy #1–#4 and the 8-minute long video. The user reviewed every one of
+those videos; these are their standing expectations. Treat each bullet as a requirement, not a suggestion.
+
+---------------------------------------------------------------------------------------------------------------------
+## 0. What the user wants, in their words
+- "Çekici bir başlangıç ve sonuna kadar izlenecek, hareketli olsun" → an irresistible opening and a video that is
+  MOVING all the time so people watch to the end.
+- "Başlangıç süper olmuş" (praised on #3/#4) → the #3/#4 hook style is the bar: a shocking true number in the first
+  second, big, animated, with SFX, before any title card.
+- "Rocco dinamik ve hareketli olacak" → Rocco is NEVER a static sticker. He walks in, hops on key words, reacts with
+  expressions, changes costume every scene, carries props, bounces, squashes and stretches.
+- Covers/thumbnails must create curiosity and must NOT reveal the result (the user rejected a thumbnail that said
+  "DOING NOTHING WON").
+- Upload texts go directly into the chat message, tags in ONE comma-separated line.
+- Honest data. If the strategy loses, say so — the channel's identity is "honest autopsies, losers included".
+
+---------------------------------------------------------------------------------------------------------------------
+## 1. Story structure of a ~55–60 s Short (proven in #3 and #4)
+| time      | scene (bunting title)  | content |
+|-----------|------------------------|---------|
+| 0.0–4 s   | hook (no title yet)    | Line 1 = the most surprising TRUE fact, e.g. "Seventy-three percent winners. Still lost." Giant number slams in at frame 0–3 with punch-zoom + flash + burst + thud SFX. Rocco runs in from the left and hops on the number word. |
+| 4–7 s     | title                  | "This is Strategy Autopsy. On the table: <strategy>." Bunting drops with the strategy name; Rocco walks in from the right (flip=True) wearing the episode costume. |
+| 7–14 s    | rules                  | 2–3 rule cards that pop in ON the spoken word ("Buy…", "Sell…"), each with a check/burst and a pop SFX. Rocco points/hops per rule. |
+| 14–20 s   | test                   | "Twenty years of SPY, ten thousand dollars, fees included." Price chart draws left→right, year axis, $10K coin. Rocco rises from below with a bounce (back easing). |
+| 20–32 s   | results / trades       | Flip counters (win rate, avg trade, trades count) roll up on their word anchors; equity line draws; tags stamp onto the chart. Rocco paces left↔right across the screen (sine path, auto-flip). |
+| 32–40 s   | twist / problem        | The surprising problem (time in cash, fees, a crash). Mood change: darker bg, rain/night, Rocco sad/sleep expression, slower music layer. |
+| 40–48 s   | score                  | Final $ vs buy & hold as two big counters racing; loser turns red, winner gets god-rays. Rocco hops on each number. |
+| 48–53 s   | extra knife (fees/real-world) | One more honest stress test (higher fees, slippage, worst year). |
+| 53–57 s   | verdict                | Big stamp ("EDGE? NO." / "WIN RATE ≠ PROFIT") slams with stamp SFX + flash + red/green burst. Rocco smug or sad, big hop. |
+| 57–60 s   | outro                  | "Follow for the next autopsy." Rocco bigger (px 24) jumps up from below and bounces; subscribe-style flag colors burst; captions hidden here. |
+
+Rules of thumb
+- A new scene/background every 3–7 s; something must move in EVERY frame (rain, confetti, rays, ticker band, skyline lights,
+  heart_line, speed lines, drifting grid). No frame should look like a slide.
+- Every number on screen appears exactly when it is spoken (word anchors), never before.
+- Script ~140–155 words; after tighten + atempo the voice should be 52–58 s. #3 came out at 62.3 s — too long; trim words
+  instead of speeding past 1.09.
+- Spoken numbers written as words in the script ("seventy-three percent", "sixteen thousand five hundred"), otherwise
+  TTS and the word anchors get messy.
+- One clear "twist" per video. #4's was "73% winners, still lost to buy & hold because it sat in cash 90% of the time".
+  #3's was "the dip buyer lost $29,170 versus someone who just bought every month".
+
+---------------------------------------------------------------------------------------------------------------------
+## 2. Rocco — how to make him alive (this is what the user cares about)
+Engine function: `rocco(ctx, t, costume, expr_override=None, prop=None)` + your `motion(t)` in the timing module.
+`motion(t)` returns `(x, y, px, flip, moving, lift)`; the engine adds: talk mouth synced to words, blink every ~3.1 s,
+breathing, walking bob (`moving=True` → bob + tilt), squash & stretch near the ground, a ground shadow that shrinks with height.
+
+Choreography patterns that worked (copy from r2_timing.py):
+- ENTRANCE every scene: walk in from off-screen `x = lerp(-180 or -450, 40, ease(prog(u,0,0.4–0.8)))` with `moving = k < 1`,
+  or from the right `lerp(1150, 620, …)` with `flip=True`, or rise from below `y = lerp(1950, 1310, back(prog(u,0,0.5)))`.
+  Alternate the entrance direction scene to scene.
+- HOPS on key words: `lift += hop(t, T["word"], h=110–170, d=0.4–0.6)`. Put a hop on every big number and on the verdict.
+  2–3 hops per scene is the sweet spot.
+- PACING: during data scenes `x = 40 + (sin(u*1.4)*0.5+0.5)*520`, `moving=True`, `flip = cos(u*1.4) < 0` → he walks back and
+  forth looking at the chart.
+- IDLE BOUNCE: `lift = abs(sin(u*2.4))*16` when standing (never fully frozen).
+- OUTRO: bigger (px 24), jumps up from below, then continuous bounce `abs(sin(u*3))*40`.
+- EXPRESSIONS via `expr_override`: shock on the hook number, smug when the result is good/he "knew it", sad on losses,
+  sleep in the "sitting in cash" scene, and always let "talk" through: `lambda e: "sad" if e != "talk" else e`.
+- COSTUME CHANGES every scene, matched to meaning: party (hook/celebration), doctor (autopsy/title & verdict), lab (rules/test),
+  crown (winner/score), night (cash/sleeping money), race (speed/trades, with prop_flag), detective + magnifier (investigation),
+  fire helmet (crash), grad cap (lesson), tophat (outro/classy), none (plain sad moment).
+- PROPS: prop_flag, prop_magnifier, prop_umbrella (rain/crash), prop_coin, prop_pointer(target) to point at a number.
+- Default position: x≈40 (left) or 620 (right), y≈1310, px 19 → he stands BELOW the captions (captions at y≈1240) and never
+  covers cards. Keep cards above y≈1180 or to the side Rocco is not on.
+- Never draw or imitate any Claude/Anthropic mascot or any known character. Rocco is the only character.
+
+---------------------------------------------------------------------------------------------------------------------
+## 3. Visual system
+- 1080×1920, 30 fps, cairo → ffmpeg pipe (libx264 veryfast crf 17, yuv420p, bt709, +faststart).
+- Fonts: Space Grotesk (headings), JetBrains Mono (numbers/tags), Inter fallback. Install them first (README); if
+  `fc-list | grep -i grotesk` is empty, text silently falls back and looks wrong.
+- Brand colors: green #22E58B (win), red #FF4D6A (loss), dark #05090A, plus the C dict in the engine (yellow, blue, ink, white, cream).
+- Bunting (hanging pennants) with the scene title at the top of every scene except the hook.
+- Captions: word-chip captions at y≈1240, hidden during the outro. Check that no card/tag sits on top of them.
+- Per scene: slow push-in zoom (engine does it), color wipe transition between scenes, `PUNCH` times (zoom kick) on 5–7 big
+  moments, `FLASH` on 1–2 biggest moments, `EVENTS` bursts (confetti/sparks) at 15–20 word anchors.
+- Backgrounds rotate: gradient, grid_bg, rain_bg (losses), skyline at night (cash), god_rays (winner), ticker_band, stadium.
+
+Mistakes that already happened — check for them in the contact sheet:
+- Overlaps: "EVEN WORSE" card, "DID NOTHING" label, "ALL IN", "20 YEARS", "AVG HOLD" tags and a "+$533" card all overlapped other
+  elements or captions and had to be moved. Before the final render, make a contact sheet (~15 frames, include frames right
+  after every tag/card appears) and LOOK at it.
+- Unreadable text: white text on the cream background (fix: dark ink text or a dark pill behind it).
+- Overflowing text: long labels like "GOLDEN CROSS" ran off the card. Measure with `tw(ctx, s, size)` and shrink the size until it fits.
+- Wrong word anchors: `wt("word", nth)` picks the nth occurrence — words like "zero, sold, fast, cash, market, RSI, just, three, ten"
+  appear several times; print the words list with times and verify every anchor you use.
+- Wrong numbers on screen: in the long video a crash counter showed -9% instead of the real drawdown because it used the wrong
+  start date. Every displayed number must come from the backtest output files, not typed by hand.
+- Empty-looking scene: a scene with only one small card looked dead; always add a second moving element (chart, counter, prop, weather).
+
+---------------------------------------------------------------------------------------------------------------------
+## 4. Backtest lessons
+- SPY 2005-01-03 → 2024-12-31. Adjust Open/High/Low by Adj Close/Close. Signal at close, fill next day's open, 0.05% per side, cash 0%.
+- Buy & hold reference (first open → last adj close) ≈ $70–71K from $10K, max DD ≈ -55%.
+- WARM-UP ARTIFACT: RSI(14) computed with EWM shows 0 on day 2 and created a fake first buy in #1. Always set signals to NaN for
+  the first 60 bars (or the indicator length × 3) — `sig.iloc[:60] = np.nan`.
+- Count time in market, trades (round trips), win rate, avg trade %, avg hold days, max DD, CAGR, final $. Also run a fee stress
+  test (0.10% and 0.20% per side) — it gave #4 its strongest final punch.
+- Useful verified side facts (can be reused as twists): the market was within 10% of its high 74% of the time (2005–2024);
+  SPY overnight return 4.73× vs intraday 1.48×; correlation 0.73 between time in market and CAGR across 23 strategies.
+- If a result is boring, the twist is usually: time in cash, fees, how it behaved in 2008/2020, or "win rate ≠ profit".
+
+---------------------------------------------------------------------------------------------------------------------
+## 5. Voice & timing pipeline gotchas
+- ElevenLabs: voice Jarnathan Cross `7WggD3IoWTIPT19PNyrW`, model `eleven_v4`, flow `Cw93HCnCGvppggZlnoyO`, generations_count=1.
+  ~1 credit per character (~1,000 per Short). Never regenerate to "try again".
+- The mp3/words come from storage.googleapis.com signed URLs — curl GET works. The transcription status result can be huge; use
+  `words_download_url` and save as words_raw.json.
+- tighten.py: shortens every pause to 0.17 s. Its `keep_for()` has episode-specific timestamps from #4 — DELETE those two `if`
+  lines (or set them for a deliberate dramatic pause before the verdict, ~0.30 s).
+- mapwords.py: TEMPO 1.03–1.09 and the output name `words_r2.json`/`vo_r2.wav` — rename for the new episode and update the engine
+  (it hardcodes `words_r2.json`; sed it).
+- Skip `[audio tags]` in the words list (mapwords already does).
+
+---------------------------------------------------------------------------------------------------------------------
+## 6. Audio
+- audio_r2.py = procedural SFX library (whoosh, pop, ding, thud, stamp, coin, blip, jump, step, rain, thunder, siren, crowd,
+  buzzer, sting…) + chiptune bed with per-section layer gains + ducking under the voice.
+- Put SFX on the same anchors as visuals: whoosh on every wipe, pop on every card, thud+flash on punch moments, jump/step for
+  Rocco hops and walks, stamp on the verdict, coin on money counters, rain/thunder in loss scenes.
+- Music: energetic in hook/results, thinner/darker in the twist scene, big in verdict/outro.
+- Master: two-pass loudnorm I=-14, TP=-1, LRA=11, linear=true. Verify with ebur128 (target -14 ±0.5).
+
+---------------------------------------------------------------------------------------------------------------------
+## 7. Cover (kapak) and upload texts
+- Cover 1080×1920 PNG: Rocco big (costume of the episode, shock or detective pose), the strategy name, and a question
+  ("DOES IT ACTUALLY WORK?", "20 YEARS. WHO SURVIVED?", "73% WINNERS… SO?"). No final $ and no verdict. High contrast, max ~5 words.
+- Title: English, ≤60 chars, curiosity, no lie, no final number (e.g. "I Tested The '2-Day RSI' Trick For 20 Years").
+- Description: 3–5 short lines, "Backtest: SPY 2005–2024, next-day open fills, 0.05% costs. Not a recommendation — just an
+  autopsy.", then #shorts #trading #backtest.
+- Tags: one comma-separated line (strategy name variants, backtest, spy, stock market, trading strategy, technical analysis,
+  day trading, swing trading, investing, strategy autopsy).
+- Pinned comment: a question that makes people comment ("Which strategy should I autopsy next?" + 2 options).
+- Settings: Category Education, Not made for kids, Language English, Related video = the long video
+  https://youtu.be/qEMMPEl1E98 (if the user has unlocked it; otherwise playlist/pinned comment).
+
+---------------------------------------------------------------------------------------------------------------------
+## 8. Previous episodes (for reference / don't repeat)
+#1 RSI 30/70 · #2 Golden Cross 50/200 · #3 Buy the Dip (-10%) · #4 2-day RSI (Connors) · Long #1 "I Tested 3 Famous Trading
+Strategies for 20 Years" (RSI, Golden Cross, Buy the Dip).

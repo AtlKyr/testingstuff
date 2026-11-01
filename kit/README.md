@@ -2,6 +2,8 @@
 
 Get the kit: `git clone --depth 1 -b strategy-autopsy-kit https://github.com/AtlKyr/testingstuff /home/claude/sa` (public repo; if the clone is refused, call add_repo owner=AtlKyr repo=testingstuff first). Work in a copy: `mkdir -p /home/claude/short && cp /home/claude/sa/kit/* /home/claude/short/`.
 
+**FIRST read `LESSONS.md` completely — it is the house style and every mistake already made.**
+
 Files:
 - `spy.csv` — SPY daily (Date, Adj Close, Close, High, Low, Open, Volume), 2005-01-03 → 2024-12-31 from yfinance. Only market data available offline (Yahoo etc. are blocked). Scale Open/High/Low by Adj Close/Close.
 - `rocco.py` — Rocco pixel raccoon sprite: `draw_rocco(ctx, x, y, px, expr, costume)`.
