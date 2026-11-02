@@ -1,0 +1,6 @@
+e=open("_engine.py").read().replace("words_r2.json","words_05.json")
+e=e.replace("#@@DATA@@",open("s5_data.py").read())
+e=e.replace("#@@MOTION@@",open("s5_timing.py").read())
+e=e.replace("#@@SCENES@@",open("_dip_helpers.py").read()+"\n"+open("s5_scenes.py").read())
+e=e.replace("#@@EVENTS@@",open("s5_events.py").read())
+open("render_05.py","w").write(e)

@@ -140,5 +140,22 @@ Mistakes that already happened — check for them in the contact sheet:
 
 ---------------------------------------------------------------------------------------------------------------------
 ## 8. Previous episodes (for reference / don't repeat)
-#1 RSI 30/70 · #2 Golden Cross 50/200 · #3 Buy the Dip (-10%) · #4 2-day RSI (Connors) · Long #1 "I Tested 3 Famous Trading
+#1 RSI 30/70 · #2 Golden Cross 50/200 · #3 Buy the Dip (-10%) · #4 2-day RSI (Connors) · #5 Sell in May (Nov–Apr only; 17/20 summers up, $35,433 vs $70,985) · Long #1 "I Tested 3 Famous Trading
 Strategies for 20 Years" (RSI, Golden Cross, Buy the Dip).
+
+---------------------------------------------------------------------------------------------------------------------
+## 9. Added after #5 (Sell in May, 2026-11-02)
+- Second worked example in `kit/ep05/` (bt5.py loop backtest, s5_* modules, audio_05.py, cover.py). `build.py` assembles
+  `_engine.py` + data/timing/helpers+scenes/events into `render_05.py` (edit the file names for a new episode); `snap.py t1,t2,... out.png`
+  renders a contact sheet of exact times without rendering the whole video — use it for the overlap check.
+- GLYPHS: the npm font subsets lack some symbols. "→" in JetBrains Mono renders as an empty box (Space Grotesk is fine). Use "-" or
+  "to" in MONO text; check arrows/×/≈ in the contact sheet.
+- New Rocco costume "straw" (summer straw hat) is defined in ep05/s5_data.py — copy it if you need a summer/beach look.
+- Calendar strategies have no warm-up, but the vectorized run() values the last day at the OPEN; a loop that marks to the last
+  close gave $35,433 vs $35,665. Cross-check with two methods and show the loop (close-marked) number.
+- loudnorm linear=true can land at -0.9 dBTP; if the ebur128 check says > -1.0, apply `volume=-0.2dB` and remux (-c:v copy).
+- Waiting for the background render: `pgrep -f render_05` matches the waiting shell itself → infinite loop. Use `pgrep -f "python3 render_"`
+  inside a bounded loop, or just check the mp4 mtime/size.
+- Long scenes with only a bar or two looked empty in the first contact sheet: add a header card ("WHERE DID THE GAINS COME FROM?") or
+  a prop (beach ball, coin) in the free half of the frame.
+- Backlog note: "Halloween indicator (Nov–Apr)" is the same rule as #5 — don't repeat it as-is.
