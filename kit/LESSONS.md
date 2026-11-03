@@ -159,3 +159,19 @@ Strategies for 20 Years" (RSI, Golden Cross, Buy the Dip).
 - Long scenes with only a bar or two looked empty in the first contact sheet: add a header card ("WHERE DID THE GAINS COME FROM?") or
   a prop (beach ball, coin) in the free half of the frame.
 - Backlog note: "Halloween indicator (Nov–Apr)" is the same rule as #5 — don't repeat it as-is.
+
+---------------------------------------------------------------------------------------------------------------------
+## 10. Added after #6 (MACD 12/26/9, 2026-11-03)
+- Third worked example in `kit/ep06/` (bt6.py loop backtest with warm-up skip + same-date buy & hold, s6_* modules, audio_06.py,
+  cover6.py, build6.py → render_06.py). `snap.py` must be sed'ed to the new render module name.
+- Buy & hold "over the same dates" after a 78-bar warm-up (start 2005-04-26) = $73,317 (not $70,985). Say which one you use.
+- FRAME 0: `back(prog(t, 0.0, 0.3))` is 0 at t=0 → the first frame was blank. Start the hook pop at t=-0.12 so the big number
+  is already visible in frame 0, and don't count up from 0 (frame 0 showed "33"); show the real number at t=0.
+- A price line coloured green/grey by in/out position is unreadable over 20 years (segments are 1–2 px, it looks all green).
+  Use a white price line + an IN/OUT "barcode" strip under it with a LIGHT grey for cash.
+- prop_umbrella + hops reaches up to y≈900 when Rocco stands at x=620: keep hops ≤60 in that scene or keep cards above y≈1000.
+- When the cover shows indicator lines with BUY/SELL markers, put the markers on the computed crossing points (first draft
+  put them on the peaks — looks wrong to traders).
+- Timing: 2-core container renders 56 s in ~9.5 min. Start the TTS first, read examples / write the backtest while it
+  generates (it took ~1 min), and use snap.py contact sheets instead of full renders for iterations.
+- 166-word script ≈ 70 s raw; 153 words gave 65.3 s raw → tighten 59.8 s → atempo 1.09 → 54.9 s. Aim ≤150 words with eleven_v4.
