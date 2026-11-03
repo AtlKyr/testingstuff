@@ -334,3 +334,81 @@ if __name__ == "__main__":
     with wave.open("music_demo.wav", "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
         w.writeframes((np.clip(y, -1, 1) * 32767).astype(np.int16).tobytes())
+
+
+# ------------------------------------------------------------------ in-video music changes at key moments
+def _riser(sr, d=0.9, seed=3):
+    rng = np.random.default_rng(seed)
+    n = int(d * sr); t = np.arange(n) / sr
+    x = rng.standard_normal(n).astype(np.float32)
+    out = np.zeros(n, np.float32)
+    # sweeping band: one-pole low-pass whose cutoff rises 300 Hz -> 9 kHz
+    acc = 0.0
+    fc = 300 * (30 ** (t / d))
+    a = np.exp(-2 * np.pi * fc / sr)
+    for i in range(n):
+        acc = (1 - a[i]) * x[i] + a[i] * acc
+        out[i] = acc
+    out = out - _lp(out, 200, sr)
+    return (out * (t / d) ** 2 * 0.5).astype(np.float32)
+
+
+def _impact(sr):
+    t = np.arange(int(0.6 * sr)) / sr
+    f = 40 + 110 * np.exp(-t / 0.05)
+    boom = np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-t / 0.18)
+    return (boom * 0.6).astype(np.float32)
+
+
+def make_music_sections(total, sections, sr=48000, xfade=0.18, fx=True, seed=7):
+    """Music that CHANGES at key moments inside one video.
+
+    sections: list of (start_time, style) sorted by time, first start 0.0, e.g.
+        [(0.0, "synthwave"), (SC["problem"], "trap"), (SC["score"], "synthwave"), (SC["verdict"], "funk")]
+    Each style restarts on its own downbeat exactly at its start time, so every switch lands "on the one".
+    A short riser leads into each switch and a sub impact hits on it (fx=True); both go into M["fx"].
+    Returns dict drums/bass/arp/fx stems (same lengths) + "switches" (list of switch times).
+    In audio_XX.py:  music = (drums*drums_g + bass*bass_g + arp*arp_g + M["fx"]) * music_all * fades
+    """
+    ns = int(total * sr) + 1
+    out = {k: np.zeros(ns, np.float32) for k in ("drums", "bass", "arp", "fx")}
+    tt = np.arange(ns) / sr
+    starts = [s for s, _ in sections] + [total + 1]
+    for i, (s0, style) in enumerate(sections):
+        s1 = starts[i + 1]
+        seg_len = min(total, s1 + xfade) - s0
+        if seg_len <= 0:
+            continue
+        M = make_music(seg_len + 0.05, style, sr, seed + i)
+        i0 = int(s0 * sr)
+        g = np.ones(ns, np.float32)
+        g *= np.clip((tt - s0) / xfade + 1.0, 0, 1) if i > 0 else 1.0     # fade in just before start
+        g *= np.clip((s1 + xfade - tt) / xfade, 0, 1)                       # fade out just after next start
+        for k in ("drums", "bass", "arp"):
+            x = M[k]
+            j = min(ns, i0 + len(x))
+            buf = np.zeros(ns, np.float32); buf[i0:j] = x[:j - i0]
+            out[k] += buf * g
+    switches = [s for s, _ in sections[1:]]
+    if fx:
+        r = _riser(sr); b = _impact(sr)
+        for s in switches:
+            a = int((s - len(r) / sr) * sr)
+            if a >= 0:
+                out["fx"][a:a + len(r)] += r[:ns - a]
+            k = int(s * sr)
+            out["fx"][k:k + len(b)] += b[:max(0, ns - k)]
+    out["switches"] = switches
+    return out
+
+
+def demo_sections(path="music_sections_demo.wav", sr=48000):
+    secs = [(0.0, "synthwave"), (6.0, "trap"), (12.0, "lofi"), (18.0, "funk")]
+    M = make_music_sections(24.0, secs, sr)
+    mix = M["drums"] + M["bass"] + M["arp"] + M["fx"]
+    mix = mix / (np.abs(mix).max() + 1e-9) * 0.85
+    import wave
+    with wave.open(path, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr)
+        w.writeframes((np.clip(mix, -1, 1) * 32767).astype(np.int16).tobytes())
+    return path

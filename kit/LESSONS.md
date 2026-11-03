@@ -137,6 +137,14 @@ Mistakes that already happened — check for them in the contact sheet:
   crashes/stop-losses/fear → trap · seasonal/holiday/light topics → marimba.
 - The music history is kept in the Project doc `claude/short-backlog.md` ("Müzik geçmişi"). Read it, pick, and append
   "#NN: <style>" when you finish. Also write the style into the episode doc.
+- MUSIC CHANGES INSIDE THE VIDEO (user request 2026-11-04: "müzik kilit noktalarda değişsin"): use
+  `make_music_sections(TOTAL, [(0.0, MAIN), (SC["twist"], DARK), (SC["score"], MAIN), (SC["verdict"], OTHER)], SR)`.
+  2–3 switches per Short, ONLY at key story beats: (1) the twist/problem scene → a darker style (trap or lofi),
+  (2) the final score / comeback → back to the main style, (3) optionally the verdict → a third style for the stamp.
+  Never switch more often than every ~8 s. Each new style starts on its downbeat exactly at the scene cut; a riser
+  leads in and a sub impact hits on the cut (M["fx"] — add it to the music sum). Line the visual wipe/punch up with it.
+  The episode's MAIN style still follows the rotation rule above (different from the previous episode).
+  Write the full plan into the episode doc and backlog, e.g. "#7: synthwave → trap (twist) → synthwave (score)".
 - Optional variety inside one style: change `seed`, or transpose by editing the chord tables — but the style rule above is the minimum.
 
 ---------------------------------------------------------------------------------------------------------------------
