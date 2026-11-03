@@ -122,8 +122,22 @@ Mistakes that already happened — check for them in the contact sheet:
   buzzer, sting…) + chiptune bed with per-section layer gains + ducking under the voice.
 - Put SFX on the same anchors as visuals: whoosh on every wipe, pop on every card, thud+flash on punch moments, jump/step for
   Rocco hops and walks, stamp on the verdict, coin on money counters, rain/thunder in loss scenes.
-- Music: energetic in hook/results, thinner/darker in the twist scene, big in verdict/outro.
+- Music: energetic in hook/results, thinner/darker in the twist scene, big in verdict/outro. Style comes from music.py — see 6b.
 - Master: two-pass loudnorm I=-14, TP=-1, LRA=11, linear=true. Verify with ebur128 (target -14 ±0.5).
+
+---------------------------------------------------------------------------------------------------------------------
+## 6b. Music rotation (user request 2026-11-04: "a different background music")
+- #1–#6 all used the SAME 100 BPM Am-F-C-G chiptune bed. The user noticed and wants variety.
+- Use `music.py` (kit root): `from music import make_music; M = make_music(TOTAL, STYLE, SR)` and replace the whole
+  "chiptune music bed" block in your audio_XX.py with `music_drums, music_bass, music_arp = M["drums"], M["bass"], M["arp"]`.
+  Stems are level-matched, so the existing section gains / ducking / loudnorm keep working.
+- Styles: synthwave, lofi, funk, trap, marimba (and chip — retired for now, don't use).
+- RULE: never use the same style as the previous episode; prefer one not used in the last 3. Match the mood:
+  breakouts/momentum → synthwave · calm/detective/"boring but works" → lofi · sneaky tricks/heists/calendar hacks → funk ·
+  crashes/stop-losses/fear → trap · seasonal/holiday/light topics → marimba.
+- The music history is kept in the Project doc `claude/short-backlog.md` ("Müzik geçmişi"). Read it, pick, and append
+  "#NN: <style>" when you finish. Also write the style into the episode doc.
+- Optional variety inside one style: change `seed`, or transpose by editing the chord tables — but the style rule above is the minimum.
 
 ---------------------------------------------------------------------------------------------------------------------
 ## 7. Cover (kapak) and upload texts

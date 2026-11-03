@@ -15,6 +15,7 @@ Files:
 - `_dip_helpers.py` — extra helpers: rain_bg, grid_bg, big_card, piggy, coin, star, clock, sx_of/sy_of, year_axis, money_k, stadium.
 - Complete worked example (Autopsy #4, 2-day RSI) to copy patterns from:
   `r2.py` (backtest → conn.csv, trades.json), `r2_data.py`, `r2_timing.py` (T anchors, SCENES, motion), `r2_scenes.py` (10 scenes), `r2_events.py` (bursts/punch/flash), `audio_r2.py` (procedural SFX + chiptune + ducking mix).
+- `music.py` — procedural background-music library (synthwave, lofi, funk, trap, marimba, chip). `python3 music.py demo` writes a preview wav. Rotation rule in LESSONS.md 6b.
 - `tighten.py` + `mapwords.py` — shorten pauses in the voiceover, speed up (atempo) and remap word timestamps.
 
 ## One-time setup in a fresh container
