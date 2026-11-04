@@ -197,3 +197,20 @@ Strategies for 20 Years" (RSI, Golden Cross, Buy the Dip).
 - Timing: 2-core container renders 56 s in ~9.5 min. Start the TTS first, read examples / write the backtest while it
   generates (it took ~1 min), and use snap.py contact sheets instead of full renders for iterations.
 - 166-word script ≈ 70 s raw; 153 words gave 65.3 s raw → tighten 59.8 s → atempo 1.09 → 54.9 s. Aim ≤150 words with eleven_v4.
+
+---------------------------------------------------------------------------------------------------------------------
+## 11. Added after #7 (Turtle 20/10 breakout, 2026-11-04)
+- Fourth worked example in `kit/ep07/` (bt7.py writes hh/ll channel columns to sim7.csv; s7_* modules; audio_07.py already uses
+  `make_music_sections` (synthwave -> trap at the twist -> synthwave at the score) instead of the chiptune block; cover7.py; build7.py).
+  15 scenes, all 3-5 s. A generic cartoon `turtle(ctx, cx, cy, s, t, hide, walk)` helper is in s7_scenes.py (shell hide/peek, walking legs).
+- VERDICT TIMING BUG: the verdict stamp was anchored to the LAST word ("engine") and the outro started 0.24 s later -> the stamp was on
+  screen for 0.2 s. Put verdict stamps on earlier words (one stamp per phrase: "seatbelt", "slow") and start the outro at
+  `T["follow"] + 0.1`. Check the verdict scene length in the contact sheet: the stamp must be visible >= 1 s.
+- I repeated the pgrep mistake: `pgrep -f "python3 render_07"` inside a `for ... sleep` loop matched the loop's own bash command and
+  waited the full 9 min. Use `pgrep -f "^python3 render_"` (anchored) or check the mp4 mtime. The 58 s render took ~2 min this time.
+- AAC encoding moved the master from -14.2 LUFS / -1.1 dBTP to -14.3 / -0.9 dBTP; a further -0.3 dB put loudness at -14.6 (out of range).
+  Fix that worked: re-mux from final_mix wav with `-c:v copy -af "volume=0.15dB,alimiter=limit=0.84:level=false:attack=2:release=40"`
+  -> -14.1 LUFS / -1.1 dBTP. Always measure the FINAL mp4, not the wav.
+- Projects tool: `project_write local_path` must be inside the session working directory (not /tmp) — write the doc there first.
+- Twist idea that worked well and is reusable for any trend/breakout filter: "how much had the market already bounced from the crash low
+  by the time the strategy bought back" (Covid low 2020-03-23 -> Turtle buy 2020-04-13 = +24%).
