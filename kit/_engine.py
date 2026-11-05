@@ -12,7 +12,9 @@ END = WORDS[-1]["end"]
 TOTAL = END + 1.4
 
 
-HEAD, MONO, INTER = "Space Grotesk", "JetBrains Mono", "Inter"
+HEAD, MONO, INTER = "Anton", "JetBrains Mono", "Inter"
+TAGF = "Inter Black"          # labels/tags (heavy, clean)
+NOBOLD = ("Anton", "Inter Black")   # single-weight faces: never ask cairo for a synthetic bold
 C = dict(
     ink=(0x14, 0x18, 0x1C), cream=(0xF4, 0xEC, 0xD8), paper=(0xEE, 0xE4, 0xCC), green=(0x22, 0xE5, 0x8B),
     red=(0xFF, 0x4D, 0x6A), blue=(0x3D, 0x7D, 0xD8), yellow=(0xF2, 0xB1, 0x34), grey=(0x8A, 0x94, 0x9B),
@@ -74,7 +76,7 @@ def prog(t, s, d):
 
 
 def font(ctx, f=HEAD, bold=True, size=40):
-    ctx.select_font_face(f, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD if bold else cairo.FONT_WEIGHT_NORMAL)
+    ctx.select_font_face(f, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD if (bold and f not in NOBOLD) else cairo.FONT_WEIGHT_NORMAL)
     ctx.set_font_size(size)
 
 
@@ -90,9 +92,30 @@ def text(ctx, s, x, y, size, col, a=1.0, f=HEAD, bold=True, align="left", outlin
     elif align == "right":
         x -= w
     if outline:
+        # v2 display text: soft drop shadow + 3D extrude + thick stroke + vertical gradient fill + gloss
+        oc = ocol or C["ink"]
+        ext = max(2, int(size * 0.045))
+        ctx.new_path(); ctx.move_to(x + size * 0.03, y + size * 0.09); ctx.text_path(s)
+        ctx.set_source_rgba(0, 0, 0, 0.35 * a); ctx.set_line_width(outline * 1.6); ctx.set_line_join(cairo.LINE_JOIN_ROUND)
+        ctx.stroke_preserve(); ctx.fill()
+        for k in range(ext, 0, -2):
+            ctx.new_path(); ctx.move_to(x + k * 0.35, y + k); ctx.text_path(s)
+            ctx.set_source_rgba(*rgba(oc, a)); ctx.set_line_width(outline); ctx.stroke_preserve(); ctx.fill()
         ctx.new_path(); ctx.move_to(x, y); ctx.text_path(s)
-        ctx.set_source_rgba(*rgba(ocol or C["ink"], a)); ctx.set_line_width(outline); ctx.set_line_join(cairo.LINE_JOIN_ROUND)
+        ctx.set_source_rgba(*rgba(oc, a)); ctx.set_line_width(outline); ctx.set_line_join(cairo.LINE_JOIN_ROUND)
         ctx.stroke()
+        top = tuple(min(255, int(v + (255 - v) * 0.45)) for v in col); bot = tuple(int(v * 0.86) for v in col)
+        g = cairo.LinearGradient(0, y - size * 0.78, 0, y + size * 0.05)
+        g.add_color_stop_rgba(0, *rgba(top, a)[:3], a); g.add_color_stop_rgba(0.55, *rgba(col, a)[:3], a)
+        g.add_color_stop_rgba(1, *rgba(bot, a)[:3], a)
+        ctx.new_path(); ctx.move_to(x, y); ctx.text_path(s); ctx.set_source(g); ctx.fill()
+        ctx.save(); ctx.new_path(); ctx.rectangle(x - 10, y - size * 0.8, w + 20, size * 0.36); ctx.clip()
+        ctx.new_path(); ctx.move_to(x, y); ctx.text_path(s); ctx.set_source_rgba(1, 1, 1, 0.16 * a); ctx.fill()
+        ctx.restore(); ctx.new_path()
+        return w
+    if size >= 40 and f in (HEAD, TAGF):    # big plain headings get a crisp hard shadow so they never sit flat
+        ctx.new_path(); ctx.move_to(x + size * 0.025, y + size * 0.05)
+        ctx.set_source_rgba(0, 0, 0, 0.28 * a); ctx.show_text(s)
     ctx.new_path(); ctx.move_to(x, y)
     ctx.set_source_rgba(*rgba(col, a)); ctx.show_text(s)
     ctx.new_path()
@@ -107,10 +130,24 @@ def rrect(ctx, x, y, w, h, r):
 
 
 def card(ctx, x, y, w, h, fill, a=1.0, r=14, shadow=True, border=None):
+    """v2: soft layered shadow, vertical gradient (lit from above), inner top highlight, bevel line at the bottom"""
+    if w <= 0 or h <= 0:
+        return
     if shadow:
-        rrect(ctx, x + 8, y + 10, w, h, r); ctx.set_source_rgba(0, 0, 0, 0.35 * a); ctx.fill()
-    rrect(ctx, x, y, w, h, r); ctx.set_source_rgba(*rgba(fill, a)); ctx.fill_preserve()
+        for k, al in ((16, 0.10), (11, 0.14), (7, 0.22)):
+            rrect(ctx, x + k * 0.5, y + k, w, h, r); ctx.set_source_rgba(0, 0, 0, al * a); ctx.fill()
+    top = tuple(min(255, int(v + (255 - v) * 0.16)) for v in fill); bot = tuple(int(v * 0.82) for v in fill)
+    g = cairo.LinearGradient(0, y, 0, y + h)
+    g.add_color_stop_rgba(0, *rgba(top)[:3], a); g.add_color_stop_rgba(1, *rgba(bot)[:3], a)
+    rrect(ctx, x, y, w, h, r); ctx.set_source(g); ctx.fill_preserve()
     ctx.set_source_rgba(*rgba(border or C["ink"], a * 0.9)); ctx.set_line_width(4); ctx.stroke()
+    if h > 24 and w > 24:
+        ctx.save(); rrect(ctx, x + 2, y + 2, w - 4, h - 4, max(1, r - 2)); ctx.clip()
+        ctx.new_path(); ctx.move_to(x + r, y + 5); ctx.line_to(x + w - r, y + 5)
+        ctx.set_source_rgba(1, 1, 1, 0.30 * a); ctx.set_line_width(3); ctx.stroke()
+        ctx.new_path(); ctx.move_to(x + r, y + h - 5); ctx.line_to(x + w - r, y + h - 5)
+        ctx.set_source_rgba(0, 0, 0, 0.22 * a); ctx.set_line_width(4); ctx.stroke()
+        ctx.restore()
 
 
 def rect(ctx, x, y, w, h, col, a=1.0):
@@ -214,31 +251,30 @@ CHUNKS = build_chunks()
 
 
 def captions(ctx, t, y=1240):
+    """v2 captions: Anton caps, thick ink stroke + extrude + shadow; the word being spoken turns yellow and pops bigger"""
     for a0, a1, ch in CHUNKS:
         if not (a0 <= t < a1):
             continue
-        size = 54
-        words = [w["text"].strip("—") for w in ch]
-        pad, gap = 18, 14
-        ws = [tw(ctx, w, size, HEAD) + pad * 2 for w in words]
+        size = 74
+        words = [w["text"].strip("—").upper() for w in ch]
+        gap = size * 0.34
+        ws = [tw(ctx, w, size, HEAD) * 1.14 for w in words]     # reserve room for the active-word pop (x1.14)
         total = sum(ws) + gap * (len(ws) - 1)
-        if total > W - 80:
-            size = size * (W - 80) / total
-            ws = [tw(ctx, w, size, HEAD) + pad * 2 for w in words]
+        if total > W - 90:
+            k_ = (W - 90) / total; size *= k_; gap *= k_
+            ws = [tw(ctx, w, size, HEAD) * 1.14 for w in words]
             total = sum(ws) + gap * (len(ws) - 1)
         x = W / 2 - total / 2
         for k, (wd, w_, wo) in enumerate(zip(words, ws, ch)):
-            p = back(prog(t, wo["start"] - 0.04, 0.22))
+            p = back(prog(t, wo["start"] - 0.05, 0.2))
             if p <= 0:
                 x += w_ + gap
                 continue
-            rot = (-0.035 if k % 2 == 0 else 0.03)
-            ctx.save(); ctx.translate(x + w_ / 2, y); ctx.rotate(rot); ctx.scale(max(p, 1e-3), max(p, 1e-3))
-            hgt = size * 1.25
-            rect(ctx, -w_ / 2 + 6, -hgt / 2 + 8, w_, hgt, (0, 0, 0), 0.35)
-            col = C["red"] if (k + ch[0]["start"] * 10) % 3 < 1 else C["orange"]
-            rect(ctx, -w_ / 2, -hgt / 2, w_, hgt, col)
-            text(ctx, wd, 0, size * 0.36, size, C["white"], 1, HEAD, True, "center")
+            active = wo["start"] - 0.05 <= t < wo["end"] + 0.08
+            sc = p * (1.14 if active else 1.0)
+            col = C["yellow"] if active else C["white"]
+            ctx.save(); ctx.translate(x + w_ / 2, y + size * 0.36); ctx.rotate(-0.02 if k % 2 == 0 else 0.015); ctx.scale(max(sc, 1e-3), max(sc, 1e-3))
+            text(ctx, wd, 0, 0, size, col, 1, HEAD, False, "center", outline=max(8, int(size * 0.17)), ocol=C["ink"])
             ctx.restore()
             x += w_ + gap
         return
@@ -251,7 +287,7 @@ def flip_counter(ctx, x, y, w, h, label, value, col=None, a=1.0, size=None):
     size = size or h * 0.48
     while tw(ctx, value, size, MONO) > w - 30:
         size -= 2
-    text(ctx, value, x + w / 2, y + h / 2 + 18 + size * 0.36, size, col or C["white"], a, MONO, True, "center")
+    text(ctx, value, x + w / 2, y + h / 2 + 18 + size * 0.36, size, col or C["white"], a, MONO, True, "center", outline=max(5, int(size * 0.09)), ocol=(0x05, 0x07, 0x0A))
 
 
 # ---------------------------------------------------------------- Rocco state
@@ -464,9 +500,9 @@ def tag(ctx, x, y, label, col, p, size=34, rot=-0.05, fg=None):
     if p <= 0:
         return
     ctx.save(); ctx.translate(x, y); ctx.rotate(rot); ctx.scale(max(p, 1e-3), max(p, 1e-3))
-    w_ = tw(ctx, label, size, MONO) + 40
-    card(ctx, -w_ / 2, -size * 0.95, w_, size * 1.75, col, 1, 10)
-    text(ctx, label, 0, size * 0.32, size, fg or C["ink"], 1, MONO, True, "center")
+    w_ = tw(ctx, label, size, TAGF) + 44
+    card(ctx, -w_ / 2, -size * 0.95, w_, size * 1.75, col, 1, 12)
+    text(ctx, label, 0, size * 0.34, size, fg or C["ink"], 1, TAGF, False, "center")
     ctx.restore()
 
 

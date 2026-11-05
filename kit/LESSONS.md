@@ -316,3 +316,16 @@ everything at the same depth. FROM NOW ON every cover is built with `kit/coverli
   stripes, "$??,???"), `cv.badge("VS")`. Bottom question as a big `cv.title()` (white->yellow), not a pill.
 - Worked example: `kit/ep08/cover8.py` (run inside epNN/ with ../coverlib.py and ../rocco.py). Look at the full-size PNG before
   sending: no clipped letters, no overlaps, text readable at thumbnail size.
+
+---------------------------------------------------------------------------------------------------------------------
+## 14. IN-VIDEO TEXT v2 (user feedback 2026-11-05: "video içi metinler kalitesiz ve çok düz")
+`_engine.py` was upgraded globally (already in the kit — just use it, don't revert to _engine_v1 style):
+- HEAD font is now **Anton** (install it, README). Single-weight faces (Anton, "Inter Black") are never requested as bold.
+  Anton is narrower than Space Grotesk: big hook words need ~1.4x the old size (#8: DAY 270, NIGHT 200).
+- `text(..., outline=N)` = display text: soft drop shadow + 3D extrude + thick stroke + vertical gradient fill + top gloss.
+  Plain HEAD/TAGF text >= 40 px gets a hard shadow automatically. Give every big word an outline.
+- `card()` = layered soft shadow + top-lit gradient + inner highlight + bottom bevel (no more flat boxes).
+- `tag()` uses "Inter Black" labels on beveled cards; `flip_counter` values are outlined.
+- CAPTIONS: no flat colored chips. Anton caps, white with thick ink stroke + extrude; the word being spoken turns yellow and pops
+  to 1.14x. Layout reserves 1.14x width per word + gap 0.34*size so the pop never collides with neighbours.
+- Check the contact sheet for words touching each other and for captions over Rocco's head.

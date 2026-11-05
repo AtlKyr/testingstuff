@@ -130,7 +130,7 @@ def hook_draw(ctx, t, tl):
     for wd, x, y, col, oc, hl, rot in (("DAY", 290, 760, C["yellow"], C["ink"], hl_d, -0.06), ("NIGHT", 770, 900, MOONC, C["ink"], hl_n, 0.05)):
         s_ = max(p * sc * hl * (1 + 0.03 * math.sin(t * 6)), 1e-3)
         ctx.save(); ctx.translate(x, y); ctx.rotate(rot); ctx.scale(s_, s_)
-        text(ctx, wd, 0, 0, 190 if wd == "DAY" else 140, col, 1, HEAD, True, "center", outline=26, ocol=oc)
+        text(ctx, wd, 0, 0, 270 if wd == "DAY" else 200, col, 1, HEAD, True, "center", outline=26, ocol=oc)
         ctx.restore()
     q = back(prog(tl, -0.3, 0.3))
     ctx.save(); ctx.translate(530, 1020); ctx.rotate(-0.04); ctx.scale(max(q, 1e-3), max(q, 1e-3))
