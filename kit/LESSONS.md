@@ -20,7 +20,7 @@ those videos; these are their standing expectations. Treat each bullet as a requ
 ## 1. Story structure of a ~55–60 s Short (proven in #3 and #4)
 | time      | scene (bunting title)  | content |
 |-----------|------------------------|---------|
-| 0.0–4 s   | hook (no title yet)    | Line 1 = the most surprising TRUE fact, e.g. "Seventy-three percent winners. Still lost." Giant number slams in at frame 0–3 with punch-zoom + flash + burst + thud SFX. Rocco runs in from the left and hops on the number word. |
+| 0.0–4 s   | hook (no title yet)    | OPEN LOOP (see 1b): a surprising TRUE fact + a question/mystery, WITHOUT revealing the verdict or final score. Giant number or 2–4 word question slams in at frame 0 with punch-zoom + flash + burst + thud SFX. Rocco (detective, shocked close-up) runs in and hops on the key word. |
 | 4–7 s     | title                  | "This is Strategy Autopsy. On the table: <strategy>." Bunting drops with the strategy name; Rocco walks in from the right (flip=True) wearing the episode costume. |
 | 7–14 s    | rules                  | 2–3 rule cards that pop in ON the spoken word ("Buy…", "Sell…"), each with a check/burst and a pop SFX. Rocco points/hops per rule. |
 | 14–20 s   | test                   | "Twenty years of SPY, ten thousand dollars, fees included." Price chart draws left→right, year axis, $10K coin. Rocco rises from below with a bounce (back easing). |
@@ -41,6 +41,37 @@ Rules of thumb
   TTS and the word anchors get messy.
 - One clear "twist" per video. #4's was "73% winners, still lost to buy & hold because it sat in cash 90% of the time".
   #3's was "the dip buyer lost $29,170 versus someone who just bought every month".
+
+---------------------------------------------------------------------------------------------------------------------
+## 1b. Retention & mystery format — MANDATORY (user data 2026-11-05)
+Data from YouTube Studio: #2 Golden Cross was "viewed" (not swiped away) by only 15% of viewers; channel average 45%.
+The user wants more mystery / suspense so people stop scrolling and stay to the end.
+
+WHY #2 FAILED: frame 0 was a busy 2008 price chart with axes (unreadable in half a second), the strategy name came only at
+5 s, and the hook SPOILED the ending ("…and still lost to doing nothing") — no reason left to keep watching.
+
+IN THE SHORTS FEED THE COVER IS NOT SHOWN. Frame 0 + the first ~1.5 s decide view vs swipe. So:
+1. FRAME 0 must read in half a second: max 4 big words OR one giant number OR one question; Rocco big, close-up, strong
+   expression (shock/detective squint); high contrast; motion and an SFX already at t=0. NO charts with axes in the first 1.5 s.
+2. OPEN LOOP, NO SPOILER: the hook raises a question and hides the answer until ≥75% of the video.
+   Bad: "Seventy-three percent winners. Still lost."  "It dodged 2008 and still lost to doing nothing."
+   Good: "This rule dodged every crash for twenty years. Then it did something nobody expected."
+         "One of these made seventy-two thousand dollars. The other made thirty-one. Guess which one is the famous strategy."
+         "Seventeen out of twenty summers went up. This strategy skipped all of them. Genius… or disaster?"
+3. GUESS MECHANIC: in the hook, show two big choices on screen (e.g. [A] [B], WIN? / LOSE?, SURVIVED? / DIED?) and ask the
+   viewer to guess; reveal with a stamp in the verdict scene. Pinned comment: "What was your guess?"
+4. MYSTERY PROPS on screen for the whole video: a CASE FILE / "PATIENT #NN" tag and a REDACTED final number "$??,???"
+   (black bar or blur) pinned at the top, plus a thin "AUTOPSY PROGRESS" bar filling to 100% at the verdict. The redaction
+   is torn off with a stamp + flash + impact in the final-score scene. Never show the final $ before that moment.
+5. RE-HOOKS every 8–12 s, 3–6 words each, inside the word budget: "But that's not the weird part." / "Remember this number."
+   / "Here's where it goes wrong." / "Now watch 2020." Pair each with a visual pattern-interrupt (wipe, punch, music switch).
+6. REVEAL LATE: final score at ≥75% of the runtime, verdict stamp right after, outro ≤3 s. Optional loop ending: the last
+   sentence leads back into the first one so replays feel seamless.
+7. COVER (channel page/search only): consistent "CASE #NN" series look — case-file folder, strategy name, Rocco detective,
+   the result REDACTED ("$??,???"), one question word (SURVIVED? / WORTH IT? / GENIUS?). Never the verdict.
+8. TITLE: question or open loop, no outcome numbers ("I Tested The Turtle Breakout For 20 Years. Something Weird Happened.").
+9. LOG IT: when the user reports "viewed vs swiped away" % for an episode, record it with the hook text in the
+   "Hook performansı" table of `claude/short-backlog.md`; read that table before writing a new hook and copy what works.
 
 ---------------------------------------------------------------------------------------------------------------------
 ## 2. Rocco — how to make him alive (this is what the user cares about)
