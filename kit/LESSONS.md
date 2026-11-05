@@ -47,6 +47,19 @@ Rules of thumb
 Data from YouTube Studio: #2 Golden Cross was "viewed" (not swiped away) by only 15% of viewers; channel average 45%.
 The user wants more mystery / suspense so people stop scrolling and stay to the end.
 
+CHANNEL DATA (Supermetrics YT2, 2026-11-05; engaged views = watched ≥4 s, so engaged/views ≈ "stayed to watch"):
+| ep | title | views | engaged/views | avg % watched | subs |
+| #1 RSI | Every trading course teaches this. I tested it. | 5624 | 30% | 80% | 3 |
+| #2 Golden Cross | It dodged the 2008 crash… and still lost | 1172 | 8% | 59% | 0 |
+| #3 Buy the Dip | I bought every dip for 20 years… and lost $29,000 | 2258 | 35% | 60% | 1 |
+| #4 RSI2 | This strategy wins 73% of its trades… and still loses | 2018 | 39% | 36% | 1 |
+| #5 Sell in May | I Skipped Every Summer In The Stock Market For 20 Years | 863 | 47% | 43% | 3 |
+| Long #1 | I Tested 3 Famous Trading Strategies for 20 Years | 273 | — | 12.5% (half gone in first 30 s) | 0 |
+- 62% of all channel views came from ADS (Demand Gen) → per-video ratios mix paid + organic; paid viewers swipe more.
+- Best CTR (6%) and best avg-watched (80%) = #1, a pure curiosity title with NO result in it. Titles that reveal the
+  outcome ($29,000 / "still loses") did not do better. → keep titles/covers spoiler-free.
+- Long videos: open with the payoff teaser in the first 10 s (who won is hidden, but the stakes are shown), no slow intro.
+
 WHY #2 FAILED: frame 0 was a busy 2008 price chart with axes (unreadable in half a second), the strategy name came only at
 5 s, and the hook SPOILED the ending ("…and still lost to doing nothing") — no reason left to keep watching.
 
