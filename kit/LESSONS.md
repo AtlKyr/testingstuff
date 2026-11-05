@@ -300,3 +300,19 @@ Strategies for 20 Years" (RSI, Golden Cross, Buy the Dip).
 - prop_umbrella over a chart scene covered the chart corner; no umbrella when Rocco stands next to a chart.
 - Supermetrics YT2 LatestVideos: the video id field is `video` (not `video_id`). New videos appear only after ~2 days.
 - Pipeline was fast this time: whole render 53 s took ~1.5 min; cover + audio + loudnorm < 1 min.
+
+---------------------------------------------------------------------------------------------------------------------
+## 13. COVERS: use coverlib.py (user feedback 2026-11-05: "kapak fotoğrafları ve yazılar çok kalitesiz")
+The user called the cairo covers (#1-#8 v1) low quality. Why they looked cheap: flat fills, thin outlines, Space Grotesk at
+cover size, blocky paper-grain texture, a blown-up pixel Rocco overlapped by boxes, cream text on a pink pill (low contrast),
+everything at the same depth. FROM NOW ON every cover is built with `kit/coverlib.py` (PIL, drawn at 2x, LANCZOS down):
+- Typography: Anton (install: `npm pack @fontsource/anton`, convert woff2 -> ~/.fonts/anton-latin-400-normal.ttf like the
+  README fonts). `cv.title()` = gradient fill + 12-13 px ink stroke + 3D extrude + hard drop shadow + colored soft glow, slight
+  tilt (+/-4-6 deg). Max ~5 big words. Small labels: Inter Black / JetBrains Mono Bold.
+- Background: cinematic gradients + radial light (sun/moon/spotlight), skyline or scene silhouette at the bottom,
+  `bottom_fade` behind the bottom question. NO paper grain; `finish()` adds very fine film grain (0.012) + soft vignette.
+- Rocco: `rocco_sprite(px 22-24)` + `cv.sprite()` (white rim + rim glow + spotlight + ground shadow). Nothing may overlap him.
+- Props: `cv.stamp("CASE #NN", sub="STRATEGY AUTOPSY")` (red rubber stamp), `cv.redacted("WINNER:")` (black tape, caution
+  stripes, "$??,???"), `cv.badge("VS")`. Bottom question as a big `cv.title()` (white->yellow), not a pill.
+- Worked example: `kit/ep08/cover8.py` (run inside epNN/ with ../coverlib.py and ../rocco.py). Look at the full-size PNG before
+  sending: no clipped letters, no overlaps, text readable at thumbnail size.
