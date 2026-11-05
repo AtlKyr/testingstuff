@@ -21,7 +21,7 @@ those videos; these are their standing expectations. Treat each bullet as a requ
 | time      | scene (bunting title)  | content |
 |-----------|------------------------|---------|
 | 0.0–4 s   | hook (no title yet)    | OPEN LOOP (see 1b): a surprising TRUE fact + a question/mystery, WITHOUT revealing the verdict or final score. Giant number or 2–4 word question slams in at frame 0 with punch-zoom + flash + burst + thud SFX. Rocco (detective, shocked close-up) runs in and hops on the key word. |
-| 4–7 s     | title                  | "This is Strategy Autopsy. On the table: <strategy>." Bunting drops with the strategy name; Rocco walks in from the right (flip=True) wearing the episode costume. |
+| 4–7 s     | title                  | (UPDATED by 1c) NO spoken branding line. Bunting/case-file tag shows "STRATEGY AUTOPSY · CASE #NN · <strategy>" silently while the VO deepens the mystery. Rocco walks in from the right (flip=True) wearing the episode costume. |
 | 7–14 s    | rules                  | 2–3 rule cards that pop in ON the spoken word ("Buy…", "Sell…"), each with a check/burst and a pop SFX. Rocco points/hops per rule. |
 | 14–20 s   | test                   | "Twenty years of SPY, ten thousand dollars, fees included." Price chart draws left→right, year axis, $10K coin. Rocco rises from below with a bounce (back easing). |
 | 20–32 s   | results / trades       | Flip counters (win rate, avg trade, trades count) roll up on their word anchors; equity line draws; tags stamp onto the chart. Rocco paces left↔right across the screen (sine path, auto-flip). |
@@ -29,7 +29,7 @@ those videos; these are their standing expectations. Treat each bullet as a requ
 | 40–48 s   | score                  | Final $ vs buy & hold as two big counters racing; loser turns red, winner gets god-rays. Rocco hops on each number. |
 | 48–53 s   | extra knife (fees/real-world) | One more honest stress test (higher fees, slippage, worst year). |
 | 53–57 s   | verdict                | Big stamp ("EDGE? NO." / "WIN RATE ≠ PROFIT") slams with stamp SFX + flash + red/green burst. Rocco smug or sad, big hop. |
-| 57–60 s   | outro                  | "Follow for the next autopsy." Rocco bigger (px 24) jumps up from below and bounces; subscribe-style flag colors burst; captions hidden here. |
+| 57–60 s   | outro (REMOVED by 1c — FOLLOW text over the verdict + loop to frame 0) | "Follow for the next autopsy." Rocco bigger (px 24) jumps up from below and bounces; subscribe-style flag colors burst; captions hidden here. |
 
 Rules of thumb
 - A new scene/background every 3–7 s; something must move in EVERY frame (rain, confetti, rays, ticker band, skyline lights,
@@ -85,6 +85,30 @@ IN THE SHORTS FEED THE COVER IS NOT SHOWN. Frame 0 + the first ~1.5 s decide vie
 8. TITLE: question or open loop, no outcome numbers ("I Tested The Turtle Breakout For 20 Years. Something Weird Happened.").
 9. LOG IT: when the user reports "viewed vs swiped away" % for an episode, record it with the hook text in the
    "Hook performansı" table of `claude/short-backlog.md`; read that table before writing a new hook and copy what works.
+
+### 1c. Retention curves (YT2 audienceWatchRatio, 2026-11-05) — what actually loses viewers
+Share of starting viewers still watching at each point of the video:
+| ep | 5 s | 12 s | ~20 s | middle | before outro | end |
+| #1 RSI (best) | 100% | 65% | 59% | 49% | 37% | 32% |
+| #3 Buy the Dip | 111% | 69% | 60% | **55% flat until 75%** | 41% | 19% |
+| #4 RSI2 | 103% | 56% | 44% | 25% | 16% | 5% |
+| #5 Sell in May | 106% | 56% | 48% | 35% | 25% | 10% |
+FINDINGS → RULES (apply from #8):
+1. THE BIG LEAK IS SECONDS 5–12 in every video (−30…−45% of viewers): that is exactly where the VO switches from the hook to
+   "This is Strategy Autopsy. On the table: … The rules: …". The branding line + rules explanation kills momentum.
+   → DROP the spoken "This is Strategy Autopsy. On the table: X." line. Branding stays ON SCREEN only (bunting/case-file tag).
+   → Sentence 2 must DEEPEN the mystery, not explain ("And the reason why is hiding in one number.").
+   → Rules in ONE spoken sentence, ≤5 s, shown as two big icons (BUY ▲ / SELL ▼), no jargon list.
+2. #3 HELD A FLAT MIDDLE (55% from 30% to 75%): it was a RACE between two characters (dip buyer vs monthly buyer) with a
+   running money counter. → Tell every episode as a race: STRATEGY vs BUY & HOLD as two runners / two piles of money moving
+   through the years (2008, 2020 as obstacles), with the final totals REDACTED until the reveal. Viewers stay to see who wins.
+3. #4 BLED STEADILY 8–38% (stat dump: 150 trade blips, win rate, avg trade, hold days). → ONE number per beat, max 5 numbers
+   in the whole video before the reveal. Cut secondary stats.
+4. THE OUTRO LOSES 10–15% (drop from ~94% onward). → No separate spoken outro scene. The verdict line is the last spoken line;
+   "FOLLOW for case #NN+1" appears as on-screen text over the verdict, and the last frame visually matches frame 0 (loop).
+5. SHORTER: #1 (56.8 s, simplest script) has the best average (80%). Target 130–145 words → 48–53 s of voice.
+6. TOPIC PICK: simple, famous, relatable ideas win (#1 "every trading course teaches this", #5 "sell in May"). Niche
+   indicators need a relatable angle in the hook or should be moved down the list.
 
 ---------------------------------------------------------------------------------------------------------------------
 ## 2. Rocco — how to make him alive (this is what the user cares about)
