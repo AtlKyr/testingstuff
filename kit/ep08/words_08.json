@@ -1,0 +1,689 @@
+{
+"words": [
+{
+"text": "Two",
+"start": 0.15,
+"end": 0.299
+},
+{
+"text": "traders.",
+"start": 0.374,
+"end": 1.047
+},
+{
+"text": "One",
+"start": 1.407,
+"end": 1.631
+},
+{
+"text": "owns",
+"start": 1.706,
+"end": 1.93
+},
+{
+"text": "stocks",
+"start": 2.154,
+"end": 2.379
+},
+{
+"text": "only",
+"start": 2.453,
+"end": 2.752
+},
+{
+"text": "while",
+"start": 2.827,
+"end": 2.902
+},
+{
+"text": "the",
+"start": 2.977,
+"end": 3.014
+},
+{
+"text": "market",
+"start": 3.052,
+"end": 3.276
+},
+{
+"text": "is",
+"start": 3.351,
+"end": 3.425
+},
+{
+"text": "open.",
+"start": 3.5,
+"end": 3.949
+},
+{
+"text": "The",
+"start": 4.014,
+"end": 4.089
+},
+{
+"text": "other,",
+"start": 4.164,
+"end": 4.687
+},
+{
+"text": "only",
+"start": 4.837,
+"end": 4.986
+},
+{
+"text": "while",
+"start": 5.061,
+"end": 5.136
+},
+{
+"text": "you",
+"start": 5.21,
+"end": 5.285
+},
+{
+"text": "sleep.",
+"start": 5.435,
+"end": 5.908
+},
+{
+"text": "Guess",
+"start": 6.068,
+"end": 6.292
+},
+{
+"text": "who",
+"start": 6.367,
+"end": 6.442
+},
+{
+"text": "wins.",
+"start": 6.516,
+"end": 6.965
+},
+{
+"text": "The",
+"start": 7.312,
+"end": 7.387
+},
+{
+"text": "answer",
+"start": 7.462,
+"end": 7.761
+},
+{
+"text": "hides",
+"start": 7.836,
+"end": 8.135
+},
+{
+"text": "in",
+"start": 8.21,
+"end": 8.359
+},
+{
+"text": "one",
+"start": 8.509,
+"end": 8.733
+},
+{
+"text": "tiny",
+"start": 8.882,
+"end": 9.256
+},
+{
+"text": "number.",
+"start": 9.331,
+"end": 9.863
+},
+{
+"text": "Day",
+"start": 10.162,
+"end": 10.311
+},
+{
+"text": "trader",
+"start": 10.386,
+"end": 10.685
+},
+{
+"text": "buys",
+"start": 10.76,
+"end": 11.059
+},
+{
+"text": "at",
+"start": 11.096,
+"end": 11.134
+},
+{
+"text": "the",
+"start": 11.208,
+"end": 11.283
+},
+{
+"text": "opening",
+"start": 11.358,
+"end": 11.582
+},
+{
+"text": "bell",
+"start": 11.732,
+"end": 11.956
+},
+{
+"text": "and",
+"start": 12.031,
+"end": 12.18
+},
+{
+"text": "sells",
+"start": 12.33,
+"end": 12.704
+},
+{
+"text": "at",
+"start": 12.741,
+"end": 12.779
+},
+{
+"text": "the",
+"start": 12.853,
+"end": 12.891
+},
+{
+"text": "close.",
+"start": 12.928,
+"end": 13.526
+},
+{
+"text": "Night",
+"start": 13.671,
+"end": 13.821
+},
+{
+"text": "trader",
+"start": 13.895,
+"end": 14.194
+},
+{
+"text": "does",
+"start": 14.344,
+"end": 14.494
+},
+{
+"text": "the",
+"start": 14.531,
+"end": 14.568
+},
+{
+"text": "opposite.",
+"start": 14.643,
+"end": 15.167
+},
+{
+"text": "Twenty",
+"start": 15.53,
+"end": 15.754
+},
+{
+"text": "years",
+"start": 15.829,
+"end": 16.128
+},
+{
+"text": "of",
+"start": 16.165,
+"end": 16.202
+},
+{
+"text": "SPY,",
+"start": 16.277,
+"end": 17.212
+},
+{
+"text": "ten",
+"start": 17.286,
+"end": 17.436
+},
+{
+"text": "thousand",
+"start": 17.66,
+"end": 17.885
+},
+{
+"text": "dollars",
+"start": 18.034,
+"end": 18.333
+},
+{
+"text": "each.",
+"start": 18.408,
+"end": 18.782
+},
+{
+"text": "Two",
+"start": 19.02,
+"end": 19.05
+},
+{
+"text": "thousand",
+"start": 19.125,
+"end": 19.349
+},
+{
+"text": "eight:",
+"start": 19.498,
+"end": 20.097
+},
+{
+"text": "the",
+"start": 20.134,
+"end": 20.171
+},
+{
+"text": "crash",
+"start": 20.246,
+"end": 20.62
+},
+{
+"text": "hits",
+"start": 20.695,
+"end": 20.844
+},
+{
+"text": "in",
+"start": 20.919,
+"end": 20.994
+},
+{
+"text": "daylight.",
+"start": 21.068,
+"end": 21.592
+},
+{
+"text": "Night",
+"start": 21.891,
+"end": 22.115
+},
+{
+"text": "pulls",
+"start": 22.265,
+"end": 22.452
+},
+{
+"text": "ahead.",
+"start": 22.489,
+"end": 23.04
+},
+{
+"text": "Then",
+"start": 23.189,
+"end": 23.339
+},
+{
+"text": "twenty",
+"start": 23.563,
+"end": 23.712
+},
+{
+"text": "twenty.",
+"start": 23.862,
+"end": 24.535
+},
+{
+"text": "Covid",
+"start": 24.61,
+"end": 24.909
+},
+{
+"text": "strikes",
+"start": 24.983,
+"end": 25.357
+},
+{
+"text": "overnight.",
+"start": 25.432,
+"end": 26.105
+},
+{
+"text": "But",
+"start": 26.323,
+"end": 26.348
+},
+{
+"text": "by",
+"start": 26.423,
+"end": 26.498
+},
+{
+"text": "twenty",
+"start": 26.61,
+"end": 26.722
+},
+{
+"text": "twenty-four,",
+"start": 26.797,
+"end": 27.544
+},
+{
+"text": "most",
+"start": 27.657,
+"end": 27.769
+},
+{
+"text": "of",
+"start": 27.806,
+"end": 27.843
+},
+{
+"text": "the",
+"start": 27.881,
+"end": 27.918
+},
+{
+"text": "gains",
+"start": 27.993,
+"end": 28.217
+},
+{
+"text": "happened",
+"start": 28.292,
+"end": 28.591
+},
+{
+"text": "while",
+"start": 28.666,
+"end": 28.741
+},
+{
+"text": "the",
+"start": 28.778,
+"end": 28.815
+},
+{
+"text": "market",
+"start": 28.89,
+"end": 29.114
+},
+{
+"text": "was",
+"start": 29.189,
+"end": 29.264
+},
+{
+"text": "closed.",
+"start": 29.339,
+"end": 29.939
+},
+{
+"text": "Now\u2026",
+"start": 30.037,
+"end": 30.383
+},
+{
+"text": "that",
+"start": 30.458,
+"end": 30.533
+},
+{
+"text": "tiny",
+"start": 30.608,
+"end": 30.832
+},
+{
+"text": "number?",
+"start": 30.907,
+"end": 31.206
+},
+{
+"text": "Point",
+"start": 31.347,
+"end": 31.496
+},
+{
+"text": "zero",
+"start": 31.721,
+"end": 31.945
+},
+{
+"text": "five",
+"start": 32.094,
+"end": 32.319
+},
+{
+"text": "percent.",
+"start": 32.393,
+"end": 33.081
+},
+{
+"text": "The",
+"start": 33.156,
+"end": 33.231
+},
+{
+"text": "fee.",
+"start": 33.306,
+"end": 33.655
+},
+{
+"text": "Paid",
+"start": 33.829,
+"end": 34.054
+},
+{
+"text": "twice",
+"start": 34.128,
+"end": 34.427
+},
+{
+"text": "a",
+"start": 34.465,
+"end": 34.502
+},
+{
+"text": "day,",
+"start": 34.577,
+"end": 34.951
+},
+{
+"text": "for",
+"start": 35.026,
+"end": 35.1
+},
+{
+"text": "five",
+"start": 35.25,
+"end": 35.474
+},
+{
+"text": "thousand",
+"start": 35.698,
+"end": 36.072
+},
+{
+"text": "days.",
+"start": 36.147,
+"end": 36.696
+},
+{
+"text": "Final",
+"start": 36.753,
+"end": 36.977
+},
+{
+"text": "score.",
+"start": 37.052,
+"end": 37.5
+},
+{
+"text": "Day",
+"start": 37.666,
+"end": 37.815
+},
+{
+"text": "trader:",
+"start": 37.89,
+"end": 38.414
+},
+{
+"text": "ninety-seven",
+"start": 38.488,
+"end": 39.012
+},
+{
+"text": "dollars.",
+"start": 39.161,
+"end": 39.765
+},
+{
+"text": "Night",
+"start": 39.84,
+"end": 39.989
+},
+{
+"text": "trader:",
+"start": 40.064,
+"end": 40.587
+},
+{
+"text": "three",
+"start": 40.662,
+"end": 40.812
+},
+{
+"text": "hundred",
+"start": 40.886,
+"end": 41.036
+},
+{
+"text": "and",
+"start": 41.111,
+"end": 41.26
+},
+{
+"text": "eight.",
+"start": 41.335,
+"end": 41.924
+},
+{
+"text": "Buy",
+"start": 41.998,
+"end": 42.148
+},
+{
+"text": "and",
+"start": 42.223,
+"end": 42.298
+},
+{
+"text": "hold:",
+"start": 42.484,
+"end": 42.97
+},
+{
+"text": "seventy",
+"start": 43.008,
+"end": 43.382
+},
+{
+"text": "thousand.",
+"start": 43.494,
+"end": 44.106
+},
+{
+"text": "And",
+"start": 44.143,
+"end": 44.181
+},
+{
+"text": "with",
+"start": 44.255,
+"end": 44.33
+},
+{
+"text": "zero",
+"start": 44.405,
+"end": 44.629
+},
+{
+"text": "fees?",
+"start": 44.704,
+"end": 45.153
+},
+{
+"text": "Night",
+"start": 45.527,
+"end": 45.751
+},
+{
+"text": "still",
+"start": 45.826,
+"end": 46.125
+},
+{
+"text": "only",
+"start": 46.199,
+"end": 46.349
+},
+{
+"text": "reaches",
+"start": 46.424,
+"end": 46.723
+},
+{
+"text": "forty-seven",
+"start": 46.872,
+"end": 47.396
+},
+{
+"text": "thousand.",
+"start": 47.545,
+"end": 48.109
+},
+{
+"text": "Verdict:",
+"start": 48.237,
+"end": 48.725
+},
+{
+"text": "the",
+"start": 48.763,
+"end": 48.8
+},
+{
+"text": "market",
+"start": 48.875,
+"end": 49.174
+},
+{
+"text": "pays",
+"start": 49.323,
+"end": 49.548
+},
+{
+"text": "at",
+"start": 49.585,
+"end": 49.622
+},
+{
+"text": "night.",
+"start": 49.772,
+"end": 50.186
+},
+{
+"text": "Only",
+"start": 50.261,
+"end": 50.485
+},
+{
+"text": "holders",
+"start": 50.634,
+"end": 51.083
+},
+{
+"text": "collect.",
+"start": 51.158,
+"end": 51.756
+}
+]
+}

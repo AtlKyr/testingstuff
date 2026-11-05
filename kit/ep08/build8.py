@@ -1,0 +1,6 @@
+e=open("../_engine.py").read().replace("words_r2.json","words_08.json")
+e=e.replace("#@@DATA@@",open("s8_data.py").read())
+e=e.replace("#@@MOTION@@",open("s8_timing.py").read())
+e=e.replace("#@@SCENES@@",open("../_dip_helpers.py").read()+"\n"+open("s8_scenes.py").read())
+e=e.replace("#@@EVENTS@@",open("s8_events.py").read())
+open("render_08.py","w").write(e)

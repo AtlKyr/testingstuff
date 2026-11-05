@@ -282,3 +282,21 @@ Strategies for 20 Years" (RSI, Golden Cross, Buy the Dip).
 - Projects tool: `project_write local_path` must be inside the session working directory (not /tmp) — write the doc there first.
 - Twist idea that worked well and is reusable for any trend/breakout filter: "how much had the market already bounced from the crash low
   by the time the strategy bought back" (Covid low 2020-03-23 -> Turtle buy 2020-04-13 = +24%).
+
+---------------------------------------------------------------------------------------------------------------------
+## 12. Added after #8 (Overnight vs intraday, 2026-11-05) — first episode fully in the 1b/1c format
+- Fifth worked example in `kit/ep08/` and the FIRST one built on the mystery/retention format: split-screen frame 0 ("DAY or NIGHT?"),
+  A/B guess panel, no spoken branding, `hud(ctx, t)` (CASE #NN tag + "WINNER: $??,???" + AUTOPSY PROGRESS bar, pinned at y 30-150
+  above the bunting), a race chart with two mini Roccos (`mini_rocco(...)`, px 4-7) riding the line tips, `redacted_counter(...)`
+  whose black bar tears off on the word anchor, verdict drawn over the frame-0 world, and a `loop` scene (last ~1 s = frame 0).
+  Copy these helpers from s8_scenes.py. `build8.py`/`snap8.py` run inside ep08/ (paths use ../_engine.py).
+- 75% RULE IS DECIDED BY THE SCRIPT, NOT BY PAUSES: with 101 of 137 words before "Final score" the first final number landed at 72%
+  of runtime; adding pauses can't fix it (you'd need >5 s). Keep the words before the reveal at <=~68% of the script.
+- Frame 0 overshoot: a 1.5x pop scale at t=0 cut "DAY"/"NIGHT" off the screen edges. Keep the t=0 overshoot <=1.12 and make sure
+  every frame-0 element is already at full size (start its pop at t<=-0.3).
+- sim CSV with a series that starts one day later (overnight returns) has NaN on row 0 -> a wild line from the chart corner. fillna.
+- Race charts over 20 years: a fixed y-range leaves 2005-2009 as a flat line at the bottom. Dynamic zoom `vmax = 1.12*max(shown)`
+  keeps the race readable and adds motion. Put tags in fixed slots ABOVE the chart (y 440 / 522) instead of over the lines.
+- prop_umbrella over a chart scene covered the chart corner; no umbrella when Rocco stands next to a chart.
+- Supermetrics YT2 LatestVideos: the video id field is `video` (not `video_id`). New videos appear only after ~2 days.
+- Pipeline was fast this time: whole render 53 s took ~1.5 min; cover + audio + loudnorm < 1 min.
