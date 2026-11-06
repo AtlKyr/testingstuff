@@ -329,3 +329,27 @@ everything at the same depth. FROM NOW ON every cover is built with `kit/coverli
 - CAPTIONS: no flat colored chips. Anton caps, white with thick ink stroke + extrude; the word being spoken turns yellow and pops
   to 1.14x. Layout reserves 1.14x width per word + gap 0.34*size so the pop never collides with neighbours.
 - Check the contact sheet for words touching each other and for captions over Rocco's head.
+
+---------------------------------------------------------------------------------------------------------------------
+## 15. Added after #9 (Missing the 10 best days, 2026-11-06)
+- Sixth worked example in `kit/ep09/` (bt9.py = "miss N best/worst days" path with close-to-close fills, s9_* modules,
+  s9_helpers.py = the reusable ep08 helpers (fit, stamp_box, mini_rocco, redacted_counter, sun/moon/stars...) split out,
+  audio_09.py with 3 music switches, cover9.py with a glowing "day grid"). Run build9/snap9/audio_09/render with
+  `PYTHONPATH=/home/claude/short` (rocco.py lives in the kit root) from inside ep09/.
+- 75% RULE CORRECTION: section 12 and the backlog said "words before the reveal <= ~68%" — that is backwards. The reveal must
+  come LATE, so the words BEFORE "Final score" must be >= ~75-77% of the script (<= ~25% after). #9: 107/139 words before the
+  first number + a 0.6 s dramatic pause before "Final score" (tighten keep_for) + `TOTAL = END + 1.1` (shorter loop tail)
+  -> first number tears off at 75.1%. Tear the redaction ~0.1 s after the number word starts (T["rev1"]).
+- RENDER NEEDS THE AUDIO FIRST: render() muxes AUDIO (final_mix_NN.wav) — starting the video render before audio_NN.py +
+  loudnorm gives a BrokenPipeError. Order: words -> build -> snap sheets -> audio -> loudnorm -> render.
+- TRUE PEAK AFTER AAC: linear loudnorm (TP -1) + alimiter still measured -0.5..-0.8 dBTP on the mp4. What worked first time:
+  two-pass loudnorm with `I=-14:TP=-2:linear=false` on the premix, then mux with -c:v copy -> mp4 -14.1 LUFS / -1.8 dBTP.
+- CAPTIONS vs ROCCO HATS: at y=1310 (px 19) the costume rows above the head reach ~y 1234 and touch the captions; the hook
+  Rocco (px 24, y 1290) sat inside the caption line. Default y is now 1350 (px 19) / 1345 (px 24 hook), and hops in scenes
+  with captions above Rocco stay <= 60-90.
+- FRAME 0: "10 DAYS" at Anton 300 ran off the right edge and a big "?" under it overlapped the S. 250 px fits 1080 wide;
+  put the "?" in the free top-right corner next to the short word instead of under the wide one.
+- Race chart legend inside the top-left corner collided with the mini Roccos (lines start there and the dynamic zoom pushes
+  them to the top). Legend now bottom-right inside the chart box.
+- Twist that worked for "time in the market" topics: where the best days happen (all 10 in drawdowns <= -20%, 7 of 10 within
+  10 trading days of a worst-10 day) + the honest "skip both best AND worst = only a hair ahead" check.

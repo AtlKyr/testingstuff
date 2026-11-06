@@ -1,0 +1,699 @@
+{
+"words": [
+{
+"text": "Miss",
+"start": 0.148,
+"end": 0.37
+},
+{
+"text": "just",
+"start": 0.444,
+"end": 0.667
+},
+{
+"text": "ten",
+"start": 0.889,
+"end": 1.111
+},
+{
+"text": "days",
+"start": 1.185,
+"end": 1.481
+},
+{
+"text": "in",
+"start": 1.556,
+"end": 1.63
+},
+{
+"text": "twenty",
+"start": 1.704,
+"end": 1.926
+},
+{
+"text": "years.",
+"start": 2.074,
+"end": 2.667
+},
+{
+"text": "What",
+"start": 2.741,
+"end": 2.815
+},
+{
+"text": "does",
+"start": 2.852,
+"end": 2.889
+},
+{
+"text": "it",
+"start": 2.927,
+"end": 2.964
+},
+{
+"text": "cost",
+"start": 3.038,
+"end": 3.26
+},
+{
+"text": "you?",
+"start": 3.334,
+"end": 3.607
+},
+{
+"text": "A",
+"start": 3.644,
+"end": 3.682
+},
+{
+"text": "scratch\u2026",
+"start": 3.756,
+"end": 4.456
+},
+{
+"text": "or",
+"start": 4.53,
+"end": 4.604
+},
+{
+"text": "a",
+"start": 4.629,
+"end": 4.653
+},
+{
+"text": "disaster?",
+"start": 4.678,
+"end": 5.418
+},
+{
+"text": "And",
+"start": 5.743,
+"end": 5.817
+},
+{
+"text": "those",
+"start": 5.891,
+"end": 6.113
+},
+{
+"text": "ten",
+"start": 6.187,
+"end": 6.41
+},
+{
+"text": "days",
+"start": 6.484,
+"end": 6.78
+},
+{
+"text": "hide",
+"start": 6.854,
+"end": 7.15
+},
+{
+"text": "where",
+"start": 7.224,
+"end": 7.299
+},
+{
+"text": "nobody",
+"start": 7.521,
+"end": 7.891
+},
+{
+"text": "wants",
+"start": 7.965,
+"end": 8.187
+},
+{
+"text": "to",
+"start": 8.224,
+"end": 8.262
+},
+{
+"text": "look.",
+"start": 8.336,
+"end": 8.721
+},
+{
+"text": "Two",
+"start": 8.973,
+"end": 9.122
+},
+{
+"text": "investors,",
+"start": 9.307,
+"end": 9.858
+},
+{
+"text": "ten",
+"start": 9.932,
+"end": 10.08
+},
+{
+"text": "thousand",
+"start": 10.302,
+"end": 10.598
+},
+{
+"text": "dollars",
+"start": 10.672,
+"end": 11.043
+},
+{
+"text": "each.",
+"start": 11.117,
+"end": 11.561
+},
+{
+"text": "One",
+"start": 11.718,
+"end": 12.014
+},
+{
+"text": "never",
+"start": 12.236,
+"end": 12.459
+},
+{
+"text": "sells.",
+"start": 12.533,
+"end": 13.051
+},
+{
+"text": "The",
+"start": 13.348,
+"end": 13.422
+},
+{
+"text": "other",
+"start": 13.496,
+"end": 13.792
+},
+{
+"text": "skips",
+"start": 13.94,
+"end": 14.162
+},
+{
+"text": "the",
+"start": 14.236,
+"end": 14.311
+},
+{
+"text": "ten",
+"start": 14.385,
+"end": 14.607
+},
+{
+"text": "best",
+"start": 14.755,
+"end": 14.977
+},
+{
+"text": "days",
+"start": 15.051,
+"end": 15.348
+},
+{
+"text": "of",
+"start": 15.422,
+"end": 15.496
+},
+{
+"text": "SPY.",
+"start": 15.57,
+"end": 16.459
+},
+{
+"text": "Two",
+"start": 16.752,
+"end": 16.826
+},
+{
+"text": "thousand",
+"start": 16.9,
+"end": 17.123
+},
+{
+"text": "five",
+"start": 17.271,
+"end": 17.493
+},
+{
+"text": "to",
+"start": 17.567,
+"end": 17.715
+},
+{
+"text": "two",
+"start": 17.752,
+"end": 17.789
+},
+{
+"text": "thousand",
+"start": 17.863,
+"end": 18.16
+},
+{
+"text": "seven:",
+"start": 18.234,
+"end": 18.831
+},
+{
+"text": "dead",
+"start": 18.942,
+"end": 19.053
+},
+{
+"text": "even.",
+"start": 19.127,
+"end": 19.424
+},
+{
+"text": "Then",
+"start": 19.627,
+"end": 19.657
+},
+{
+"text": "two",
+"start": 19.731,
+"end": 19.879
+},
+{
+"text": "thousand",
+"start": 19.953,
+"end": 20.176
+},
+{
+"text": "eight",
+"start": 20.324,
+"end": 20.398
+},
+{
+"text": "crashes\u2026",
+"start": 20.62,
+"end": 21.509
+},
+{
+"text": "and",
+"start": 21.546,
+"end": 21.583
+},
+{
+"text": "a",
+"start": 21.62,
+"end": 21.657
+},
+{
+"text": "gap",
+"start": 21.805,
+"end": 22.027
+},
+{
+"text": "opens.",
+"start": 22.102,
+"end": 22.62
+},
+{
+"text": "Watch",
+"start": 22.793,
+"end": 22.941
+},
+{
+"text": "it",
+"start": 23.015,
+"end": 23.089
+},
+{
+"text": "grow.",
+"start": 23.163,
+"end": 23.622
+},
+{
+"text": "Twenty",
+"start": 23.881,
+"end": 24.103
+},
+{
+"text": "twenty:",
+"start": 24.178,
+"end": 24.605
+},
+{
+"text": "Covid.",
+"start": 24.679,
+"end": 25.124
+},
+{
+"text": "It",
+"start": 25.217,
+"end": 25.291
+},
+{
+"text": "opens",
+"start": 25.365,
+"end": 25.662
+},
+{
+"text": "again.",
+"start": 25.884,
+"end": 26.139
+},
+{
+"text": "Now",
+"start": 26.318,
+"end": 26.467
+},
+{
+"text": "the",
+"start": 26.504,
+"end": 26.541
+},
+{
+"text": "weird",
+"start": 26.689,
+"end": 26.911
+},
+{
+"text": "part.",
+"start": 26.985,
+"end": 27.467
+},
+{
+"text": "All",
+"start": 27.652,
+"end": 27.874
+},
+{
+"text": "ten",
+"start": 28.022,
+"end": 28.244
+},
+{
+"text": "best",
+"start": 28.318,
+"end": 28.541
+},
+{
+"text": "days",
+"start": 28.615,
+"end": 28.985
+},
+{
+"text": "came",
+"start": 29.133,
+"end": 29.281
+},
+{
+"text": "in",
+"start": 29.356,
+"end": 29.43
+},
+{
+"text": "the",
+"start": 29.467,
+"end": 29.504
+},
+{
+"text": "middle",
+"start": 29.652,
+"end": 29.948
+},
+{
+"text": "of",
+"start": 30.022,
+"end": 30.096
+},
+{
+"text": "crashes.",
+"start": 30.17,
+"end": 30.837
+},
+{
+"text": "Seven",
+"start": 31.281,
+"end": 31.578
+},
+{
+"text": "landed",
+"start": 31.652,
+"end": 31.874
+},
+{
+"text": "within",
+"start": 31.948,
+"end": 32.244
+},
+{
+"text": "two",
+"start": 32.318,
+"end": 32.467
+},
+{
+"text": "weeks",
+"start": 32.615,
+"end": 32.911
+},
+{
+"text": "of",
+"start": 32.985,
+"end": 33.059
+},
+{
+"text": "the",
+"start": 33.096,
+"end": 33.133
+},
+{
+"text": "very",
+"start": 33.281,
+"end": 33.504
+},
+{
+"text": "worst",
+"start": 33.652,
+"end": 33.948
+},
+{
+"text": "days.",
+"start": 34.17,
+"end": 34.467
+},
+{
+"text": "Dodge",
+"start": 34.789,
+"end": 35.011
+},
+{
+"text": "the",
+"start": 35.085,
+"end": 35.122
+},
+{
+"text": "panic\u2026",
+"start": 35.159,
+"end": 35.709
+},
+{
+"text": "and",
+"start": 35.746,
+"end": 35.783
+},
+{
+"text": "you",
+"start": 35.857,
+"end": 35.931
+},
+{
+"text": "miss",
+"start": 36.005,
+"end": 36.154
+},
+{
+"text": "the",
+"start": 36.228,
+"end": 36.302
+},
+{
+"text": "rescue.",
+"start": 36.413,
+"end": 36.82
+},
+{
+"text": "Final",
+"start": 37.265,
+"end": 37.487
+},
+{
+"text": "score.",
+"start": 37.635,
+"end": 38.005
+},
+{
+"text": "Never",
+"start": 38.376,
+"end": 38.524
+},
+{
+"text": "sold:",
+"start": 38.672,
+"end": 39.265
+},
+{
+"text": "seventy",
+"start": 39.302,
+"end": 39.561
+},
+{
+"text": "thousand.",
+"start": 39.709,
+"end": 40.291
+},
+{
+"text": "Skipped",
+"start": 40.366,
+"end": 40.588
+},
+{
+"text": "ten",
+"start": 40.662,
+"end": 40.81
+},
+{
+"text": "days:",
+"start": 40.884,
+"end": 41.359
+},
+{
+"text": "thirty-one",
+"start": 41.396,
+"end": 41.804
+},
+{
+"text": "thousand.",
+"start": 41.952,
+"end": 42.667
+},
+{
+"text": "More",
+"start": 42.741,
+"end": 42.815
+},
+{
+"text": "than",
+"start": 42.889,
+"end": 42.963
+},
+{
+"text": "half,",
+"start": 43.111,
+"end": 43.629
+},
+{
+"text": "gone.",
+"start": 43.704,
+"end": 44.208
+},
+{
+"text": "Dodge",
+"start": 44.43,
+"end": 44.653
+},
+{
+"text": "the",
+"start": 44.727,
+"end": 44.764
+},
+{
+"text": "ten",
+"start": 44.801,
+"end": 44.949
+},
+{
+"text": "worst",
+"start": 45.097,
+"end": 45.319
+},
+{
+"text": "days",
+"start": 45.467,
+"end": 45.616
+},
+{
+"text": "too?",
+"start": 45.727,
+"end": 45.912
+},
+{
+"text": "Just",
+"start": 46.113,
+"end": 46.336
+},
+{
+"text": "a",
+"start": 46.373,
+"end": 46.41
+},
+{
+"text": "hair",
+"start": 46.558,
+"end": 46.78
+},
+{
+"text": "ahead.",
+"start": 46.965,
+"end": 47.225
+},
+{
+"text": "Verdict:",
+"start": 47.476,
+"end": 47.876
+},
+{
+"text": "the",
+"start": 47.951,
+"end": 48.025
+},
+{
+"text": "best",
+"start": 48.099,
+"end": 48.321
+},
+{
+"text": "days",
+"start": 48.395,
+"end": 48.691
+},
+{
+"text": "hide",
+"start": 48.765,
+"end": 48.988
+},
+{
+"text": "inside",
+"start": 49.136,
+"end": 49.654
+},
+{
+"text": "the",
+"start": 49.728,
+"end": 49.802
+},
+{
+"text": "worst.",
+"start": 49.876,
+"end": 50.471
+},
+{
+"text": "Stay",
+"start": 50.545,
+"end": 50.693
+},
+{
+"text": "seated.",
+"start": 50.841,
+"end": 51.36
+}
+]
+}
