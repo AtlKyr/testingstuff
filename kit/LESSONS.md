@@ -110,6 +110,16 @@ FINDINGS → RULES (apply from #8):
 6. TOPIC PICK: simple, famous, relatable ideas win (#1 "every trading course teaches this", #5 "sell in May"). Niche
    indicators need a relatable angle in the hook or should be moved down the list.
 
+### 1d. Comments & playlists (user request 2026-11-07; data: 0–2 comments per video)
+- ON-SCREEN COMMENT PROMPT (mandatory): at the guess moment in the hook, show a sticker "COMMENT YOUR GUESS 👇 A or B?"
+  (big, high contrast, pops in with SFX, stays ~2 s, never over the captions). At the reveal, a second sticker:
+  "WERE YOU RIGHT? ✅ / ❌ in the comments". Keep the voice script unchanged (the sticker is visual only).
+- Pinned comment text must ask for the same guess (A/B) so the video and the comment section match.
+- Playlists (user creates them in Studio): "Strategy Autopsy — All Cases" (every video), "Indicators on Trial"
+  (RSI, MACD, Golden Cross, Turtle, Bollinger, Stochastic, Williams %R…), "Timing & Calendar Myths" (Sell in May, Day vs
+  Night, Missing 10 best days, Buy the Dip, Santa rally, Monday effect…), "Risk Rules & Stop-Losses" (stop-loss,
+  trailing stop, volatility exits…). Every daily delivery message tells the user which 2 playlists to add the Short to.
+
 ---------------------------------------------------------------------------------------------------------------------
 ## 2. Rocco — how to make him alive (this is what the user cares about)
 Engine function: `rocco(ctx, t, costume, expr_override=None, prop=None)` + your `motion(t)` in the timing module.
