@@ -363,3 +363,21 @@ everything at the same depth. FROM NOW ON every cover is built with `kit/coverli
   them to the top). Legend now bottom-right inside the chart box.
 - Twist that worked for "time in the market" topics: where the best days happen (all 10 in drawdowns <= -20%, 7 of 10 within
   10 trading days of a worst-10 day) + the honest "skip both best AND worst = only a hair ahead" check.
+
+---------------------------------------------------------------------------------------------------------------------
+## 16. Added after #10 (Buy after 3 red days, 2026-11-07) — first episode with the 1d comment stickers
+- Seventh worked example in `kit/ep10/` (bt10.py = loop backtest with variants + fee stress + independent check, s10_* modules,
+  audio_10.py marimba -> trap -> marimba -> lofi, cover10.py). Same run recipe as ep09 (`PYTHONPATH=/home/claude/short`, inside ep10/).
+- COMMENT STICKERS: `sticker(ctx, t, t0, t1, "guess"|"right")` in s10_scenes.py, centred at y 1085 (captions at 1240). No emoji
+  font is installed -> the down arrow, check and cross are drawn with cairo (arrow_up/arrow_down, check(), xmark()). Draw the
+  "right" sticker in BOTH the score scene and the next scene so it survives the scene cut.
+- MYSTERY WHEN THE LEAD CHANGES: if the race leader flips mid-story, stop the race chart at the last year you narrate and drop a
+  "CLASSIFIED ?" curtain (black + caution stripes) over the later years; compute the chart's vmax only from the visible part so
+  the scale doesn't leak the ending. Then show a ZOOMED single-year chart (e.g. 2020 normalised to 1.0) for later obstacles.
+- NUMBER BUDGET TRICK: show an edge as two bars from zero WITHOUT labels ("ANY DAY" vs "AFTER 3 RED DAYS") — honest, visibly tiny,
+  costs no number from the 5-number budget.
+- prop_pointer(target) uses Rocco's LOCAL (flipped/scaled) coordinates — a global target draws a stick across the screen. Don't
+  use it with global coordinates.
+- A pause that is too short to be a "silence" (0.24 s between "profit." and "Final") is still caught by silencedetect at -38 dB
+  with d=0.25 if you widen the keep_for window to the measured silence_start (print the silence list first).
+- 141 words with eleven_v4 -> 61.6 s raw -> 57.0 s tight -> atempo 1.09 -> 52.3 s. Whole pipeline (render 80 s) < 40 min.
