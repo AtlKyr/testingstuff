@@ -401,3 +401,41 @@ everything at the same depth. FROM NOW ON every cover is built with `kit/coverli
 - Stamp text colour = border colour: GOLD/green text on the cream stamp is hard to read. Use dark orange (0xD0,0x50,0x00) or dark
   green (0x0B,0x8A,0x4C) for stamps.
 - Verdict drawn over hook_draw(): hide the hook's top tag (show_tag=False) or it peeks out under the bunting.
+
+---------------------------------------------------------------------------------------------------------------------
+## 1e. RETENTION CURVES OF ALL 8 SHORTS (YT2 VideoTotals, pulled 2026-11-08) — read before writing every script
+How to pull: Supermetrics YT2, report_type VideoTotals, settings video_id=<id>, fields elapsedVideoTimeRatio, audienceWatchRatio,
+relativeRetentionPerformance (0.5 = median of similar YouTube videos). Data lags ~2 days. Video ids: LatestVideos field `video`.
+The curve only counts viewers who did NOT swipe away (engaged), so it starts near/above 100% (rewatches); the swipe rate is
+engaged_views/views in LatestVideos.
+
+| ep (length) | 10% | 20% | 30% | 50% | 75% | 90% | end | engaged/views |
+| #8 Overnight (54 s) — first full 1b/1c format | 118 | 94 | 86 | 73 | 68 | **65** | 44 | **37%** |
+| #3 Buy the Dip (63 s) — race story | 104 | 70 | 60 | 56 | 53 | 44 | 19 | 24% |
+| #1 RSI (57 s) | 97 | 65 | 57 | 49 | 41 | 37 | 32 | 26% |
+| #5 Sell in May (57 s) | 101 | 66 | 59 | 46 | 41 | 37 | 20 | 35% |
+| #7 Turtle (59 s) | 94 | 66 | 61 | 49 | 44 | 33 | 20 | 25% |
+| #2 Golden Cross (60 s) | 91 | 68 | 56 | 40 | 34 | 33 | 29 | 8% |
+| #6 MACD (57 s) | 86 | 51 | 44 | 36 | 29 | 20 | 11 | 26% |
+| #4 RSI2 (60 s) | 97 | 61 | 42 | 28 | 22 | 18 | 8 | 19% |
+What the best curves have in common, and the rules that follow (apply from #12):
+1. MYSTERY OBJECT + CALLBACK. #8's only FLAT stretch (50-70%) is exactly where the hook's planted object was paid off:
+   hook "The answer hides in one tiny number." -> at 57% "Now… that tiny number? Point zero five percent. The fee."
+   RULE: the hook names ONE concrete hidden thing (a number, a day, a year, a rule, a person) and the script pays it off with a
+   spoken callback ("Remember that …?") at 55-70% of runtime, before the final score. This is in addition to the A/B guess.
+2. THE 5-12 s LEAK IS STILL THE BIGGEST LOSS even in #8 (-26% of the peak vs -35…-51% in the old format). Every old video lost
+   the most exactly where "This is Strategy Autopsy / On the table / The rules / jargon" was (#7: 5.6-10.3 s; #6 MACD lost 51% at
+   "Twelve, twenty-six, nine. The rules: MACD crosses above its signal line" -> never say indicator parameters in the first 15 s).
+   RULE: sentence 2 <= 2.5 s and concrete; the race must START by ~12 s (<= 22% of runtime; #8 started at 18.8 s, #11 at 19.9 s);
+   in the first 12 s change the picture every ~2 s (new card/number/prop), not every 4-6 s.
+3. STAT DUMPS STILL BLEED: #7 dropped at "Eighty-five trades. Win rate: fifty-six and a half percent…" (30-35%), #4 bled 8-40%.
+   Max 5 numbers before the reveal stays mandatory; one number per beat.
+4. REACH-THE-VERDICT TARGET: >= 60% still watching at 90% of runtime (#8 65%; all old ones 18-44%). The last-10% drop is the
+   natural end swipe; keep the verdict to <= 2 short sentences after the last number and keep the loop (the loop is why #8 starts
+   at 138%: viewers rewatch).
+5. SHORTER WINS: the best curve is the shortest video (54 s). Target final length <= 54 s: 125-138 words and avoid strings of
+   one-word sentences / "…" (#11: 143 words -> 67.6 s raw -> 56.2 s).
+6. FRAME 0 / SWIPE RATE: best engaged/views = #8 37% (split screen "DAY or NIGHT?") and #5 35% (relatable myth). #2 8% (busy chart).
+7. DAILY CHECK: before writing the hook, pull the curve of every Short that has data but is not in this table yet, add a row
+   here and to the backlog, and compare with #8 at 20/50/90%. Name the second where the new video lost the most and what was
+   said/shown there; fix that pattern in today's script.
