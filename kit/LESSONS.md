@@ -381,3 +381,23 @@ everything at the same depth. FROM NOW ON every cover is built with `kit/coverli
 - A pause that is too short to be a "silence" (0.24 s between "profit." and "Final") is still caught by silencedetect at -38 dB
   with d=0.25 if you widen the keep_for window to the measured silence_start (print the silence list first).
 - 141 words with eleven_v4 -> 61.6 s raw -> 57.0 s tight -> atempo 1.09 -> 52.3 s. Whole pipeline (render 80 s) < 40 min.
+
+---------------------------------------------------------------------------------------------------------------------
+## 17. Added after #11 (The Nasdaq just crashed, 2026-11-08) — first TREND/news Short
+- Eighth worked example in `kit/ep11/` (bt11.py = crash days <= -4% + forward returns + "panic seller" with N-day wait and a
+  1..126-day wait scan; s11_* modules; audio_11.py trap -> lofi -> synthwave; cover11.py). Same run recipe (PYTHONPATH=/home/claude/short, inside ep11/).
+- NEWS HOOKS: verify the headline numbers in >= 2 sources (Nasdaq -5.52%, S&P -4.36% on 2026-11-05) and tie them to the SPY
+  threshold you test ("the S&P dropped over four percent too" -> SPY days <= -4%). Never name parties/elections. Put sources in the
+  episode doc, not on screen.
+- HONESTY WITH PARAMETER-SENSITIVE WINNERS: the 1-month panic seller beat buy & hold, but 1 week / 3 / 6 months lost. Scan the
+  parameter (1..126 days) BEFORE writing the verdict — "only one window won" would have been false (53 of 126 waits won). Phrase it
+  as "change the wait, and the winner changes" and show the other waits next to the winner (footnote line in the score scene).
+- SHORT WORDS + "…" = LONG RAW AUDIO: 143 words came out at 67.6 s raw (33 pauses). tighten at KEEP=0.15 -> 59.7 s -> atempo 1.09
+  -> 55.2 s. Prefer fewer one-word sentences if you need <= 53 s.
+- PAUSE LONGER THAN THE REAL SILENCE: tighten's keep_for() can't lengthen a 0.45 s gap to 0.9 s (it just skips). tighten11.py inserts
+  zeros ("PAD" segment) at the middle of that silence — use it when the 75% rule needs a few tenths of a second.
+- TRUE PEAK AFTER AAC AGAIN: wav -1.9 dBTP became -0.3 dBTP in the mp4. Fixed by re-muxing from final_mix with
+  `-af alimiter=limit=0.80:level=false:attack=2:release=40` -> -14.2 LUFS / -1.4 dBTP. Always measure the mp4.
+- Stamp text colour = border colour: GOLD/green text on the cream stamp is hard to read. Use dark orange (0xD0,0x50,0x00) or dark
+  green (0x0B,0x8A,0x4C) for stamps.
+- Verdict drawn over hook_draw(): hide the hook's top tag (show_tag=False) or it peeks out under the bunting.
