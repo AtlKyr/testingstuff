@@ -1,0 +1,649 @@
+{
+"words": [
+{
+"text": "It's",
+"start": 0.076,
+"end": 0.305
+},
+{
+"text": "Monday,",
+"start": 0.381,
+"end": 1.094
+},
+{
+"text": "supposedly",
+"start": 1.209,
+"end": 1.78
+},
+{
+"text": "the",
+"start": 1.818,
+"end": 1.856
+},
+{
+"text": "worst",
+"start": 2.009,
+"end": 2.313
+},
+{
+"text": "day",
+"start": 2.389,
+"end": 2.466
+},
+{
+"text": "for",
+"start": 2.542,
+"end": 2.618
+},
+{
+"text": "stocks.",
+"start": 2.694,
+"end": 3.412
+},
+{
+"text": "What",
+"start": 3.465,
+"end": 3.541
+},
+{
+"text": "if",
+"start": 3.579,
+"end": 3.617
+},
+{
+"text": "you",
+"start": 3.694,
+"end": 3.846
+},
+{
+"text": "skipped",
+"start": 3.922,
+"end": 4.379
+},
+{
+"text": "every",
+"start": 4.532,
+"end": 4.684
+},
+{
+"text": "Monday?",
+"start": 4.76,
+"end": 5.229
+},
+{
+"text": "A:",
+"start": 5.294,
+"end": 5.659
+},
+{
+"text": "you",
+"start": 5.735,
+"end": 5.888
+},
+{
+"text": "beat",
+"start": 5.964,
+"end": 6.04
+},
+{
+"text": "the",
+"start": 6.116,
+"end": 6.193
+},
+{
+"text": "market.",
+"start": 6.421,
+"end": 6.802
+},
+{
+"text": "B:",
+"start": 6.879,
+"end": 7.288
+},
+{
+"text": "you",
+"start": 7.364,
+"end": 7.44
+},
+{
+"text": "fall",
+"start": 7.517,
+"end": 7.669
+},
+{
+"text": "behind.",
+"start": 7.745,
+"end": 8.382
+},
+{
+"text": "Guess",
+"start": 8.497,
+"end": 8.611
+},
+{
+"text": "now.",
+"start": 8.687,
+"end": 9.297
+},
+{
+"text": "The",
+"start": 9.373,
+"end": 9.449
+},
+{
+"text": "answer",
+"start": 9.525,
+"end": 9.83
+},
+{
+"text": "hides",
+"start": 9.906,
+"end": 10.287
+},
+{
+"text": "in",
+"start": 10.363,
+"end": 10.592
+},
+{
+"text": "one",
+"start": 10.668,
+"end": 10.897
+},
+{
+"text": "Monday.",
+"start": 10.973,
+"end": 11.551
+},
+{
+"text": "Rule:",
+"start": 11.742,
+"end": 12.278
+},
+{
+"text": "sell",
+"start": 12.354,
+"end": 12.582
+},
+{
+"text": "at",
+"start": 12.659,
+"end": 12.811
+},
+{
+"text": "Friday's",
+"start": 12.963,
+"end": 13.192
+},
+{
+"text": "close,",
+"start": 13.268,
+"end": 13.878
+},
+{
+"text": "buy",
+"start": 13.954,
+"end": 14.106
+},
+{
+"text": "back",
+"start": 14.182,
+"end": 14.487
+},
+{
+"text": "at",
+"start": 14.563,
+"end": 14.716
+},
+{
+"text": "Monday's",
+"start": 14.868,
+"end": 15.097
+},
+{
+"text": "close.",
+"start": 15.173,
+"end": 15.724
+},
+{
+"text": "Two",
+"start": 15.801,
+"end": 15.877
+},
+{
+"text": "thousand",
+"start": 15.953,
+"end": 16.258
+},
+{
+"text": "eight:",
+"start": 16.41,
+"end": 16.848
+},
+{
+"text": "Mondays",
+"start": 16.886,
+"end": 17.305
+},
+{
+"text": "lose",
+"start": 17.381,
+"end": 17.61
+},
+{
+"text": "over",
+"start": 17.686,
+"end": 17.991
+},
+{
+"text": "ten",
+"start": 18.105,
+"end": 18.219
+},
+{
+"text": "percent.",
+"start": 18.296,
+"end": 18.996
+},
+{
+"text": "The",
+"start": 19.034,
+"end": 19.073
+},
+{
+"text": "skipper",
+"start": 19.149,
+"end": 19.453
+},
+{
+"text": "dodges",
+"start": 19.53,
+"end": 19.834
+},
+{
+"text": "it,",
+"start": 19.911,
+"end": 20.215
+},
+{
+"text": "and",
+"start": 20.33,
+"end": 20.444
+},
+{
+"text": "still",
+"start": 20.596,
+"end": 20.749
+},
+{
+"text": "trails.",
+"start": 20.825,
+"end": 21.416
+},
+{
+"text": "Twenty",
+"start": 21.492,
+"end": 21.721
+},
+{
+"text": "twenty:",
+"start": 21.797,
+"end": 22.268
+},
+{
+"text": "the",
+"start": 22.344,
+"end": 22.496
+},
+{
+"text": "worst",
+"start": 22.572,
+"end": 22.877
+},
+{
+"text": "day",
+"start": 22.991,
+"end": 23.105
+},
+{
+"text": "in",
+"start": 23.182,
+"end": 23.334
+},
+{
+"text": "twenty",
+"start": 23.41,
+"end": 23.715
+},
+{
+"text": "years",
+"start": 23.867,
+"end": 24.325
+},
+{
+"text": "is",
+"start": 24.401,
+"end": 24.477
+},
+{
+"text": "a",
+"start": 24.553,
+"end": 24.629
+},
+{
+"text": "Monday.",
+"start": 25.048,
+"end": 25.243
+},
+{
+"text": "Dodged",
+"start": 25.281,
+"end": 25.51
+},
+{
+"text": "again.",
+"start": 25.586,
+"end": 26.188
+},
+{
+"text": "Still",
+"start": 26.226,
+"end": 26.454
+},
+{
+"text": "behind.",
+"start": 26.531,
+"end": 27.086
+},
+{
+"text": "Twenty",
+"start": 27.162,
+"end": 27.39
+},
+{
+"text": "twenty-two:",
+"start": 27.467,
+"end": 28.283
+},
+{
+"text": "same",
+"start": 28.36,
+"end": 28.588
+},
+{
+"text": "story.",
+"start": 28.664,
+"end": 29.174
+},
+{
+"text": "Remember",
+"start": 29.428,
+"end": 29.478
+},
+{
+"text": "that",
+"start": 29.593,
+"end": 29.707
+},
+{
+"text": "one",
+"start": 29.783,
+"end": 29.936
+},
+{
+"text": "Monday?",
+"start": 30.012,
+"end": 30.621
+},
+{
+"text": "October",
+"start": 30.85,
+"end": 31.078
+},
+{
+"text": "thirteenth,",
+"start": 31.155,
+"end": 31.764
+},
+{
+"text": "two",
+"start": 31.84,
+"end": 31.917
+},
+{
+"text": "thousand",
+"start": 31.993,
+"end": 32.297
+},
+{
+"text": "eight.",
+"start": 32.45,
+"end": 33.136
+},
+{
+"text": "Plus",
+"start": 33.288,
+"end": 33.44
+},
+{
+"text": "fourteen",
+"start": 33.517,
+"end": 33.897
+},
+{
+"text": "and",
+"start": 33.974,
+"end": 34.05
+},
+{
+"text": "a",
+"start": 34.126,
+"end": 34.202
+},
+{
+"text": "half",
+"start": 34.317,
+"end": 34.431
+},
+{
+"text": "percent,",
+"start": 34.507,
+"end": 35.193
+},
+{
+"text": "the",
+"start": 35.307,
+"end": 35.421
+},
+{
+"text": "best",
+"start": 35.574,
+"end": 35.726
+},
+{
+"text": "day",
+"start": 35.84,
+"end": 35.955
+},
+{
+"text": "in",
+"start": 36.031,
+"end": 36.183
+},
+{
+"text": "twenty",
+"start": 36.259,
+"end": 36.564
+},
+{
+"text": "years.",
+"start": 36.717,
+"end": 37.349
+},
+{
+"text": "The",
+"start": 37.401,
+"end": 37.451
+},
+{
+"text": "skipper",
+"start": 37.566,
+"end": 37.832
+},
+{
+"text": "missed",
+"start": 37.908,
+"end": 38.061
+},
+{
+"text": "it.",
+"start": 38.137,
+"end": 38.818
+},
+{
+"text": "Final",
+"start": 38.894,
+"end": 39.123
+},
+{
+"text": "score.",
+"start": 39.199,
+"end": 39.736
+},
+{
+"text": "The",
+"start": 39.774,
+"end": 39.812
+},
+{
+"text": "Monday",
+"start": 39.888,
+"end": 40.117
+},
+{
+"text": "skipper:",
+"start": 40.193,
+"end": 40.764
+},
+{
+"text": "twenty-three",
+"start": 40.802,
+"end": 41.183
+},
+{
+"text": "thousand",
+"start": 41.336,
+"end": 41.717
+},
+{
+"text": "seven",
+"start": 41.793,
+"end": 42.021
+},
+{
+"text": "hundred.",
+"start": 42.06,
+"end": 42.571
+},
+{
+"text": "Just",
+"start": 42.609,
+"end": 42.762
+},
+{
+"text": "holding:",
+"start": 42.838,
+"end": 43.443
+},
+{
+"text": "seventy",
+"start": 43.481,
+"end": 43.786
+},
+{
+"text": "thousand",
+"start": 43.862,
+"end": 44.167
+},
+{
+"text": "nine",
+"start": 44.243,
+"end": 44.472
+},
+{
+"text": "hundred.",
+"start": 44.51,
+"end": 44.977
+},
+{
+"text": "Even",
+"start": 45.015,
+"end": 45.243
+},
+{
+"text": "with",
+"start": 45.358,
+"end": 45.472
+},
+{
+"text": "zero",
+"start": 45.662,
+"end": 45.853
+},
+{
+"text": "fees,",
+"start": 45.929,
+"end": 46.539
+},
+{
+"text": "skipping",
+"start": 46.615,
+"end": 47.148
+},
+{
+"text": "lost.",
+"start": 47.605,
+"end": 47.791
+},
+{
+"text": "Monday",
+"start": 47.857,
+"end": 48.162
+},
+{
+"text": "was",
+"start": 48.238,
+"end": 48.467
+},
+{
+"text": "never",
+"start": 48.581,
+"end": 48.695
+},
+{
+"text": "the",
+"start": 48.771,
+"end": 48.848
+},
+{
+"text": "problem.",
+"start": 49.229,
+"end": 49.499
+},
+{
+"text": "Skipping",
+"start": 49.69,
+"end": 49.88
+},
+{
+"text": "it",
+"start": 49.956,
+"end": 50.032
+},
+{
+"text": "was.",
+"start": 50.109,
+"end": 50.642
+}
+]
+}

@@ -439,3 +439,23 @@ What the best curves have in common, and the rules that follow (apply from #12):
 7. DAILY CHECK: before writing the hook, pull the curve of every Short that has data but is not in this table yet, add a row
    here and to the backlog, and compare with #8 at 20/50/90%. Name the second where the new video lost the most and what was
    said/shown there; fix that pattern in today's script.
+
+---------------------------------------------------------------------------------------------------------------------
+## 18. Added after #12 + #13 (2026-11-09) — first TWO-SLOT day (A 17:30 trend, B 23:30 belief)
+- Worked examples: `kit/ep12/` (wait-for-the-dip: record = nominal close seeded with the 2000 peak, buy -5% below record,
+  sell at each new record; split-screen frame 0 "BUY NOW | OR | WAIT?"; trophy()/hourglass() helpers; zoomed "drought" chart
+  with gold record ticks; calendar month flipper) and `kit/ep13/` (Monday effect with CLOSE fills; week_strip() with a crossed-out
+  MON; race chart starts INSIDE the rules scene under two compact rule cards). Same run recipe (PYTHONPATH=/home/claude/short,
+  inside epNN/). The scene files start with the reusable ep11 helpers (candle, arrows, sticker, race_idx, curtain_box, hourglass).
+- NUMBER BUG CAUGHT AFTER TTS (#12): the script said "prices were twenty-five percent higher" from a quick check that used the
+  CLOSE of the rebuy day; the price actually paid (next open vs next open) was +20.7%. Never regenerate -> I cut the two words
+  out of the raw mp3 (numpy splice with 8 ms fades, then shift every later word timestamp by the cut length) and showed the true
+  "+21%" on screen. RULE: every number that goes into the script must be computed from the FILL prices in the backtest output,
+  printed, and checked BEFORE the TTS call.
+- RACE START: an A/B hook + mystery sentence + rule sentence is ~35 words (~12 s). Starting the race chart only at the first
+  year line put it at 17 s (33%) in #12. In #13 the chart slides in under the rule cards at the "Rule" word -> 11.6 s (22%).
+- 129-138 words with eleven_v4 -> 60-62 s raw -> tight 53-54 s -> TEMPO 1.05 -> 51-53 s. TEMPO 1.09 isn't needed any more.
+- Rocco hops in scenes where he stands at x 650 under the captions (score/hidden): keep hops <= 40 or the hat touches the caption line.
+- YT2 2026-11-09: #9 (3-word frame 0 "MISS 10 DAYS?") has the best engaged/views so far (49%) but lost 46% of the stayers between
+  10% and 24% of runtime (~5-13 s) -> a strong frame 0 is not enough; the 5-13 s stretch still needs a picture change every ~2 s.
+- Supermetrics/cover/audio pipeline unchanged; both mp4s measured -14.1/-14.2 LUFS, -1.7 dBTP with loudnorm TP=-2 linear=false.
