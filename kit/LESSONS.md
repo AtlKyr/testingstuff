@@ -459,3 +459,32 @@ What the best curves have in common, and the rules that follow (apply from #12):
 - YT2 2026-11-09: #9 (3-word frame 0 "MISS 10 DAYS?") has the best engaged/views so far (49%) but lost 46% of the stayers between
   10% and 24% of runtime (~5-13 s) -> a strong frame 0 is not enough; the 5-13 s stretch still needs a picture change every ~2 s.
 - Supermetrics/cover/audio pipeline unchanged; both mp4s measured -14.1/-14.2 LUFS, -1.7 dBTP with loudnorm TP=-2 linear=false.
+
+---------------------------------------------------------------------------------------------------------------------
+## 19. Added after #14 + #15 (2026-11-10) — second two-slot day (A trend: "best day since April", B belief: lump sum vs drip)
+- Worked examples: `kit/ep14/` (bounce chaser: buy the open after every +2% day, hold 21 trading days; frame 0 "+2.35% / CHASE IT?";
+  candle_row(), a 155-dot grid that turns red ("4 OUT OF 5"), bounce_diagram() (price falls back under the dashed pre-jump line),
+  footnote() drawn in BOTH the score and verdict scenes) and `kit/ep15/` (lump sum vs 12-month drip over 228 start months:
+  bt15.py loops every start month, round_grid() = one cell per start month coloured by the winner with a mini Rocco cursor,
+  one_round_chart() for the worst round, round_counter() with a "??? ROUNDS" redaction, gcoin()). `kit/master.sh NN` = two-pass
+  loudnorm (TP -2, linear=false). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- FASTER PIPELINE: do BOTH backtests and BOTH scripts first, fire the two TTS calls in the same turn, then the two transcriptions
+  in the same turn. Both Shorts were delivered ~30 min after the start; A's render never waited on B.
+- SPOKEN ROUNDING BUG (#15): the script says "ninety-six hundred" for $9,654 — truncated, not rounded (9,700 is the nearest
+  hundred). On screen the exact $9,654 is shown and the delivery message tells the user. RULE: spoken round numbers come from
+  round(x, -2) printed by the backtest, never from reading the digits; put an assert for every spoken number in sNN_data.py
+  BEFORE the TTS call (ep14/ep15 data modules have such asserts — write them first next time).
+- AAC TRUE PEAK: the mp4 written by render() measured +0.9 dBFS although final_mix was -1.8 dBTP. Always finish with
+  `ffmpeg -i raw.mp4 -i final_mix_NN.wav -map 0:v -map 1:a -c:v copy -af alimiter=limit=0.80:level=false:attack=2:release=40 -c:a aac -b:a 256k`
+  -> -14.1/-14.2 LUFS, -1.7/-1.8 dBTP both times. Deliver the remuxed file, never the raw render.
+- A footnote that pops in < 1 s before a scene cut cannot be read: draw the same card in the next scene too (ep14 footnote()).
+- A 19-row grid of which only 2-4 rows are filled looked empty. Show only the rows you narrate, big (6 rows x 70 px), and put the
+  rest under a moving "2011-2023: CLASSIFIED ?" strip — it also keeps the final tally hidden.
+- Rocco running across (moving=True adds a bob) with a tall hat (crown) under the caption line touches the captions: use y=1410 and
+  no hops in run-across scenes.
+- BASELINE TRAP: "the market closed below the previous close within 63 days" is true for 85% of ALL days, so a stat like that must be
+  phrased against the right level: "fell back below the price BEFORE the jump" (104 of 154 big jumps) — check the any-day baseline
+  before calling a number surprising.
+- YT2 2026-11-10, #10 (3 red days) curve: 92/58/53/39/35/31/14 at 10/20/30/50/75/90/100%. It lost 36% of the stayers between 8% and
+  13% of runtime (~4-7 s), exactly at "Do you buy the panic… or just hold? Make your guess." -> don't spend a sentence on
+  "Make your guess / Guess now"; say A and B and go straight to the hidden thing (done in #14/#15). It was flat from 58% to 85%.

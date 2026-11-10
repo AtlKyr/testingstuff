@@ -1,0 +1,659 @@
+{
+"words": [
+{
+"text": "You",
+"start": 0.154,
+"end": 0.231
+},
+{
+"text": "have",
+"start": 0.308,
+"end": 0.538
+},
+{
+"text": "ten",
+"start": 0.615,
+"end": 0.769
+},
+{
+"text": "thousand",
+"start": 0.923,
+"end": 1.231
+},
+{
+"text": "dollars",
+"start": 1.308,
+"end": 1.692
+},
+{
+"text": "to",
+"start": 1.769,
+"end": 1.808
+},
+{
+"text": "invest.",
+"start": 1.846,
+"end": 2.518
+},
+{
+"text": "All",
+"start": 2.645,
+"end": 2.799
+},
+{
+"text": "in",
+"start": 2.876,
+"end": 2.953
+},
+{
+"text": "today,",
+"start": 3.183,
+"end": 3.568
+},
+{
+"text": "or",
+"start": 3.683,
+"end": 3.799
+},
+{
+"text": "drip",
+"start": 4.03,
+"end": 4.183
+},
+{
+"text": "it",
+"start": 4.222,
+"end": 4.26
+},
+{
+"text": "in",
+"start": 4.337,
+"end": 4.414
+},
+{
+"text": "monthly",
+"start": 4.491,
+"end": 4.876
+},
+{
+"text": "for",
+"start": 4.953,
+"end": 5.03
+},
+{
+"text": "a",
+"start": 5.106,
+"end": 5.183
+},
+{
+"text": "year?",
+"start": 5.26,
+"end": 5.638
+},
+{
+"text": "A:",
+"start": 5.721,
+"end": 6.149
+},
+{
+"text": "all",
+"start": 6.264,
+"end": 6.379
+},
+{
+"text": "in.",
+"start": 6.456,
+"end": 6.75
+},
+{
+"text": "B:",
+"start": 6.878,
+"end": 7.3
+},
+{
+"text": "the",
+"start": 7.338,
+"end": 7.377
+},
+{
+"text": "drip.",
+"start": 7.454,
+"end": 7.838
+},
+{
+"text": "One",
+"start": 7.978,
+"end": 8.132
+},
+{
+"text": "starting",
+"start": 8.208,
+"end": 8.516
+},
+{
+"text": "month",
+"start": 8.593,
+"end": 8.824
+},
+{
+"text": "changes",
+"start": 8.978,
+"end": 9.439
+},
+{
+"text": "everything.",
+"start": 9.516,
+"end": 10.132
+},
+{
+"text": "The",
+"start": 10.312,
+"end": 10.324
+},
+{
+"text": "rule:",
+"start": 10.401,
+"end": 11.094
+},
+{
+"text": "every",
+"start": 11.209,
+"end": 11.324
+},
+{
+"text": "starting",
+"start": 11.401,
+"end": 11.709
+},
+{
+"text": "month",
+"start": 11.786,
+"end": 12.017
+},
+{
+"text": "since",
+"start": 12.132,
+"end": 12.248
+},
+{
+"text": "two",
+"start": 12.324,
+"end": 12.401
+},
+{
+"text": "thousand",
+"start": 12.478,
+"end": 12.786
+},
+{
+"text": "five",
+"start": 12.94,
+"end": 13.248
+},
+{
+"text": "is",
+"start": 13.401,
+"end": 13.478
+},
+{
+"text": "one",
+"start": 13.709,
+"end": 13.863
+},
+{
+"text": "round.",
+"start": 13.94,
+"end": 14.709
+},
+{
+"text": "Two",
+"start": 14.748,
+"end": 14.786
+},
+{
+"text": "thousand",
+"start": 14.863,
+"end": 15.094
+},
+{
+"text": "five",
+"start": 15.171,
+"end": 15.478
+},
+{
+"text": "and",
+"start": 15.632,
+"end": 15.863
+},
+{
+"text": "six.",
+"start": 16.055,
+"end": 16.632
+},
+{
+"text": "All-in",
+"start": 16.709,
+"end": 17.171
+},
+{
+"text": "takes",
+"start": 17.286,
+"end": 17.401
+},
+{
+"text": "round",
+"start": 17.555,
+"end": 17.863
+},
+{
+"text": "after",
+"start": 17.94,
+"end": 18.171
+},
+{
+"text": "round.",
+"start": 18.324,
+"end": 18.829
+},
+{
+"text": "Its",
+"start": 18.906,
+"end": 18.983
+},
+{
+"text": "money",
+"start": 19.06,
+"end": 19.368
+},
+{
+"text": "simply",
+"start": 19.445,
+"end": 19.675
+},
+{
+"text": "works",
+"start": 19.752,
+"end": 19.983
+},
+{
+"text": "longer.",
+"start": 20.06,
+"end": 20.512
+},
+{
+"text": "Then",
+"start": 20.712,
+"end": 20.943
+},
+{
+"text": "the",
+"start": 21.02,
+"end": 21.097
+},
+{
+"text": "crash.",
+"start": 21.25,
+"end": 22.173
+},
+{
+"text": "The",
+"start": 22.212,
+"end": 22.25
+},
+{
+"text": "dripper",
+"start": 22.327,
+"end": 22.635
+},
+{
+"text": "wins",
+"start": 22.712,
+"end": 23.02
+},
+{
+"text": "nineteen",
+"start": 23.097,
+"end": 23.558
+},
+{
+"text": "rounds",
+"start": 23.712,
+"end": 23.981
+},
+{
+"text": "in",
+"start": 24.02,
+"end": 24.058
+},
+{
+"text": "a",
+"start": 24.097,
+"end": 24.173
+},
+{
+"text": "row,",
+"start": 24.25,
+"end": 24.712
+},
+{
+"text": "buying",
+"start": 24.789,
+"end": 25.02
+},
+{
+"text": "cheaper",
+"start": 25.097,
+"end": 25.481
+},
+{
+"text": "every",
+"start": 25.558,
+"end": 25.866
+},
+{
+"text": "month.",
+"start": 25.943,
+"end": 26.425
+},
+{
+"text": "After",
+"start": 26.579,
+"end": 26.732
+},
+{
+"text": "that,",
+"start": 26.848,
+"end": 27.13
+},
+{
+"text": "all-in",
+"start": 27.245,
+"end": 27.668
+},
+{
+"text": "runs",
+"start": 27.745,
+"end": 27.976
+},
+{
+"text": "away",
+"start": 28.053,
+"end": 28.207
+},
+{
+"text": "again.",
+"start": 28.283,
+"end": 28.743
+},
+{
+"text": "Remember",
+"start": 28.82,
+"end": 29.051
+},
+{
+"text": "that",
+"start": 29.128,
+"end": 29.282
+},
+{
+"text": "one",
+"start": 29.359,
+"end": 29.513
+},
+{
+"text": "starting",
+"start": 29.59,
+"end": 29.897
+},
+{
+"text": "month?",
+"start": 29.974,
+"end": 30.443
+},
+{
+"text": "June",
+"start": 30.52,
+"end": 30.751
+},
+{
+"text": "two",
+"start": 30.905,
+"end": 30.982
+},
+{
+"text": "thousand",
+"start": 31.059,
+"end": 31.366
+},
+{
+"text": "eight.",
+"start": 31.443,
+"end": 32.136
+},
+{
+"text": "A",
+"start": 32.174,
+"end": 32.213
+},
+{
+"text": "year",
+"start": 32.366,
+"end": 32.52
+},
+{
+"text": "later,",
+"start": 32.597,
+"end": 33.059
+},
+{
+"text": "all-in",
+"start": 33.136,
+"end": 33.52
+},
+{
+"text": "had",
+"start": 33.597,
+"end": 33.828
+},
+{
+"text": "sixty-nine",
+"start": 33.905,
+"end": 34.443
+},
+{
+"text": "hundred",
+"start": 34.52,
+"end": 34.751
+},
+{
+"text": "dollars",
+"start": 34.828,
+"end": 35.213
+},
+{
+"text": "left.",
+"start": 35.366,
+"end": 35.675
+},
+{
+"text": "The",
+"start": 35.714,
+"end": 35.752
+},
+{
+"text": "dripper,",
+"start": 35.829,
+"end": 36.344
+},
+{
+"text": "ninety-six",
+"start": 36.421,
+"end": 37.036
+},
+{
+"text": "hundred.",
+"start": 37.075,
+"end": 37.559
+},
+{
+"text": "Final",
+"start": 37.636,
+"end": 37.866
+},
+{
+"text": "score.",
+"start": 37.943,
+"end": 38.712
+},
+{
+"text": "All-in",
+"start": 38.789,
+"end": 39.174
+},
+{
+"text": "won",
+"start": 39.251,
+"end": 39.482
+},
+{
+"text": "one",
+"start": 39.559,
+"end": 39.712
+},
+{
+"text": "hundred",
+"start": 39.789,
+"end": 40.02
+},
+{
+"text": "seventy-seven",
+"start": 40.174,
+"end": 40.789
+},
+{
+"text": "rounds.",
+"start": 40.943,
+"end": 41.636
+},
+{
+"text": "The",
+"start": 41.674,
+"end": 41.712
+},
+{
+"text": "dripper,",
+"start": 41.751,
+"end": 42.274
+},
+{
+"text": "fifty-one.",
+"start": 42.313,
+"end": 43.28
+},
+{
+"text": "Average",
+"start": 43.472,
+"end": 43.665
+},
+{
+"text": "lead",
+"start": 43.78,
+"end": 43.896
+},
+{
+"text": "after",
+"start": 44.011,
+"end": 44.126
+},
+{
+"text": "a",
+"start": 44.203,
+"end": 44.28
+},
+{
+"text": "year:",
+"start": 44.357,
+"end": 44.788
+},
+{
+"text": "five",
+"start": 44.904,
+"end": 45.019
+},
+{
+"text": "hundred",
+"start": 45.058,
+"end": 45.25
+},
+{
+"text": "thirty-three",
+"start": 45.481,
+"end": 45.865
+},
+{
+"text": "dollars.",
+"start": 46.019,
+"end": 46.641
+},
+{
+"text": "Dripping",
+"start": 46.718,
+"end": 47.103
+},
+{
+"text": "isn't",
+"start": 47.257,
+"end": 47.487
+},
+{
+"text": "a",
+"start": 47.564,
+"end": 47.603
+},
+{
+"text": "better",
+"start": 47.641,
+"end": 47.795
+},
+{
+"text": "return.",
+"start": 47.872,
+"end": 48.516
+},
+{
+"text": "It's",
+"start": 48.593,
+"end": 48.708
+},
+{
+"text": "insurance,",
+"start": 48.747,
+"end": 49.548
+},
+{
+"text": "and",
+"start": 49.625,
+"end": 49.702
+},
+{
+"text": "you",
+"start": 49.779,
+"end": 49.933
+},
+{
+"text": "pay",
+"start": 50.01,
+"end": 50.164
+},
+{
+"text": "for",
+"start": 50.241,
+"end": 50.394
+},
+{
+"text": "it.",
+"start": 50.471,
+"end": 50.779
+}
+]
+}
