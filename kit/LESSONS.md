@@ -227,8 +227,8 @@ Mistakes that already happened — check for them in the contact sheet:
 
 ---------------------------------------------------------------------------------------------------------------------
 ## 7. Cover (kapak) and upload texts
-> FROM #18 (2026-11-12) THE COVER LOOK AND THE TITLE RULES BELOW ARE SUPERSEDED BY SECTION 21 (event cover + hype-but-true titles).
-> Description / tags / pinned comment / settings rules here still apply.
+> FROM #18 (2026-11-12): the cover LOOK below/in 13 stays the same, but the main cover HEADLINE and the TITLE rules follow
+> SECTION 21 (hidden surprise as a big event + hype-but-true titles). Description / tags / pinned comment / settings still apply.
 - Cover 1080×1920 PNG: Rocco big (costume of the episode, shock or detective pose), the strategy name, and a question
   ("DOES IT ACTUALLY WORK?", "20 YEARS. WHO SURVIVED?", "73% WINNERS… SO?"). No final $ and no verdict. High contrast, max ~5 words.
 - Title: English, ≤60 chars, curiosity, no lie, no final number (e.g. "I Tested The '2-Day RSI' Trick For 20 Years").
@@ -315,8 +315,8 @@ Strategies for 20 Years" (RSI, Golden Cross, Buy the Dip).
 
 ---------------------------------------------------------------------------------------------------------------------
 ## 13. COVERS: use coverlib.py (user feedback 2026-11-05: "kapak fotoğrafları ve yazılar çok kalitesiz")
-> FROM #18 THE DEFAULT COVER IS SECTION 21 (`eventcover.py`). coverlib.py stays as the fallback when a topic has no single
-> real chart moment to point at (pure belief/myth topics) — then keep the coverlib look but use the section-21 headline rules.
+> STILL THE COVER LOOK FROM #18 ON. Only the main headline text changes (section 21). A white-background chart cover was tried and
+> REJECTED by the user on 2026-11-11 — never build that.
 The user called the cairo covers (#1-#8 v1) low quality. Why they looked cheap: flat fills, thin outlines, Space Grotesk at
 cover size, blocky paper-grain texture, a blown-up pixel Rocco overlapped by boxes, cream text on a pink pill (low contrast),
 everything at the same depth. FROM NOW ON every cover is built with `kit/coverlib.py` (PIL, drawn at 2x, LANCZOS down):
@@ -515,50 +515,41 @@ What the best curves have in common, and the rules that follow (apply from #12):
   then A/B at once, new picture every ~2 s until the race starts (done in #16: 5 scenes in the first 13 s).
 
 ---------------------------------------------------------------------------------------------------------------------
-## 21. EVENT COVER + FRAME 0 + "HYPE BUT TRUE" TITLES (user request 2026-11-11 — "bu stili kural olarak yavaş yavaş implemente et
-##     ve başlıkları biraz şişirelim")
-Reference: the user liked big finance channels' thumbnails (huge 1-3 word headline as if a big event happened, a real chart, an
-arrow + dotted circle on one moment, a red shaded area, the outcome hidden). Our version = `kit/eventcover.py` (cairo + Anton).
+## 21. COVER HEADLINE = THE HIDDEN SURPRISE AS A BIG EVENT + "HYPE BUT TRUE" TITLES (user requests 2026-11-11)
+History, so nobody repeats it: the user showed big finance-channel thumbnails ("huge text as if a big event happened, makes you
+curious") and asked to adopt that gradually and to make titles a bit more dramatic. A first version with a WHITE background, a real
+chart, arrow + dotted circle (eventcover.py) was REJECTED the same day: "beyaz zemin değil, kapaklar yine aynı olsun; sadece
+başlıkta gizlediğimiz unsuru büyük bir olaymış gibi kapakta sunsun, surprise element gibi olsun". eventcover.py was deleted.
+Do NOT build chart / whiteboard / white-background covers and do NOT change frame 0 for this.
 
-### 21a. The look (cover AND frame 0)
-- White background. Giant black Anton headline, 1-3 words, ends in "." or "?": "2007 AGAIN?", "IT FLIPPED.", "WATCH THIS DAY.",
-  "THEN THIS HAPPENED.", "ONE RULE.", "NOBODY SOLD?". Fits one line (eventcover shrinks it to 980 px).
-- ONE real chart from the episode's own backtest data (SPY / the strategy equity), no axes, no gridlines, max 2 lines.
-- A red shaded area that shows the tension (underwater area under the old peak, or the gap between strategy and buy & hold).
-- A hand-drawn arrow + dotted circle on ONE real date (the peak, the crash day, the crossing, the signal day). Arrow comes from
-  outside the chart (draw_event does that automatically) — it must never cross the lines.
-- The OUTCOME IS HIDDEN: the chart stops at `cut`, the right strip shows a big red "?" or a black redaction block with "?".
-- Small Rocco (costume of the episode) for the brand. Nothing else: no stamp, no "CASE #NN", no $ result, no subtitles.
-- API: `event_cover(path, head, series, focus, cut=, compare=, shade="between"|"underwater", level=, redact=, rocco=(expr, costume, px))`
-  for the PNG; `frame0_event(ctx, ...same...)` inside a scene for frame 0 (Shorts safe zone: nothing at x>960 in the lower half,
-  nothing at y>1560). Demo: `python3 eventcover.py` (2007 peak).
-- Frame 0 in the video: the event still is on screen from t=0 (no pop-in at t=0: every frame-0 element is at full size at t=0, see section 10 / the frame-0 notes), holds ~0.8-1.0 s, then the arrow/circle
-  pulse once and the hook scene takes over (the headline can punch-zoom away). The first spoken line must answer what the headline
-  points at ("This is October 2007. The top.").
+### 21a. The cover (both slots)
+- LOOK = unchanged coverlib cover (section 13): cinematic gradient, Rocco (shock/detective) with rim light, "CASE #NN" stamp,
+  redacted "WINNER:" tape, glow titles. Same quality checks as before.
+- ONLY THE MAIN HEADLINE CHANGES: the big top headline presents the episode's HIDDEN SURPRISE ELEMENT — the ONE hidden thing from 1e
+  that the YouTube title keeps hidden and the script pays off with "Remember…?" — as if it were a big event / breaking news.
+  2–4 huge words, ends in "." "?" or "!", never names what the thing is and never shows the result or the winner.
+  Example #17 (hidden thing = dividends, "one thing most people forget decides it"): instead of "BOUGHT THE 2007 TOP" →
+  "EVERYONE FORGOT THIS." Patterns: "EVERYONE FORGOT THIS.", "ONE DAY DECIDED IT.", "HE SOLD RIGHT HERE.", "NOBODY SAW THIS?",
+  "IT HAPPENED AGAIN?" — pick the one that is literally true for the episode.
+- The headline must be backed by the video (the payoff moment really shows that event); no empty hype ("THE UNTHINKABLE",
+  "IT'S OVER", "CRASH INCOMING"), no predictions, no fake urgency, no political words/symbols.
+- A small visual hint in the same coverlib style is fine (a glowing "?" object, a sealed CLASSIFIED envelope, a tag on the existing
+  mini-chart) — but the cover never turns into a chart layout. Bottom question (HOW LONG? / A OR B?) stays; max ~8 words in total.
+- Cover headline and YouTube title must not use the same words: the title asks the question, the cover announces the hidden event.
 
-### 21b. Honesty rules (hard)
-- The arrow points at a REAL date that is in the backtest data, and the headline is literally true about that moment
-  (assert it in the build script: e.g. `assert seg.index[focus] == peak_date`).
-- Nothing after `cut` may leak the result (no line, no $ number, no green/red verdict colour). The cover never says who won.
-- "Event" headlines must be backed by the video: "2007 AGAIN?" only if the video really compares today with 2007; "IT FLIPPED."
-  only if the two lines really cross at the circled point.
-- No empty hype that the video can't back ("THE UNTHINKABLE", "IT'S OVER", "CRASH INCOMING"), no predictions, no fake urgency,
-  no political words, faces or symbols (ads get flagged political), no other channels' branding.
+### 21b. Frame 0 — unchanged
+Classic frame-0 rules (1b, 1d, frame-0 notes): ≤4 big words or one giant number or one question, readable in 0.5 s.
 
 ### 21c. Titles — "hype but true" (YouTube title, ≤60 chars, English)
-- Lead with the EVENT or the most dramatic TRUE fact, then the open loop. 1-2 CAPS words allowed. Examples:
-  "The S&P Just Did Something It Last Did in 2008." · "Everyone Sold Here. Big Mistake?" · "This ONE Rule Dodged Both Crashes?"
-  · "I Bought the 2007 Top on Purpose." · "Wall Street's Favorite Rule Just FLIPPED."
+- Lead with the EVENT or the most dramatic TRUE fact, then the open loop. 1–2 CAPS words allowed. Examples:
+  "The S&P Just Did Something It Last Did in 2008." · "Everyone Sold Here. Big Mistake?" · "I Bought the 2007 Top on Purpose."
 - Every claim must be checkable in the video's own numbers. "Just" only for things that happened in the last ~7 days (trend slot).
-- Still NO final number, no verdict, no "you will get rich", no "guaranteed", no emoji spam (max 1).
-- Write 2 title options per Short in the delivery: [HYPE] (this style) and [SAFE] (the old open-loop style). The user picks.
+- Still NO final number, no verdict, no "you will get rich", no "guaranteed", max 1 emoji.
+- Deliver 2 title options per Short: [HYPE] (this style) and [SAFE] (the old open-loop question). The user picks; record the pick.
 - ADS ARE DIFFERENT: #3 and #11 were "approved (limited)" for CLICKBAIT in the Demand Gen campaign. Ad headlines/descriptions stay
-  calm and descriptive ("SPY backtest: selling after Fed hikes"), no CAPS words, no "?" chains — even when the YouTube title is hype.
+  calm and descriptive, no CAPS words — even when the YouTube title is hype.
 
-### 21d. Rollout ("yavaş yavaş")
-- Phase 1 (from #18, 2026-11-12): BOTH slots get the event cover. Frame 0 in event style ONLY in slot A (trend); slot B keeps the
-  current frame-0 style (giant number / 2-4 word question) as the control. Titles: deliver [HYPE] + [SAFE] for both slots.
-- Phase 2 (decide on 2026-11-23 with the 2-slot review): compare YT2 engaged/views and the 10%/30% retention points of the event
-  frame-0 Shorts vs the previous slot-A Shorts (#11 43%, #12, #14, #16). If event frame 0 is >= the old average, use it in both slots.
-  If it is worse, keep it only on the cover.
-- Track it in the episode doc: "cover: event / frame0: event|classic / title: hype|safe (user's pick)".
+### 21d. Rollout
+- From #18 (2026-11-12): new headline on both covers, [HYPE]+[SAFE] titles for both slots. Record in the episode doc:
+  "cover headline: …" and "title used: HYPE|SAFE" (ask nothing — the user tells or it shows in YT2 video_title later).
+- 2026-11-23 review (with the 2-slot review): compare engaged/views and retention of HYPE-title Shorts vs SAFE / older ones.
