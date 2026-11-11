@@ -51,5 +51,5 @@ ffmpeg is preinstalled.
    fix overlaps with captions at y≈1240), then render: `python3 render_X.py out.mp4`.
 7. **Audio**: adapt audio_r2.py (events + music gains), loudnorm two-pass to -14 LUFS / -1 dBTP (linear=true), re-render or mux.
 8. **QA**: ffprobe duration ≤ 60 s, 1080x1920, check -14 LUFS, extract ~10 frames and look at them.
-8b. **Cover**: build it with `coverlib.py` (LESSONS.md 13, example ep08/cover8.py) — never the old cairo cover.
+8b. **Cover**: from #18 build it with `eventcover.py` (LESSONS.md 21: giant headline + real chart + arrow/circle + hidden outcome). `coverlib.py` (LESSONS.md 13) only as fallback for topics with no single chart moment.
 9. **Deliver**: send the mp4 + cover frame png (the hook frame with the big number) with SendUserFile, then the upload text.
