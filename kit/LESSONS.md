@@ -488,3 +488,24 @@ What the best curves have in common, and the rules that follow (apply from #12):
 - YT2 2026-11-10, #10 (3 red days) curve: 92/58/53/39/35/31/14 at 10/20/30/50/75/90/100%. It lost 36% of the stayers between 8% and
   13% of runtime (~4-7 s), exactly at "Do you buy the panic… or just hold? Make your guess." -> don't spend a sentence on
   "Make your guess / Guess now"; say A and B and go straight to the hidden thing (done in #14/#15). It was flat from 58% to 85%.
+
+---------------------------------------------------------------------------------------------------------------------
+## 20. Added after #16 + #17 (2026-11-11) — third two-slot day (A trend: hot CPI / "sell when the Fed hikes?", B belief: "is 2007 happening again?")
+- Worked examples: `kit/ep16/` (Fed-hike seller: the 32 FOMC hike dates 2005-2023 are hard-coded in bt16.py and asserted; sell next open after
+  a hike, buy back after 126 trading days with no new hike; frame 0 "FED HIKES. / SELL?" + generic columned bank_building() + pct_badge();
+  race chart with red hike ticks + orange cash band; 32-dot grid that turns green/red by the 1-year-later return; cyc_chart() = one cycle zoom
+  with a dashed "first hike" level) and `kit/ep17/` (two investors buy the 2007 top: holder vs -40% panic seller; race chart x-range zoomed to
+  2007-10 .. 2013-12 (`XE`) with a dashed "$10,000 PAID" line and a CLASSIFIED curtain at the rebuy; price_tag() bars "SOLD AT" vs
+  "BOUGHT BACK" scaled by the real ratio; be_chart() = total-return vs price-only break-even lines). Same run recipe.
+- FULL-RANGE X AXIS KILLS EARLY RACE SCENES: a 2005-2024 axis makes a 2005-2007 or 2008 scene a 1-2 cm squiggle. When the story only
+  narrates a few years, zoom the x-range to those years (ep17 XE) and hide the rest with the curtain — the race reads much better.
+- BREAK-EVEN BUG: "first day the position is >= $10,000" returned the BUY day itself (close > open on day 1). Search for break-even only
+  after the drawdown low (argmin), and report total-return AND price-only (dividends changed the answer from 5.4 to 4.5 years — a fair,
+  two-sided A/B: with dividends A wins, without them B).
+- `sed s/14/16/` on audio_NN.py also renamed `np.int16` -> `np.int17` in #17 (and silently changed some SFX constants). Rename only the
+  file names (words_NN.json, vo_NN.wav, render_NN, premix_NN, final_mix_NN), never a blind digit replace.
+- wt() strips punctuation and is case-sensitive: "The" (capital) and "the" are different words; count capitals only when picking nth.
+- 138 / 134 words with eleven_v4 -> 56.8 / 57.2 s raw -> tight 52.3 / 51.0 s -> TEMPO 1.03 -> 50.8 / 49.6 s. Both well under 54 s.
+- YT2 2026-11-11, #11 (Nasdaq crash) curve: 88/57/39/34/25/23/17 at 10/20/30/50/75/90/100%; engaged/views 43% (good frame 0) but -62% of
+  the stayers between 9% and 30% (~5-17 s: news line + "Should you run?" + the 39-crash-days setup + rule). Trend hooks: news line <= 5 s,
+  then A/B at once, new picture every ~2 s until the race starts (done in #16: 5 scenes in the first 13 s).

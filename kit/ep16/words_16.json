@@ -1,0 +1,694 @@
+{
+"words": [
+{
+"text": "Inflation",
+"start": 0.194,
+"end": 0.621
+},
+{
+"text": "just",
+"start": 0.854,
+"end": 1.01
+},
+{
+"text": "came",
+"start": 1.087,
+"end": 1.243
+},
+{
+"text": "in",
+"start": 1.32,
+"end": 1.476
+},
+{
+"text": "hot,",
+"start": 1.553,
+"end": 2.097
+},
+{
+"text": "and",
+"start": 2.175,
+"end": 2.252
+},
+{
+"text": "the",
+"start": 2.33,
+"end": 2.408
+},
+{
+"text": "Fed",
+"start": 2.485,
+"end": 2.718
+},
+{
+"text": "may",
+"start": 2.874,
+"end": 3.029
+},
+{
+"text": "raise",
+"start": 3.107,
+"end": 3.34
+},
+{
+"text": "rates",
+"start": 3.495,
+"end": 3.65
+},
+{
+"text": "again",
+"start": 3.883,
+"end": 4.117
+},
+{
+"text": "in",
+"start": 4.194,
+"end": 4.272
+},
+{
+"text": "December.",
+"start": 4.544,
+"end": 4.893
+},
+{
+"text": "So,",
+"start": 5.175,
+"end": 5.641
+},
+{
+"text": "do",
+"start": 5.719,
+"end": 5.797
+},
+{
+"text": "you",
+"start": 5.913,
+"end": 6.03
+},
+{
+"text": "sell",
+"start": 6.107,
+"end": 6.34
+},
+{
+"text": "when",
+"start": 6.418,
+"end": 6.496
+},
+{
+"text": "the",
+"start": 6.534,
+"end": 6.573
+},
+{
+"text": "Fed",
+"start": 6.651,
+"end": 6.806
+},
+{
+"text": "hikes?",
+"start": 6.845,
+"end": 7.362
+},
+{
+"text": "A:",
+"start": 7.478,
+"end": 7.775
+},
+{
+"text": "sell",
+"start": 7.93,
+"end": 8.241
+},
+{
+"text": "and",
+"start": 8.396,
+"end": 8.474
+},
+{
+"text": "wait.",
+"start": 8.552,
+"end": 9.048
+},
+{
+"text": "B:",
+"start": 9.126,
+"end": 9.569
+},
+{
+"text": "just",
+"start": 9.685,
+"end": 9.802
+},
+{
+"text": "hold.",
+"start": 9.996,
+"end": 10.501
+},
+{
+"text": "The",
+"start": 10.579,
+"end": 10.656
+},
+{
+"text": "answer",
+"start": 10.734,
+"end": 11.045
+},
+{
+"text": "hides",
+"start": 11.122,
+"end": 11.433
+},
+{
+"text": "in",
+"start": 11.511,
+"end": 11.744
+},
+{
+"text": "one",
+"start": 11.86,
+"end": 11.977
+},
+{
+"text": "hiking",
+"start": 12.054,
+"end": 12.365
+},
+{
+"text": "cycle.",
+"start": 12.443,
+"end": 12.878
+},
+{
+"text": "The",
+"start": 12.956,
+"end": 12.994
+},
+{
+"text": "rule:",
+"start": 13.033,
+"end": 13.732
+},
+{
+"text": "sell",
+"start": 13.81,
+"end": 14.043
+},
+{
+"text": "the",
+"start": 14.121,
+"end": 14.198
+},
+{
+"text": "day",
+"start": 14.315,
+"end": 14.431
+},
+{
+"text": "after",
+"start": 14.625,
+"end": 14.82
+},
+{
+"text": "any",
+"start": 14.936,
+"end": 15.053
+},
+{
+"text": "hike,",
+"start": 15.13,
+"end": 15.596
+},
+{
+"text": "buy",
+"start": 15.674,
+"end": 15.829
+},
+{
+"text": "back",
+"start": 15.985,
+"end": 16.295
+},
+{
+"text": "after",
+"start": 16.373,
+"end": 16.684
+},
+{
+"text": "six",
+"start": 16.761,
+"end": 16.994
+},
+{
+"text": "quiet",
+"start": 17.072,
+"end": 17.305
+},
+{
+"text": "months.",
+"start": 17.383,
+"end": 17.955
+},
+{
+"text": "Two",
+"start": 17.994,
+"end": 18.033
+},
+{
+"text": "thousand",
+"start": 18.11,
+"end": 18.499
+},
+{
+"text": "five.",
+"start": 18.693,
+"end": 19.127
+},
+{
+"text": "Hike",
+"start": 19.165,
+"end": 19.437
+},
+{
+"text": "after",
+"start": 19.515,
+"end": 19.748
+},
+{
+"text": "hike,",
+"start": 19.903,
+"end": 20.369
+},
+{
+"text": "the",
+"start": 20.447,
+"end": 20.525
+},
+{
+"text": "seller",
+"start": 20.68,
+"end": 20.835
+},
+{
+"text": "sits",
+"start": 20.991,
+"end": 21.224
+},
+{
+"text": "out,",
+"start": 21.301,
+"end": 21.612
+},
+{
+"text": "and",
+"start": 21.729,
+"end": 21.845
+},
+{
+"text": "stocks",
+"start": 22.078,
+"end": 22.311
+},
+{
+"text": "keep",
+"start": 22.389,
+"end": 22.622
+},
+{
+"text": "climbing.",
+"start": 22.699,
+"end": 23.267
+},
+{
+"text": "Then",
+"start": 23.462,
+"end": 23.656
+},
+{
+"text": "two",
+"start": 23.734,
+"end": 23.811
+},
+{
+"text": "thousand",
+"start": 23.889,
+"end": 24.2
+},
+{
+"text": "eight.",
+"start": 24.277,
+"end": 24.614
+},
+{
+"text": "He's",
+"start": 24.653,
+"end": 24.847
+},
+{
+"text": "back",
+"start": 24.964,
+"end": 25.08
+},
+{
+"text": "in,",
+"start": 25.158,
+"end": 25.624
+},
+{
+"text": "just",
+"start": 25.702,
+"end": 25.935
+},
+{
+"text": "in",
+"start": 26.012,
+"end": 26.09
+},
+{
+"text": "time",
+"start": 26.168,
+"end": 26.401
+},
+{
+"text": "for",
+"start": 26.439,
+"end": 26.478
+},
+{
+"text": "the",
+"start": 26.556,
+"end": 26.634
+},
+{
+"text": "crash.",
+"start": 26.711,
+"end": 27.29
+},
+{
+"text": "Now",
+"start": 27.368,
+"end": 27.523
+},
+{
+"text": "the",
+"start": 27.601,
+"end": 27.678
+},
+{
+"text": "strange",
+"start": 27.756,
+"end": 28.222
+},
+{
+"text": "part.",
+"start": 28.377,
+"end": 28.815
+},
+{
+"text": "In",
+"start": 28.892,
+"end": 29.048
+},
+{
+"text": "twenty-nine",
+"start": 29.125,
+"end": 29.747
+},
+{
+"text": "of",
+"start": 29.863,
+"end": 29.98
+},
+{
+"text": "thirty-two",
+"start": 30.018,
+"end": 30.446
+},
+{
+"text": "hikes,",
+"start": 30.523,
+"end": 31.067
+},
+{
+"text": "stocks",
+"start": 31.261,
+"end": 31.455
+},
+{
+"text": "were",
+"start": 31.533,
+"end": 31.766
+},
+{
+"text": "higher",
+"start": 31.999,
+"end": 32.232
+},
+{
+"text": "one",
+"start": 32.31,
+"end": 32.465
+},
+{
+"text": "year",
+"start": 32.582,
+"end": 32.698
+},
+{
+"text": "later.",
+"start": 32.892,
+"end": 33.162
+},
+{
+"text": "Remember",
+"start": 33.318,
+"end": 33.473
+},
+{
+"text": "that",
+"start": 33.589,
+"end": 33.706
+},
+{
+"text": "one",
+"start": 33.784,
+"end": 33.939
+},
+{
+"text": "hiking",
+"start": 33.978,
+"end": 34.25
+},
+{
+"text": "cycle?",
+"start": 34.327,
+"end": 34.928
+},
+{
+"text": "Twenty",
+"start": 35.005,
+"end": 35.161
+},
+{
+"text": "twenty-two,",
+"start": 35.316,
+"end": 36.015
+},
+{
+"text": "the",
+"start": 36.093,
+"end": 36.248
+},
+{
+"text": "fastest",
+"start": 36.403,
+"end": 36.792
+},
+{
+"text": "in",
+"start": 36.908,
+"end": 37.025
+},
+{
+"text": "four",
+"start": 37.102,
+"end": 37.335
+},
+{
+"text": "decades.",
+"start": 37.413,
+"end": 38.345
+},
+{
+"text": "By",
+"start": 38.423,
+"end": 38.5
+},
+{
+"text": "the",
+"start": 38.578,
+"end": 38.656
+},
+{
+"text": "last",
+"start": 38.811,
+"end": 38.967
+},
+{
+"text": "hike,",
+"start": 39.005,
+"end": 39.433
+},
+{
+"text": "stocks",
+"start": 39.51,
+"end": 39.821
+},
+{
+"text": "were",
+"start": 39.899,
+"end": 40.132
+},
+{
+"text": "higher",
+"start": 40.326,
+"end": 40.52
+},
+{
+"text": "than",
+"start": 40.559,
+"end": 40.598
+},
+{
+"text": "at",
+"start": 40.675,
+"end": 40.753
+},
+{
+"text": "the",
+"start": 40.831,
+"end": 40.908
+},
+{
+"text": "first.",
+"start": 41.102,
+"end": 41.475
+},
+{
+"text": "Final",
+"start": 41.552,
+"end": 41.785
+},
+{
+"text": "score.",
+"start": 41.863,
+"end": 42.416
+},
+{
+"text": "The",
+"start": 42.455,
+"end": 42.494
+},
+{
+"text": "seller:",
+"start": 42.649,
+"end": 43.271
+},
+{
+"text": "thirty-five",
+"start": 43.31,
+"end": 43.814
+},
+{
+"text": "thousand",
+"start": 44.047,
+"end": 44.358
+},
+{
+"text": "dollars.",
+"start": 44.436,
+"end": 45.07
+},
+{
+"text": "Buy",
+"start": 45.148,
+"end": 45.226
+},
+{
+"text": "and",
+"start": 45.303,
+"end": 45.381
+},
+{
+"text": "hold:",
+"start": 45.459,
+"end": 46.08
+},
+{
+"text": "seventy",
+"start": 46.158,
+"end": 46.468
+},
+{
+"text": "thousand.",
+"start": 46.546,
+"end": 47.143
+},
+{
+"text": "Rate",
+"start": 47.338,
+"end": 47.376
+},
+{
+"text": "hikes",
+"start": 47.415,
+"end": 47.687
+},
+{
+"text": "make",
+"start": 47.765,
+"end": 47.92
+},
+{
+"text": "headlines.",
+"start": 48.037,
+"end": 48.826
+},
+{
+"text": "They",
+"start": 48.943,
+"end": 49.059
+},
+{
+"text": "never",
+"start": 49.137,
+"end": 49.37
+},
+{
+"text": "made",
+"start": 49.447,
+"end": 49.525
+},
+{
+"text": "a",
+"start": 49.564,
+"end": 49.603
+},
+{
+"text": "good",
+"start": 49.68,
+"end": 49.758
+},
+{
+"text": "exit",
+"start": 49.836,
+"end": 50.147
+},
+{
+"text": "sign.",
+"start": 50.224,
+"end": 50.768
+}
+]
+}
