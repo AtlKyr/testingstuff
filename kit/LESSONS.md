@@ -553,3 +553,21 @@ Classic frame-0 rules (1b, 1d, frame-0 notes): ≤4 big words or one giant numbe
 - From #18 (2026-11-12): new headline on both covers, [HYPE]+[SAFE] titles for both slots. Record in the episode doc:
   "cover headline: …" and "title used: HYPE|SAFE" (ask nothing — the user tells or it shows in YT2 video_title later).
 - 2026-11-23 review (with the 2-slot review): compare engaged/views and retention of HYPE-title Shorts vs SAFE / older ones.
+
+---------------------------------------------------------------------------------------------------------------------
+## 22. Added after #18 + #19 (2026-11-12) — fourth two-slot day (A trend: "-4% then +2%" -> the 200-day line, B: $500/month -> $100K)
+- Worked examples: `kit/ep18/` (200-day SMA rule on the nominal close, 200-bar warm-up, buy & hold from the same day 2005-10-18; frame 0
+  "-4% / +2% / NOW WHAT?" + week_candles() drawn from the real last-7-days moves; race chart starts UNDER THE A/B CARDS at the word "B"
+  (10.4 s = 20%) and keeps running through the clue + rule scenes; mini_chart() = real price + SMA + IN/OUT strip for a zoom window
+  (2007-09 crash, 2015 whipsaw, 2020); 64-dot trade grid that turns gold (fakeouts) then red (lost); a dashed "ghost" candle with "?"
+  for the move nobody knows yet) and `kit/ep19/` (monthly $500 buys at the first-trading-day open; race = "PUT IN" vs "WORTH" with a dashed
+  $100K goal line and a CLASSIFIED curtain right after the goal; milestone bars 116 / 56 / 23 months with "??? YEARS" placeholders until
+  spoken; hud label "WORTH: $???,???" for a 6-digit result). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- HONEST NEWS + HIDDEN THING: when the hook says "this week's chart", the visual must show only real days (Nov 5 red, Nov 9 green). The
+  spoken "down, up, down again" is the generic whipsaw pattern, so the third candle is drawn as a dashed "?" ghost, not as a fake red day.
+- YT2 2026-11-12: #13 (Skip Mondays, belief topic, race in the rules scene at 22%) is the second-best curve after #8: 112/90/71/61/54/49/37,
+  engaged/views 50%, avg 65%. #12 (race at 33%) lost 36% of stayers at 5–11 s (107 -> 68). Early race works; #18/#19 started it at 20–21%.
+- Timing: kit clone -> A delivered in ~25 min, B ~10 min later. 138/135 words -> 58.9/58.4 s raw -> tight 52.9/52.7 -> TEMPO 1.03 -> 51.3/51.2 s.
+- wt() nth gotcha again: "one" in "$100K? ... one hundred thousand ... one hundred twenty" — count every lowercase occurrence in the
+  WHOLE script (incl. "two thousand five") before picking nth; print the word list first.
+- Supermetrics trial notice on 2026-11-12: "expires in 2 days" -> if YT2 stops working, say so in the delivery message and continue.

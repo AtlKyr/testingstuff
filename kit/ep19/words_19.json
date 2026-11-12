@@ -1,0 +1,679 @@
+{
+"words": [
+{
+"text": "Five",
+"start": 0.155,
+"end": 0.311
+},
+{
+"text": "hundred",
+"start": 0.388,
+"end": 0.544
+},
+{
+"text": "dollars",
+"start": 0.699,
+"end": 0.932
+},
+{
+"text": "a",
+"start": 1.01,
+"end": 1.165
+},
+{
+"text": "month",
+"start": 1.243,
+"end": 1.476
+},
+{
+"text": "into",
+"start": 1.553,
+"end": 1.709
+},
+{
+"text": "the",
+"start": 1.786,
+"end": 1.864
+},
+{
+"text": "S",
+"start": 1.942,
+"end": 2.019
+},
+{
+"text": "and",
+"start": 2.097,
+"end": 2.175
+},
+{
+"text": "P,",
+"start": 2.252,
+"end": 2.641
+},
+{
+"text": "starting",
+"start": 2.874,
+"end": 3.107
+},
+{
+"text": "in",
+"start": 3.184,
+"end": 3.34
+},
+{
+"text": "two",
+"start": 3.379,
+"end": 3.417
+},
+{
+"text": "thousand",
+"start": 3.495,
+"end": 3.883
+},
+{
+"text": "five.",
+"start": 4.155,
+"end": 4.586
+},
+{
+"text": "When",
+"start": 4.616,
+"end": 4.772
+},
+{
+"text": "do",
+"start": 4.811,
+"end": 4.849
+},
+{
+"text": "you",
+"start": 4.927,
+"end": 5.005
+},
+{
+"text": "hit",
+"start": 5.082,
+"end": 5.16
+},
+{
+"text": "one",
+"start": 5.238,
+"end": 5.315
+},
+{
+"text": "hundred",
+"start": 5.393,
+"end": 5.626
+},
+{
+"text": "thousand?",
+"start": 5.704,
+"end": 6.158
+},
+{
+"text": "A:",
+"start": 6.227,
+"end": 6.651
+},
+{
+"text": "under",
+"start": 6.806,
+"end": 6.961
+},
+{
+"text": "ten",
+"start": 7.039,
+"end": 7.272
+},
+{
+"text": "years.",
+"start": 7.35,
+"end": 7.914
+},
+{
+"text": "B:",
+"start": 7.992,
+"end": 8.479
+},
+{
+"text": "over",
+"start": 8.634,
+"end": 8.79
+},
+{
+"text": "ten.",
+"start": 8.945,
+"end": 9.489
+},
+{
+"text": "But",
+"start": 9.527,
+"end": 9.566
+},
+{
+"text": "the",
+"start": 9.644,
+"end": 9.799
+},
+{
+"text": "real",
+"start": 9.916,
+"end": 10.032
+},
+{
+"text": "shock",
+"start": 10.188,
+"end": 10.498
+},
+{
+"text": "is",
+"start": 10.576,
+"end": 10.654
+},
+{
+"text": "the",
+"start": 10.77,
+"end": 10.887
+},
+{
+"text": "second",
+"start": 10.964,
+"end": 11.275
+},
+{
+"text": "hundred",
+"start": 11.314,
+"end": 11.508
+},
+{
+"text": "thousand.",
+"start": 11.586,
+"end": 12.173
+},
+{
+"text": "The",
+"start": 12.212,
+"end": 12.251
+},
+{
+"text": "rule:",
+"start": 12.328,
+"end": 13.027
+},
+{
+"text": "buy",
+"start": 13.144,
+"end": 13.26
+},
+{
+"text": "on",
+"start": 13.299,
+"end": 13.338
+},
+{
+"text": "the",
+"start": 13.416,
+"end": 13.571
+},
+{
+"text": "same",
+"start": 13.649,
+"end": 13.882
+},
+{
+"text": "day",
+"start": 13.959,
+"end": 14.27
+},
+{
+"text": "every",
+"start": 14.348,
+"end": 14.581
+},
+{
+"text": "month,",
+"start": 14.658,
+"end": 15.202
+},
+{
+"text": "never",
+"start": 15.357,
+"end": 15.59
+},
+{
+"text": "sell,",
+"start": 15.668,
+"end": 16.212
+},
+{
+"text": "fees",
+"start": 16.289,
+"end": 16.522
+},
+{
+"text": "included.",
+"start": 16.794,
+"end": 17.347
+},
+{
+"text": "Then",
+"start": 17.425,
+"end": 17.891
+},
+{
+"text": "two",
+"start": 17.969,
+"end": 18.047
+},
+{
+"text": "thousand",
+"start": 18.124,
+"end": 18.513
+},
+{
+"text": "eight",
+"start": 18.59,
+"end": 18.668
+},
+{
+"text": "hits.",
+"start": 18.746,
+"end": 19.522
+},
+{
+"text": "You've",
+"start": 19.561,
+"end": 19.755
+},
+{
+"text": "put",
+"start": 19.833,
+"end": 19.911
+},
+{
+"text": "in",
+"start": 19.988,
+"end": 20.066
+},
+{
+"text": "over",
+"start": 20.221,
+"end": 20.377
+},
+{
+"text": "twenty-five",
+"start": 20.571,
+"end": 20.92
+},
+{
+"text": "thousand",
+"start": 21.153,
+"end": 21.542
+},
+{
+"text": "dollars,",
+"start": 21.619,
+"end": 22.241
+},
+{
+"text": "and",
+"start": 22.28,
+"end": 22.318
+},
+{
+"text": "it's",
+"start": 22.357,
+"end": 22.474
+},
+{
+"text": "worth",
+"start": 22.59,
+"end": 22.707
+},
+{
+"text": "about",
+"start": 22.94,
+"end": 23.173
+},
+{
+"text": "fourteen.",
+"start": 23.289,
+"end": 24.141
+},
+{
+"text": "Most",
+"start": 24.218,
+"end": 24.296
+},
+{
+"text": "people",
+"start": 24.374,
+"end": 24.684
+},
+{
+"text": "quit",
+"start": 24.762,
+"end": 24.995
+},
+{
+"text": "right",
+"start": 25.073,
+"end": 25.228
+},
+{
+"text": "here.",
+"start": 25.306,
+"end": 25.775
+},
+{
+"text": "You",
+"start": 25.853,
+"end": 26.241
+},
+{
+"text": "keep",
+"start": 26.358,
+"end": 26.474
+},
+{
+"text": "buying",
+"start": 26.552,
+"end": 26.94
+},
+{
+"text": "cheap",
+"start": 27.095,
+"end": 27.251
+},
+{
+"text": "shares,",
+"start": 27.484,
+"end": 27.849
+},
+{
+"text": "every",
+"start": 27.927,
+"end": 28.315
+},
+{
+"text": "single",
+"start": 28.393,
+"end": 28.703
+},
+{
+"text": "month.",
+"start": 28.897,
+"end": 29.223
+},
+{
+"text": "August,",
+"start": 29.417,
+"end": 29.767
+},
+{
+"text": "twenty",
+"start": 29.883,
+"end": 30.0
+},
+{
+"text": "fourteen:",
+"start": 30.077,
+"end": 30.743
+},
+{
+"text": "one",
+"start": 30.821,
+"end": 30.976
+},
+{
+"text": "hundred",
+"start": 31.054,
+"end": 31.287
+},
+{
+"text": "thousand.",
+"start": 31.442,
+"end": 32.114
+},
+{
+"text": "Nine",
+"start": 32.23,
+"end": 32.347
+},
+{
+"text": "years,",
+"start": 32.424,
+"end": 32.968
+},
+{
+"text": "seven",
+"start": 33.046,
+"end": 33.201
+},
+{
+"text": "months.",
+"start": 33.356,
+"end": 33.938
+},
+{
+"text": "A",
+"start": 34.055,
+"end": 34.171
+},
+{
+"text": "wins.",
+"start": 34.327,
+"end": 35.238
+},
+{
+"text": "Now,",
+"start": 35.316,
+"end": 35.627
+},
+{
+"text": "remember",
+"start": 35.782,
+"end": 35.937
+},
+{
+"text": "that",
+"start": 36.054,
+"end": 36.17
+},
+{
+"text": "second",
+"start": 36.248,
+"end": 36.481
+},
+{
+"text": "hundred",
+"start": 36.559,
+"end": 36.792
+},
+{
+"text": "thousand?",
+"start": 36.831,
+"end": 37.316
+},
+{
+"text": "It",
+"start": 37.394,
+"end": 37.471
+},
+{
+"text": "took",
+"start": 37.588,
+"end": 37.704
+},
+{
+"text": "under",
+"start": 37.898,
+"end": 38.093
+},
+{
+"text": "five",
+"start": 38.248,
+"end": 38.403
+},
+{
+"text": "years.",
+"start": 38.481,
+"end": 39.094
+},
+{
+"text": "The",
+"start": 39.172,
+"end": 39.25
+},
+{
+"text": "third?",
+"start": 39.405,
+"end": 39.665
+},
+{
+"text": "Under",
+"start": 39.743,
+"end": 40.054
+},
+{
+"text": "two.",
+"start": 40.131,
+"end": 40.58
+},
+{
+"text": "Final",
+"start": 40.658,
+"end": 40.891
+},
+{
+"text": "score.",
+"start": 41.046,
+"end": 41.771
+},
+{
+"text": "You",
+"start": 41.824,
+"end": 41.875
+},
+{
+"text": "put",
+"start": 41.953,
+"end": 42.03
+},
+{
+"text": "in",
+"start": 42.147,
+"end": 42.264
+},
+{
+"text": "one",
+"start": 42.341,
+"end": 42.497
+},
+{
+"text": "hundred",
+"start": 42.535,
+"end": 42.885
+},
+{
+"text": "twenty",
+"start": 43.001,
+"end": 43.118
+},
+{
+"text": "thousand",
+"start": 43.351,
+"end": 43.739
+},
+{
+"text": "dollars.",
+"start": 43.856,
+"end": 44.542
+},
+{
+"text": "It's",
+"start": 44.567,
+"end": 44.749
+},
+{
+"text": "worth",
+"start": 44.904,
+"end": 45.06
+},
+{
+"text": "almost",
+"start": 45.293,
+"end": 45.526
+},
+{
+"text": "four",
+"start": 45.642,
+"end": 45.759
+},
+{
+"text": "hundred",
+"start": 45.797,
+"end": 46.225
+},
+{
+"text": "ninety",
+"start": 46.302,
+"end": 46.613
+},
+{
+"text": "thousand.",
+"start": 46.691,
+"end": 47.505
+},
+{
+"text": "The",
+"start": 47.543,
+"end": 47.699
+},
+{
+"text": "first",
+"start": 47.815,
+"end": 47.932
+},
+{
+"text": "hundred",
+"start": 47.971,
+"end": 48.165
+},
+{
+"text": "thousand",
+"start": 48.242,
+"end": 48.553
+},
+{
+"text": "is",
+"start": 48.631,
+"end": 48.708
+},
+{
+"text": "the",
+"start": 48.786,
+"end": 48.864
+},
+{
+"text": "hardest.",
+"start": 48.98,
+"end": 49.595
+},
+{
+"text": "Then",
+"start": 49.634,
+"end": 50.022
+},
+{
+"text": "it",
+"start": 50.1,
+"end": 50.255
+},
+{
+"text": "snowballs.",
+"start": 50.333,
+"end": 51.187
+}
+]
+}
