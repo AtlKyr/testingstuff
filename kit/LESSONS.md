@@ -571,3 +571,24 @@ Classic frame-0 rules (1b, 1d, frame-0 notes): ≤4 big words or one giant numbe
 - wt() nth gotcha again: "one" in "$100K? ... one hundred thousand ... one hundred twenty" — count every lowercase occurrence in the
   WHOLE script (incl. "two thousand five") before picking nth; print the word list first.
 - Supermetrics trial notice on 2026-11-12: "expires in 2 days" -> if YT2 stops working, say so in the delivery message and continue.
+
+---------------------------------------------------------------------------------------------------------------------
+## 23. Added after #20 + #21 (2026-11-13) — fifth two-slot day (A trend: 10y yield 5.12% -> "sell when yields spike?", B: Friday the 13th)
+- Worked examples: `kit/ep20/` (FIRST episode with outside macro data: FRED DGS10 downloaded as CSV from
+  `https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2004-01-01&coed=2024-12-31` — FRED is reachable from the container;
+  saved as ep20/dgs10.csv, ffilled onto SPY dates; rule = 10y up >= 1.00 pt vs 252 days ago -> cash; race chart with orange "IN CASH" bands
+  (ZONES) and an XE switch (2006-2014 zoom early, full range later); yield_gauge(); real 2022 yield line in the Remember scene) and
+  `kit/ep21/` (Friday the 13th with close-to-close fills; calendar() page helper, black_cat() with a moonlit rim, cal_grid() = 35 calendar
+  pages that get crossed out / coloured green-red by the real day returns; red Friday-13 ticks along the race chart).
+  Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- PARAMETER-SENSITIVE WINNER AGAIN (#20): the +1.00 pt trigger lost ($58,226 vs $66,114) but +1.25 / +1.5 won ($73,271 / $75,172) and
+  +0.5 lost badly. Scan the parameter BEFORE writing the verdict; the honest last line was "Nudge the trigger, and the winner can flip."
+  plus an on-screen footnote with two other triggers. Never pick the threshold after seeing which one wins.
+- A BLACK object on a dark background disappears (the hook cat was only two yellow eyes in the first contact sheet). Give dark props a
+  light rim (draw the shape once enlarged in a light colour, then the dark fill on top).
+- big_title() at y 400-440 collides with the bunting title in scenes with a bunting; keep headline cards at y >= 470 (grid content from 600).
+- Two-slot timing: kit clone -> A delivered in ~20 min, B ~15 min later. 135/131 words -> 55.6/58.1 s raw -> tight 49.9/53.0 -> TEMPO 1.03
+  -> 48.5/51.5 s.
+- YT2 2026-11-13: #14 (trend, "Its best day since April. So, should you chase the bounce?") lost 45% of stayers at 5-12 s; #15 (belief A/B)
+  only 27% and then stayed flat (85/69/56 at 20/50/90%). Trend hooks: ONE news sentence, then A/B immediately. Belief/A-B topics keep
+  viewers better than trend openings so far. Supermetrics trial ends 2026-11-14.

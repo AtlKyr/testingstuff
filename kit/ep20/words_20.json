@@ -1,0 +1,679 @@
+{
+"words": [
+{
+"text": "The",
+"start": 0.129,
+"end": 0.155
+},
+{
+"text": "ten-year",
+"start": 0.272,
+"end": 0.621
+},
+{
+"text": "Treasury",
+"start": 0.699,
+"end": 1.01
+},
+{
+"text": "yield",
+"start": 1.165,
+"end": 1.398
+},
+{
+"text": "just",
+"start": 1.553,
+"end": 1.786
+},
+{
+"text": "topped",
+"start": 1.864,
+"end": 2.175
+},
+{
+"text": "five",
+"start": 2.252,
+"end": 2.485
+},
+{
+"text": "percent.",
+"start": 2.563,
+"end": 3.417
+},
+{
+"text": "It's",
+"start": 3.456,
+"end": 3.573
+},
+{
+"text": "up",
+"start": 3.612,
+"end": 3.65
+},
+{
+"text": "a",
+"start": 3.728,
+"end": 3.883
+},
+{
+"text": "full",
+"start": 3.961,
+"end": 4.194
+},
+{
+"text": "point",
+"start": 4.272,
+"end": 4.505
+},
+{
+"text": "in",
+"start": 4.583,
+"end": 4.816
+},
+{
+"text": "one",
+"start": 4.932,
+"end": 5.049
+},
+{
+"text": "year.",
+"start": 5.126,
+"end": 5.864
+},
+{
+"text": "So,",
+"start": 5.903,
+"end": 6.205
+},
+{
+"text": "do",
+"start": 6.231,
+"end": 6.257
+},
+{
+"text": "you",
+"start": 6.334,
+"end": 6.49
+},
+{
+"text": "sell",
+"start": 6.606,
+"end": 6.723
+},
+{
+"text": "stocks",
+"start": 6.917,
+"end": 7.111
+},
+{
+"text": "when",
+"start": 7.189,
+"end": 7.266
+},
+{
+"text": "yields",
+"start": 7.344,
+"end": 7.577
+},
+{
+"text": "spike?",
+"start": 7.655,
+"end": 8.111
+},
+{
+"text": "A:",
+"start": 8.189,
+"end": 8.608
+},
+{
+"text": "sell",
+"start": 8.685,
+"end": 9.074
+},
+{
+"text": "and",
+"start": 9.151,
+"end": 9.307
+},
+{
+"text": "hide.",
+"start": 9.384,
+"end": 9.906
+},
+{
+"text": "B:",
+"start": 9.983,
+"end": 10.378
+},
+{
+"text": "just",
+"start": 10.494,
+"end": 10.611
+},
+{
+"text": "hold.",
+"start": 10.805,
+"end": 11.142
+},
+{
+"text": "But",
+"start": 11.258,
+"end": 11.375
+},
+{
+"text": "one",
+"start": 11.453,
+"end": 11.608
+},
+{
+"text": "year",
+"start": 11.686,
+"end": 11.996
+},
+{
+"text": "hides",
+"start": 12.1,
+"end": 12.307
+},
+{
+"text": "the",
+"start": 12.385,
+"end": 12.462
+},
+{
+"text": "real",
+"start": 12.579,
+"end": 12.695
+},
+{
+"text": "answer.",
+"start": 12.928,
+"end": 13.305
+},
+{
+"text": "The",
+"start": 13.383,
+"end": 13.461
+},
+{
+"text": "rule:",
+"start": 13.616,
+"end": 14.16
+},
+{
+"text": "when",
+"start": 14.237,
+"end": 14.315
+},
+{
+"text": "the",
+"start": 14.393,
+"end": 14.47
+},
+{
+"text": "yield",
+"start": 14.587,
+"end": 14.703
+},
+{
+"text": "jumps",
+"start": 14.781,
+"end": 15.014
+},
+{
+"text": "a",
+"start": 15.131,
+"end": 15.247
+},
+{
+"text": "full",
+"start": 15.364,
+"end": 15.48
+},
+{
+"text": "point",
+"start": 15.597,
+"end": 15.713
+},
+{
+"text": "in",
+"start": 15.791,
+"end": 15.868
+},
+{
+"text": "a",
+"start": 15.946,
+"end": 16.024
+},
+{
+"text": "year,",
+"start": 16.14,
+"end": 16.437
+},
+{
+"text": "go",
+"start": 16.502,
+"end": 16.579
+},
+{
+"text": "to",
+"start": 16.657,
+"end": 16.735
+},
+{
+"text": "cash.",
+"start": 16.968,
+"end": 17.336
+},
+{
+"text": "Two",
+"start": 17.414,
+"end": 17.492
+},
+{
+"text": "thousand",
+"start": 17.569,
+"end": 17.88
+},
+{
+"text": "eight:",
+"start": 17.996,
+"end": 18.297
+},
+{
+"text": "yields",
+"start": 18.374,
+"end": 18.685
+},
+{
+"text": "fell,",
+"start": 18.763,
+"end": 19.229
+},
+{
+"text": "so",
+"start": 19.306,
+"end": 19.384
+},
+{
+"text": "the",
+"start": 19.462,
+"end": 19.539
+},
+{
+"text": "rule",
+"start": 19.656,
+"end": 19.772
+},
+{
+"text": "stayed",
+"start": 19.85,
+"end": 20.083
+},
+{
+"text": "in",
+"start": 20.161,
+"end": 20.394
+},
+{
+"text": "and",
+"start": 20.51,
+"end": 20.627
+},
+{
+"text": "crashed",
+"start": 20.704,
+"end": 21.093
+},
+{
+"text": "with",
+"start": 21.17,
+"end": 21.248
+},
+{
+"text": "everyone.",
+"start": 21.326,
+"end": 22.002
+},
+{
+"text": "Twenty",
+"start": 22.041,
+"end": 22.196
+},
+{
+"text": "thirteen:",
+"start": 22.274,
+"end": 22.948
+},
+{
+"text": "yields",
+"start": 23.026,
+"end": 23.336
+},
+{
+"text": "jump,",
+"start": 23.414,
+"end": 23.958
+},
+{
+"text": "it",
+"start": 24.074,
+"end": 24.191
+},
+{
+"text": "sells,",
+"start": 24.23,
+"end": 24.696
+},
+{
+"text": "and",
+"start": 24.734,
+"end": 24.89
+},
+{
+"text": "catches",
+"start": 25.006,
+"end": 25.356
+},
+{
+"text": "less",
+"start": 25.472,
+"end": 25.589
+},
+{
+"text": "than",
+"start": 25.705,
+"end": 25.822
+},
+{
+"text": "half",
+"start": 25.899,
+"end": 26.132
+},
+{
+"text": "the",
+"start": 26.21,
+"end": 26.288
+},
+{
+"text": "rally.",
+"start": 26.327,
+"end": 26.767
+},
+{
+"text": "Remember",
+"start": 27.026,
+"end": 27.078
+},
+{
+"text": "that",
+"start": 27.194,
+"end": 27.311
+},
+{
+"text": "one",
+"start": 27.388,
+"end": 27.544
+},
+{
+"text": "year?",
+"start": 27.66,
+"end": 27.992
+},
+{
+"text": "Twenty",
+"start": 28.109,
+"end": 28.225
+},
+{
+"text": "twenty-two.",
+"start": 28.303,
+"end": 29.029
+},
+{
+"text": "Yields",
+"start": 29.068,
+"end": 29.378
+},
+{
+"text": "exploded.",
+"start": 29.456,
+"end": 30.699
+},
+{
+"text": "The",
+"start": 30.776,
+"end": 30.854
+},
+{
+"text": "rule",
+"start": 31.009,
+"end": 31.165
+},
+{
+"text": "hid",
+"start": 31.242,
+"end": 31.32
+},
+{
+"text": "in",
+"start": 31.398,
+"end": 31.475
+},
+{
+"text": "cash",
+"start": 31.553,
+"end": 31.864
+},
+{
+"text": "and",
+"start": 31.941,
+"end": 32.097
+},
+{
+"text": "lost",
+"start": 32.291,
+"end": 32.485
+},
+{
+"text": "seven",
+"start": 32.563,
+"end": 32.796
+},
+{
+"text": "percent.",
+"start": 32.873,
+"end": 33.656
+},
+{
+"text": "Holders",
+"start": 33.681,
+"end": 34.096
+},
+{
+"text": "lost",
+"start": 34.173,
+"end": 34.406
+},
+{
+"text": "nineteen.",
+"start": 34.484,
+"end": 35.316
+},
+{
+"text": "It",
+"start": 35.394,
+"end": 35.472
+},
+{
+"text": "almost",
+"start": 35.549,
+"end": 35.938
+},
+{
+"text": "caught",
+"start": 36.015,
+"end": 36.093
+},
+{
+"text": "up.",
+"start": 36.171,
+"end": 36.494
+},
+{
+"text": "Then",
+"start": 36.533,
+"end": 36.844
+},
+{
+"text": "twenty",
+"start": 36.96,
+"end": 37.077
+},
+{
+"text": "twenty-three:",
+"start": 37.154,
+"end": 37.856
+},
+{
+"text": "out",
+"start": 37.895,
+"end": 38.05
+},
+{
+"text": "again,",
+"start": 38.361,
+"end": 38.652
+},
+{
+"text": "with",
+"start": 38.729,
+"end": 38.807
+},
+{
+"text": "half",
+"start": 38.885,
+"end": 39.04
+},
+{
+"text": "the",
+"start": 39.118,
+"end": 39.195
+},
+{
+"text": "rally.",
+"start": 39.234,
+"end": 39.68
+},
+{
+"text": "Final",
+"start": 39.813,
+"end": 40.046
+},
+{
+"text": "score.",
+"start": 40.123,
+"end": 40.847
+},
+{
+"text": "Yield",
+"start": 40.886,
+"end": 41.08
+},
+{
+"text": "rule:",
+"start": 41.158,
+"end": 41.701
+},
+{
+"text": "fifty-eight",
+"start": 41.74,
+"end": 42.245
+},
+{
+"text": "thousand",
+"start": 42.284,
+"end": 42.633
+},
+{
+"text": "two",
+"start": 42.711,
+"end": 42.866
+},
+{
+"text": "hundred.",
+"start": 42.944,
+"end": 43.437
+},
+{
+"text": "Just",
+"start": 43.476,
+"end": 43.631
+},
+{
+"text": "holding:",
+"start": 43.709,
+"end": 44.369
+},
+{
+"text": "sixty-six",
+"start": 44.408,
+"end": 44.951
+},
+{
+"text": "thousand",
+"start": 45.029,
+"end": 45.417
+},
+{
+"text": "one",
+"start": 45.495,
+"end": 45.65
+},
+{
+"text": "hundred.",
+"start": 45.689,
+"end": 46.227
+},
+{
+"text": "Nudge",
+"start": 46.265,
+"end": 46.46
+},
+{
+"text": "the",
+"start": 46.537,
+"end": 46.615
+},
+{
+"text": "trigger,",
+"start": 46.887,
+"end": 47.185
+},
+{
+"text": "and",
+"start": 47.21,
+"end": 47.236
+},
+{
+"text": "the",
+"start": 47.314,
+"end": 47.469
+},
+{
+"text": "winner",
+"start": 47.625,
+"end": 47.78
+},
+{
+"text": "can",
+"start": 47.896,
+"end": 48.013
+},
+{
+"text": "flip.",
+"start": 48.168,
+"end": 48.479
+}
+]
+}
