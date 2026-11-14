@@ -34,7 +34,7 @@ _rocco.COSTUME["doctor"] = [(2, 3, "KKKKKKKKKKKKK"), (1, 7, "KSSSSK"), (0, 7, "K
 def wt(word, nth=1):
     k = 0
     for w in WORDS:
-        if w["text"].strip(".,?:…—") == word:
+        if w["text"].strip(".,?:…—!;") == word:
             k += 1
             if k == nth:
                 return w["start"]

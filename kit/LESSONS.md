@@ -592,3 +592,20 @@ Classic frame-0 rules (1b, 1d, frame-0 notes): ≤4 big words or one giant numbe
 - YT2 2026-11-13: #14 (trend, "Its best day since April. So, should you chase the bounce?") lost 45% of stayers at 5-12 s; #15 (belief A/B)
   only 27% and then stayed flat (85/69/56 at 20/50/90%). Trend hooks: ONE news sentence, then A/B immediately. Belief/A-B topics keep
   viewers better than trend openings so far. Supermetrics trial ends 2026-11-14.
+
+---------------------------------------------------------------------------------------------------------------------
+## 24. Added after #22 + #23 (2026-11-14, Saturday) — sixth two-slot day (A trend: "best week since August" -> lock in profits?, B belief: 10% stop-loss)
+- Worked examples: `kit/ep22/` (weekly bars = last trading day of each W-FRI week; week >= +2.5% -> sell next open, buy back 21 trading days
+  later; sim22.csv carries IN/O/C so ZONES + zoom charts need no recompute; lock_icon(); spring_chart() = 2020 price with SELL tags on the
+  real sell dates; race x-range zooms from XE1 to the max-lead day) and `kit/ep23/` (10% trailing stop on the adj close + rebuy after +10% off
+  the low; shield() icon; zoom_chart() with SELL/BUY tags at the real fills for 2020 and 2022; a 15-card grid that turns red/green on the
+  spoken word for "bought back higher/lower"). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- WEEKEND RUN: no market on Saturday -> the trend hook used Friday's weekly result (best week since August, +2.5%, two closes from AP/Yahoo).
+- wt() now also strips "!" and ";" (_engine.py) — "ahead!" / "again!" failed as anchors before.
+- mapwords: "[dramatic pause]" is transcribed as two tokens ("[dramatic", "pause]") — skip tokens that END with "]" too (fixed in ep22/ep23 mapwords).
+- PARAMETER SENSITIVITY AGAIN (both today): the natural rule (1-month wait / +10% rebuy) lost, a nearby one won (1-week wait $74,462; +15% rebuy
+  $77,390). Kept the pre-chosen rule, said the winning variant out loud (A) or on a footnote with one winner + one loser variant (B).
+- Subscribr Intel: "used all your available Intel searches this month" on 2026-11-14 -> continue without it until the allowance resets.
+- YT2 2026-11-14: #16 (trend "Fed may hike", 51.8 s) 95/66/52/48/39/34/20 and #17 (belief "2007 top", 50.6 s) 104/74/61/51/46/35/18 at
+  10/20/30/50/75/90/100% — both lost ~41% of stayers at ~5–13 s (news/question line + A/B + clue). #17 engaged/views 39% vs #16 16%.
+- Timing: kit clone -> A delivered in ~15 min after topic choice, B ~10 min later. 134/134 words -> 56.1/59.3 s raw -> TEMPO 1.03 -> 49.8/51.5 s.
