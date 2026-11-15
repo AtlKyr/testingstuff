@@ -627,5 +627,5 @@ Classic frame-0 rules (1b, 1d, frame-0 notes): ≤4 big words or one giant numbe
   ("354 DAYS AFTER THE SELL" tag) so the cover headline is visibly backed by the video.
 - Parameter scan done BEFORE the verdict again: all 11 VIX trigger combos lost (best $57,059) -> robust verdict, shown as a footnote.
 - Supermetrics YT2: TRIAL_EXPIRED on 2026-11-15 -> no stats; told the user in the B message. Subscribr monthly search allowance still used up.
-- Timing: kit clone -> A delivered ~70 min later (topic research + two backtests took longest), B ~10 min after A. 135/137 words -> 60.6/61.3 s
+- Timing: kit clone 15:41 -> A delivered ~15:55, B ~16:00 (Istanbul). 135/137 words -> 60.6/61.3 s
   raw -> tight + TEMPO 1.04 -> 51.3/49.6 s.
