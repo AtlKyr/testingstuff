@@ -609,3 +609,23 @@ Classic frame-0 rules (1b, 1d, frame-0 notes): ≤4 big words or one giant numbe
 - YT2 2026-11-14: #16 (trend "Fed may hike", 51.8 s) 95/66/52/48/39/34/20 and #17 (belief "2007 top", 50.6 s) 104/74/61/51/46/35/18 at
   10/20/30/50/75/90/100% — both lost ~41% of stayers at ~5–13 s (news/question line + A/B + clue). #17 engaged/views 39% vs #16 16%.
 - Timing: kit clone -> A delivered in ~15 min after topic choice, B ~10 min later. 134/134 words -> 56.1/59.3 s raw -> TEMPO 1.03 -> 49.8/51.5 s.
+
+---------------------------------------------------------------------------------------------------------------------
+## 25. Added after #24 + #25 (2026-11-15, Sunday) — seventh two-slot day (A trend: VIX +69.7% in a day -> "sell the fear?", B belief: world's worst market timer)
+- Worked examples: `kit/ep24/` (FRED VIXCLS -> ep24/vix.csv ffilled onto SPY dates; VIX close >= 30 -> sell next open, < 20 -> buy back next open;
+  fear_gauge() dial = the old yield_gauge with a `val` needle; vix_chart() = VIX line with a dashed green "CALM = UNDER 20" level; the
+  2020 zoom chart is drawn only up to the "waits" word so the rebuy stays hidden until the Remember scene) and `kit/ep25/` ($1,000 a year at
+  the close of each year's highest close vs the twin at the lowest close; race_chart() override with a dashed stepped "MONEY PUT IN" line,
+  red dots on every worst-timer buy; peak_icon() = mountain line with a red BUY pin; hud() override "WORST TIMER: $??,???").
+  Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/). ep25's scenes file = ep24's scenes + overrides appended at the end.
+- SUNDAY TREND RUN: the weekly result had already been used (#22) -> used the month's biggest market event (10 days old) with "This month…"
+  instead of "Just" (LESSONS 21c). Verify % moves close-to-close: news headlines quoted 39% / 48% / 70% for the same VIX day (intraday vs close);
+  the spoken number must be the close-to-close one from >= 2 sources (247 Wall St 69.66%, thetrading.tools 69.7%).
+- MUSIC SWITCH SPACING: putting the 2nd switch at "Remember" and the 3rd at "Final score" gave only 5.5 s between them in #25 -> moved the
+  dark switch earlier (crash scene). Check `music switches` printed by audio_NN.py: >= ~8 s apart.
+- A cover number that the video only says in words ("almost a year" vs cover "354 DAYS") -> add the exact number on screen at the payoff
+  ("354 DAYS AFTER THE SELL" tag) so the cover headline is visibly backed by the video.
+- Parameter scan done BEFORE the verdict again: all 11 VIX trigger combos lost (best $57,059) -> robust verdict, shown as a footnote.
+- Supermetrics YT2: TRIAL_EXPIRED on 2026-11-15 -> no stats; told the user in the B message. Subscribr monthly search allowance still used up.
+- Timing: kit clone -> A delivered ~70 min later (topic research + two backtests took longest), B ~10 min after A. 135/137 words -> 60.6/61.3 s
+  raw -> tight + TEMPO 1.04 -> 51.3/49.6 s.

@@ -1,0 +1,26 @@
+EVENTS = [
+    (0.02, 540, 560, [C["red"], GOLD, C["white"]], 1.6),
+    (T["worst"], 540, 560, [C["red"], GOLD, C["white"]], 1.2),
+    (T["highest"], 540, 680, [GOLD, C["white"]], 1.1),
+    (T["money"], 540, 690, [GOLD, C["white"]], 1.0),
+    (T["A"], 310, 420, [TCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [REDC, C["white"]], 1.0),
+    (T["habit"], 540, 510, [GOLD, C["white"]], 1.0),
+    (T["thousand1"], 290, 430, [WCOL, C["white"]], 1.0),
+    (T["twin"], 790, 430, [TCOL, C["white"]], 1.0),
+    (T["exact"], 540, 440, [C["red"], C["white"]], 1.2),
+    (T["again"], 540, 530, [WCOL, GOLD, C["white"]], 1.2),
+    (T["half"], 540, 470, [C["red"], C["white"]], 1.4),
+    (T["bottom"], 540, 1080, [TCOL, C["white"]], 1.1),
+    (T["first"], 540, 1060, [C["red"], C["white"]], 1.1),
+    (T["drop"], 400, 800, [C["red"], C["white"]], 1.0),
+    (T["Remember"], 540, 520, [GOLD, C["white"]], 1.3),
+    (T["never"], 540, 470, [GOLD, TCOL, C["white"]], 1.6),
+    (T["rev1"], 540, 560, [TCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 790, [WCOL, GOLD, C["green"], C["white"]], 1.9),
+    (T["ever"], 540, 470, [GOLD, C["white"]], 1.3),
+    (T["tripled"], 550, 680, [TCOL, C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["worst"], T["highest"], T["A"], T["B"], T["habit"], T["thousand1"], T["twin"], T["exact"], T["again"], T["half"],
+         T["bottom"], T["first"], T["Remember"], T["never"], T["rev1"], T["rev2"], T["Worst2"], T["tripled"]]
+FLASH = [0.02, T["half"], T["never"], T["rev2"], T["tripled"]]
