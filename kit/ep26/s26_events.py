@@ -1,0 +1,25 @@
+EVENTS = [
+    (0.02, 540, 560, [C["red"], GOLD, C["white"]], 1.6),
+    (T["percent1"], 470, 560, [C["red"], GOLD, C["white"]], 1.3),
+    (T["morning1"], 540, 560, [GOLD, C["white"]], 1.1),
+    (T["A"], 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["next1"], 540, 510, [GOLD, C["white"]], 1.0),
+    (T["opens"], 290, 430, [LCOL, C["white"]], 1.0),
+    (T["buy"], 790, 430, [GRNC, C["white"]], 1.0),
+    (T["thirtyone"], 540, 440, [C["red"], C["white"]], 1.2),
+    (T["ahead"], 540, 530, [LCOL, GOLD, C["white"]], 1.2),
+    (T["flips"], 540, 440, [C["red"], C["white"]], 1.1),
+    (T["steps"], 540, 530, [GOLD, C["white"]], 1.0),
+    (T["Remember"], 540, 520, [GOLD, C["white"]], 1.3),
+    (T["higher"], 540, 1030, [GOLD, C["white"]], 1.2),
+    (T["Monday"], 540, 470, [GRNC, C["white"]], 1.0),
+    (T["eight2"], 540, 1050, [C["red"], GOLD, C["white"]], 1.6),
+    (T["rev1"], 540, 560, [HCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 790, [LCOL, GOLD, C["green"], C["white"]], 1.9),
+    (T["hurt"], 540, 680, [GOLD, C["white"]], 1.3),
+    (T["Leaving"], 550, 700, [C["red"], C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["percent1"], T["morning1"], T["A"], T["B"], T["next1"], T["opens"], T["buy"], T["thirtyone"], T["ahead"], T["flips"],
+         T["Remember"], T["higher"], T["eight2"], T["rev1"], T["rev2"], T["Even"], T["Leaving"]]
+FLASH = [0.02, T["flips"], T["eight2"], T["rev2"], T["Leaving"]]

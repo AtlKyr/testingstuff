@@ -629,3 +629,19 @@ Classic frame-0 rules (1b, 1d, frame-0 notes): ≤4 big words or one giant numbe
 - Supermetrics YT2: TRIAL_EXPIRED on 2026-11-15 -> no stats; told the user in the B message. Subscribr monthly search allowance still used up.
 - Timing: kit clone 15:41 -> A delivered ~15:55, B ~16:00 (Istanbul). 135/137 words -> 60.6/61.3 s
   raw -> tight + TEMPO 1.04 -> 51.3/49.6 s.
+
+---------------------------------------------------------------------------------------------------------------------
+## 26. Added after #26 + #27 (2026-11-16, Monday) — eighth two-slot day (A trend: Nasdaq futures ~-0.9% pre-market -> "sit out a red morning?", B belief: "only buy red days")
+- Worked examples: `kit/ep26/` (SPY opens <= -1% vs prior adj close -> sell at THAT open, buy back at the next open that isn't also a red
+  morning; race chart with one red tick per exit instead of cash zones; sunrise()/gap_candles() hook; dot_grid() = 215 exits, gold = bought back
+  higher; Oct 2008 zoom chart with SELL/BUY tags) and `kit/ep27/` ($500 on the first trading day: A buys at that open, B waits for a close
+  <= -1% and buys at that close; race chart with a dashed "MONEY PUT IN" line + tug() "WHO'S AHEAD?" knot (no numbers) for two near-identical
+  lines; cal_2017() month cards with the 4 real red days as candles; coin_stack()). Scene files = ep24 scenes + overrides appended (fast path).
+- MONDAY / PRE-MARKET RUN: production finishes before the US open -> the trend hook used pre-market futures ("before today's opening bell"),
+  rounded DOWN to what both sources support ("almost one percent": -0.91% TipRanks, -0.99% Yahoo).
+- A PHOTO-FINISH RESULT IS STILL A STORY: #27's gap was 0.3% ($1,443 of $490K). Keep the race but show WHO leads with a rakamsız tug bar,
+  and put the exact gap + two variants in the footnote. Verdict wording must not overclaim ("Red days don't build wealth. Paydays do.").
+- Fills that are NOT next-open (same-day open in #26, red-day close in #27) must be stated in the description's rule line.
+- AAC peak again: alimiter 0.80 gave -0.8 dBTP on #26; limit=0.76 -> -14.2 LUFS / -1.4 dBTP on both.
+- Supermetrics still TRIAL_EXPIRED and Subscribr monthly searches still used up on 2026-11-16.
+- Timing: 137/137 words -> 53.1/56.9 s raw -> tight + TEMPO 1.03/1.04 -> 47.7/50.2 s voice (48.7/51.2 s video).

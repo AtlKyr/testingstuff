@@ -1,0 +1,689 @@
+{
+"words": [
+{
+"text": "Nasdaq",
+"start": 0.155,
+"end": 0.544
+},
+{
+"text": "futures",
+"start": 0.583,
+"end": 0.932
+},
+{
+"text": "sank",
+"start": 0.971,
+"end": 1.243
+},
+{
+"text": "almost",
+"start": 1.437,
+"end": 1.631
+},
+{
+"text": "one",
+"start": 1.709,
+"end": 1.864
+},
+{
+"text": "percent",
+"start": 1.942,
+"end": 2.408
+},
+{
+"text": "before",
+"start": 2.485,
+"end": 2.718
+},
+{
+"text": "today's",
+"start": 2.835,
+"end": 3.029
+},
+{
+"text": "opening",
+"start": 3.184,
+"end": 3.34
+},
+{
+"text": "bell.",
+"start": 3.417,
+"end": 3.925
+},
+{
+"text": "Red",
+"start": 4.003,
+"end": 4.158
+},
+{
+"text": "morning.",
+"start": 4.236,
+"end": 4.775
+},
+{
+"text": "Sit",
+"start": 4.853,
+"end": 4.931
+},
+{
+"text": "out",
+"start": 5.008,
+"end": 5.086
+},
+{
+"text": "the",
+"start": 5.164,
+"end": 5.241
+},
+{
+"text": "day,",
+"start": 5.358,
+"end": 5.513
+},
+{
+"text": "A?",
+"start": 5.552,
+"end": 5.88
+},
+{
+"text": "Or",
+"start": 5.958,
+"end": 6.036
+},
+{
+"text": "hold,",
+"start": 6.113,
+"end": 6.657
+},
+{
+"text": "B?",
+"start": 6.735,
+"end": 7.218
+},
+{
+"text": "The",
+"start": 7.296,
+"end": 7.373
+},
+{
+"text": "trap",
+"start": 7.451,
+"end": 7.839
+},
+{
+"text": "is",
+"start": 7.917,
+"end": 7.995
+},
+{
+"text": "the",
+"start": 8.072,
+"end": 8.15
+},
+{
+"text": "next",
+"start": 8.228,
+"end": 8.461
+},
+{
+"text": "morning.",
+"start": 8.538,
+"end": 9.008
+},
+{
+"text": "The",
+"start": 9.047,
+"end": 9.086
+},
+{
+"text": "rule:",
+"start": 9.164,
+"end": 9.863
+},
+{
+"text": "if",
+"start": 9.902,
+"end": 9.94
+},
+{
+"text": "the",
+"start": 10.018,
+"end": 10.096
+},
+{
+"text": "S",
+"start": 10.173,
+"end": 10.251
+},
+{
+"text": "and",
+"start": 10.329,
+"end": 10.406
+},
+{
+"text": "P",
+"start": 10.484,
+"end": 10.639
+},
+{
+"text": "opens",
+"start": 10.717,
+"end": 11.028
+},
+{
+"text": "one",
+"start": 11.105,
+"end": 11.183
+},
+{
+"text": "percent",
+"start": 11.261,
+"end": 11.649
+},
+{
+"text": "lower,",
+"start": 11.805,
+"end": 12.271
+},
+{
+"text": "sell",
+"start": 12.348,
+"end": 12.426
+},
+{
+"text": "at",
+"start": 12.465,
+"end": 12.504
+},
+{
+"text": "the",
+"start": 12.581,
+"end": 12.659
+},
+{
+"text": "open,",
+"start": 12.737,
+"end": 13.086
+},
+{
+"text": "and",
+"start": 13.125,
+"end": 13.358
+},
+{
+"text": "buy",
+"start": 13.474,
+"end": 13.591
+},
+{
+"text": "back",
+"start": 13.707,
+"end": 13.824
+},
+{
+"text": "the",
+"start": 13.902,
+"end": 13.979
+},
+{
+"text": "next",
+"start": 14.096,
+"end": 14.212
+},
+{
+"text": "morning.",
+"start": 14.29,
+"end": 14.682
+},
+{
+"text": "Two",
+"start": 14.721,
+"end": 14.76
+},
+{
+"text": "thousand",
+"start": 14.837,
+"end": 15.148
+},
+{
+"text": "eight",
+"start": 15.303,
+"end": 15.459
+},
+{
+"text": "brings",
+"start": 15.536,
+"end": 15.847
+},
+{
+"text": "thirty-one",
+"start": 16.002,
+"end": 16.702
+},
+{
+"text": "red",
+"start": 16.779,
+"end": 16.935
+},
+{
+"text": "mornings.",
+"start": 17.012,
+"end": 17.905
+},
+{
+"text": "He",
+"start": 17.944,
+"end": 18.1
+},
+{
+"text": "dodges",
+"start": 18.138,
+"end": 18.566
+},
+{
+"text": "brutal",
+"start": 18.643,
+"end": 18.954
+},
+{
+"text": "days,",
+"start": 19.187,
+"end": 19.575
+},
+{
+"text": "and",
+"start": 19.653,
+"end": 19.731
+},
+{
+"text": "by",
+"start": 19.808,
+"end": 19.886
+},
+{
+"text": "two",
+"start": 19.925,
+"end": 19.964
+},
+{
+"text": "thousand",
+"start": 20.041,
+"end": 20.352
+},
+{
+"text": "eleven,",
+"start": 20.468,
+"end": 20.935
+},
+{
+"text": "the",
+"start": 20.973,
+"end": 21.129
+},
+{
+"text": "sitter",
+"start": 21.168,
+"end": 21.439
+},
+{
+"text": "is",
+"start": 21.478,
+"end": 21.517
+},
+{
+"text": "ahead!",
+"start": 21.595,
+"end": 22.204
+},
+{
+"text": "Then",
+"start": 22.398,
+"end": 22.592
+},
+{
+"text": "it",
+"start": 22.708,
+"end": 22.825
+},
+{
+"text": "flips.",
+"start": 22.903,
+"end": 23.679
+},
+{
+"text": "Every",
+"start": 23.873,
+"end": 24.068
+},
+{
+"text": "quick",
+"start": 24.184,
+"end": 24.301
+},
+{
+"text": "scare,",
+"start": 24.378,
+"end": 24.844
+},
+{
+"text": "he",
+"start": 24.922,
+"end": 25.0
+},
+{
+"text": "steps",
+"start": 25.155,
+"end": 25.31
+},
+{
+"text": "out.",
+"start": 25.388,
+"end": 25.663
+},
+{
+"text": "Remember",
+"start": 25.922,
+"end": 25.973
+},
+{
+"text": "the",
+"start": 26.051,
+"end": 26.129
+},
+{
+"text": "next",
+"start": 26.245,
+"end": 26.362
+},
+{
+"text": "morning?",
+"start": 26.439,
+"end": 26.811
+},
+{
+"text": "More",
+"start": 26.85,
+"end": 26.889
+},
+{
+"text": "than",
+"start": 26.967,
+"end": 27.2
+},
+{
+"text": "half",
+"start": 27.316,
+"end": 27.433
+},
+{
+"text": "the",
+"start": 27.51,
+"end": 27.588
+},
+{
+"text": "time,",
+"start": 27.666,
+"end": 28.015
+},
+{
+"text": "he",
+"start": 28.054,
+"end": 28.209
+},
+{
+"text": "bought",
+"start": 28.287,
+"end": 28.442
+},
+{
+"text": "back",
+"start": 28.52,
+"end": 28.753
+},
+{
+"text": "higher",
+"start": 28.831,
+"end": 29.141
+},
+{
+"text": "than",
+"start": 29.219,
+"end": 29.297
+},
+{
+"text": "he",
+"start": 29.374,
+"end": 29.452
+},
+{
+"text": "sold.",
+"start": 29.879,
+"end": 30.22
+},
+{
+"text": "One",
+"start": 30.259,
+"end": 30.414
+},
+{
+"text": "Friday",
+"start": 30.492,
+"end": 30.802
+},
+{
+"text": "in",
+"start": 30.88,
+"end": 30.958
+},
+{
+"text": "October",
+"start": 31.191,
+"end": 31.424
+},
+{
+"text": "two",
+"start": 31.501,
+"end": 31.579
+},
+{
+"text": "thousand",
+"start": 31.618,
+"end": 31.89
+},
+{
+"text": "eight,",
+"start": 31.967,
+"end": 32.278
+},
+{
+"text": "he",
+"start": 32.356,
+"end": 32.433
+},
+{
+"text": "sold",
+"start": 32.511,
+"end": 32.744
+},
+{
+"text": "at",
+"start": 32.783,
+"end": 32.822
+},
+{
+"text": "the",
+"start": 32.899,
+"end": 32.977
+},
+{
+"text": "open.",
+"start": 33.055,
+"end": 33.466
+},
+{
+"text": "Monday",
+"start": 33.505,
+"end": 33.738
+},
+{
+"text": "morning,",
+"start": 33.816,
+"end": 34.333
+},
+{
+"text": "he",
+"start": 34.386,
+"end": 34.437
+},
+{
+"text": "paid",
+"start": 34.631,
+"end": 34.825
+},
+{
+"text": "eight",
+"start": 34.942,
+"end": 35.058
+},
+{
+"text": "percent",
+"start": 35.292,
+"end": 35.525
+},
+{
+"text": "more.",
+"start": 35.602,
+"end": 36.394
+},
+{
+"text": "Final",
+"start": 36.433,
+"end": 36.666
+},
+{
+"text": "score.",
+"start": 36.743,
+"end": 37.268
+},
+{
+"text": "Just",
+"start": 37.307,
+"end": 37.463
+},
+{
+"text": "holding:",
+"start": 37.773,
+"end": 38.123
+},
+{
+"text": "seventy",
+"start": 38.162,
+"end": 38.472
+},
+{
+"text": "thousand",
+"start": 38.55,
+"end": 38.861
+},
+{
+"text": "dollars.",
+"start": 38.977,
+"end": 39.754
+},
+{
+"text": "Sitting",
+"start": 39.793,
+"end": 39.948
+},
+{
+"text": "out",
+"start": 40.026,
+"end": 40.181
+},
+{
+"text": "red",
+"start": 40.298,
+"end": 40.414
+},
+{
+"text": "mornings:",
+"start": 40.453,
+"end": 41.139
+},
+{
+"text": "fifty-one",
+"start": 41.165,
+"end": 41.734
+},
+{
+"text": "thousand.",
+"start": 41.773,
+"end": 42.299
+},
+{
+"text": "Even",
+"start": 42.364,
+"end": 42.597
+},
+{
+"text": "with",
+"start": 42.714,
+"end": 42.83
+},
+{
+"text": "zero",
+"start": 42.908,
+"end": 43.218
+},
+{
+"text": "fees,",
+"start": 43.374,
+"end": 43.762
+},
+{
+"text": "he",
+"start": 43.84,
+"end": 44.073
+},
+{
+"text": "still",
+"start": 44.267,
+"end": 44.461
+},
+{
+"text": "loses.",
+"start": 44.539,
+"end": 45.213
+},
+{
+"text": "Red",
+"start": 45.265,
+"end": 45.317
+},
+{
+"text": "mornings",
+"start": 45.394,
+"end": 45.783
+},
+{
+"text": "don't",
+"start": 45.821,
+"end": 46.016
+},
+{
+"text": "hurt.",
+"start": 46.054,
+"end": 46.533
+},
+{
+"text": "Leaving",
+"start": 46.572,
+"end": 47.077
+},
+{
+"text": "does.",
+"start": 47.271,
+"end": 47.698
+}
+]
+}
