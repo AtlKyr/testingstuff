@@ -44,6 +44,8 @@ Rules of thumb
 
 ---------------------------------------------------------------------------------------------------------------------
 ## 1b. Retention & mystery format — MANDATORY (user data 2026-11-05)
+> FROM #28 (2026-11-17): frame 0, the first sentence and the A/B timing follow SECTION 27 (first-2-seconds research +
+> V0/V1 A/B test). Everything else in 1b/1c/1e (hidden final score, race, "Remember…?" payoff, loop) still applies.
 Data from YouTube Studio: #2 Golden Cross was "viewed" (not swiped away) by only 15% of viewers; channel average 45%.
 The user wants more mystery / suspense so people stop scrolling and stay to the end.
 
@@ -645,3 +647,57 @@ Classic frame-0 rules (1b, 1d, frame-0 notes): ≤4 big words or one giant numbe
 - AAC peak again: alimiter 0.80 gave -0.8 dBTP on #26; limit=0.76 -> -14.2 LUFS / -1.4 dBTP on both.
 - Supermetrics still TRIAL_EXPIRED and Subscribr monthly searches still used up on 2026-11-16.
 - Timing: 137/137 words -> 53.1/56.9 s raw -> tight + TEMPO 1.03/1.04 -> 47.7/50.2 s voice (48.7/51.2 s video).
+
+---------------------------------------------------------------------------------------------------------------------
+## 27. FIRST 2 SECONDS — research 2026-11-17 (deep research + YouTube Studio AI review) — MANDATORY FROM #28
+Full report: Project doc `claude/ilk-2-saniye-arastirma-2026-11-17.md`. User approved: "rapora göre gelecekteki videolarımızın planını
+da düzenle". Key facts: YouTube calls the swipe metric "Stayed to watch" (stayed past "the initial seconds"; threshold not published).
+In the Shorts feed there is NO thumbnail — frame 0 + the first words ARE the thumbnail. Studio AI (2026-11-17): channel avg stayed 48.4%,
+best #3/#4 63–64% (they opened with a surprising number), avg viewed 54.5%. Our data: those "result-first" openers stopped the swipe but
+#4 then had the WORST curve and #2 (same type) the worst stayed (Studio 15%); the biggest loss on every Short is 5–13 s (2nd sentence).
+SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the verdict and the final $ hidden until the reveal.
+
+### 27a. Rules for BOTH variants
+1. Frame 0 = 3–5 words with ONE big number + a tension. Readable in 0.5 s (≈4 words/s). No full sentence, no number-less news words
+   (#16 "FED HIKES. / SELL?" → 16%), never the verdict ("73% WINNERS. STILL LOST." is banned — it spoils the race).
+2. The voice starts at 0.0 s and says the frame-0 words (first word ≤0.10 s in words_NN.json). tighten.py keeps ~0.17 s of leading
+   silence: if the first silence starts at <0.05 s, cut it completely; check that audio_NN.py places the VO at t=0. No music-only intro,
+   no fade from black, no breath, no channel name.
+3. Rocco at frame 0: big, LOOKING AT THE VIEWER (eyes/head turned to camera) and already moving (hop/turn in the first 0.3 s), holding
+   the object of the number when possible (SOLD tag, receipt, calendar page). Never asleep, back turned or static. No logo animation.
+4. The A/B question comes by ~2–3 s at the latest: ONE sentence, ≤6 words ("Saved you, A? Or cost you, B?"). Never a separate
+   "Make your guess / Guess now" sentence (#10 −36%).
+5. 2nd sentence ≤2.5 s and concrete; the rule in ONE sentence (≤5 s); the race starts on the word "B" (≤20% of runtime); a new picture
+   every ~2 s in the first 12 s. No indicator parameters or number piles in the first 15 s (#6 −51%, #4).
+6. Frame 0: no busy chart, no axes, no logo, max ONE number. Charts enter after ~1.5 s, axis-free.
+7. Honesty: every frame-0 number comes from the episode's backtest output (assert it) or from news verified in 2 sources; wording
+   literally true ("2017: JUST 4 DAYS DOWN 1%", not "never fell"); the final $ stays "$??,???" until the reveal (≥75%); market words
+   only (no party/candidate/election); cover keeps the coverlib look.
+8. Anti-template (YouTube "inauthentic content" policy names "stories with only superficial differences" and "the same narration"):
+   rewrite the stock lines every episode — do NOT reuse "The answer hides in one…", "Remember that one…?", "Final score." verbatim
+   two days in a row; vary the opening structure (the V0/V1 test does part of this).
+
+### 27b. A/B TEST: V0 (question-first, the old standard) vs V1 (tension-first hybrid) — only rule 1+first sentence differ
+| | V0 question-first | V1 tension-first |
+|---|---|---|
+| frame 0 | number + belief question: "−10% / STOP-LOSS?" | number + true surprising fact, no "?": "15 SELLS / 20 YEARS" |
+| 0.0–2.5 s | "Every trader hears it: always use a stop-loss." | "A ten percent stop-loss sold fifteen times." (≤7 words) |
+| ~2.5–5 s | "Saved you, A? Or cost you, B?" | same |
+| after | identical | identical |
+- V1's fact must NOT give away the verdict, the final $ or the hidden "Remember…?" item (e.g. #24's "354 days" never goes at frame 0).
+- Trend slot: V0 = news number + question ("−1% / SIT OUT?"); V1 = news number + a backtest count ("−1% OPENS: 215 SINCE 2005").
+- SLOT SCHEDULE (crossed so the slot effect cancels; slot B belief topics already retain better):
+  ODD date (17, 19, 21 Nov…): slot A = V1, slot B = V0 · EVEN date (18, 20, 22 Nov…): slot A = V0, slot B = V1.
+  Day 1 = 2026-11-17 (#28 A=V1, #29 B=V0) … Day 6 = 2026-11-22 (#38 A=V0, #39 B=V1). Extend the same pattern if undecided.
+- Keep equal: 48–54 s, 125–138 words, same voice/caption style, cover style, music rotation rules, comment sticker + FOLLOW text in both.
+- Measure: Studio "Stayed to watch" per Short, read MANUALLY by the user at 72 h (Supermetrics trial expired 2026-11-14); also avg
+  viewed %, the 20% point of the retention graph, Shorts-feed views. Record in `claude/short-backlog.md` → "İlk 2 saniye testi" table.
+  Shorts with <200 feed views at 72 h = "thin data".
+- Decision (fixed in advance): V1 wins if its median stayed % is ≥5 points above V0 AND it leads in both slots AND its avg viewed % is not
+  >3 points lower. V0 ≥5 points ahead → keep V0. Otherwise extend 6 more days, then pick the higher avg viewed %. Interim read on
+  2026-11-23 (no decision), decision ~2026-11-25/26.
+- Next single-variable tests after this one (same crossed design): comment sticker on/off (guard: comments, subs), on-screen FOLLOW
+  on/off (guard: subs per 1,000 views), optional V2 "verdict-first, number hidden" to test the Studio AI advice literally.
+- In each delivery message: say which variant (V0/V1) the Short uses, and ask the user to pick the SAME title style (HYPE or SAFE)
+  for both Shorts of the day.
+
