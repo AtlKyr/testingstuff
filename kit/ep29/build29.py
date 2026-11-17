@@ -1,0 +1,6 @@
+e=open("../_engine.py").read().replace("words_r2.json","words_29.json").replace("TOTAL = END + 1.4","TOTAL = END + 0.9")
+e=e.replace("#@@DATA@@",open("s29_data.py").read())
+e=e.replace("#@@MOTION@@",open("s29_timing.py").read())
+e=e.replace("#@@SCENES@@",open("../_dip_helpers.py").read()+"\n"+open("s29_helpers.py").read()+"\n"+open("s29_scenes.py").read())
+e=e.replace("#@@EVENTS@@",open("s29_events.py").read())
+open("render_29.py","w").write(e)

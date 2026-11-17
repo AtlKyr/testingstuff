@@ -701,3 +701,27 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - In each delivery message: say which variant (V0/V1) the Short uses, and ask the user to pick the SAME title style (HYPE or SAFE)
   for both Shorts of the day.
 
+
+---------------------------------------------------------------------------------------------------------------------
+## 28. Added after #28 + #29 (2026-11-17, Tuesday) — ninth two-slot day, Day 1 of the V0/V1 first-2-seconds test
+- Worked examples: `kit/ep28/` (A, V1: SPY close <= -2% -> sell next open, back at the next open after 10 trading days without a new
+  -2% close; race_chart() with orange cash bands from INN and an `x0` argument for zoomed windows (2020-21); day_cards() = 10 dated
+  cards (best/worst days) with OUT stamps; Decimal ROUND_HALF_UP assert for 64.5% -> "sixty-five") and `kit/ep29/` (B, V0: Turnaround
+  Tuesday = own SPY Monday close -> Tuesday close after red Mondays vs a twin after green Mondays; week_strip() with an "OWN IT" bracket,
+  cal_page() calendar sheets, three redacted counters). Scene files = ep26 scenes + overrides appended (ep29 = ep28 + overrides; RLEG /
+  SHOW_CASH / VMAX0 / VMIN0 globals make race_chart reusable). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- LEADING SILENCE: silencedetect (d=0.25) does not catch the ~0.1 s of air before the first word. tighten28.py finds the onset (first
+  sample > -40 dB) and starts the cut 15 ms before it -> voice onset 0.015 s in the final mp4. The scribe timestamp of word 1 is late
+  (0.13 s); set words_NN.json word 0 start to 0.02 so the caption and the hook pop line up with the real onset.
+- V1 FIRST SENTENCE TOO LONG (#28): "Sixty-five percent of two percent drops strike again within two weeks." = 11 words -> the A/B line
+  only came at 5.9 s. Keep V1 to <=7 spoken words; put the condition ("WITHIN 2 WEEKS") on an on-screen tag instead.
+- HONEST "MISSED ALL TEN": in-market flags at the CLOSE are not enough — check the previous close too. 9 of the 10 best days were fully
+  missed, the 10th (2009-03-23) was sold at that day's open (gap captured, rest missed). The script said exactly that.
+- PARAMETER SENSITIVITY AGAIN: -2% (news-chosen) lost, -3% won ($81,701). Verdict worded about the chosen rule ("Acting on it cost thirty
+  thousand") + footnote with one winning and one losing trigger.
+- A Tuesday-only strategy is a near-certain loser vs buy & hold (8% time in market) — the fair race is vs a twin with the same exposure
+  (after green Mondays); buy & hold is the third counter / the knife at the end.
+- 75% rule with a short tail: #29's first final number was at 74.8% -> TOTAL = END + 0.9 put the tear-off at 75.1%. Next time keep ~80% of
+  the words before "Final…".
+- Supermetrics still TRIAL_EXPIRED; Subscribr search allowance still used up (2026-11-17). Timing: 138/129 words -> 58.0/57.4 s raw ->
+  tight + TEMPO 1.04 -> 50.9/49.2 s voice (51.9/50.1 s video). Loudness -14.3/-2.0 and -14.2/-1.4 (alimiter 0.76).

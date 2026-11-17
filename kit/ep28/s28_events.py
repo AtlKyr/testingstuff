@@ -1,0 +1,28 @@
+EVENTS = [
+    (0.02, 540, 560, [C["red"], GOLD, C["white"]], 1.6),
+    (T["drops"], 300, 980, [C["red"], C["white"]], 1.0),
+    (T["strike"], 760, 980, [C["red"], GOLD, C["white"]], 1.3),
+    (T["within"], 540, 1050, [GOLD, C["white"]], 1.0),
+    (T["Monday"], 540, 560, [C["red"], C["white"]], 1.2),
+    (T["A"], 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["decide"], 540, 510, [GOLD, C["white"]], 1.0),
+    (T["drop"], 290, 430, [LCOL, C["white"]], 1.0),
+    (T["buy"], 790, 430, [GRNC, C["white"]], 1.0),
+    (T["eight"], 540, 440, [C["red"], C["white"]], 1.2),
+    (T["worst"], 540, 520, [C["red"], GOLD, C["white"]], 1.2),
+    (T["leads"], 540, 1040, [LCOL, GOLD, C["white"]], 1.3),
+    (T["wins"], 540, 500, [GOLD, C["white"]], 1.1),
+    (T["lead"], 540, 1040, [LCOL, C["white"]], 1.0),
+    (T["leaves"], 540, 530, [HCOL, C["white"]], 1.1),
+    (T["Those"], 540, 520, [GOLD, C["white"]], 1.3),
+    (T["best"], 540, 520, [GRNC, GOLD, C["white"]], 1.3),
+    (T["tenth"], 540, 1040, [C["red"], GOLD, C["white"]], 1.5),
+    (T["rev1"], 540, 560, [HCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 790, [LCOL, GOLD, C["green"], C["white"]], 1.9),
+    (T["right2"], 540, 480, [GOLD, C["white"]], 1.3),
+    (T["thirty"], 550, 700, [C["red"], C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["drops"], T["strike"], T["Monday"], T["A"], T["B"], T["decide"], T["drop"], T["buy"], T["eight"], T["worst"],
+         T["leads"], T["wins"], T["lead"], T["Those"], T["best"], T["tenth"], T["rev1"], T["rev2"], T["right2"], T["thirty"]]
+FLASH = [0.02, T["worst"], T["tenth"], T["rev2"], T["thirty"]]
