@@ -1,0 +1,639 @@
+{
+"words": [
+{
+"text": "One",
+"start": 0.02,
+"end": 0.211
+},
+{
+"text": "simple",
+"start": 0.365,
+"end": 0.672
+},
+{
+"text": "trend",
+"start": 0.826,
+"end": 1.134
+},
+{
+"text": "rule",
+"start": 1.211,
+"end": 1.442
+},
+{
+"text": "traded",
+"start": 1.519,
+"end": 1.826
+},
+{
+"text": "sixty-four",
+"start": 1.98,
+"end": 2.519
+},
+{
+"text": "times.",
+"start": 2.672,
+"end": 3.312
+},
+{
+"text": "Check",
+"start": 3.377,
+"end": 3.531
+},
+{
+"text": "it",
+"start": 3.57,
+"end": 3.608
+},
+{
+"text": "monthly,",
+"start": 3.685,
+"end": 4.031
+},
+{
+"text": "A?",
+"start": 4.07,
+"end": 4.301
+},
+{
+"text": "Or",
+"start": 4.391,
+"end": 4.622
+},
+{
+"text": "never,",
+"start": 4.853,
+"end": 5.391
+},
+{
+"text": "B?",
+"start": 5.468,
+"end": 5.759
+},
+{
+"text": "One",
+"start": 5.907,
+"end": 6.061
+},
+{
+"text": "choppy",
+"start": 6.215,
+"end": 6.599
+},
+{
+"text": "year",
+"start": 6.676,
+"end": 6.907
+},
+{
+"text": "settles",
+"start": 6.984,
+"end": 7.292
+},
+{
+"text": "it.",
+"start": 7.369,
+"end": 7.636
+},
+{
+"text": "The",
+"start": 7.715,
+"end": 7.753
+},
+{
+"text": "rule:",
+"start": 7.791,
+"end": 8.561
+},
+{
+"text": "own",
+"start": 8.638,
+"end": 8.791
+},
+{
+"text": "the",
+"start": 8.868,
+"end": 8.945
+},
+{
+"text": "S",
+"start": 9.022,
+"end": 9.099
+},
+{
+"text": "and",
+"start": 9.176,
+"end": 9.253
+},
+{
+"text": "P",
+"start": 9.33,
+"end": 9.561
+},
+{
+"text": "above",
+"start": 9.638,
+"end": 10.022
+},
+{
+"text": "its",
+"start": 10.099,
+"end": 10.253
+},
+{
+"text": "two-hundred-day",
+"start": 10.33,
+"end": 10.945
+},
+{
+"text": "average,",
+"start": 11.022,
+"end": 11.715
+},
+{
+"text": "cash",
+"start": 11.791,
+"end": 12.176
+},
+{
+"text": "below",
+"start": 12.33,
+"end": 12.561
+},
+{
+"text": "it.",
+"start": 12.638,
+"end": 12.868
+},
+{
+"text": "Checked",
+"start": 12.975,
+"end": 13.205
+},
+{
+"text": "every",
+"start": 13.282,
+"end": 13.513
+},
+{
+"text": "day,",
+"start": 13.59,
+"end": 14.052
+},
+{
+"text": "it",
+"start": 14.128,
+"end": 14.205
+},
+{
+"text": "keeps",
+"start": 14.282,
+"end": 14.513
+},
+{
+"text": "getting",
+"start": 14.628,
+"end": 14.744
+},
+{
+"text": "faked",
+"start": 14.898,
+"end": 15.128
+},
+{
+"text": "out.",
+"start": 15.205,
+"end": 15.513
+},
+{
+"text": "Checked",
+"start": 15.642,
+"end": 15.873
+},
+{
+"text": "once",
+"start": 15.95,
+"end": 16.026
+},
+{
+"text": "a",
+"start": 16.103,
+"end": 16.18
+},
+{
+"text": "month,",
+"start": 16.257,
+"end": 16.796
+},
+{
+"text": "it",
+"start": 16.873,
+"end": 16.95
+},
+{
+"text": "calms",
+"start": 17.026,
+"end": 17.257
+},
+{
+"text": "down.",
+"start": 17.45,
+"end": 17.68
+},
+{
+"text": "Two",
+"start": 17.776,
+"end": 17.853
+},
+{
+"text": "thousand",
+"start": 17.93,
+"end": 18.238
+},
+{
+"text": "eight.",
+"start": 18.315,
+"end": 18.718
+},
+{
+"text": "The",
+"start": 18.781,
+"end": 18.82
+},
+{
+"text": "monthly",
+"start": 18.858,
+"end": 19.166
+},
+{
+"text": "checker",
+"start": 19.243,
+"end": 19.551
+},
+{
+"text": "sells",
+"start": 19.628,
+"end": 19.935
+},
+{
+"text": "in",
+"start": 19.974,
+"end": 20.012
+},
+{
+"text": "January",
+"start": 20.166,
+"end": 20.704
+},
+{
+"text": "and",
+"start": 20.781,
+"end": 20.858
+},
+{
+"text": "dodges",
+"start": 21.012,
+"end": 21.397
+},
+{
+"text": "the",
+"start": 21.435,
+"end": 21.474
+},
+{
+"text": "crash.",
+"start": 21.551,
+"end": 22.109
+},
+{
+"text": "At",
+"start": 22.183,
+"end": 22.26
+},
+{
+"text": "the",
+"start": 22.337,
+"end": 22.414
+},
+{
+"text": "bottom,",
+"start": 22.607,
+"end": 22.876
+},
+{
+"text": "he",
+"start": 22.953,
+"end": 23.03
+},
+{
+"text": "has",
+"start": 23.145,
+"end": 23.26
+},
+{
+"text": "twice",
+"start": 23.376,
+"end": 23.645
+},
+{
+"text": "as",
+"start": 23.722,
+"end": 23.799
+},
+{
+"text": "much",
+"start": 23.876,
+"end": 24.03
+},
+{
+"text": "as",
+"start": 24.068,
+"end": 24.107
+},
+{
+"text": "the",
+"start": 24.183,
+"end": 24.26
+},
+{
+"text": "holder.",
+"start": 24.453,
+"end": 24.722
+},
+{
+"text": "Ten",
+"start": 24.828,
+"end": 24.982
+},
+{
+"text": "years",
+"start": 25.059,
+"end": 25.212
+},
+{
+"text": "later,",
+"start": 25.289,
+"end": 25.751
+},
+{
+"text": "he",
+"start": 25.828,
+"end": 25.905
+},
+{
+"text": "is",
+"start": 25.982,
+"end": 26.059
+},
+{
+"text": "still",
+"start": 26.212,
+"end": 26.52
+},
+{
+"text": "ahead!",
+"start": 26.597,
+"end": 27.135
+},
+{
+"text": "So",
+"start": 27.55,
+"end": 27.588
+},
+{
+"text": "checking",
+"start": 27.819,
+"end": 28.203
+},
+{
+"text": "less",
+"start": 28.357,
+"end": 28.665
+},
+{
+"text": "wins?",
+"start": 28.819,
+"end": 29.362
+},
+{
+"text": "Remember",
+"start": 29.447,
+"end": 29.678
+},
+{
+"text": "that",
+"start": 29.755,
+"end": 29.832
+},
+{
+"text": "choppy",
+"start": 29.909,
+"end": 30.217
+},
+{
+"text": "year?",
+"start": 30.332,
+"end": 30.524
+},
+{
+"text": "Twenty",
+"start": 30.627,
+"end": 30.78
+},
+{
+"text": "twenty-two.",
+"start": 30.934,
+"end": 31.473
+},
+{
+"text": "He",
+"start": 31.613,
+"end": 31.69
+},
+{
+"text": "buys,",
+"start": 31.767,
+"end": 32.383
+},
+{
+"text": "loses",
+"start": 32.46,
+"end": 32.767
+},
+{
+"text": "nine",
+"start": 32.844,
+"end": 32.998
+},
+{
+"text": "percent,",
+"start": 33.075,
+"end": 33.767
+},
+{
+"text": "sells.",
+"start": 33.844,
+"end": 34.384
+},
+{
+"text": "Buys",
+"start": 34.475,
+"end": 34.629
+},
+{
+"text": "again,",
+"start": 34.706,
+"end": 35.321
+},
+{
+"text": "loses",
+"start": 35.398,
+"end": 35.706
+},
+{
+"text": "again.",
+"start": 35.783,
+"end": 36.167
+},
+{
+"text": "The",
+"start": 36.245,
+"end": 36.322
+},
+{
+"text": "holder",
+"start": 36.399,
+"end": 36.784
+},
+{
+"text": "just",
+"start": 36.937,
+"end": 37.091
+},
+{
+"text": "sits",
+"start": 37.168,
+"end": 37.399
+},
+{
+"text": "there,",
+"start": 37.476,
+"end": 37.86
+},
+{
+"text": "and",
+"start": 37.937,
+"end": 38.014
+},
+{
+"text": "quietly",
+"start": 38.168,
+"end": 38.63
+},
+{
+"text": "catches",
+"start": 38.707,
+"end": 39.091
+},
+{
+"text": "up.",
+"start": 39.168,
+"end": 39.399
+},
+{
+"text": "Final",
+"start": 39.767,
+"end": 39.998
+},
+{
+"text": "score.",
+"start": 40.152,
+"end": 40.537
+},
+{
+"text": "The",
+"start": 40.661,
+"end": 40.738
+},
+{
+"text": "monthly",
+"start": 40.815,
+"end": 41.046
+},
+{
+"text": "checker:",
+"start": 41.123,
+"end": 41.738
+},
+{
+"text": "fifty-nine",
+"start": 41.815,
+"end": 42.507
+},
+{
+"text": "thousand",
+"start": 42.738,
+"end": 43.123
+},
+{
+"text": "dollars.",
+"start": 43.2,
+"end": 43.823
+},
+{
+"text": "Never",
+"start": 43.932,
+"end": 44.086
+},
+{
+"text": "checked:",
+"start": 44.163,
+"end": 44.778
+},
+{
+"text": "seventy-one",
+"start": 44.855,
+"end": 45.471
+},
+{
+"text": "thousand.",
+"start": 45.624,
+"end": 46.147
+},
+{
+"text": "Monthly",
+"start": 46.303,
+"end": 46.687
+},
+{
+"text": "beat",
+"start": 46.918,
+"end": 47.149
+},
+{
+"text": "daily.",
+"start": 47.303,
+"end": 47.759
+},
+{
+"text": "Never",
+"start": 47.906,
+"end": 48.136
+},
+{
+"text": "checking",
+"start": 48.213,
+"end": 48.598
+},
+{
+"text": "beat",
+"start": 48.752,
+"end": 48.983
+},
+{
+"text": "both.",
+"start": 49.06,
+"end": 49.598
+}
+]
+}

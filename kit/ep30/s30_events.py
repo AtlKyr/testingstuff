@@ -1,0 +1,25 @@
+EVENTS = [
+    (0.02, 540, 450, [C["red"], GOLD, C["white"]], 1.6),
+    (T["four1"], 540, 330, [C["red"], GOLD, C["white"]], 1.3),
+    (T["A1"], 310, 420, [ACOL, C["white"]], 1.0),
+    (T["B1"], 770, 420, [BCOL, C["white"]], 1.0),
+    (T["October1"], 540, 510, [GOLD, C["white"]], 1.0),
+    (T["thousand1"], 540, 330, [GOLD, C["white"]], 1.0),
+    (T["A2"], 290, 475, [ACOL, C["white"]], 1.0),
+    (T["B2"], 790, 475, [BCOL, C["white"]], 1.0),
+    (T["neck"], 540, 440, [GOLD, C["white"]], 1.1),
+    (T["knife"], 400, 700, [ACOL, C["white"]], 1.0),
+    (T["cheaper"], 540, 1045, [GRNC, GOLD, C["white"]], 1.4),
+    (T["Now"], 540, 520, [GOLD, C["white"]], 1.3),
+    (T["Two2"], 540, 880, [C["red"], C["white"]], 1.3),
+    (T["three"], 540, 450, [C["red"], C["white"]], 1.1),
+    (T["Green"], 540, 600, [GRNC, GOLD, C["white"]], 1.7),
+    (T["seven"], 540, 1060, [C["red"], GOLD, C["white"]], 1.5),
+    (T["rev1"], 540, 560, [BCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 790, [ACOL, GOLD, C["green"], C["white"]], 1.9),
+    (T["safer"], 540, 470, [GOLD, C["white"]], 1.3),
+    (T["cost"], 550, 660, [GRNC, C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["four1"], T["A1"], T["B1"], T["October1"], T["thousand1"], T["neck"], T["knife"], T["cheaper"], T["Now"],
+         T["Two2"], T["three"], T["Green"], T["seven"], T["rev1"], T["rev2"], T["Waiting"], T["cost"]]
+FLASH = [0.02, T["Green"], T["seven"], T["rev2"], T["cost"]]

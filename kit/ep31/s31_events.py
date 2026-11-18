@@ -1,0 +1,25 @@
+EVENTS = [
+    (0.02, 540, 450, [GOLD, C["white"]], 1.6),
+    (T["sixtyfour"], 540, 380, [GOLD, C["red"], C["white"]], 1.3),
+    (T["A1"], 310, 420, [ACOL, C["white"]], 1.0),
+    (T["B1"], 770, 420, [BCOL, C["white"]], 1.0),
+    (T["choppy1"], 540, 510, [GOLD, C["white"]], 1.0),
+    (T["own"], 290, 465, [GRNC, C["white"]], 1.0),
+    (T["cash"], 790, 465, [C["red"], C["white"]], 1.0),
+    (T["faked"], 540, 440, [C["red"], C["white"]], 1.1),
+    (T["calms"], 540, 1050, [ACOL, C["white"]], 1.1),
+    (T["sells"], 540, 440, [ACOL, C["white"]], 1.1),
+    (T["twice"], 540, 530, [ACOL, GOLD, C["white"]], 1.5),
+    (T["ahead"], 540, 440, [ACOL, GOLD, C["white"]], 1.2),
+    (T["Remember"], 540, 520, [GOLD, C["white"]], 1.3),
+    (T["nine"], 540, 1050, [C["red"], C["white"]], 1.3),
+    (T["loses2"], 540, 1050, [C["red"], C["white"]], 1.2),
+    (T["catches"], 540, 450, [BCOL, C["white"]], 1.2),
+    (T["rev1"], 540, 560, [ACOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 790, [BCOL, GOLD, C["green"], C["white"]], 1.9),
+    (T["daily"], 540, 470, [GOLD, C["white"]], 1.3),
+    (T["both"], 550, 660, [GRNC, C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["sixtyfour"], T["A1"], T["B1"], T["choppy1"], T["own"], T["faked"], T["calms"], T["sells"], T["twice"], T["ahead"],
+         T["Remember"], T["nine"], T["loses2"], T["catches"], T["rev1"], T["rev2"], T["Monthly"], T["both"]]
+FLASH = [0.02, T["twice"], T["nine"], T["rev2"], T["both"]]

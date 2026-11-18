@@ -727,13 +727,20 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
   tight + TEMPO 1.04 -> 50.9/49.2 s voice (51.9/50.1 s video). Loudness -14.3/-2.0 and -14.2/-1.4 (alimiter 0.76).
 
 ---------------------------------------------------------------------------------------------------------------------
-## 29. 2026-11-18 (Wednesday) — run STOPPED: ElevenLabs credits exhausted (255 of 40,000 left; ~790 needed per Short)
-- Both TTS calls failed at once ("exceeds your quota"). Per the rules: no other voice, no retry -> user told; nothing rendered.
-- Prepared and saved for the next run (re-check topics against the news before reusing): `kit/ep30/` (bt30.py: after N straight
-  red closes, KNIFE adds $1,000 at the next open vs WAITER at the open after the first green close; N=4: $450,235 vs $448,161,
-  107 streaks, waiter paid more 70/107; knife wins at N=2..6; worst wait Oct 2008 +7.4% after the +14.5% day 2008-10-13, best wait
-  Dec 2018 -4.4%) and `kit/ep31/` (bt31.py: 200-day rule checked monthly $58,761 / 12 trades vs daily $43,796 / 64 vs buy & hold
-  $70,891; weekly check $38,865 (worse than daily -> don't claim "checking less always wins"); monthly led B&H 2x at the 2009 low,
-  B&H passed it for good on 2022-11-09). Both script.txt files passed the number asserts.
-- TIP: before the TTS calls, a cheap check is `creative_generate_speech(estimate_only=true)`; account_get_usage needs a connector
-  permission the current ElevenLabs connection does not have.
+## 29. Added after #30 + #31 (2026-11-18, Wednesday) — Day 2 of the V0/V1 test; ElevenLabs credits ran out mid-run
+- CREDITS: the first TTS calls failed ("exceeds your quota of 40000 — 255 credits remaining"). Per the rules: no other voice, no retry,
+  user told (SendUserMessage + push). The user topped up ~20 min later and said "yeniledim" -> same two prompts fired once each, both OK.
+  account_get_usage needs a connector permission we don't have; a failed generation is not charged. Keep backtests + scripts saved
+  before TTS so a stopped run resumes fast (they were pushed to kit/ep30, ep31 at the stop).
+- Worked examples: `kit/ep30/` (A, V0: after N=4 straight red closes, KNIFE adds $1,000 at the next open vs WAITER at the open after the
+  first green close; $450,235 vs $448,161, 107 streaks, waiter paid more 70/107; knife wins for N=2..6; candle_zoom() = daily candles
+  with BUY tags at the real opens + a glowing highlight on one candle (the +14.5% day 2008-10-13); knife() icon; Oct-2008 payoff told
+  AFTER a Christmas-2018 counter-example) and `kit/ep31/` (B, V1: 200-day rule checked monthly $58,761 / 12 trades vs never (B&H)
+  $70,891 vs daily ghost $43,796 / 64; barcode() = IN/OUT strips daily vs monthly; race with DV ghost line; zoom_chart BUY/SELL tags
+  for the two losing 2022 trades). Scene files = ep27 scenes + #30 overrides (+ #31 overrides appended). Same run recipe.
+- HONESTY: weekly checking ($38,865) was WORSE than daily -> the verdict says "Monthly beat daily" (not "checking less wins") and the
+  weekly number is in the footnote. Always scan the neighbouring parameter before a "less is more" verdict.
+- TWO PHOTO FINISHES IN 3 DAYS (#27, #30: same money, only the buy timing differs) -> avoid that format for a while (anti-template).
+- wt("He", 2) failed: "he has / he is" are lowercase -> only one capital "He". Count capitals separately (again).
+- AAC peak: alimiter 0.76 gave -0.6 dBTP on #30; 0.74 -> -14.3 LUFS / -1.7 dBTP; 0.70 + volume -0.3 dB dropped to -14.6 LUFS (too low).
+- Timing: 132/127 words -> 55.4/56.6 s raw -> tight + TEMPO 1.04 -> 49.2/49.6 s voice (50.2/50.6 s video). Render ~2 min each.
