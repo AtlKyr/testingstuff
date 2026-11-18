@@ -725,3 +725,15 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
   the words before "Final…".
 - Supermetrics still TRIAL_EXPIRED; Subscribr search allowance still used up (2026-11-17). Timing: 138/129 words -> 58.0/57.4 s raw ->
   tight + TEMPO 1.04 -> 50.9/49.2 s voice (51.9/50.1 s video). Loudness -14.3/-2.0 and -14.2/-1.4 (alimiter 0.76).
+
+---------------------------------------------------------------------------------------------------------------------
+## 29. 2026-11-18 (Wednesday) — run STOPPED: ElevenLabs credits exhausted (255 of 40,000 left; ~790 needed per Short)
+- Both TTS calls failed at once ("exceeds your quota"). Per the rules: no other voice, no retry -> user told; nothing rendered.
+- Prepared and saved for the next run (re-check topics against the news before reusing): `kit/ep30/` (bt30.py: after N straight
+  red closes, KNIFE adds $1,000 at the next open vs WAITER at the open after the first green close; N=4: $450,235 vs $448,161,
+  107 streaks, waiter paid more 70/107; knife wins at N=2..6; worst wait Oct 2008 +7.4% after the +14.5% day 2008-10-13, best wait
+  Dec 2018 -4.4%) and `kit/ep31/` (bt31.py: 200-day rule checked monthly $58,761 / 12 trades vs daily $43,796 / 64 vs buy & hold
+  $70,891; weekly check $38,865 (worse than daily -> don't claim "checking less always wins"); monthly led B&H 2x at the 2009 low,
+  B&H passed it for good on 2022-11-09). Both script.txt files passed the number asserts.
+- TIP: before the TTS calls, a cheap check is `creative_generate_speech(estimate_only=true)`; account_get_usage needs a connector
+  permission the current ElevenLabs connection does not have.
