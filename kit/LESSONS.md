@@ -744,3 +744,23 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - wt("He", 2) failed: "he has / he is" are lowercase -> only one capital "He". Count capitals separately (again).
 - AAC peak: alimiter 0.76 gave -0.6 dBTP on #30; 0.74 -> -14.3 LUFS / -1.7 dBTP; 0.70 + volume -0.3 dB dropped to -14.6 LUFS (too low).
 - Timing: 132/127 words -> 55.4/56.6 s raw -> tight + TEMPO 1.04 -> 49.2/49.6 s voice (50.2/50.6 s video). Render ~2 min each.
+
+---------------------------------------------------------------------------------------------------------------------
+## 30. Added after #32 + #33 (2026-11-19, Thursday) — Day 3 of the V0/V1 test (A = V1, B = V0)
+- Worked examples: `kit/ep32/` (A, V1 trend: S&P fell 5 sessions in a row on 2026-11-18 (7,323.63, longest streak since June, AP +
+  Yahoo). Rule: 5th straight red adj close -> sell next open, buy back at the open 21 trading days later. $40,856 vs $70,214, 36 sells,
+  25 rebought higher; hidden thing = "day six" (closed green 27 of 43 times); red_streak() candles, d6_grid() = 43 cards by year that
+  turn green/red; 2020 zoom with SELL/BUY dots) and `kit/ep33/` (B, V0 belief "be greedy when others are fearful": VIX close >= 30 ->
+  buy next open, sell after 252 trading days with no new VIX >= 30 close; 5 trades, 5 winners, still $32,393 vs $70,214 because of
+  cash years; hidden thing = the Dec 2012 - Aug 2015 quiet stretch (market +40%); trade_cards(); fear_gauge() from ep24).
+  Scene files = ep28 scenes + #32 overrides (+ #33 overrides). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- NAME CLASH IN THE CHAINED SCENE FILES: the data module's `Q0, Q1` were silently overwritten by an old episode's module-level
+  `Q0, Q1 = di("2008-09-29") ...` further down the concatenated render file -> the Remember zoom chart was empty in the first snap.
+  Give new module-level globals unique names (QA0/QA1) and snap every scene before rendering.
+- `for f in ../ep28/*.py; cp ... sed 28->32` ALSO copied bt28.py over the freshly written bt32.py. Copy the template BEFORE writing
+  the new backtest, or exclude bt*.py.
+- V1 trend opener: "Five straight red days: forty-three times. It just happened again." = news tie-in as a 2nd short sentence; the
+  A/B line then came at 4.5 s (target 2–3 s). Next time fold the news into sentence 1 or drop it to on-screen text.
+- "Win rate 100%, still lost" (#33) is a great mid-video twist but is a verdict-ish fact: keep it after the race starts (~28 s), never at frame 0.
+- Timing: 133/136 words -> 61.4/60.7 s raw -> tight + TEMPO 1.05 -> 52.1/51.3 s voice (53.1/52.3 s video). Renders ~2 min each.
+  Supermetrics still TRIAL_EXPIRED; Subscribr monthly search allowance still used up.

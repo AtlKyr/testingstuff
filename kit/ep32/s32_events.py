@@ -1,0 +1,27 @@
+EVENTS = [
+    (0.02, 540, 560, [C["red"], GOLD, C["white"]], 1.6),
+    (T["fortythree"], 520, 650, [C["red"], C["white"]], 1.3),
+    (T["times1"], 540, 900, [GOLD, C["white"]], 1.0),
+    (T["again"], 540, 640, [C["red"], C["white"]], 1.2),
+    (T["A"], 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["six1"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["sell"], 290, 430, [LCOL, C["white"]], 1.0),
+    (T["month"], 790, 430, [GRNC, C["white"]], 1.0),
+    (T["eight"], 540, 440, [C["red"], C["white"]], 1.2),
+    (T["sneaks"], 540, 530, [LCOL, GOLD, C["white"]], 1.2),
+    (T["bounces"], 540, 440, [GRNC, C["white"]], 1.1),
+    (T["gone"], 540, 530, [HCOL, C["white"]], 1.2),
+    (T["Twenty"], 540, 460, [C["red"], C["white"]], 1.1),
+    (T["lower"], 540, 1060, [GRNC, C["white"]], 1.1),
+    (T["Remember"], 540, 560, [GOLD, C["white"]], 1.3),
+    (T["green"], 540, 700, [GRNC, GOLD, C["white"]], 1.3),
+    (T["twentyseven"], 540, 1000, [GRNC, GOLD, C["white"]], 1.5),
+    (T["rev1"], 540, 560, [LCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 790, [HCOL, GOLD, C["green"], C["white"]], 1.9),
+    (T["Mostly"], 540, 690, [GOLD, C["white"]], 1.4),
+    (T["discount"], 550, 860, [C["red"], C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["fortythree"], T["times1"], T["again"], T["A"], T["B"], T["six1"], T["sell"], T["month"], T["eight"], T["sneaks"],
+         T["bounces"], T["gone"], T["Twenty"], T["lower"], T["Remember"], T["twentyseven"], T["rev1"], T["rev2"], T["Mostly"], T["discount"]]
+FLASH = [0.02, T["Remember"], T["twentyseven"], T["rev2"], T["discount"]]

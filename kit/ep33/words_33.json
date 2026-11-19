@@ -1,0 +1,684 @@
+{
+"words": [
+{
+"text": "Fear",
+"start": 0.0,
+"end": 0.331
+},
+{
+"text": "hits",
+"start": 0.378,
+"end": 0.683
+},
+{
+"text": "thirty.",
+"start": 0.759,
+"end": 1.31
+},
+{
+"text": "Do",
+"start": 1.348,
+"end": 1.386
+},
+{
+"text": "you",
+"start": 1.462,
+"end": 1.5
+},
+{
+"text": "buy?",
+"start": 1.538,
+"end": 1.999
+},
+{
+"text": "Buy",
+"start": 2.075,
+"end": 2.151
+},
+{
+"text": "the",
+"start": 2.228,
+"end": 2.304
+},
+{
+"text": "panic,",
+"start": 2.38,
+"end": 2.761
+},
+{
+"text": "A?",
+"start": 2.875,
+"end": 3.076
+},
+{
+"text": "Or",
+"start": 3.144,
+"end": 3.372
+},
+{
+"text": "just",
+"start": 3.601,
+"end": 3.753
+},
+{
+"text": "hold,",
+"start": 3.906,
+"end": 4.515
+},
+{
+"text": "B?",
+"start": 4.591,
+"end": 4.896
+},
+{
+"text": "One",
+"start": 5.025,
+"end": 5.253
+},
+{
+"text": "quiet",
+"start": 5.406,
+"end": 5.71
+},
+{
+"text": "stretch",
+"start": 5.786,
+"end": 6.167
+},
+{
+"text": "decides",
+"start": 6.244,
+"end": 6.625
+},
+{
+"text": "it.",
+"start": 6.701,
+"end": 6.944
+},
+{
+"text": "The",
+"start": 7.032,
+"end": 7.108
+},
+{
+"text": "rule:",
+"start": 7.184,
+"end": 7.744
+},
+{
+"text": "when",
+"start": 7.82,
+"end": 7.896
+},
+{
+"text": "the",
+"start": 7.934,
+"end": 7.973
+},
+{
+"text": "fear",
+"start": 8.049,
+"end": 8.277
+},
+{
+"text": "gauge",
+"start": 8.353,
+"end": 8.582
+},
+{
+"text": "closes",
+"start": 8.658,
+"end": 9.039
+},
+{
+"text": "at",
+"start": 9.153,
+"end": 9.268
+},
+{
+"text": "thirty",
+"start": 9.344,
+"end": 9.573
+},
+{
+"text": "or",
+"start": 9.649,
+"end": 9.801
+},
+{
+"text": "higher,",
+"start": 9.992,
+"end": 10.487
+},
+{
+"text": "buy",
+"start": 10.639,
+"end": 10.792
+},
+{
+"text": "at",
+"start": 10.868,
+"end": 10.944
+},
+{
+"text": "the",
+"start": 10.982,
+"end": 11.02
+},
+{
+"text": "next",
+"start": 11.173,
+"end": 11.401
+},
+{
+"text": "open,",
+"start": 11.477,
+"end": 11.934
+},
+{
+"text": "then",
+"start": 12.086,
+"end": 12.239
+},
+{
+"text": "stay",
+"start": 12.467,
+"end": 12.696
+},
+{
+"text": "in",
+"start": 12.772,
+"end": 12.924
+},
+{
+"text": "until",
+"start": 13.001,
+"end": 13.229
+},
+{
+"text": "a",
+"start": 13.305,
+"end": 13.382
+},
+{
+"text": "calm",
+"start": 13.458,
+"end": 13.763
+},
+{
+"text": "year",
+"start": 13.839,
+"end": 13.991
+},
+{
+"text": "passes.",
+"start": 14.067,
+"end": 14.7
+},
+{
+"text": "At",
+"start": 14.73,
+"end": 14.883
+},
+{
+"text": "first,",
+"start": 14.959,
+"end": 15.568
+},
+{
+"text": "no",
+"start": 15.645,
+"end": 15.721
+},
+{
+"text": "fear,",
+"start": 15.797,
+"end": 16.266
+},
+{
+"text": "so",
+"start": 16.342,
+"end": 16.571
+},
+{
+"text": "it",
+"start": 16.647,
+"end": 16.799
+},
+{
+"text": "sits",
+"start": 16.837,
+"end": 17.028
+},
+{
+"text": "in",
+"start": 17.066,
+"end": 17.104
+},
+{
+"text": "cash.",
+"start": 17.18,
+"end": 17.678
+},
+{
+"text": "August",
+"start": 17.735,
+"end": 18.039
+},
+{
+"text": "two",
+"start": 18.192,
+"end": 18.268
+},
+{
+"text": "thousand",
+"start": 18.344,
+"end": 18.573
+},
+{
+"text": "seven,",
+"start": 18.725,
+"end": 19.218
+},
+{
+"text": "fear",
+"start": 19.37,
+"end": 19.675
+},
+{
+"text": "finally",
+"start": 19.904,
+"end": 20.285
+},
+{
+"text": "spikes,",
+"start": 20.361,
+"end": 20.97
+},
+{
+"text": "and",
+"start": 21.009,
+"end": 21.047
+},
+{
+"text": "it",
+"start": 21.123,
+"end": 21.199
+},
+{
+"text": "jumps",
+"start": 21.428,
+"end": 21.656
+},
+{
+"text": "in,",
+"start": 21.732,
+"end": 22.266
+},
+{
+"text": "right",
+"start": 22.342,
+"end": 22.57
+},
+{
+"text": "before",
+"start": 22.647,
+"end": 22.951
+},
+{
+"text": "the",
+"start": 23.028,
+"end": 23.104
+},
+{
+"text": "big",
+"start": 23.332,
+"end": 23.561
+},
+{
+"text": "crash.",
+"start": 23.637,
+"end": 24.275
+},
+{
+"text": "Ouch.",
+"start": 24.39,
+"end": 24.994
+},
+{
+"text": "It",
+"start": 25.061,
+"end": 25.138
+},
+{
+"text": "holds",
+"start": 25.214,
+"end": 25.442
+},
+{
+"text": "on",
+"start": 25.519,
+"end": 25.747
+},
+{
+"text": "and",
+"start": 25.823,
+"end": 25.976
+},
+{
+"text": "buys",
+"start": 26.052,
+"end": 26.357
+},
+{
+"text": "every",
+"start": 26.433,
+"end": 26.738
+},
+{
+"text": "scare",
+"start": 26.814,
+"end": 27.195
+},
+{
+"text": "after.",
+"start": 27.423,
+"end": 27.797
+},
+{
+"text": "Five",
+"start": 27.949,
+"end": 28.101
+},
+{
+"text": "trades.",
+"start": 28.178,
+"end": 28.73
+},
+{
+"text": "Five",
+"start": 28.911,
+"end": 29.139
+},
+{
+"text": "winners.",
+"start": 29.216,
+"end": 29.855
+},
+{
+"text": "So",
+"start": 29.931,
+"end": 30.008
+},
+{
+"text": "it",
+"start": 30.046,
+"end": 30.084
+},
+{
+"text": "wins,",
+"start": 30.16,
+"end": 30.617
+},
+{
+"text": "right?",
+"start": 30.693,
+"end": 30.986
+},
+{
+"text": "Remember",
+"start": 31.056,
+"end": 31.284
+},
+{
+"text": "that",
+"start": 31.399,
+"end": 31.513
+},
+{
+"text": "quiet",
+"start": 31.589,
+"end": 31.818
+},
+{
+"text": "stretch?",
+"start": 31.894,
+"end": 32.467
+},
+{
+"text": "From",
+"start": 32.543,
+"end": 32.619
+},
+{
+"text": "late",
+"start": 32.696,
+"end": 32.848
+},
+{
+"text": "twenty",
+"start": 32.924,
+"end": 33.077
+},
+{
+"text": "twelve",
+"start": 33.229,
+"end": 33.534
+},
+{
+"text": "to",
+"start": 33.61,
+"end": 33.762
+},
+{
+"text": "twenty",
+"start": 33.838,
+"end": 33.915
+},
+{
+"text": "fifteen,",
+"start": 34.067,
+"end": 34.905
+},
+{
+"text": "fear",
+"start": 34.981,
+"end": 35.286
+},
+{
+"text": "never",
+"start": 35.515,
+"end": 35.819
+},
+{
+"text": "showed",
+"start": 35.896,
+"end": 36.124
+},
+{
+"text": "up.",
+"start": 36.2,
+"end": 36.481
+},
+{
+"text": "Almost",
+"start": 36.71,
+"end": 36.939
+},
+{
+"text": "three",
+"start": 37.015,
+"end": 37.32
+},
+{
+"text": "years",
+"start": 37.472,
+"end": 37.777
+},
+{
+"text": "in",
+"start": 37.853,
+"end": 37.929
+},
+{
+"text": "cash,",
+"start": 38.005,
+"end": 38.615
+},
+{
+"text": "while",
+"start": 38.691,
+"end": 38.767
+},
+{
+"text": "the",
+"start": 38.805,
+"end": 38.843
+},
+{
+"text": "market",
+"start": 38.92,
+"end": 39.224
+},
+{
+"text": "climbed",
+"start": 39.377,
+"end": 39.758
+},
+{
+"text": "forty",
+"start": 39.834,
+"end": 40.139
+},
+{
+"text": "percent.",
+"start": 40.215,
+"end": 40.774
+},
+{
+"text": "Now,",
+"start": 41.319,
+"end": 41.626
+},
+{
+"text": "the",
+"start": 41.664,
+"end": 41.702
+},
+{
+"text": "scoreboard.",
+"start": 41.779,
+"end": 42.44
+},
+{
+"text": "Fear",
+"start": 42.571,
+"end": 42.8
+},
+{
+"text": "buyer:",
+"start": 42.876,
+"end": 43.382
+},
+{
+"text": "thirty-two",
+"start": 43.459,
+"end": 43.839
+},
+{
+"text": "thousand",
+"start": 43.992,
+"end": 44.297
+},
+{
+"text": "four",
+"start": 44.449,
+"end": 44.601
+},
+{
+"text": "hundred.",
+"start": 44.678,
+"end": 45.2
+},
+{
+"text": "Just",
+"start": 45.314,
+"end": 45.429
+},
+{
+"text": "holding:",
+"start": 45.657,
+"end": 46.069
+},
+{
+"text": "seventy",
+"start": 46.145,
+"end": 46.45
+},
+{
+"text": "thousand",
+"start": 46.526,
+"end": 46.907
+},
+{
+"text": "two",
+"start": 46.983,
+"end": 47.059
+},
+{
+"text": "hundred.",
+"start": 47.136,
+"end": 47.652
+},
+{
+"text": "Being",
+"start": 47.729,
+"end": 47.957
+},
+{
+"text": "greedy",
+"start": 48.033,
+"end": 48.414
+},
+{
+"text": "in",
+"start": 48.452,
+"end": 48.491
+},
+{
+"text": "fear",
+"start": 48.643,
+"end": 48.948
+},
+{
+"text": "worked.",
+"start": 49.1,
+"end": 49.687
+},
+{
+"text": "Waiting",
+"start": 49.84,
+"end": 49.992
+},
+{
+"text": "for",
+"start": 50.068,
+"end": 50.144
+},
+{
+"text": "the",
+"start": 50.183,
+"end": 50.221
+},
+{
+"text": "fear",
+"start": 50.373,
+"end": 50.602
+},
+{
+"text": "didn't.",
+"start": 50.805,
+"end": 51.339
+}
+]
+}

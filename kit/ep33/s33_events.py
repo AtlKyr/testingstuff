@@ -1,0 +1,26 @@
+EVENTS = [
+    (0.02, 540, 560, [C["red"], GOLD, C["white"]], 1.6),
+    (T["thirty1"], 520, 640, [C["red"], C["white"]], 1.3),
+    (T["buy1"], 540, 850, [GOLD, C["white"]], 1.1),
+    (T["A"], 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["quiet1"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["buy2"], 290, 430, [GRNC, C["white"]], 1.0),
+    (T["year"], 790, 430, [LCOL, C["white"]], 1.0),
+    (T["cash1"], 540, 530, [LCOL, C["white"]], 1.0),
+    (T["spikes"], 540, 440, [C["red"], C["white"]], 1.2),
+    (T["jumps"], 540, 530, [LCOL, GOLD, C["white"]], 1.2),
+    (T["Ouch"], 540, 700, [C["red"], C["white"]], 1.2),
+    (T["winners"], 540, 900, [GRNC, GOLD, C["white"]], 1.5),
+    (T["So"], 540, 640, [GOLD, C["white"]], 1.2),
+    (T["Remember"], 540, 560, [GOLD, C["white"]], 1.3),
+    (T["Almost"], 540, 530, [LCOL, C["white"]], 1.1),
+    (T["forty"], 540, 1060, [HCOL, GOLD, C["white"]], 1.5),
+    (T["rev1"], 540, 560, [LCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 790, [HCOL, GOLD, C["green"], C["white"]], 1.9),
+    (T["Waiting"], 540, 690, [GOLD, C["white"]], 1.4),
+    (T["didnt"], 550, 860, [C["red"], C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["thirty1"], T["buy1"], T["A"], T["B"], T["quiet1"], T["buy2"], T["year"], T["cash1"], T["spikes"], T["jumps"],
+         T["Ouch"], T["winners"], T["So"], T["Remember"], T["Almost"], T["forty"], T["rev1"], T["rev2"], T["Waiting"], T["didnt"]]
+FLASH = [0.02, T["Ouch"], T["Remember"], T["forty"], T["rev2"], T["didnt"]]
