@@ -764,3 +764,7 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - "Win rate 100%, still lost" (#33) is a great mid-video twist but is a verdict-ish fact: keep it after the race starts (~28 s), never at frame 0.
 - Timing: 133/136 words -> 61.4/60.7 s raw -> tight + TEMPO 1.05 -> 52.1/51.3 s voice (53.1/52.3 s video). Renders ~2 min each.
   Supermetrics still TRIAL_EXPIRED; Subscribr monthly search allowance still used up.
+- BACKLOG UPDATE WITHOUT RETYPING: project_read returns the doc inline only. Instead of re-typing ~50 KB, pull the exact text from the
+  session transcript (`~/.claude/projects/*/<session>.jsonl`, the tool_result string starting with
+  `{"method":"project_read","path":"claude/short-backlog.md"`), apply str.replace edits with asserts in a small patch.py, then
+  project_write with local_path (file must be inside the working directory).
