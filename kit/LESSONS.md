@@ -768,3 +768,22 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
   session transcript (`~/.claude/projects/*/<session>.jsonl`, the tool_result string starting with
   `{"method":"project_read","path":"claude/short-backlog.md"`), apply str.replace edits with asserts in a small patch.py, then
   project_write with local_path (file must be inside the working directory).
+
+---------------------------------------------------------------------------------------------------------------------
+## 31. Added after #34 + #35 (2026-11-20, Friday) — Day 4 of the V0/V1 test (A = V0, B = V1)
+- Worked examples: `kit/ep34/` (A, V0 trend: S&P 7,175.83 on 2026-11-19, 6th straight loss, 8.2% below the Oct record (AP + CappNotes).
+  A = $500 every month at the first open; B = saves $500/month in cash and buys the whole pile at the next open after any close >= 8%
+  below the record. $489,745 vs $472,180, all 6 triggers (-3..-20%) behind; hidden thing = "the price tag": 6 of 6 waits >= 6 months
+  ended with a "dip" price above the wait's first day. price_tag(), prop_tag (Rocco holds the frame-0 number), jar() cash pile,
+  wait_chart() with DAY ONE / THE 'SALE' dots, a 6-tag grid that turns red) and `kit/ep35/` (B, V1 belief: the 1% fee = buy & hold
+  minus 1/12 % of the value each month-end; $70,214 vs $57,481, bills $4,394 vs real cost $12,732; envelope() bill prop, gap-filled race,
+  fee_bars(), coin row "1 dollar -> 7"). Scene files = ep33 scenes + #34 overrides (+ #35 overrides). Same run recipe.
+- ADJUSTED vs RAW PRICE IN A SPOKEN CLAIM: "paid thirty-six percent more" came from dividend-adjusted opens; the raw SPY price rose only
+  30%. Caught after TTS -> the screen shows "DIVIDEND-ADJUSTED PRICE · RAW SPY PRICE +30%" and the description says so. RULE: any
+  spoken "price was X% higher" must be checked on BOTH adjusted and raw prices before TTS; prefer wording that is true for both
+  ("paid about a third more" / "paid more") or say "with dividends".
+- AAC peak varies per mix: alimiter 0.74 gave -1.8 dBTP on #34 but -0.1 dBTP on #35; 0.70 -> -14.3 LUFS / -2.5 dBTP. Always measure.
+- render_NN.py needs the output name as argv[1] (`python3 render_NN.py raw_NN.mp4`) — without it -> IndexError.
+- A fresh container had no pycairo/fonts: run the README setup (pip + npm fonts) in the background at the very start.
+- DCA-timing format used 3 times (#27, #30, #34) -> rest it. Timing: clone 15:42 -> A delivered ~16:00, B ~16:10.
+  138/138 words -> 57.6/59.3 s raw -> tight + TEMPO 1.03/1.05 -> 50.3/51.0 s voice. Supermetrics TRIAL_EXPIRED, Subscribr searches used up.

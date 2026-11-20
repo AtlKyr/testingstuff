@@ -1,0 +1,27 @@
+EVENTS = [
+    (0.02, 540, 620, [C["red"], GOLD, C["white"]], 1.6),
+    (T["eight1"], 520, 660, [C["red"], C["white"]], 1.3),
+    (T["Buy"], 540, 885, [GOLD, C["white"]], 1.1),
+    (T["A"], 310, 420, [HCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [LCOL, C["white"]], 1.0),
+    (T["tag1"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["five"], 290, 430, [HCOL, C["white"]], 1.0),
+    (T["eight2"], 790, 430, [LCOL, C["white"]], 1.0),
+    (T["sixteen"], 880, 1010, [GRNC, GOLD, C["white"]], 1.3),
+    (T["dip2"], 540, 440, [C["red"], C["white"]], 1.2),
+    (T["spends"], 540, 530, [GRNC, GOLD, C["white"]], 1.3),
+    (T["eight3"], 540, 530, [C["red"], C["white"]], 1.2),
+    (T["strange"], 540, 470, [GOLD, C["white"]], 1.2),
+    (T["waits"], 540, 530, [LCOL, C["white"]], 1.1),
+    (T["Remember"], 540, 560, [GOLD, C["white"]], 1.3),
+    (T["half"], 540, 530, [LCOL, C["white"]], 1.1),
+    (T["thirtysix"], 540, 1050, [C["red"], GOLD, C["white"]], 1.5),
+    (T["Every"], 540, 470, [GOLD, C["white"]], 1.2),
+    (T["rev1"], 540, 560, [HCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 790, [LCOL, GOLD, C["green"], C["white"]], 1.9),
+    (T["The2"], 540, 520, [GOLD, C["white"]], 1.4),
+    (T["eighteen"], 550, 845, [C["red"], C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["eight1"], T["Buy"], T["A"], T["B"], T["tag1"], T["five"], T["eight2"], T["sixteen"], T["dip2"], T["spends"], T["eight3"],
+         T["strange"], T["waits"], T["Remember"], T["half"], T["thirtysix"], T["Every"], T["rev1"], T["rev2"], T["The2"], T["eighteen"]]
+FLASH = [0.02, T["eight3"], T["Remember"], T["thirtysix"], T["rev2"], T["eighteen"]]
