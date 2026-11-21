@@ -787,3 +787,23 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - A fresh container had no pycairo/fonts: run the README setup (pip + npm fonts) in the background at the very start.
 - DCA-timing format used 3 times (#27, #30, #34) -> rest it. Timing: clone 15:42 -> A delivered ~16:00, B ~16:10.
   138/138 words -> 57.6/59.3 s raw -> tight + TEMPO 1.03/1.05 -> 50.3/51.0 s voice. Supermetrics TRIAL_EXPIRED, Subscribr searches used up.
+
+---------------------------------------------------------------------------------------------------------------------
+## 32. Added after #36 + #37 (2026-11-21, Saturday) — Day 5 of the V0/V1 test (A = V1, B = V0)
+- Worked examples: `kit/ep36/` (A, V1 trend: Fri Nov 20 S&P -3.7% to 6,910.39, week -8.6% (worst in 18+ months), correction (>10% below
+  the Oct 6 record), AP + CBS/NBC. Rule: SPY nominal close -10% under its record -> sell next open; buy back at the next open after a
+  -20% close OR a new record. $85,283 vs $70,214; hidden thing = Christmas Eve 2018 (SPY close -20.18%, index -19.8%): a -20.2% line
+  -> $68,575 (loses). dd_chart() = drawdown line with dashed -20% line + gold ring on the crossing day; xmas_tree(); cal_page();
+  news scene with a bottom ticker) and `kit/ep37/` (B, V0: simulated 2x daily S&P fund = 2x SPY daily return - T-bill borrowing on 1x
+  (FRED DTB3 -> ep37/dtb3.csv) - 0.89%/yr fee; $147,847 vs $70,949; low $2,469 in Mar 2009, back ahead of 1x only Mar 2014; day_bars(),
+  year_bars(), cost cards). Scene files = ep35 scenes + #36 overrides (+ #37 overrides). Same run recipe.
+- GUESS SCENE TOO SHORT: with "A/B" + a separate "clue" scene, the B card was on screen only ~0.3 s before the cut. Fix used today:
+  ONE guess scene from the A word to the setup sentence; after the hidden-thing word the A/B cards shrink (scale 0.62, y -40) and the
+  EVIDENCE card + a prop pop in under them. Snap a frame right after "B" and right after the clue word.
+- SPY PRICE vs INDEX: a claim on a nominal SPY drawdown can differ from the S&P index (dividends lower SPY's price): Dec 24 2018 was
+  -20.18% on SPY but -19.8% on the index. Say "SPY closed…" (not "the S&P") and put the index value on screen.
+- PARAMETER-SENSITIVE WIN again (#36): the natural -10/-20 rule won, but 8/20, 10/15, 10/30 and a 20.2 line lose -> verdict "It won.
+  Move his line two tenths, and it loses." + footnote with two losing variants.
+- Close fills (#37 simulation) must be stated in the description's backtest line ("close fills"), not the default next-open line.
+- Timing: clone 15:41 -> A delivered ~16:00, B ~16:10. 134/136 words -> 59.9/59.4 s raw -> tight + TEMPO 1.05 -> 50.9/51.4 s voice.
+  Loudness -14.3/-1.7 and -14.3/-2.1 (alimiter 0.74). Subscribr searches still used up; Supermetrics not retried (TRIAL_EXPIRED).

@@ -1,0 +1,26 @@
+EVENTS = [
+    (0.02, 540, 560, [GOLD, C["red"], C["white"]], 1.6),
+    (T["Twice2"], 540, 860, [GOLD, C["white"]], 1.3),
+    (T["A"], 310, 420, [GRNC, C["white"]], 1.0),
+    (T["B"], 770, 420, [REDC, C["white"]], 1.0),
+    (T["March"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["One"], 290, 465, [HCOL, C["white"]], 1.0),
+    (T["other"], 790, 465, [LCOL, C["white"]], 1.0),
+    (T["twice"], 540, 1050, [GOLD, C["white"]], 1.2),
+    (T["ahead"], 540, 440, [GRNC, C["white"]], 1.1),
+    (T["eight"], 540, 440, [C["red"], C["white"]], 1.2),
+    (T["two3"], 790, 1040, [C["red"], C["white"]], 1.2),
+    (T["Remember"], 540, 560, [GOLD, C["white"]], 1.3),
+    (T["hundred"], 540, 1060, [C["red"], GOLD, C["white"]], 1.6),
+    (T["fourteen"], 540, 530, [GOLD, C["white"]], 1.1),
+    (T["doubled"], 540, 530, [GRNC, GOLD, C["white"]], 1.3),
+    (T["brutal"], 540, 760, [C["red"], C["white"]], 1.2),
+    (T["cut"], 540, 760, [GOLD, C["white"]], 1.0),
+    (T["rev1"], 540, 515, [HCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 720, [LCOL, GOLD, C["white"]], 1.6),
+    (T["money2"], 540, 520, [GOLD, C["white"]], 1.4),
+    (T["vanished"], 550, 845, [C["red"], C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["Twice2"], T["A"], T["B"], T["March"], T["One"], T["other"], T["twice"], T["ahead"], T["eight"], T["two3"],
+         T["Remember"], T["hundred"], T["fourteen"], T["doubled"], T["brutal"], T["rev1"], T["rev2"], T["money2"], T["vanished"]]
+FLASH = [0.02, T["eight"], T["Remember"], T["hundred"], T["rev2"], T["vanished"]]

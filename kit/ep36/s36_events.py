@@ -1,0 +1,26 @@
+EVENTS = [
+    (0.02, 540, 620, [GOLD, C["red"], C["white"]], 1.6),
+    (T["six"], 530, 660, [GOLD, C["white"]], 1.3),
+    (T["A"], 310, 420, [GRNC, C["white"]], 1.0),
+    (T["B"], 770, 420, [REDC, C["white"]], 1.0),
+    (T["Eve"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["correction"], 540, 640, [C["red"], C["white"]], 1.3),
+    (T["sell"], 290, 465, [REDC, C["white"]], 1.0),
+    (T["new"], 790, 465, [GRNC, C["white"]], 1.0),
+    (T["cheaper"], 540, 440, [GRNC, C["white"]], 1.1),
+    (T["higher1"], 540, 440, [C["red"], C["white"]], 1.0),
+    (T["again"], 540, 530, [C["red"], C["white"]], 1.0),
+    (T["December"], 540, 450, [C["blue"], C["white"]], 1.0),
+    (T["Remember"], 540, 560, [GOLD, C["white"]], 1.3),
+    (T["two1"], 540, 980, [C["red"], GOLD, C["white"]], 1.6),
+    (T["tenths1"], 540, 1110, [GOLD, C["white"]], 1.2),
+    (T["cheap"], 540, 1110, [GRNC, C["white"]], 1.2),
+    (T["twentytwo"], 540, 900, [GRNC, C["white"]], 1.0),
+    (T["rev1"], 540, 515, [HCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 720, [LCOL, GOLD, C["white"]], 1.6),
+    (T["won"], 540, 520, [GOLD, C["white"]], 1.4),
+    (T["loses"], 550, 845, [C["red"], C["white"], GOLD], 1.6),
+]
+PUNCH = [0.02, T["six"], T["A"], T["B"], T["Eve"], T["correction"], T["sell"], T["new"], T["cheaper"], T["higher1"], T["again"],
+         T["Remember"], T["two1"], T["tenths1"], T["cheap"], T["rev1"], T["rev2"], T["won"], T["loses"]]
+FLASH = [0.02, T["correction"], T["Remember"], T["two1"], T["rev2"], T["loses"]]

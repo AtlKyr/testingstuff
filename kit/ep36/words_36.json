@@ -1,0 +1,674 @@
+{
+"words": [
+{
+"text": "Ten",
+"start": 0.02,
+"end": 0.206
+},
+{
+"text": "percent",
+"start": 0.282,
+"end": 0.587
+},
+{
+"text": "off",
+"start": 0.663,
+"end": 0.815
+},
+{
+"text": "a",
+"start": 0.853,
+"end": 0.891
+},
+{
+"text": "record:",
+"start": 0.968,
+"end": 1.619
+},
+{
+"text": "six",
+"start": 1.695,
+"end": 1.924
+},
+{
+"text": "times.",
+"start": 2.0,
+"end": 2.57
+},
+{
+"text": "Bail",
+"start": 2.706,
+"end": 2.858
+},
+{
+"text": "out,",
+"start": 2.934,
+"end": 3.391
+},
+{
+"text": "A?",
+"start": 3.506,
+"end": 3.814
+},
+{
+"text": "Or",
+"start": 3.928,
+"end": 4.043
+},
+{
+"text": "ride",
+"start": 4.271,
+"end": 4.424
+},
+{
+"text": "it",
+"start": 4.5,
+"end": 4.576
+},
+{
+"text": "out,",
+"start": 4.652,
+"end": 5.033
+},
+{
+"text": "B?",
+"start": 5.109,
+"end": 5.468
+},
+{
+"text": "One",
+"start": 5.544,
+"end": 5.697
+},
+{
+"text": "Christmas",
+"start": 5.773,
+"end": 6.154
+},
+{
+"text": "Eve",
+"start": 6.23,
+"end": 6.459
+},
+{
+"text": "decides",
+"start": 6.535,
+"end": 6.916
+},
+{
+"text": "it.",
+"start": 6.992,
+"end": 7.274
+},
+{
+"text": "Friday,",
+"start": 7.35,
+"end": 8.036
+},
+{
+"text": "the",
+"start": 8.112,
+"end": 8.188
+},
+{
+"text": "S",
+"start": 8.264,
+"end": 8.417
+},
+{
+"text": "and",
+"start": 8.493,
+"end": 8.569
+},
+{
+"text": "P",
+"start": 8.721,
+"end": 8.874
+},
+{
+"text": "slid",
+"start": 8.95,
+"end": 9.331
+},
+{
+"text": "into",
+"start": 9.445,
+"end": 9.56
+},
+{
+"text": "another",
+"start": 9.75,
+"end": 9.94
+},
+{
+"text": "correction.",
+"start": 10.017,
+"end": 10.646
+},
+{
+"text": "The",
+"start": 10.684,
+"end": 10.722
+},
+{
+"text": "rule:",
+"start": 10.798,
+"end": 11.484
+},
+{
+"text": "when",
+"start": 11.598,
+"end": 11.712
+},
+{
+"text": "SPY",
+"start": 11.789,
+"end": 12.398
+},
+{
+"text": "closes",
+"start": 12.436,
+"end": 12.855
+},
+{
+"text": "ten",
+"start": 12.932,
+"end": 13.008
+},
+{
+"text": "percent",
+"start": 13.16,
+"end": 13.541
+},
+{
+"text": "under",
+"start": 13.655,
+"end": 13.77
+},
+{
+"text": "its",
+"start": 13.846,
+"end": 13.922
+},
+{
+"text": "record,",
+"start": 14.112,
+"end": 14.532
+},
+{
+"text": "sell.",
+"start": 14.684,
+"end": 15.251
+},
+{
+"text": "Buy",
+"start": 15.327,
+"end": 15.48
+},
+{
+"text": "back",
+"start": 15.556,
+"end": 15.784
+},
+{
+"text": "at",
+"start": 15.86,
+"end": 15.937
+},
+{
+"text": "minus",
+"start": 16.089,
+"end": 16.394
+},
+{
+"text": "twenty,",
+"start": 16.47,
+"end": 16.927
+},
+{
+"text": "or",
+"start": 17.003,
+"end": 17.232
+},
+{
+"text": "at",
+"start": 17.308,
+"end": 17.384
+},
+{
+"text": "a",
+"start": 17.46,
+"end": 17.537
+},
+{
+"text": "new",
+"start": 17.613,
+"end": 17.689
+},
+{
+"text": "record.",
+"start": 17.765,
+"end": 18.262
+},
+{
+"text": "Two",
+"start": 18.338,
+"end": 18.414
+},
+{
+"text": "thousand",
+"start": 18.49,
+"end": 18.795
+},
+{
+"text": "eight:",
+"start": 18.871,
+"end": 19.297
+},
+{
+"text": "he",
+"start": 19.373,
+"end": 19.449
+},
+{
+"text": "sells",
+"start": 19.525,
+"end": 19.754
+},
+{
+"text": "early",
+"start": 19.83,
+"end": 20.211
+},
+{
+"text": "and",
+"start": 20.287,
+"end": 20.363
+},
+{
+"text": "buys",
+"start": 20.516,
+"end": 20.744
+},
+{
+"text": "back",
+"start": 20.858,
+"end": 20.973
+},
+{
+"text": "cheaper.",
+"start": 21.049,
+"end": 21.511
+},
+{
+"text": "Twenty",
+"start": 21.625,
+"end": 21.739
+},
+{
+"text": "fifteen:",
+"start": 21.815,
+"end": 22.438
+},
+{
+"text": "no",
+"start": 22.514,
+"end": 22.666
+},
+{
+"text": "crash",
+"start": 22.742,
+"end": 22.971
+},
+{
+"text": "comes.",
+"start": 23.047,
+"end": 23.635
+},
+{
+"text": "He",
+"start": 23.711,
+"end": 23.787
+},
+{
+"text": "buys",
+"start": 23.825,
+"end": 24.016
+},
+{
+"text": "back",
+"start": 24.092,
+"end": 24.32
+},
+{
+"text": "higher.",
+"start": 24.397,
+"end": 24.934
+},
+{
+"text": "Early",
+"start": 25.086,
+"end": 25.238
+},
+{
+"text": "twenty",
+"start": 25.315,
+"end": 25.467
+},
+{
+"text": "eighteen:",
+"start": 25.543,
+"end": 26.2
+},
+{
+"text": "same",
+"start": 26.276,
+"end": 26.429
+},
+{
+"text": "story,",
+"start": 26.505,
+"end": 27.191
+},
+{
+"text": "higher",
+"start": 27.343,
+"end": 27.495
+},
+{
+"text": "again.",
+"start": 27.572,
+"end": 28.247
+},
+{
+"text": "That",
+"start": 28.323,
+"end": 28.476
+},
+{
+"text": "fall,",
+"start": 28.552,
+"end": 29.085
+},
+{
+"text": "another",
+"start": 29.276,
+"end": 29.466
+},
+{
+"text": "slide,",
+"start": 29.542,
+"end": 30.152
+},
+{
+"text": "deep",
+"start": 30.228,
+"end": 30.456
+},
+{
+"text": "into",
+"start": 30.533,
+"end": 30.685
+},
+{
+"text": "December.",
+"start": 30.761,
+"end": 31.349
+},
+{
+"text": "Remember",
+"start": 31.603,
+"end": 31.654
+},
+{
+"text": "that",
+"start": 31.73,
+"end": 31.806
+},
+{
+"text": "Christmas",
+"start": 31.882,
+"end": 32.187
+},
+{
+"text": "Eve?",
+"start": 32.263,
+"end": 32.736
+},
+{
+"text": "SPY",
+"start": 32.812,
+"end": 33.345
+},
+{
+"text": "closed",
+"start": 33.421,
+"end": 33.726
+},
+{
+"text": "twenty",
+"start": 33.802,
+"end": 34.031
+},
+{
+"text": "point",
+"start": 34.107,
+"end": 34.412
+},
+{
+"text": "two",
+"start": 34.45,
+"end": 34.488
+},
+{
+"text": "percent",
+"start": 34.64,
+"end": 35.021
+},
+{
+"text": "under",
+"start": 35.098,
+"end": 35.25
+},
+{
+"text": "its",
+"start": 35.326,
+"end": 35.402
+},
+{
+"text": "record.",
+"start": 35.478,
+"end": 35.942
+},
+{
+"text": "Two",
+"start": 36.018,
+"end": 36.095
+},
+{
+"text": "tenths",
+"start": 36.323,
+"end": 36.704
+},
+{
+"text": "past",
+"start": 36.818,
+"end": 36.933
+},
+{
+"text": "his",
+"start": 37.009,
+"end": 37.085
+},
+{
+"text": "line.",
+"start": 37.161,
+"end": 37.565
+},
+{
+"text": "He",
+"start": 37.642,
+"end": 37.718
+},
+{
+"text": "bought",
+"start": 37.768,
+"end": 37.87
+},
+{
+"text": "back",
+"start": 37.946,
+"end": 38.099
+},
+{
+"text": "cheap.",
+"start": 38.175,
+"end": 38.605
+},
+{
+"text": "Twenty",
+"start": 38.719,
+"end": 38.833
+},
+{
+"text": "twenty,",
+"start": 38.909,
+"end": 39.443
+},
+{
+"text": "twenty",
+"start": 39.557,
+"end": 39.671
+},
+{
+"text": "twenty-two:",
+"start": 39.748,
+"end": 40.462
+},
+{
+"text": "two",
+"start": 40.538,
+"end": 40.691
+},
+{
+"text": "more",
+"start": 40.767,
+"end": 40.995
+},
+{
+"text": "bargains.",
+"start": 41.034,
+"end": 41.977
+},
+{
+"text": "Final",
+"start": 42.053,
+"end": 42.281
+},
+{
+"text": "score:",
+"start": 42.358,
+"end": 43.013
+},
+{
+"text": "buy",
+"start": 43.128,
+"end": 43.242
+},
+{
+"text": "and",
+"start": 43.28,
+"end": 43.318
+},
+{
+"text": "hold,",
+"start": 43.394,
+"end": 43.928
+},
+{
+"text": "seventy",
+"start": 44.004,
+"end": 44.385
+},
+{
+"text": "thousand.",
+"start": 44.461,
+"end": 45.051
+},
+{
+"text": "The",
+"start": 45.089,
+"end": 45.127
+},
+{
+"text": "correction",
+"start": 45.203,
+"end": 45.584
+},
+{
+"text": "rule,",
+"start": 45.66,
+"end": 46.118
+},
+{
+"text": "eighty-five",
+"start": 46.194,
+"end": 46.727
+},
+{
+"text": "thousand.",
+"start": 46.879,
+"end": 47.437
+},
+{
+"text": "It",
+"start": 47.475,
+"end": 47.513
+},
+{
+"text": "won.",
+"start": 47.666,
+"end": 48.263
+},
+{
+"text": "Move",
+"start": 48.377,
+"end": 48.492
+},
+{
+"text": "his",
+"start": 48.568,
+"end": 48.644
+},
+{
+"text": "line",
+"start": 48.72,
+"end": 48.949
+},
+{
+"text": "two",
+"start": 49.025,
+"end": 49.177
+},
+{
+"text": "tenths,",
+"start": 49.254,
+"end": 49.939
+},
+{
+"text": "and",
+"start": 49.977,
+"end": 50.015
+},
+{
+"text": "it",
+"start": 50.092,
+"end": 50.168
+},
+{
+"text": "loses.",
+"start": 50.244,
+"end": 50.93
+}
+]
+}
