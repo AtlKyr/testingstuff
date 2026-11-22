@@ -1,0 +1,664 @@
+{
+"words": [
+{
+"text": "Eighty",
+"start": 0.02,
+"end": 0.261
+},
+{
+"text": "dividend",
+"start": 0.411,
+"end": 0.784
+},
+{
+"text": "checks",
+"start": 0.859,
+"end": 1.158
+},
+{
+"text": "in",
+"start": 1.27,
+"end": 1.383
+},
+{
+"text": "twenty",
+"start": 1.569,
+"end": 1.756
+},
+{
+"text": "years.",
+"start": 1.906,
+"end": 2.5
+},
+{
+"text": "Pocket",
+"start": 2.509,
+"end": 2.808
+},
+{
+"text": "them,",
+"start": 2.883,
+"end": 2.995
+},
+{
+"text": "A?",
+"start": 3.032,
+"end": 3.328
+},
+{
+"text": "Or",
+"start": 3.441,
+"end": 3.553
+},
+{
+"text": "reinvest,",
+"start": 3.777,
+"end": 4.599
+},
+{
+"text": "B?",
+"start": 4.674,
+"end": 4.973
+},
+{
+"text": "Watch",
+"start": 5.051,
+"end": 5.276
+},
+{
+"text": "one",
+"start": 5.5,
+"end": 5.649
+},
+{
+"text": "tiny",
+"start": 5.799,
+"end": 6.023
+},
+{
+"text": "check",
+"start": 6.173,
+"end": 6.397
+},
+{
+"text": "from",
+"start": 6.472,
+"end": 6.621
+},
+{
+"text": "two",
+"start": 6.771,
+"end": 6.846
+},
+{
+"text": "thousand",
+"start": 6.92,
+"end": 7.22
+},
+{
+"text": "eight.",
+"start": 7.369,
+"end": 7.82
+},
+{
+"text": "Two",
+"start": 7.857,
+"end": 7.895
+},
+{
+"text": "investors,",
+"start": 7.969,
+"end": 8.751
+},
+{
+"text": "ten",
+"start": 8.826,
+"end": 8.901
+},
+{
+"text": "thousand",
+"start": 9.05,
+"end": 9.275
+},
+{
+"text": "dollars",
+"start": 9.349,
+"end": 9.723
+},
+{
+"text": "of",
+"start": 9.798,
+"end": 9.873
+},
+{
+"text": "SPY",
+"start": 9.948,
+"end": 10.62
+},
+{
+"text": "each,",
+"start": 10.77,
+"end": 11.293
+},
+{
+"text": "two",
+"start": 11.331,
+"end": 11.368
+},
+{
+"text": "thousand",
+"start": 11.443,
+"end": 11.667
+},
+{
+"text": "five.",
+"start": 11.817,
+"end": 12.483
+},
+{
+"text": "Every",
+"start": 12.558,
+"end": 12.782
+},
+{
+"text": "three",
+"start": 12.857,
+"end": 13.007
+},
+{
+"text": "months,",
+"start": 13.081,
+"end": 13.605
+},
+{
+"text": "SPY",
+"start": 13.68,
+"end": 14.353
+},
+{
+"text": "pays",
+"start": 14.427,
+"end": 14.726
+},
+{
+"text": "them.",
+"start": 14.801,
+"end": 15.091
+},
+{
+"text": "He",
+"start": 15.203,
+"end": 15.315
+},
+{
+"text": "keeps",
+"start": 15.464,
+"end": 15.763
+},
+{
+"text": "every",
+"start": 15.838,
+"end": 16.063
+},
+{
+"text": "check",
+"start": 16.137,
+"end": 16.362
+},
+{
+"text": "as",
+"start": 16.436,
+"end": 16.586
+},
+{
+"text": "cash.",
+"start": 16.661,
+"end": 17.483
+},
+{
+"text": "She",
+"start": 17.633,
+"end": 17.782
+},
+{
+"text": "buys",
+"start": 17.932,
+"end": 18.231
+},
+{
+"text": "more",
+"start": 18.305,
+"end": 18.53
+},
+{
+"text": "SPY",
+"start": 18.605,
+"end": 19.203
+},
+{
+"text": "with",
+"start": 19.277,
+"end": 19.352
+},
+{
+"text": "hers.",
+"start": 19.427,
+"end": 19.97
+},
+{
+"text": "Two",
+"start": 20.044,
+"end": 20.119
+},
+{
+"text": "thousand",
+"start": 20.194,
+"end": 20.568
+},
+{
+"text": "seven:",
+"start": 20.717,
+"end": 21.074
+},
+{
+"text": "neck",
+"start": 21.149,
+"end": 21.448
+},
+{
+"text": "and",
+"start": 21.523,
+"end": 21.597
+},
+{
+"text": "neck.",
+"start": 21.672,
+"end": 22.199
+},
+{
+"text": "Then",
+"start": 22.349,
+"end": 22.498
+},
+{
+"text": "the",
+"start": 22.723,
+"end": 22.798
+},
+{
+"text": "crash.",
+"start": 22.872,
+"end": 23.556
+},
+{
+"text": "And",
+"start": 23.593,
+"end": 23.631
+},
+{
+"text": "look:",
+"start": 23.705,
+"end": 24.229
+},
+{
+"text": "his",
+"start": 24.341,
+"end": 24.453
+},
+{
+"text": "cash",
+"start": 24.528,
+"end": 24.752
+},
+{
+"text": "pile",
+"start": 24.827,
+"end": 25.051
+},
+{
+"text": "puts",
+"start": 25.126,
+"end": 25.275
+},
+{
+"text": "him",
+"start": 25.313,
+"end": 25.35
+},
+{
+"text": "in",
+"start": 25.388,
+"end": 25.425
+},
+{
+"text": "the",
+"start": 25.5,
+"end": 25.574
+},
+{
+"text": "lead.",
+"start": 25.761,
+"end": 26.129
+},
+{
+"text": "So",
+"start": 26.241,
+"end": 26.354
+},
+{
+"text": "pocketing",
+"start": 26.578,
+"end": 26.952
+},
+{
+"text": "wins?",
+"start": 27.176,
+"end": 27.51
+},
+{
+"text": "Now,",
+"start": 27.585,
+"end": 28.108
+},
+{
+"text": "that",
+"start": 28.183,
+"end": 28.408
+},
+{
+"text": "tiny",
+"start": 28.482,
+"end": 28.856
+},
+{
+"text": "check.",
+"start": 29.006,
+"end": 29.468
+},
+{
+"text": "December",
+"start": 29.543,
+"end": 29.917
+},
+{
+"text": "two",
+"start": 30.066,
+"end": 30.141
+},
+{
+"text": "thousand",
+"start": 30.216,
+"end": 30.515
+},
+{
+"text": "eight:",
+"start": 30.59,
+"end": 31.079
+},
+{
+"text": "fifty-nine",
+"start": 31.116,
+"end": 31.677
+},
+{
+"text": "dollars.",
+"start": 31.752,
+"end": 32.587
+},
+{
+"text": "She",
+"start": 32.662,
+"end": 32.737
+},
+{
+"text": "bought",
+"start": 32.811,
+"end": 32.961
+},
+{
+"text": "SPY",
+"start": 33.036,
+"end": 33.709
+},
+{
+"text": "with",
+"start": 33.783,
+"end": 33.858
+},
+{
+"text": "it",
+"start": 33.933,
+"end": 34.008
+},
+{
+"text": "near",
+"start": 34.083,
+"end": 34.157
+},
+{
+"text": "the",
+"start": 34.232,
+"end": 34.307
+},
+{
+"text": "bottom.",
+"start": 34.382,
+"end": 34.845
+},
+{
+"text": "By",
+"start": 34.919,
+"end": 34.994
+},
+{
+"text": "twenty",
+"start": 35.106,
+"end": 35.218
+},
+{
+"text": "twenty-four,",
+"start": 35.293,
+"end": 36.041
+},
+{
+"text": "it",
+"start": 36.116,
+"end": 36.19
+},
+{
+"text": "was",
+"start": 36.265,
+"end": 36.34
+},
+{
+"text": "worth",
+"start": 36.415,
+"end": 36.564
+},
+{
+"text": "five",
+"start": 36.714,
+"end": 36.938
+},
+{
+"text": "hundred",
+"start": 37.013,
+"end": 37.387
+},
+{
+"text": "thirty.",
+"start": 37.461,
+"end": 37.883
+},
+{
+"text": "Every",
+"start": 38.032,
+"end": 38.182
+},
+{
+"text": "check",
+"start": 38.331,
+"end": 38.556
+},
+{
+"text": "kept",
+"start": 38.705,
+"end": 38.93
+},
+{
+"text": "doing",
+"start": 39.004,
+"end": 39.229
+},
+{
+"text": "that,",
+"start": 39.303,
+"end": 39.63
+},
+{
+"text": "quietly,",
+"start": 39.705,
+"end": 40.378
+},
+{
+"text": "for",
+"start": 40.49,
+"end": 40.602
+},
+{
+"text": "twenty",
+"start": 40.789,
+"end": 40.976
+},
+{
+"text": "years.",
+"start": 41.125,
+"end": 41.906
+},
+{
+"text": "His",
+"start": 42.019,
+"end": 42.131
+},
+{
+"text": "checks",
+"start": 42.205,
+"end": 42.505
+},
+{
+"text": "added",
+"start": 42.579,
+"end": 42.729
+},
+{
+"text": "up",
+"start": 42.804,
+"end": 42.878
+},
+{
+"text": "to",
+"start": 42.953,
+"end": 43.103
+},
+{
+"text": "sixty-eight",
+"start": 43.215,
+"end": 43.626
+},
+{
+"text": "hundred",
+"start": 43.776,
+"end": 44.0
+},
+{
+"text": "dollars.",
+"start": 44.075,
+"end": 45.054
+},
+{
+"text": "Final",
+"start": 45.319,
+"end": 45.353
+},
+{
+"text": "tally:",
+"start": 45.428,
+"end": 45.885
+},
+{
+"text": "pocketed,",
+"start": 45.922,
+"end": 46.558
+},
+{
+"text": "fifty-five",
+"start": 46.633,
+"end": 47.156
+},
+{
+"text": "thousand.",
+"start": 47.305,
+"end": 47.927
+},
+{
+"text": "Reinvested,",
+"start": 48.002,
+"end": 48.899
+},
+{
+"text": "seventy",
+"start": 48.974,
+"end": 49.273
+},
+{
+"text": "thousand.",
+"start": 49.348,
+"end": 50.119
+},
+{
+"text": "The",
+"start": 50.194,
+"end": 50.269
+},
+{
+"text": "checks",
+"start": 50.344,
+"end": 50.568
+},
+{
+"text": "were",
+"start": 50.68,
+"end": 50.792
+},
+{
+"text": "small.",
+"start": 51.017,
+"end": 51.318
+},
+{
+"text": "What",
+"start": 51.393,
+"end": 51.468
+},
+{
+"text": "they",
+"start": 51.542,
+"end": 51.617
+},
+{
+"text": "grew",
+"start": 51.692,
+"end": 51.841
+},
+{
+"text": "into",
+"start": 51.916,
+"end": 52.29
+},
+{
+"text": "wasn't.",
+"start": 52.514,
+"end": 53.112
+}
+]
+}

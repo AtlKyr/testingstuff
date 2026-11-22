@@ -807,3 +807,23 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - Close fills (#37 simulation) must be stated in the description's backtest line ("close fills"), not the default next-open line.
 - Timing: clone 15:41 -> A delivered ~16:00, B ~16:10. 134/136 words -> 59.9/59.4 s raw -> tight + TEMPO 1.05 -> 50.9/51.4 s voice.
   Loudness -14.3/-1.7 and -14.3/-2.1 (alimiter 0.74). Subscribr searches still used up; Supermetrics not retried (TRIAL_EXPIRED).
+
+---------------------------------------------------------------------------------------------------------------------
+## 33. Added after #38 + #39 (2026-11-22, Sunday) — Day 6 of the V0/V1 test (A = V0, B = V1)
+- Worked examples: `kit/ep38/` (A, V0 trend: last week's S&P −8.6% + Thanksgiving week ahead. Rule: sell at the Monday open of
+  Thanksgiving week, buy back at the next Monday open (20 times). $62,682 vs $70,214; hidden thing = Thanksgiving week 2008 (best
+  SPY week of all 1,043, +13.3%; skip only 2008 → $65,663). turkey() + leaves() (original drawings), week_strip38(), week_bars() =
+  weekly bars Sep 2008–Jan 2009 with a glowing best week and an orange "HE WAS OUT" band, 20 skip-window bars) and `kit/ep39/`
+  (B, V1 belief: dividends pocketed (0% cash jar) vs reinvested; dividends derived from SPY Adj Close/Close jumps — filter D > $0.05,
+  the raw ratio has 146 rounding "ex-dates", the real count is 80. $55,015 vs $70,245; pocketer LEADS at the March 2009 low (cash jar);
+  hidden thing = the $59 check of 2008-12-19 → ~$530. dcheck() dividend check prop, check_rain(), share_stack(), bottom_chart() with a
+  gold buy dot). Scene files = ep37 scenes + #38/#39 overrides appended. Same run recipe.
+- INDEX-BASED WORD ANCHORS: instead of wt("word", nth) (capital/lowercase/nth mistakes, LESSONS 17/22/29) the timing module now uses
+  `wi(i) = WORDS[i]["start"]` with asserts on WORDS[i]["text"] for every scene cut — print the indexed word list once, then no nth bugs.
+- A news-driven V0 opener that fits in 7 words: "Down eight point six percent. Skip Thanksgiving?" → A/B at 3.2 s. The context ("S&P 500 · LAST WEEK")
+  goes on a small tag at 0.7 s, not in the voice.
+- AAC peak: alimiter 0.74 gave −0.5 dBTP on #38 → 0.70 gave −14.3 LUFS / −1.7 dBTP (and −2.1 on #39). Start at 0.70.
+- Session transcript reading for the backlog patch (LESSONS 30) was refused by the permission classifier on 2026-11-22 → the backlog
+  had to be rewritten from the project_read output.
+- Timing: clone 15:41 → A delivered ~16:02, B ~16:08. 136/132 words → 61.3/63.3 s raw → tight + TEMPO 1.05/1.07 → 52.9/53.1 s voice.
+  Supermetrics not retried (TRIAL_EXPIRED); Subscribr search allowance still used up.

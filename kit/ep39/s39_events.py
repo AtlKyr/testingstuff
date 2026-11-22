@@ -1,0 +1,28 @@
+EVENTS = [
+    (0.02, 540, 520, [GOLD, GRNC, C["white"]], 1.6),
+    (T["twenty"], 540, 880, [GRNC, C["white"]], 1.3),
+    (T["A"], 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["tiny"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["ten"], 540, 540, [GOLD, C["white"]], 1.0),
+    (T["pays"], 540, 1100, [GRNC, C["white"]], 1.1),
+    (T["cash"], 290, 760, [LCOL, C["white"]], 1.1),
+    (T["more"], 790, 900, [HCOL, C["white"]], 1.1),
+    (T["neck"], 540, 530, [GOLD, C["white"]], 1.1),
+    (T["crash"], 540, 440, [C["red"], C["white"]], 1.2),
+    (T["lead"], 540, 530, [LCOL, GOLD, C["white"]], 1.3),
+    (T["So"], 540, 1090, [GOLD, C["white"]], 1.1),
+    (T["Now"], 540, 560, [GOLD, C["white"]], 1.3),
+    (T["fiftynine"], 640, 930, [GRNC, GOLD, C["white"]], 1.4),
+    (T["bought"], 540, 700, [GOLD, C["white"]], 1.1),
+    (T["five2"], 800, 1050, [GOLD, GRNC, C["white"]], 1.6),
+    (T["quietly"], 540, 1050, [GRNC, C["white"]], 1.0),
+    (T["sixtyeight"], 540, 990, [LCOL, GOLD, C["white"]], 1.3),
+    (T["rev1"], 540, 515, [LCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 720, [HCOL, GOLD, C["white"]], 1.6),
+    (T["The"], 540, 540, [GRNC, C["white"]], 1.3),
+    (T["grew"], 550, 540, [GOLD, C["white"], GRNC], 1.6),
+]
+PUNCH = [0.02, T["twenty"], T["A"], T["B"], T["tiny"], T["ten"], T["pays"], T["cash"], T["more"], T["neck"], T["crash"], T["lead"],
+         T["So"], T["Now"], T["fiftynine"], T["bought"], T["five2"], T["sixtyeight"], T["rev1"], T["rev2"], T["The"], T["grew"]]
+FLASH = [0.02, T["Now"], T["five2"], T["rev2"], T["The"]]
