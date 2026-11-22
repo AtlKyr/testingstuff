@@ -827,3 +827,18 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
   had to be rewritten from the project_read output.
 - Timing: clone 15:41 → A delivered ~16:02, B ~16:08. 136/132 words → 61.3/63.3 s raw → tight + TEMPO 1.05/1.07 → 52.9/53.1 s voice.
   Supermetrics not retried (TRIAL_EXPIRED); Subscribr search allowance still used up.
+
+---------------------------------------------------------------------------------------------------------------------
+## 34. AUTO-UPLOAD + THREE DAILY SLOTS (user decisions 2026-11-22) — MANDATORY FROM 2026-11-23
+- The user can't sit at the computer every day. From now on the daily run UPLOADS AND SCHEDULES every Short itself in
+  YouTube Studio through Claude in Chrome. Full, proven procedure: kit/upload/STUDIO_UPLOAD.md (chunked file_upload
+  ≤3.6 MB parts rebuilt inside the Studio page + SHA-256 check → Studio uploader; then title/description/cover/
+  playlist/tags/language/related video/schedule). #38 (published) and #39 (scheduled 23:30) went up this way.
+- THREE slots per day (Europe/Istanbul): A 17:30 (trend), B 23:30 (belief / second angle), C 04:30 next calendar day
+  (≈ 20:30 US Eastern, evening scroll): an evergreen "famous rule / indicator / strategy autopsy" from the backlog queue.
+  Three different topics, three different main music styles. C uses the same first-2-seconds variant as B.
+- Titles: always the HYPE style, one title (user decision 2026-11-22).
+- Playlists: the channel has ONE playlist, "Strategy Autopsy". Use it; do not create playlists.
+- If the Chrome tools are missing or the upload fails, leave the Short as a private draft (or don't upload) and send the
+  files + texts like before, saying exactly which step failed.
+- Pinned comments cannot be posted before a scheduled Short is public → the user posts them.
