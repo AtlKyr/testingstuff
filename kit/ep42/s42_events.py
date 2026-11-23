@@ -1,0 +1,28 @@
+EVENTS = [
+    (0.02, 540, 480, [REDC, GOLD, C["white"]], 1.6),
+    (T["year"], 540, 760, [GOLD, C["white"]], 1.3),
+    (T["A"], 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["April"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["long"], 540, 700, [REDC, C["white"]], 1.2),
+    (T["sits"], 790, 465, [GOLD, C["white"]], 1.0),
+    (T["first"], 540, 440, [REDC, C["white"]], 1.0),
+    (T["climbs"], 540, 530, [HCOL, C["white"]], 1.1),
+    (T["another"], 540, 440, [REDC, C["white"]], 1.1),
+    (T["forty"], 780, 1000, [GRNC, GOLD, C["white"]], 1.3),
+    (T["ahead"], 540, 1080, [LCOL, GOLD, C["white"]], 1.4),
+    (T["works"], 540, 470, [GOLD, C["white"]], 1.1),
+    (T["rips"], 540, 530, [HCOL, C["white"]], 1.2),
+    (T["gone"], 540, 1080, [REDC, C["white"]], 1.2),
+    (T["Then"], 540, 560, [GOLD, C["white"]], 1.3),
+    (T["bottom"], 640, 900, [GOLD, C["white"]], 1.2),
+    (T["He3"], 400, 700, [LCOL, C["white"]], 1.0),
+    (T["sixty"], 760, 1000, [REDC, GOLD, C["white"]], 1.5),
+    (T["rev1"], 540, 515, [LCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 720, [HCOL, GOLD, C["white"]], 1.6),
+    (T["Six"], 540, 540, [GRNC, C["white"]], 1.3),
+    (T["higher"], 550, 540, [GOLD, C["white"], GRNC], 1.6),
+]
+PUNCH = [0.02, T["year"], T["A"], T["B"], T["April"], T["long"], T["sits"], T["first"], T["climbs"], T["another"], T["forty"], T["ahead"],
+         T["works"], T["rips"], T["gone"], T["Then"], T["bottom"], T["He3"], T["sixty"], T["rev1"], T["rev2"], T["Six"], T["higher"]]
+FLASH = [0.02, T["Then"], T["sixty"], T["rev2"], T["Six"]]

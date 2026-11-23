@@ -1,0 +1,28 @@
+EVENTS = [
+    (0.02, 540, 480, [GOLD, HCOL, C["white"]], 1.6),
+    (T["safe"], 540, 760, [GOLD, C["white"]], 1.3),
+    (T["A"], 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["ugly"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["ten"], 540, 540, [GOLD, C["white"]], 1.0),
+    (T["SPY"], 300, 900, [LCOL, C["white"]], 1.1),
+    (T["forty"], 790, 900, [GOLD, C["white"]], 1.1),
+    (T["January"], 540, 1100, [GOLD, C["white"]], 1.0),
+    (T["Stocks"], 540, 440, [REDC, C["white"]], 1.2),
+    (T["fourteen"], 790, 1000, [HCOL, C["white"]], 1.2),
+    (T["lead"], 540, 530, [HCOL, GOLD, C["white"]], 1.3),
+    (T["bonds"], 540, 1090, [GOLD, C["white"]], 1.1),
+    (T["passes"], 540, 530, [LCOL, C["white"]], 1.2),
+    (T["front"], 540, 530, [HCOL, C["white"]], 1.1),
+    (T["The"], 540, 560, [GOLD, C["white"]], 1.3),
+    (T["eighteen"], 300, 900, [REDC, C["white"]], 1.3),
+    (T["sixteen"], 760, 900, [REDC, GOLD, C["white"]], 1.5),
+    (T["cracked"], 540, 760, [C["white"], GOLD], 1.4),
+    (T["rev1"], 540, 515, [HCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 720, [LCOL, GOLD, C["white"]], 1.6),
+    (T["Her2"], 540, 540, [GRNC, C["white"]], 1.3),
+    (T["far"], 550, 540, [GOLD, C["white"], GRNC], 1.6),
+]
+PUNCH = [0.02, T["safe"], T["A"], T["B"], T["ugly"], T["ten"], T["SPY"], T["forty"], T["Stocks"], T["fourteen"], T["lead"], T["bonds"],
+         T["passes"], T["front"], T["The"], T["eighteen"], T["sixteen"], T["cracked"], T["rev1"], T["rev2"], T["Her2"], T["far"]]
+FLASH = [0.02, T["The"], T["sixteen"], T["rev2"], T["Her2"]]

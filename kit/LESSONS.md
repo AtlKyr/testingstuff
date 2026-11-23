@@ -842,3 +842,34 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - If the Chrome tools are missing or the upload fails, leave the Short as a private draft (or don't upload) and send the
   files + texts like before, saying exactly which step failed.
 - Pinned comments cannot be posted before a scheduled Short is public → the user posts them.
+
+---------------------------------------------------------------------------------------------------------------------
+## 35. Added after #40 + #41 + #42 (2026-11-23, Monday) — FIRST THREE-SLOT DAY, all three uploaded + scheduled by the run itself
+- Worked examples: `kit/ep40/` (A 17:30, V1 trend: S&P futures +2.2..2.6% pre-market after 7 straight red days (Yahoo live blog
+  + Investing.com). Rule: SPY opens >= +2% over the prior adj close -> sell AT THAT OPEN, buy back at the open 5 trading days
+  later. $61,454 vs $70,214; 48 such opens, 33 sells, 17 rebought cheaper; hidden thing = Tuesday 2020-03-24 (open +5.1%, rebuy
+  +11%, he never led again). balloon() / prop_balloon() / balloon_rise() props; race_chart with orange sell ticks),
+  `kit/ep41/` (B 23:30, V0 belief: 60/40 vs 100% stocks. Bonds = SIMULATED 10-year Treasury total return from FRED DGS10
+  (r = y/252 - D*dy + 0.5*C*dy^2, par-bond duration/convexity) — checked vs known 10y TR years (2008 +20.5, 2013 -8.5,
+  2022 -16.4 vs ~+20/-9/-18 published). $44,154 vs $70,214, worst drop -30% vs -55%; hidden thing = 2022 (both fell).
+  pie(), shield() with label + flip-safe prop_shield(), bars2()) and `kit/ep42/` (C 04:30, V0 evergreen: death cross ->
+  sell next open, sit out 252 trading days; $28,582 vs $70,891 from 2005-10-18 (200-bar warm-up); 8 sells, 6 rebought higher;
+  hidden thing = April 1 2020 sale (cross fired 3/31, a week after the bottom, rebuy +60%+). cross_chart() = REAL price +
+  50/200-day lines with a red X on the real cross; xmark_big(); every hold length 21..504 days and golden-cross rebuy also lose).
+  Scene files = ep39 scenes + #40 overrides (+ #41, + #42 overrides). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- FILE LOCATION FOR CHROME file_upload: files under /home/claude/... are REFUSED ("only files this session is allowed to read").
+  Copy the chunks + cover to `/mnt/user-data/outputs/upNN/` first; uploading from there works.
+- browser_batch: at most ~10.4 MB of file_upload per batch call -> 2 chunks (3.6 MB) per batch; the call is rejected whole otherwise.
+- Selecting a browser: list_connected_browsers showed 2 browsers, none selected; the one from STUDIO_UPLOAD.md
+  (deviceId 8541bef0-…) is now named "Browser 1" — selected it and confirmed "Strategy Autopsy" in the Studio header.
+- After choosing the Video language option, the first Next click can be swallowed by the closing dropdown — click Next by
+  coordinates (942,614) and check the step changed (Video elements "Related video" Add must be findable).
+- The 04:30 slot: Studio's default schedule date is already TOMORROW — only set the time zone + time.
+- PARAMETER SENSITIVITY (#40): the natural +2%/1-week rule lost, 3 days won ($88,196), 2 weeks lost ($57,098) -> verdict worded on
+  the chosen rule + footnote with one winner and one loser. #42 was robust (all variants lose).
+- RAW vs ADJUSTED again (#42): 2008 rebuy -39.1% adjusted / -40.5% raw -> spoken "about forty percent"; 2020 +63% adj / +61% raw ->
+  "over sixty percent". Always check both before TTS (LESSONS 31).
+- LENGTH: #41 came out 64.1 s raw (slow delivery of "sixty-forty") -> KEEP 0.10 + TEMPO 1.08 + TOTAL = END + 0.5 -> 54.3 s (marginal).
+  Numbers with slashes ("sixty-forty") are read slowly; budget ~130 words for such scripts.
+- Timing: clone 14:41 -> A scheduled ~14:55, B ~15:10, C ~15:19. Three TTS ~830-860 credits each. Supermetrics TRIAL_EXPIRED,
+  Subscribr search allowance still used up. FRED ICE bond indices (BAMLCC0A0CMTRIV) now return only the last ~3 years -> unusable.
