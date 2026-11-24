@@ -873,3 +873,33 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
   Numbers with slashes ("sixty-forty") are read slowly; budget ~130 words for such scripts.
 - Timing: clone 14:41 -> A scheduled ~14:55, B ~15:10, C ~15:19. Three TTS ~830-860 credits each. Supermetrics TRIAL_EXPIRED,
   Subscribr search allowance still used up. FRED ICE bond indices (BAMLCC0A0CMTRIV) now return only the last ~3 years -> unusable.
+
+---------------------------------------------------------------------------------------------------------------------
+## 36. Added after #43 + #44 + #45 (2026-11-24, Tuesday) — second three-slot day, all three uploaded + scheduled by the run
+- Worked examples: `kit/ep43/` (A 17:30, V0 trend: Mon 11-23 S&P +4.73% to 7,237.17, best day since April 2025 (AP/Yahoo +
+  CappNotes). Per-event ROUNDS instead of one strategy: each of the 27 SPY >= +4% days, twin A buys next open, twin B waits for a
+  close below the pre-jump close (else cash); both scored 252 days later. Race = CUMULATIVE PROFIT of the two twins as step lines
+  (CUMA/CUMB) -> the lead changes 4 times, nice race. rule_diagram() schematic, 27-cell round grid, start_line() dashed level on a
+  zoom chart, gcandle()/prop_candle()), `kit/ep44/` (B 23:30, V1: 4% rule from the 2007-10-09 close with CPI raises (FRED CPIAUCSL
+  -> ep44/cpi.csv), panicking twin who sells at -50% and pays himself from cash -> broke 2019; race_chart(show=(retiree, twin)) to
+  show one line at a time; paycheck()/pay_rain()/prop_bag()) and `kit/ep45/` (C 04:30, V1: Bollinger 20/2, buy < lower band, sell >
+  middle; bb_chart() = real price + filled bands + BUY/SELL tags at the real fills; "erased wins" tile scene). Scene files = ep42 scenes
+  + #43 overrides (ep44/ep45 = s43_scenes + own overrides). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- When the hidden thing would repeat another slot's date (#43 = March 2009), pick a different hidden object for the next slot (#44 used
+  "his twin" who sold in Nov 2008, not the March 2009 low).
+- PARAMETER SENSITIVITY again (#43): pure "wait for the dip" lost ($340,898 vs $350,940) but "wait max 1 or 3 months, then buy anyway"
+  won ($355,611 / $354,650) -> verdict worded on the chosen rule + footnote with the winning variant.
+- Non-$10K start (#44 retirement, $1M) is OK when the topic needs it — say it in the message and the episode doc.
+- V1 first word: scribe put word 0 at 0.147 s although tighten's onset cut is ~0.015 s -> set words_NN.json word 0 start = 0.02 (LESSONS 28).
+- Old module-level code in the chained scene files needs globals from earlier data modules (CHK_D, I_LOW, TR, SELL_I, ROWS, CUMA…):
+  append harmless defaults to the new sNN_data.py instead of editing the old scenes.
+- audio_NN.py copied from another episode references that episode's scene names (SC["rules"], T["never"]…) -> KeyError. grep `SC\[` and
+  `T\[` after copying.
+- AAC peak: alimiter 0.70 gave -1.1 dBTP on #45 -> 0.66 -> -14.3 LUFS / -2.3 dBTP. A full render + mux can exceed the 2-min Bash
+  timeout: run render with timeout 400000.
+- Studio: the schedule date picker defaults to TOMORROW even for the 17:30 / 23:30 slots -> pick today's day in the calendar (A, B);
+  C (04:30) keeps the default. Uploads needed 15–16 parts of 3.6 MB; the split count is size-dependent (don't assume 17).
+- Browser selection: list_connected_browsers showed 2 browsers, none selected -> selected the kit's deviceId 8541bef0 ("Browser 1"),
+  verified "Strategy Autopsy" in the Studio channel switcher before uploading.
+- Timing: clone 14:42 -> A scheduled ~14:58, B ~15:08, C ~15:22. TTS credits 820/834/834. 138/136/136 words -> 59.1/58.5/59.4 s raw ->
+  tight + TEMPO 1.04/1.04/1.05 -> 52.1/50.2/50.7 s voice. Supermetrics TRIAL_EXPIRED, Subscribr searches still used up.

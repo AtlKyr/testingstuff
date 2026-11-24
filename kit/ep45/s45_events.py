@@ -1,0 +1,26 @@
+EVENTS = [
+    (0.02, 540, 520, [GRNC, GOLD, C["white"]], 1.6),
+    (T["Only"], 540, 760, [REDC, C["white"]], 1.2),
+    (T["A"] - 0.3, 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["September"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["Buy"], 290, 1000, [GRNC, C["white"]], 1.1),
+    (T["Sell"], 790, 1000, [REDC, C["white"]], 1.1),
+    (T["Small"], 540, 530, [GRNC, C["white"]], 1.0),
+    (T["Then"], 540, 440, [REDC, C["white"]], 1.2),
+    (T["half"], 540, 530, [GOLD, C["white"]], 1.0),
+    (T["ahead"], 540, 1080, [LCOL, GOLD, C["white"]], 1.4),
+    (T["So"], 540, 560, [GOLD, C["white"]], 1.2),
+    (T["That"], 540, 470, [GOLD, C["white"]], 1.3),
+    (T["Lehman"], 640, 600, [REDC, C["white"]], 1.2),
+    (T["twentytwo"], 700, 1000, [REDC, GOLD, C["white"]], 1.5),
+    (T["eight"], 540, 760, [GRNC, REDC, C["white"]], 1.3),
+    (T["Cash"], 540, 440, [HCOL, C["white"]], 1.1),
+    (T["rev1"], 540, 515, [LCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 720, [HCOL, GOLD, C["white"]], 1.6),
+    (T["Winning"], 540, 540, [GRNC, C["white"]], 1.3),
+    (T["big"], 550, 540, [GOLD, C["white"], GRNC], 1.6),
+]
+PUNCH = [0.02, T["Only"], T["A"], T["B"], T["September"], T["Buy"], T["Sell"], T["Small"], T["Then"], T["half"], T["ahead"], T["So"],
+         T["That"], T["Lehman"], T["twentytwo"], T["eight"], T["Cash"], T["rev1"], T["rev2"], T["Winning"], T["big"]]
+FLASH = [0.02, T["That"], T["twentytwo"], T["rev2"], T["Winning"]]

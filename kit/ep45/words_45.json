@@ -1,0 +1,684 @@
+{
+"words": [
+{
+"text": "Sixty-five",
+"start": 0.02,
+"end": 0.756
+},
+{
+"text": "wins.",
+"start": 0.909,
+"end": 1.531
+},
+{
+"text": "Only",
+"start": 1.677,
+"end": 1.905
+},
+{
+"text": "twenty",
+"start": 1.981,
+"end": 2.286
+},
+{
+"text": "losses.",
+"start": 2.439,
+"end": 3.095
+},
+{
+"text": "Bollinger,",
+"start": 3.198,
+"end": 3.883
+},
+{
+"text": "A?",
+"start": 3.96,
+"end": 4.263
+},
+{
+"text": "Or",
+"start": 4.377,
+"end": 4.491
+},
+{
+"text": "just",
+"start": 4.72,
+"end": 4.872
+},
+{
+"text": "hold,",
+"start": 4.948,
+"end": 5.406
+},
+{
+"text": "B?",
+"start": 5.482,
+"end": 5.819
+},
+{
+"text": "Watch",
+"start": 5.971,
+"end": 6.123
+},
+{
+"text": "one",
+"start": 6.276,
+"end": 6.428
+},
+{
+"text": "September",
+"start": 6.504,
+"end": 6.885
+},
+{
+"text": "trade.",
+"start": 6.962,
+"end": 7.511
+},
+{
+"text": "Two",
+"start": 7.587,
+"end": 7.664
+},
+{
+"text": "bands",
+"start": 7.74,
+"end": 8.197
+},
+{
+"text": "hug",
+"start": 8.273,
+"end": 8.426
+},
+{
+"text": "the",
+"start": 8.502,
+"end": 8.578
+},
+{
+"text": "price.",
+"start": 8.654,
+"end": 9.355
+},
+{
+"text": "The",
+"start": 9.432,
+"end": 9.47
+},
+{
+"text": "rule:",
+"start": 9.508,
+"end": 10.193
+},
+{
+"text": "a",
+"start": 10.27,
+"end": 10.346
+},
+{
+"text": "close",
+"start": 10.46,
+"end": 10.574
+},
+{
+"text": "below",
+"start": 10.651,
+"end": 10.879
+},
+{
+"text": "the",
+"start": 10.917,
+"end": 10.955
+},
+{
+"text": "lower",
+"start": 11.032,
+"end": 11.184
+},
+{
+"text": "band?",
+"start": 11.26,
+"end": 11.745
+},
+{
+"text": "Buy",
+"start": 11.821,
+"end": 11.897
+},
+{
+"text": "the",
+"start": 11.974,
+"end": 12.012
+},
+{
+"text": "next",
+"start": 12.05,
+"end": 12.202
+},
+{
+"text": "morning.",
+"start": 12.278,
+"end": 12.719
+},
+{
+"text": "Back",
+"start": 12.796,
+"end": 12.872
+},
+{
+"text": "to",
+"start": 12.91,
+"end": 12.948
+},
+{
+"text": "the",
+"start": 13.024,
+"end": 13.062
+},
+{
+"text": "middle",
+"start": 13.1,
+"end": 13.253
+},
+{
+"text": "line?",
+"start": 13.405,
+"end": 13.709
+},
+{
+"text": "Sell.",
+"start": 13.785,
+"end": 14.155
+},
+{
+"text": "Ten",
+"start": 14.232,
+"end": 14.308
+},
+{
+"text": "thousand",
+"start": 14.536,
+"end": 14.917
+},
+{
+"text": "dollars",
+"start": 14.993,
+"end": 15.298
+},
+{
+"text": "in",
+"start": 15.374,
+"end": 15.451
+},
+{
+"text": "SPY,",
+"start": 15.527,
+"end": 16.441
+},
+{
+"text": "from",
+"start": 16.517,
+"end": 16.593
+},
+{
+"text": "two",
+"start": 16.67,
+"end": 16.746
+},
+{
+"text": "thousand",
+"start": 16.822,
+"end": 17.127
+},
+{
+"text": "five.",
+"start": 17.203,
+"end": 17.682
+},
+{
+"text": "Small",
+"start": 17.797,
+"end": 17.911
+},
+{
+"text": "bounces,",
+"start": 17.987,
+"end": 18.673
+},
+{
+"text": "small",
+"start": 18.749,
+"end": 18.977
+},
+{
+"text": "wins.",
+"start": 19.054,
+"end": 19.677
+},
+{
+"text": "Then",
+"start": 19.867,
+"end": 20.058
+},
+{
+"text": "two",
+"start": 20.096,
+"end": 20.134
+},
+{
+"text": "thousand",
+"start": 20.286,
+"end": 20.591
+},
+{
+"text": "eight.",
+"start": 20.667,
+"end": 21.019
+},
+{
+"text": "The",
+"start": 21.095,
+"end": 21.171
+},
+{
+"text": "market",
+"start": 21.247,
+"end": 21.552
+},
+{
+"text": "crashes.",
+"start": 21.628,
+"end": 22.619
+},
+{
+"text": "The",
+"start": 22.657,
+"end": 22.695
+},
+{
+"text": "bands",
+"start": 22.771,
+"end": 23.152
+},
+{
+"text": "keep",
+"start": 23.228,
+"end": 23.305
+},
+{
+"text": "it",
+"start": 23.381,
+"end": 23.533
+},
+{
+"text": "half",
+"start": 23.647,
+"end": 23.762
+},
+{
+"text": "in",
+"start": 23.838,
+"end": 23.914
+},
+{
+"text": "cash.",
+"start": 23.99,
+"end": 24.55
+},
+{
+"text": "By",
+"start": 24.626,
+"end": 24.703
+},
+{
+"text": "March",
+"start": 24.817,
+"end": 24.931
+},
+{
+"text": "two",
+"start": 25.007,
+"end": 25.084
+},
+{
+"text": "thousand",
+"start": 25.16,
+"end": 25.465
+},
+{
+"text": "nine,",
+"start": 25.541,
+"end": 25.922
+},
+{
+"text": "it's",
+"start": 25.96,
+"end": 26.226
+},
+{
+"text": "way",
+"start": 26.303,
+"end": 26.455
+},
+{
+"text": "ahead",
+"start": 26.607,
+"end": 26.76
+},
+{
+"text": "of",
+"start": 26.836,
+"end": 26.988
+},
+{
+"text": "buy",
+"start": 27.065,
+"end": 27.141
+},
+{
+"text": "and",
+"start": 27.217,
+"end": 27.293
+},
+{
+"text": "hold.",
+"start": 27.484,
+"end": 27.815
+},
+{
+"text": "So",
+"start": 27.967,
+"end": 28.119
+},
+{
+"text": "the",
+"start": 28.195,
+"end": 28.272
+},
+{
+"text": "bands",
+"start": 28.424,
+"end": 28.576
+},
+{
+"text": "work?",
+"start": 28.653,
+"end": 29.037
+},
+{
+"text": "That",
+"start": 29.168,
+"end": 29.189
+},
+{
+"text": "September",
+"start": 29.418,
+"end": 29.647
+},
+{
+"text": "trade?",
+"start": 29.723,
+"end": 30.366
+},
+{
+"text": "It",
+"start": 30.48,
+"end": 30.595
+},
+{
+"text": "bought",
+"start": 30.633,
+"end": 30.823
+},
+{
+"text": "on",
+"start": 30.899,
+"end": 30.976
+},
+{
+"text": "September",
+"start": 31.052,
+"end": 31.433
+},
+{
+"text": "fifth,",
+"start": 31.585,
+"end": 31.89
+},
+{
+"text": "two",
+"start": 31.966,
+"end": 32.042
+},
+{
+"text": "thousand",
+"start": 32.119,
+"end": 32.499
+},
+{
+"text": "eight.",
+"start": 32.576,
+"end": 32.922
+},
+{
+"text": "Then",
+"start": 32.998,
+"end": 33.379
+},
+{
+"text": "Lehman",
+"start": 33.455,
+"end": 33.76
+},
+{
+"text": "collapsed.",
+"start": 34.217,
+"end": 34.611
+},
+{
+"text": "Sold",
+"start": 34.739,
+"end": 34.866
+},
+{
+"text": "end",
+"start": 34.942,
+"end": 35.018
+},
+{
+"text": "of",
+"start": 35.094,
+"end": 35.17
+},
+{
+"text": "October:",
+"start": 35.589,
+"end": 36.11
+},
+{
+"text": "down",
+"start": 36.211,
+"end": 36.313
+},
+{
+"text": "over",
+"start": 36.389,
+"end": 36.618
+},
+{
+"text": "twenty-two",
+"start": 36.808,
+"end": 37.151
+},
+{
+"text": "percent.",
+"start": 37.227,
+"end": 37.97
+},
+{
+"text": "One",
+"start": 38.008,
+"end": 38.161
+},
+{
+"text": "loss",
+"start": 38.237,
+"end": 38.542
+},
+{
+"text": "erased",
+"start": 38.618,
+"end": 38.999
+},
+{
+"text": "more",
+"start": 39.075,
+"end": 39.151
+},
+{
+"text": "than",
+"start": 39.265,
+"end": 39.38
+},
+{
+"text": "eight",
+"start": 39.456,
+"end": 39.761
+},
+{
+"text": "average",
+"start": 39.837,
+"end": 40.142
+},
+{
+"text": "wins.",
+"start": 40.523,
+"end": 40.731
+},
+{
+"text": "After",
+"start": 40.769,
+"end": 40.998
+},
+{
+"text": "that?",
+"start": 41.074,
+"end": 41.352
+},
+{
+"text": "Cash",
+"start": 41.39,
+"end": 41.695
+},
+{
+"text": "four",
+"start": 41.848,
+"end": 42.0
+},
+{
+"text": "days",
+"start": 42.076,
+"end": 42.305
+},
+{
+"text": "out",
+"start": 42.343,
+"end": 42.381
+},
+{
+"text": "of",
+"start": 42.457,
+"end": 42.533
+},
+{
+"text": "five.",
+"start": 42.609,
+"end": 43.379
+},
+{
+"text": "Final",
+"start": 43.447,
+"end": 43.675
+},
+{
+"text": "count:",
+"start": 43.752,
+"end": 44.223
+},
+{
+"text": "the",
+"start": 44.261,
+"end": 44.299
+},
+{
+"text": "bands,",
+"start": 44.375,
+"end": 44.908
+},
+{
+"text": "about",
+"start": 45.061,
+"end": 45.213
+},
+{
+"text": "twenty",
+"start": 45.327,
+"end": 45.442
+},
+{
+"text": "thousand.",
+"start": 45.594,
+"end": 46.14
+},
+{
+"text": "Buy",
+"start": 46.217,
+"end": 46.293
+},
+{
+"text": "and",
+"start": 46.369,
+"end": 46.445
+},
+{
+"text": "hold,",
+"start": 46.636,
+"end": 47.131
+},
+{
+"text": "seventy-two",
+"start": 47.169,
+"end": 47.817
+},
+{
+"text": "thousand.",
+"start": 47.893,
+"end": 48.427
+},
+{
+"text": "Winning",
+"start": 48.503,
+"end": 48.808
+},
+{
+"text": "often",
+"start": 48.884,
+"end": 49.418
+},
+{
+"text": "isn't",
+"start": 49.494,
+"end": 49.875
+},
+{
+"text": "winning",
+"start": 49.951,
+"end": 50.256
+},
+{
+"text": "big.",
+"start": 50.408,
+"end": 50.709
+}
+]
+}

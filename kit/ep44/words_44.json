@@ -1,0 +1,684 @@
+{
+"words": [
+{
+"text": "A",
+"start": 0.0,
+"end": 0.044
+},
+{
+"text": "million",
+"start": 0.198,
+"end": 0.505
+},
+{
+"text": "dollars,",
+"start": 0.582,
+"end": 1.313
+},
+{
+"text": "retired",
+"start": 1.367,
+"end": 1.906
+},
+{
+"text": "at",
+"start": 1.983,
+"end": 2.06
+},
+{
+"text": "the",
+"start": 2.136,
+"end": 2.213
+},
+{
+"text": "top.",
+"start": 2.29,
+"end": 2.655
+},
+{
+"text": "Broke",
+"start": 2.738,
+"end": 2.969
+},
+{
+"text": "by",
+"start": 3.046,
+"end": 3.122
+},
+{
+"text": "now,",
+"start": 3.199,
+"end": 3.43
+},
+{
+"text": "A?",
+"start": 3.584,
+"end": 3.932
+},
+{
+"text": "Or",
+"start": 4.009,
+"end": 4.086
+},
+{
+"text": "richer,",
+"start": 4.24,
+"end": 4.855
+},
+{
+"text": "B?",
+"start": 5.009,
+"end": 5.267
+},
+{
+"text": "And",
+"start": 5.344,
+"end": 5.421
+},
+{
+"text": "watch",
+"start": 5.498,
+"end": 5.729
+},
+{
+"text": "his",
+"start": 5.844,
+"end": 5.959
+},
+{
+"text": "twin.",
+"start": 5.998,
+"end": 6.421
+},
+{
+"text": "October",
+"start": 6.955,
+"end": 7.032
+},
+{
+"text": "ninth,",
+"start": 7.186,
+"end": 7.532
+},
+{
+"text": "two",
+"start": 7.57,
+"end": 7.647
+},
+{
+"text": "thousand",
+"start": 7.724,
+"end": 8.109
+},
+{
+"text": "seven:",
+"start": 8.416,
+"end": 8.606
+},
+{
+"text": "the",
+"start": 8.683,
+"end": 8.76
+},
+{
+"text": "S",
+"start": 8.837,
+"end": 8.913
+},
+{
+"text": "and",
+"start": 8.99,
+"end": 9.067
+},
+{
+"text": "P's",
+"start": 9.221,
+"end": 9.529
+},
+{
+"text": "record",
+"start": 9.837,
+"end": 9.913
+},
+{
+"text": "close.",
+"start": 10.375,
+"end": 10.788
+},
+{
+"text": "He",
+"start": 10.865,
+"end": 10.942
+},
+{
+"text": "follows",
+"start": 11.172,
+"end": 11.326
+},
+{
+"text": "the",
+"start": 11.403,
+"end": 11.531
+},
+{
+"text": "famous",
+"start": 11.66,
+"end": 11.865
+},
+{
+"text": "four",
+"start": 12.019,
+"end": 12.096
+},
+{
+"text": "percent",
+"start": 12.48,
+"end": 12.557
+},
+{
+"text": "rule:",
+"start": 12.788,
+"end": 13.034
+},
+{
+"text": "forty",
+"start": 13.188,
+"end": 13.342
+},
+{
+"text": "thousand",
+"start": 13.457,
+"end": 13.649
+},
+{
+"text": "the",
+"start": 13.726,
+"end": 13.842
+},
+{
+"text": "first",
+"start": 13.957,
+"end": 14.034
+},
+{
+"text": "year,",
+"start": 14.265,
+"end": 14.534
+},
+{
+"text": "then",
+"start": 14.649,
+"end": 14.726
+},
+{
+"text": "raised",
+"start": 15.034,
+"end": 15.111
+},
+{
+"text": "with",
+"start": 15.188,
+"end": 15.265
+},
+{
+"text": "inflation.",
+"start": 15.342,
+"end": 16.051
+},
+{
+"text": "All",
+"start": 16.205,
+"end": 16.282
+},
+{
+"text": "in",
+"start": 16.512,
+"end": 16.589
+},
+{
+"text": "SPY.",
+"start": 16.666,
+"end": 17.58
+},
+{
+"text": "His",
+"start": 17.657,
+"end": 17.734
+},
+{
+"text": "twin",
+"start": 17.85,
+"end": 18.119
+},
+{
+"text": "too.",
+"start": 18.35,
+"end": 18.545
+},
+{
+"text": "Then",
+"start": 18.929,
+"end": 19.006
+},
+{
+"text": "two",
+"start": 19.083,
+"end": 19.16
+},
+{
+"text": "thousand",
+"start": 19.237,
+"end": 19.622
+},
+{
+"text": "eight",
+"start": 19.699,
+"end": 19.776
+},
+{
+"text": "hits.",
+"start": 20.16,
+"end": 20.438
+},
+{
+"text": "By",
+"start": 20.515,
+"end": 20.63
+},
+{
+"text": "March",
+"start": 20.746,
+"end": 20.823
+},
+{
+"text": "two",
+"start": 20.899,
+"end": 20.976
+},
+{
+"text": "thousand",
+"start": 21.053,
+"end": 21.515
+},
+{
+"text": "nine,",
+"start": 21.669,
+"end": 21.938
+},
+{
+"text": "the",
+"start": 21.976,
+"end": 22.13
+},
+{
+"text": "million",
+"start": 22.515,
+"end": 22.592
+},
+{
+"text": "is",
+"start": 22.746,
+"end": 22.861
+},
+{
+"text": "down",
+"start": 22.976,
+"end": 23.092
+},
+{
+"text": "to",
+"start": 23.207,
+"end": 23.284
+},
+{
+"text": "four",
+"start": 23.361,
+"end": 23.438
+},
+{
+"text": "hundred",
+"start": 23.515,
+"end": 23.823
+},
+{
+"text": "eleven",
+"start": 24.053,
+"end": 24.438
+},
+{
+"text": "thousand.",
+"start": 24.515,
+"end": 25.074
+},
+{
+"text": "And",
+"start": 25.112,
+"end": 25.189
+},
+{
+"text": "the",
+"start": 25.266,
+"end": 25.382
+},
+{
+"text": "paychecks",
+"start": 25.497,
+"end": 25.92
+},
+{
+"text": "keep",
+"start": 26.036,
+"end": 26.228
+},
+{
+"text": "coming.",
+"start": 26.42,
+"end": 27.074
+},
+{
+"text": "Here",
+"start": 27.266,
+"end": 27.42
+},
+{
+"text": "the",
+"start": 27.497,
+"end": 27.574
+},
+{
+"text": "twins",
+"start": 27.651,
+"end": 28.112
+},
+{
+"text": "split.",
+"start": 28.343,
+"end": 28.453
+},
+{
+"text": "And",
+"start": 28.585,
+"end": 28.7
+},
+{
+"text": "that",
+"start": 28.816,
+"end": 28.854
+},
+{
+"text": "twin?",
+"start": 28.893,
+"end": 29.585
+},
+{
+"text": "He",
+"start": 29.662,
+"end": 29.739
+},
+{
+"text": "sold",
+"start": 30.123,
+"end": 30.2
+},
+{
+"text": "everything",
+"start": 30.662,
+"end": 30.7
+},
+{
+"text": "in",
+"start": 30.739,
+"end": 30.816
+},
+{
+"text": "November",
+"start": 31.2,
+"end": 31.277
+},
+{
+"text": "two",
+"start": 31.354,
+"end": 31.508
+},
+{
+"text": "thousand",
+"start": 31.662,
+"end": 31.893
+},
+{
+"text": "eight,",
+"start": 32.047,
+"end": 32.393
+},
+{
+"text": "after",
+"start": 32.508,
+"end": 32.585
+},
+{
+"text": "losing",
+"start": 32.893,
+"end": 32.97
+},
+{
+"text": "half.",
+"start": 33.354,
+"end": 33.636
+},
+{
+"text": "Safe",
+"start": 33.867,
+"end": 34.021
+},
+{
+"text": "in",
+"start": 34.174,
+"end": 34.405
+},
+{
+"text": "cash.",
+"start": 34.636,
+"end": 35.174
+},
+{
+"text": "In",
+"start": 35.251,
+"end": 35.367
+},
+{
+"text": "twenty",
+"start": 35.482,
+"end": 35.521
+},
+{
+"text": "nineteen,",
+"start": 35.559,
+"end": 36.405
+},
+{
+"text": "his",
+"start": 36.482,
+"end": 36.597
+},
+{
+"text": "money",
+"start": 36.713,
+"end": 36.79
+},
+{
+"text": "ran",
+"start": 36.944,
+"end": 37.021
+},
+{
+"text": "out.",
+"start": 37.251,
+"end": 37.533
+},
+{
+"text": "Our",
+"start": 37.61,
+"end": 37.726
+},
+{
+"text": "retiree",
+"start": 37.841,
+"end": 38.533
+},
+{
+"text": "never",
+"start": 38.687,
+"end": 38.764
+},
+{
+"text": "sold.",
+"start": 39.172,
+"end": 39.249
+},
+{
+"text": "Back",
+"start": 39.403,
+"end": 39.519
+},
+{
+"text": "above",
+"start": 39.634,
+"end": 39.672
+},
+{
+"text": "a",
+"start": 39.711,
+"end": 40.057
+},
+{
+"text": "million?",
+"start": 40.164,
+"end": 40.241
+},
+{
+"text": "Only",
+"start": 40.472,
+"end": 40.549
+},
+{
+"text": "in",
+"start": 40.626,
+"end": 40.703
+},
+{
+"text": "twenty",
+"start": 40.934,
+"end": 41.049
+},
+{
+"text": "fourteen.",
+"start": 41.164,
+"end": 41.895
+},
+{
+"text": "End",
+"start": 42.1,
+"end": 42.177
+},
+{
+"text": "of",
+"start": 42.254,
+"end": 42.331
+},
+{
+"text": "twenty",
+"start": 42.561,
+"end": 42.715
+},
+{
+"text": "twenty-four:",
+"start": 42.869,
+"end": 43.435
+},
+{
+"text": "two",
+"start": 43.473,
+"end": 43.627
+},
+{
+"text": "point",
+"start": 43.858,
+"end": 44.012
+},
+{
+"text": "three",
+"start": 44.166,
+"end": 44.319
+},
+{
+"text": "million",
+"start": 44.627,
+"end": 44.704
+},
+{
+"text": "left,",
+"start": 45.089,
+"end": 45.166
+},
+{
+"text": "after",
+"start": 45.396,
+"end": 45.55
+},
+{
+"text": "taking",
+"start": 45.704,
+"end": 45.819
+},
+{
+"text": "out",
+"start": 45.935,
+"end": 46.05
+},
+{
+"text": "eight",
+"start": 46.166,
+"end": 46.204
+},
+{
+"text": "hundred",
+"start": 46.242,
+"end": 46.704
+},
+{
+"text": "twenty-two",
+"start": 46.858,
+"end": 47.166
+},
+{
+"text": "thousand.",
+"start": 47.242,
+"end": 47.906
+},
+{
+"text": "Worst",
+"start": 48.099,
+"end": 48.368
+},
+{
+"text": "possible",
+"start": 48.83,
+"end": 48.906
+},
+{
+"text": "start.",
+"start": 49.348,
+"end": 49.502
+},
+{
+"text": "Still",
+"start": 49.733,
+"end": 49.848
+},
+{
+"text": "richer.",
+"start": 49.963,
+"end": 50.213
+}
+]
+}

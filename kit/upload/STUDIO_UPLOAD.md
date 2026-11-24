@@ -13,7 +13,8 @@ Do NOT print the hash from the page (the tool output filter blocks it) — compa
 ## Steps (viewport was 1037x697; prefer refs from `find` over coordinates)
 0. ToolSearch once: tabs_context_mcp, tabs_create_mcp, navigate, computer, find, read_page, javascript_tool, file_upload,
    list_connected_browsers, select_browser. If several browsers are connected and none is selected, use the one whose
-   Studio shows "Strategy Autopsy" (2026-11-22 that was "Browser 2", deviceId 8541bef0-0367-4b7d-ad9e-d4ca850472b1).
+   Studio shows "Strategy Autopsy" (2026-11-22 that was "Browser 2", deviceId 8541bef0-0367-4b7d-ad9e-d4ca850472b1; named "Browser 1"
+   on 2026-11-23/24). Verify the channel name with javascript (channel switcher shows "Strategy Autopsy") before uploading.
    Open your own new tab.
 1. Container: `split -b 3600000 -d -a 2 StrategyAutopsy_NN_X.mp4 pNN_` and `sha256sum` the mp4. COPY the parts and the cover PNG to
    `/mnt/user-data/outputs/upNN/` (file_upload refuses /home/claude/... paths; outputs/ works — 2026-11-23).
@@ -48,7 +49,9 @@ const d=document.querySelector('ytcp-uploads-dialog'); const tb=d.querySelectorA
     "I Tested 3 Famous Trading Strategies for 20 Years" (= https://youtu.be/qEMMPEl1E98).
 13. Next → Initial check (wait for "Checks complete. No issues found.") → Next → Visibility.
 14. Scheduled: expand "Schedule" → time-zone dropdown → "(GMT+0300) Local Time" → date picker → click the day →
-    time field: triple_click, ctrl+a, type e.g. "11:30 PM", Enter → button "Schedule". The 04:30 slot is the NEXT
+    time field: triple_click, ctrl+a, type e.g. "11:30 PM", Enter → button "Schedule". NOTE (2026-11-24): the date picker
+    defaults to TOMORROW for every slot — for A (17:30) and B (23:30) click TODAY's day in the calendar (it was at ~(206,518) in a
+    1037x697 viewport); zoom the schedule row to verify date + time + "(GMT+0300)" before clicking Schedule. The 04:30 slot is the NEXT
     calendar day, "4:30 AM" (Studio's default date is already tomorrow — just set zone + time). If the slot time has already passed: choose "Public" → "Publish" instead.
 15. The "Video scheduled"/"Video published" dialog shows the Shorts link (youtube.com/shorts/ID) — record it, Close.
 16. Pinned comment: comments only open once the video is public, so a scheduled Short cannot get it now — give the
