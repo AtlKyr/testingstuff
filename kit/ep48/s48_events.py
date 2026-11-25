@@ -1,0 +1,27 @@
+EVENTS = [
+    (0.02, 540, 560, [GOLD, LCOL, C["white"]], 1.6),
+    (T["fiftyfour"], 540, 560, [GOLD, C["white"]], 1.1),
+    (T["A"] - 0.3, 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["Circle"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["buy"], 290, 1060, [GRNC, C["white"]], 1.1),
+    (T["sell"], 790, 1060, [REDC, C["white"]], 1.1),
+    (T["sits"], 540, 440, [C["cream"], C["white"]], 1.0),
+    (T["sixtytwo"], 540, 1080, [LCOL, GOLD, C["white"]], 1.5),
+    (T["Up"], 220, 1060, [GRNC, C["white"]], 0.9),
+    (T["down"], 540, 1110, [REDC, C["white"]], 0.9),
+    (T["up2"], 860, 1060, [GRNC, C["white"]], 0.9),
+    (T["lose"], 540, 1110, [REDC, C["white"]], 1.3),
+    (T["Now"], 540, 520, [GOLD, C["white"]], 1.2),
+    (T["Oct3"], 540, 450, [GOLD, C["white"]], 1.2),
+    (T["last"], 540, 1080, [LCOL, C["white"]], 1.3),
+    (T["never"], 540, 450, [REDC, C["white"]], 1.2),
+    (T["dodging"], 540, 1080, [C["cream"], C["white"]], 1.0),
+    (T["rev1"], 540, 515, [LCOL, GOLD, C["white"]], 1.3),
+    (T["rev2"], 540, 720, [HCOL, GOLD, C["white"]], 1.6),
+    (T["Verd"], 540, 540, [GRNC, C["white"]], 1.3),
+    (T["big"], 550, 540, [GOLD, C["white"], LCOL], 1.6),
+]
+PUNCH = [0.02, T["fiftyfour"], T["A"], T["B"], T["Circle"], T["buy"], T["sell"], T["sixtytwo"], T["Up"], T["down"], T["up2"], T["lose"],
+         T["Now"], T["Oct3"], T["last"], T["never"], T["rev1"], T["rev2"], T["Verd"], T["big"]]
+FLASH = [0.02, T["sixtytwo"], T["Now"], T["last"], T["rev2"], T["Verd"]]

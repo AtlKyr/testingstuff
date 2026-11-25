@@ -1,0 +1,674 @@
+{
+"words": [
+{
+"text": "Up",
+"start": 0.02,
+"end": 0.206
+},
+{
+"text": "twenty",
+"start": 0.282,
+"end": 0.51
+},
+{
+"text": "percent.",
+"start": 0.587,
+"end": 1.247
+},
+{
+"text": "Sit",
+"start": 1.325,
+"end": 1.477
+},
+{
+"text": "out",
+"start": 1.553,
+"end": 1.63
+},
+{
+"text": "next",
+"start": 1.744,
+"end": 1.858
+},
+{
+"text": "year?",
+"start": 1.934,
+"end": 2.202
+},
+{
+"text": "Cash",
+"start": 2.242,
+"end": 2.47
+},
+{
+"text": "out,",
+"start": 2.547,
+"end": 2.737
+},
+{
+"text": "A?",
+"start": 2.775,
+"end": 3.092
+},
+{
+"text": "Or",
+"start": 3.207,
+"end": 3.321
+},
+{
+"text": "stay",
+"start": 3.473,
+"end": 3.702
+},
+{
+"text": "in,",
+"start": 3.778,
+"end": 4.159
+},
+{
+"text": "B?",
+"start": 4.235,
+"end": 4.534
+},
+{
+"text": "Watch",
+"start": 4.629,
+"end": 4.857
+},
+{
+"text": "the",
+"start": 4.933,
+"end": 5.01
+},
+{
+"text": "very",
+"start": 5.238,
+"end": 5.467
+},
+{
+"text": "last",
+"start": 5.543,
+"end": 5.771
+},
+{
+"text": "year.",
+"start": 5.848,
+"end": 6.271
+},
+{
+"text": "Everyone",
+"start": 6.364,
+"end": 6.745
+},
+{
+"text": "says",
+"start": 6.821,
+"end": 6.973
+},
+{
+"text": "it:",
+"start": 7.049,
+"end": 7.507
+},
+{
+"text": "what",
+"start": 7.583,
+"end": 7.659
+},
+{
+"text": "goes",
+"start": 7.735,
+"end": 7.964
+},
+{
+"text": "up",
+"start": 8.078,
+"end": 8.192
+},
+{
+"text": "must",
+"start": 8.421,
+"end": 8.649
+},
+{
+"text": "come",
+"start": 8.726,
+"end": 8.878
+},
+{
+"text": "down.",
+"start": 8.954,
+"end": 9.525
+},
+{
+"text": "So",
+"start": 9.601,
+"end": 9.677
+},
+{
+"text": "after",
+"start": 9.83,
+"end": 9.982
+},
+{
+"text": "every",
+"start": 10.058,
+"end": 10.363
+},
+{
+"text": "twenty",
+"start": 10.477,
+"end": 10.592
+},
+{
+"text": "percent",
+"start": 10.668,
+"end": 10.973
+},
+{
+"text": "year,",
+"start": 11.049,
+"end": 11.506
+},
+{
+"text": "he",
+"start": 11.62,
+"end": 11.735
+},
+{
+"text": "sits",
+"start": 11.785,
+"end": 11.887
+},
+{
+"text": "in",
+"start": 11.963,
+"end": 12.116
+},
+{
+"text": "cash",
+"start": 12.344,
+"end": 12.573
+},
+{
+"text": "all",
+"start": 12.649,
+"end": 12.801
+},
+{
+"text": "of",
+"start": 12.877,
+"end": 12.954
+},
+{
+"text": "the",
+"start": 12.992,
+"end": 13.03
+},
+{
+"text": "next",
+"start": 13.106,
+"end": 13.258
+},
+{
+"text": "one.",
+"start": 13.335,
+"end": 13.628
+},
+{
+"text": "Twenty",
+"start": 13.742,
+"end": 13.857
+},
+{
+"text": "ten:",
+"start": 13.933,
+"end": 14.334
+},
+{
+"text": "he",
+"start": 14.41,
+"end": 14.487
+},
+{
+"text": "skips",
+"start": 14.525,
+"end": 14.715
+},
+{
+"text": "it.",
+"start": 14.791,
+"end": 15.249
+},
+{
+"text": "The",
+"start": 15.287,
+"end": 15.325
+},
+{
+"text": "market",
+"start": 15.401,
+"end": 15.706
+},
+{
+"text": "climbs",
+"start": 15.782,
+"end": 16.239
+},
+{
+"text": "anyway.",
+"start": 16.353,
+"end": 16.775
+},
+{
+"text": "Twenty",
+"start": 16.851,
+"end": 16.927
+},
+{
+"text": "fourteen,",
+"start": 17.003,
+"end": 17.689
+},
+{
+"text": "twenty",
+"start": 17.765,
+"end": 17.994
+},
+{
+"text": "eighteen,",
+"start": 18.07,
+"end": 18.603
+},
+{
+"text": "twenty",
+"start": 18.718,
+"end": 18.832
+},
+{
+"text": "twenty:",
+"start": 18.908,
+"end": 19.594
+},
+{
+"text": "same",
+"start": 19.67,
+"end": 19.899
+},
+{
+"text": "move.",
+"start": 19.975,
+"end": 20.59
+},
+{
+"text": "Four",
+"start": 20.666,
+"end": 20.895
+},
+{
+"text": "of",
+"start": 20.971,
+"end": 21.047
+},
+{
+"text": "the",
+"start": 21.123,
+"end": 21.199
+},
+{
+"text": "six",
+"start": 21.276,
+"end": 21.504
+},
+{
+"text": "years",
+"start": 21.618,
+"end": 21.733
+},
+{
+"text": "he",
+"start": 21.847,
+"end": 21.961
+},
+{
+"text": "skipped",
+"start": 22.037,
+"end": 22.342
+},
+{
+"text": "still",
+"start": 22.495,
+"end": 22.799
+},
+{
+"text": "went",
+"start": 22.876,
+"end": 23.028
+},
+{
+"text": "up.",
+"start": 23.104,
+"end": 23.389
+},
+{
+"text": "Then",
+"start": 23.542,
+"end": 23.694
+},
+{
+"text": "twenty",
+"start": 23.923,
+"end": 24.075
+},
+{
+"text": "twenty-two.",
+"start": 24.151,
+"end": 24.987
+},
+{
+"text": "He's",
+"start": 25.063,
+"end": 25.177
+},
+{
+"text": "in",
+"start": 25.215,
+"end": 25.368
+},
+{
+"text": "cash",
+"start": 25.444,
+"end": 25.749
+},
+{
+"text": "for",
+"start": 25.825,
+"end": 25.901
+},
+{
+"text": "a",
+"start": 25.939,
+"end": 25.977
+},
+{
+"text": "bear",
+"start": 26.13,
+"end": 26.282
+},
+{
+"text": "market.",
+"start": 26.358,
+"end": 26.876
+},
+{
+"text": "Finally,",
+"start": 26.952,
+"end": 27.562
+},
+{
+"text": "the",
+"start": 27.6,
+"end": 27.638
+},
+{
+"text": "skeptic",
+"start": 27.714,
+"end": 28.171
+},
+{
+"text": "looks",
+"start": 28.286,
+"end": 28.4
+},
+{
+"text": "smart.",
+"start": 28.591,
+"end": 28.857
+},
+{
+"text": "So",
+"start": 29.308,
+"end": 29.369
+},
+{
+"text": "big",
+"start": 29.597,
+"end": 29.826
+},
+{
+"text": "years",
+"start": 29.902,
+"end": 30.13
+},
+{
+"text": "really",
+"start": 30.283,
+"end": 30.511
+},
+{
+"text": "do",
+"start": 30.664,
+"end": 30.74
+},
+{
+"text": "warn",
+"start": 30.816,
+"end": 31.045
+},
+{
+"text": "us?",
+"start": 31.121,
+"end": 31.498
+},
+{
+"text": "And",
+"start": 31.536,
+"end": 31.574
+},
+{
+"text": "that",
+"start": 31.65,
+"end": 31.727
+},
+{
+"text": "very",
+"start": 31.879,
+"end": 32.031
+},
+{
+"text": "last",
+"start": 32.107,
+"end": 32.336
+},
+{
+"text": "year?",
+"start": 32.412,
+"end": 32.666
+},
+{
+"text": "After",
+"start": 32.725,
+"end": 32.954
+},
+{
+"text": "a",
+"start": 33.03,
+"end": 33.182
+},
+{
+"text": "huge",
+"start": 33.259,
+"end": 33.563
+},
+{
+"text": "twenty",
+"start": 33.639,
+"end": 33.792
+},
+{
+"text": "twenty-three,",
+"start": 33.944,
+"end": 34.706
+},
+{
+"text": "he",
+"start": 34.82,
+"end": 34.935
+},
+{
+"text": "skips",
+"start": 35.011,
+"end": 35.316
+},
+{
+"text": "twenty",
+"start": 35.392,
+"end": 35.544
+},
+{
+"text": "twenty-four.",
+"start": 35.62,
+"end": 36.341
+},
+{
+"text": "It",
+"start": 36.417,
+"end": 36.493
+},
+{
+"text": "soars",
+"start": 36.646,
+"end": 37.103
+},
+{
+"text": "twenty-five",
+"start": 37.179,
+"end": 37.865
+},
+{
+"text": "percent.",
+"start": 37.941,
+"end": 38.575
+},
+{
+"text": "Without",
+"start": 38.766,
+"end": 38.956
+},
+{
+"text": "him.",
+"start": 39.109,
+"end": 39.337
+},
+{
+"text": "The",
+"start": 39.704,
+"end": 39.742
+},
+{
+"text": "scoreboard.",
+"start": 39.818,
+"end": 40.493
+},
+{
+"text": "Sitting",
+"start": 40.653,
+"end": 40.881
+},
+{
+"text": "out:",
+"start": 40.995,
+"end": 41.308
+},
+{
+"text": "forty-six",
+"start": 41.384,
+"end": 41.765
+},
+{
+"text": "thousand",
+"start": 41.841,
+"end": 42.146
+},
+{
+"text": "six",
+"start": 42.375,
+"end": 42.527
+},
+{
+"text": "hundred.",
+"start": 42.565,
+"end": 43.052
+},
+{
+"text": "Staying",
+"start": 43.09,
+"end": 43.356
+},
+{
+"text": "in:",
+"start": 43.433,
+"end": 43.832
+},
+{
+"text": "seventy",
+"start": 43.908,
+"end": 44.213
+},
+{
+"text": "thousand",
+"start": 44.289,
+"end": 44.594
+},
+{
+"text": "two",
+"start": 44.747,
+"end": 44.899
+},
+{
+"text": "hundred.",
+"start": 44.975,
+"end": 45.475
+},
+{
+"text": "Big",
+"start": 45.551,
+"end": 45.703
+},
+{
+"text": "years",
+"start": 45.779,
+"end": 46.084
+},
+{
+"text": "aren't",
+"start": 46.16,
+"end": 46.389
+},
+{
+"text": "warnings.",
+"start": 46.541,
+"end": 47.232
+},
+{
+"text": "They're",
+"start": 47.271,
+"end": 47.385
+},
+{
+"text": "just",
+"start": 47.461,
+"end": 47.613
+},
+{
+"text": "big",
+"start": 47.766,
+"end": 47.918
+},
+{
+"text": "years.",
+"start": 47.994,
+"end": 48.604
+}
+]
+}

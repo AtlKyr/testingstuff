@@ -903,3 +903,29 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
   verified "Strategy Autopsy" in the Studio channel switcher before uploading.
 - Timing: clone 14:42 -> A scheduled ~14:58, B ~15:08, C ~15:22. TTS credits 820/834/834. 138/136/136 words -> 59.1/58.5/59.4 s raw ->
   tight + TEMPO 1.04/1.04/1.05 -> 52.1/50.2/50.7 s voice. Supermetrics TRIAL_EXPIRED, Subscribr searches still used up.
+
+---------------------------------------------------------------------------------------------------------------------
+## 37. Added after #46 + #47 + #48 (2026-11-25, Wednesday) — third three-slot day, all three uploaded + scheduled by the run
+- Worked examples: `kit/ep46/` (A 17:30, V1 trend: Dow closed 50,018.70 on 11-24 (QUE/Reuters + CappNotes; some headlines say
+  "reclaims" -> never say "first ever"). Rule: SPY nominal close crosses a new $50 round level (first time since 2005) -> sell next
+  open, buy back 63 trading days later. $52,730 vs $70,214; 7 of 9 rebought higher; hidden thing = May 2007 (sold at $150, rebought
+  cheaper Aug 3, 2 months before the top -> rode the whole crash, max DD identical -55%). milestone() roadside-stone helper,
+  newspaper() front page, race_chart with OUT bands + gold diamonds at the sells), `kit/ep47/` (B 23:30, V0 belief "what goes up must
+  come down": after a calendar year >= +20% sit in cash the whole next year; $46,577 vs $70,214, all thresholds +10..+30% lose;
+  hidden thing = the last year (2024 +24.9%). year_tile() grid of 20 calendar years with CASH stamps, cal_page() props) and
+  `kit/ep48/` (C 04:30, V0: Ichimoku cloud 9/26/52, close above cloud = buy, below = sell; $40,851 vs $73,317 from 2005-04-26,
+  1.62x ahead at the 2009 bottom, last day in front 2014-10-16 = hidden thing; cloud_chart() real price + shaded cloud + BUY/SELL tags,
+  cloud_puff() prop). Scene files = ep45 scenes + #46 overrides (+ #47 / #48 overrides appended). Same run recipe.
+- ANTI-TEMPLATE CHECK BEFORE TTS: the queue's next indicator (Stochastic 20/80) gave almost the SAME story as the previous day's
+  Bollinger (#45: many small wins, one Sept-2008 trade erased them, ~$19K) -> switched C to Ichimoku. Run the candidate's backtest and
+  compare the twist with the last 3 episodes before writing the script (kit/ep48/bt48_stoch_rejected.py keeps the numbers).
+- When reusing the chained scene file, old module-level code of the previous episode needs its T keys (#46's LAD used T["Two"]...):
+  `T.setdefault(k, 0.0)` in the new data module; and `sed` the template data head (results46 -> results47) after copying.
+- Colour clash: violet strategy line vs blue buy & hold were hard to tell apart in the race; keep the strategy line ORANGE and use a
+  separate colour constant (CLOUDC) for the theme object.
+- Studio (2026-11-25): viewport was 1440x722 (not 1037x697): title box (550,295), description (550,420), Next (1145,638), Related
+  video Add (1106,328), Schedule expand (780,583), time zone button (671,257), date field (393,257), today's day in the picker
+  (443,478), time field (543,257), Schedule button (1130,640). list_connected_browsers: 8541bef0 was named "Browser 2" again.
+- Timing: clone 14:42 -> A scheduled ~15:01, B ~15:10, C ~15:19. TTS credits 839/823/788. 135/134/130 words -> 57.8/57.5/57.5 s raw
+  -> tight + TEMPO 1.05 -> 50.2/48.6/48.6 s voice. Loudness -14.3/-14.3/-14.4 LUFS (alimiter 0.70). Supermetrics TRIAL_EXPIRED,
+  Subscribr searches still used up; reading the session transcript for the backlog patch is still refused (rewrite from project_read).

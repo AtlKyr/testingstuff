@@ -64,5 +64,6 @@ session was blocked (not allowed). But the video player inside that chat transcr
 JavaScript cannot run on claude.ai pages.
 
 ## Notes
+- 2026-11-25: viewport 1440x722 -> coordinates in LESSONS 37 (title (550,295), Next (1145,638), Schedule (1130,640), today in the date picker (443,478)). Browser deviceId 8541bef0 was listed as "Browser 2".
 - Studio shows a red banner "Your payment method can't be charged" (Google Ads billing). It does not block uploads.
 - Never click "Promote" in the published dialog; never touch Google Ads from here.

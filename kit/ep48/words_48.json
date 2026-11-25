@@ -1,0 +1,639 @@
+{
+"words": [
+{
+"text": "Ichimoku",
+"start": 0.02,
+"end": 0.527
+},
+{
+"text": "cloud.",
+"start": 0.717,
+"end": 1.098
+},
+{
+"text": "Fifty-four",
+"start": 1.289,
+"end": 1.822
+},
+{
+"text": "trades.",
+"start": 1.898,
+"end": 2.501
+},
+{
+"text": "Worth",
+"start": 2.572,
+"end": 2.724
+},
+{
+"text": "it?",
+"start": 2.801,
+"end": 3.0
+},
+{
+"text": "The",
+"start": 3.04,
+"end": 3.116
+},
+{
+"text": "cloud,",
+"start": 3.193,
+"end": 3.726
+},
+{
+"text": "A?",
+"start": 3.802,
+"end": 4.031
+},
+{
+"text": "Or",
+"start": 4.331,
+"end": 4.483
+},
+{
+"text": "just",
+"start": 4.712,
+"end": 4.864
+},
+{
+"text": "hold,",
+"start": 4.94,
+"end": 5.422
+},
+{
+"text": "B?",
+"start": 5.575,
+"end": 5.793
+},
+{
+"text": "Circle",
+"start": 6.098,
+"end": 6.403
+},
+{
+"text": "one",
+"start": 6.555,
+"end": 6.707
+},
+{
+"text": "day",
+"start": 6.784,
+"end": 6.936
+},
+{
+"text": "in",
+"start": 7.012,
+"end": 7.088
+},
+{
+"text": "October.",
+"start": 7.355,
+"end": 7.698
+},
+{
+"text": "The",
+"start": 7.8,
+"end": 7.876
+},
+{
+"text": "classic",
+"start": 7.952,
+"end": 8.333
+},
+{
+"text": "rule:",
+"start": 8.409,
+"end": 9.019
+},
+{
+"text": "close",
+"start": 9.095,
+"end": 9.323
+},
+{
+"text": "above",
+"start": 9.476,
+"end": 9.628
+},
+{
+"text": "the",
+"start": 9.704,
+"end": 9.742
+},
+{
+"text": "cloud,",
+"start": 9.78,
+"end": 10.255
+},
+{
+"text": "buy.",
+"start": 10.316,
+"end": 10.776
+},
+{
+"text": "Close",
+"start": 10.891,
+"end": 11.005
+},
+{
+"text": "below",
+"start": 11.081,
+"end": 11.31
+},
+{
+"text": "it,",
+"start": 11.386,
+"end": 11.717
+},
+{
+"text": "sell.",
+"start": 11.793,
+"end": 12.154
+},
+{
+"text": "In",
+"start": 12.351,
+"end": 12.504
+},
+{
+"text": "two",
+"start": 12.58,
+"end": 12.656
+},
+{
+"text": "thousand",
+"start": 12.732,
+"end": 12.961
+},
+{
+"text": "eight,",
+"start": 13.113,
+"end": 13.418
+},
+{
+"text": "it",
+"start": 13.494,
+"end": 13.57
+},
+{
+"text": "sits",
+"start": 13.647,
+"end": 13.875
+},
+{
+"text": "out",
+"start": 13.951,
+"end": 14.104
+},
+{
+"text": "most",
+"start": 14.256,
+"end": 14.485
+},
+{
+"text": "of",
+"start": 14.523,
+"end": 14.561
+},
+{
+"text": "the",
+"start": 14.599,
+"end": 14.637
+},
+{
+"text": "crash.",
+"start": 14.713,
+"end": 15.361
+},
+{
+"text": "At",
+"start": 15.551,
+"end": 15.628
+},
+{
+"text": "the",
+"start": 15.704,
+"end": 15.78
+},
+{
+"text": "March",
+"start": 15.856,
+"end": 16.085
+},
+{
+"text": "two",
+"start": 16.161,
+"end": 16.237
+},
+{
+"text": "thousand",
+"start": 16.313,
+"end": 16.542
+},
+{
+"text": "nine",
+"start": 16.618,
+"end": 16.77
+},
+{
+"text": "bottom,",
+"start": 16.923,
+"end": 17.456
+},
+{
+"text": "it's",
+"start": 17.532,
+"end": 17.761
+},
+{
+"text": "sixty-two",
+"start": 17.837,
+"end": 18.294
+},
+{
+"text": "percent",
+"start": 18.447,
+"end": 18.828
+},
+{
+"text": "ahead.",
+"start": 18.904,
+"end": 19.425
+},
+{
+"text": "Then",
+"start": 19.532,
+"end": 19.761
+},
+{
+"text": "the",
+"start": 19.989,
+"end": 20.065
+},
+{
+"text": "market",
+"start": 20.142,
+"end": 20.446
+},
+{
+"text": "turns",
+"start": 20.599,
+"end": 20.827
+},
+{
+"text": "choppy.",
+"start": 20.904,
+"end": 21.375
+},
+{
+"text": "Up,",
+"start": 21.48,
+"end": 21.783
+},
+{
+"text": "down,",
+"start": 21.867,
+"end": 22.477
+},
+{
+"text": "up",
+"start": 22.553,
+"end": 22.629
+},
+{
+"text": "again.",
+"start": 22.819,
+"end": 23.086
+},
+{
+"text": "Trade",
+"start": 23.543,
+"end": 23.924
+},
+{
+"text": "after",
+"start": 24.0,
+"end": 24.229
+},
+{
+"text": "trade,",
+"start": 24.381,
+"end": 24.854
+},
+{
+"text": "and",
+"start": 24.931,
+"end": 25.007
+},
+{
+"text": "most",
+"start": 25.083,
+"end": 25.235
+},
+{
+"text": "of",
+"start": 25.312,
+"end": 25.35
+},
+{
+"text": "them",
+"start": 25.388,
+"end": 25.54
+},
+{
+"text": "lose.",
+"start": 25.616,
+"end": 26.194
+},
+{
+"text": "Each",
+"start": 26.461,
+"end": 26.689
+},
+{
+"text": "small",
+"start": 26.765,
+"end": 27.07
+},
+{
+"text": "loss",
+"start": 27.146,
+"end": 27.527
+},
+{
+"text": "chips",
+"start": 27.68,
+"end": 27.908
+},
+{
+"text": "away",
+"start": 27.984,
+"end": 28.289
+},
+{
+"text": "at",
+"start": 28.327,
+"end": 28.365
+},
+{
+"text": "the",
+"start": 28.442,
+"end": 28.48
+},
+{
+"text": "lead.",
+"start": 28.518,
+"end": 28.959
+},
+{
+"text": "Now,",
+"start": 29.297,
+"end": 29.434
+},
+{
+"text": "that",
+"start": 29.738,
+"end": 29.815
+},
+{
+"text": "October",
+"start": 29.891,
+"end": 30.424
+},
+{
+"text": "day.",
+"start": 30.5,
+"end": 30.958
+},
+{
+"text": "October",
+"start": 31.09,
+"end": 31.471
+},
+{
+"text": "sixteenth,",
+"start": 31.547,
+"end": 32.233
+},
+{
+"text": "twenty",
+"start": 32.347,
+"end": 32.462
+},
+{
+"text": "fourteen:",
+"start": 32.538,
+"end": 33.212
+},
+{
+"text": "the",
+"start": 33.25,
+"end": 33.288
+},
+{
+"text": "cloud's",
+"start": 33.364,
+"end": 33.821
+},
+{
+"text": "last",
+"start": 33.974,
+"end": 34.126
+},
+{
+"text": "day",
+"start": 34.202,
+"end": 34.355
+},
+{
+"text": "in",
+"start": 34.393,
+"end": 34.431
+},
+{
+"text": "front.",
+"start": 34.583,
+"end": 34.951
+},
+{
+"text": "It",
+"start": 35.036,
+"end": 35.112
+},
+{
+"text": "never",
+"start": 35.34,
+"end": 35.569
+},
+{
+"text": "leads",
+"start": 35.645,
+"end": 35.874
+},
+{
+"text": "again.",
+"start": 36.102,
+"end": 36.342
+},
+{
+"text": "Not",
+"start": 36.533,
+"end": 36.685
+},
+{
+"text": "even",
+"start": 36.761,
+"end": 36.914
+},
+{
+"text": "after",
+"start": 37.028,
+"end": 37.142
+},
+{
+"text": "dodging",
+"start": 37.219,
+"end": 37.6
+},
+{
+"text": "most",
+"start": 37.676,
+"end": 37.904
+},
+{
+"text": "of",
+"start": 37.942,
+"end": 37.98
+},
+{
+"text": "the",
+"start": 38.057,
+"end": 38.095
+},
+{
+"text": "Covid",
+"start": 38.133,
+"end": 38.438
+},
+{
+"text": "crash.",
+"start": 38.514,
+"end": 38.997
+},
+{
+"text": "Final",
+"start": 39.563,
+"end": 39.716
+},
+{
+"text": "tally.",
+"start": 39.792,
+"end": 40.291
+},
+{
+"text": "The",
+"start": 40.343,
+"end": 40.419
+},
+{
+"text": "cloud:",
+"start": 40.495,
+"end": 41.088
+},
+{
+"text": "forty",
+"start": 41.164,
+"end": 41.317
+},
+{
+"text": "thousand",
+"start": 41.393,
+"end": 41.774
+},
+{
+"text": "nine",
+"start": 41.926,
+"end": 42.078
+},
+{
+"text": "hundred.",
+"start": 42.155,
+"end": 42.665
+},
+{
+"text": "Just",
+"start": 42.741,
+"end": 42.818
+},
+{
+"text": "holding:",
+"start": 42.894,
+"end": 43.521
+},
+{
+"text": "seventy-three",
+"start": 43.559,
+"end": 44.055
+},
+{
+"text": "thousand",
+"start": 44.207,
+"end": 44.512
+},
+{
+"text": "three",
+"start": 44.664,
+"end": 44.817
+},
+{
+"text": "hundred.",
+"start": 44.893,
+"end": 45.394
+},
+{
+"text": "The",
+"start": 45.458,
+"end": 45.47
+},
+{
+"text": "cloud",
+"start": 45.546,
+"end": 45.851
+},
+{
+"text": "dodged",
+"start": 46.004,
+"end": 46.308
+},
+{
+"text": "crashes.",
+"start": 46.384,
+"end": 47.086
+},
+{
+"text": "It",
+"start": 47.155,
+"end": 47.308
+},
+{
+"text": "couldn't",
+"start": 47.384,
+"end": 47.688
+},
+{
+"text": "dodge",
+"start": 47.765,
+"end": 47.993
+},
+{
+"text": "the",
+"start": 48.031,
+"end": 48.069
+},
+{
+"text": "chop.",
+"start": 48.222,
+"end": 48.679
+}
+]
+}

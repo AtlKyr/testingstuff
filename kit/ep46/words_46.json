@@ -1,0 +1,679 @@
+{
+"words": [
+{
+"text": "Dow,",
+"start": 0.02,
+"end": 0.59
+},
+{
+"text": "fifty",
+"start": 0.666,
+"end": 0.971
+},
+{
+"text": "thousand.",
+"start": 1.2,
+"end": 2.038
+},
+{
+"text": "SPY",
+"start": 2.114,
+"end": 2.571
+},
+{
+"text": "hit",
+"start": 2.647,
+"end": 2.876
+},
+{
+"text": "ten",
+"start": 2.952,
+"end": 3.104
+},
+{
+"text": "of",
+"start": 3.143,
+"end": 3.181
+},
+{
+"text": "these.",
+"start": 3.257,
+"end": 3.866
+},
+{
+"text": "Sell",
+"start": 3.943,
+"end": 4.095
+},
+{
+"text": "the",
+"start": 4.133,
+"end": 4.171
+},
+{
+"text": "milestone,",
+"start": 4.285,
+"end": 4.857
+},
+{
+"text": "A?",
+"start": 4.971,
+"end": 5.243
+},
+{
+"text": "Hold,",
+"start": 5.434,
+"end": 5.731
+},
+{
+"text": "B?",
+"start": 5.807,
+"end": 6.382
+},
+{
+"text": "One",
+"start": 6.458,
+"end": 6.61
+},
+{
+"text": "came",
+"start": 6.686,
+"end": 6.991
+},
+{
+"text": "months",
+"start": 7.067,
+"end": 7.372
+},
+{
+"text": "before",
+"start": 7.448,
+"end": 7.677
+},
+{
+"text": "two",
+"start": 7.753,
+"end": 7.829
+},
+{
+"text": "thousand",
+"start": 7.905,
+"end": 8.21
+},
+{
+"text": "eight.",
+"start": 8.286,
+"end": 8.554
+},
+{
+"text": "Each",
+"start": 8.63,
+"end": 8.782
+},
+{
+"text": "round",
+"start": 8.858,
+"end": 9.087
+},
+{
+"text": "number",
+"start": 9.163,
+"end": 9.468
+},
+{
+"text": "brings",
+"start": 9.506,
+"end": 9.849
+},
+{
+"text": "one",
+"start": 9.925,
+"end": 10.077
+},
+{
+"text": "headline:",
+"start": 10.154,
+"end": 10.71
+},
+{
+"text": "the",
+"start": 10.805,
+"end": 10.919
+},
+{
+"text": "top",
+"start": 10.996,
+"end": 11.3
+},
+{
+"text": "is",
+"start": 11.377,
+"end": 11.605
+},
+{
+"text": "in.",
+"start": 11.681,
+"end": 12.219
+},
+{
+"text": "So",
+"start": 12.296,
+"end": 12.372
+},
+{
+"text": "he",
+"start": 12.448,
+"end": 12.524
+},
+{
+"text": "sells",
+"start": 12.6,
+"end": 12.829
+},
+{
+"text": "the",
+"start": 12.905,
+"end": 12.981
+},
+{
+"text": "next",
+"start": 13.096,
+"end": 13.21
+},
+{
+"text": "morning,",
+"start": 13.286,
+"end": 13.794
+},
+{
+"text": "and",
+"start": 13.845,
+"end": 13.896
+},
+{
+"text": "buys",
+"start": 13.934,
+"end": 14.2
+},
+{
+"text": "back",
+"start": 14.391,
+"end": 14.581
+},
+{
+"text": "three",
+"start": 14.696,
+"end": 14.81
+},
+{
+"text": "months",
+"start": 14.924,
+"end": 15.038
+},
+{
+"text": "later.",
+"start": 15.115,
+"end": 15.744
+},
+{
+"text": "SPY",
+"start": 15.821,
+"end": 16.354
+},
+{
+"text": "hits",
+"start": 16.43,
+"end": 16.659
+},
+{
+"text": "two",
+"start": 16.735,
+"end": 16.887
+},
+{
+"text": "hundred.",
+"start": 16.963,
+"end": 17.435
+},
+{
+"text": "He",
+"start": 17.511,
+"end": 17.587
+},
+{
+"text": "sells.",
+"start": 17.664,
+"end": 18.578
+},
+{
+"text": "Three",
+"start": 18.654,
+"end": 18.73
+},
+{
+"text": "months",
+"start": 18.806,
+"end": 18.959
+},
+{
+"text": "later,",
+"start": 19.035,
+"end": 19.34
+},
+{
+"text": "he",
+"start": 19.416,
+"end": 19.492
+},
+{
+"text": "pays",
+"start": 19.568,
+"end": 19.873
+},
+{
+"text": "more",
+"start": 19.987,
+"end": 20.102
+},
+{
+"text": "to",
+"start": 20.178,
+"end": 20.254
+},
+{
+"text": "get",
+"start": 20.33,
+"end": 20.406
+},
+{
+"text": "back",
+"start": 20.521,
+"end": 20.635
+},
+{
+"text": "in.",
+"start": 20.711,
+"end": 21.0
+},
+{
+"text": "Two",
+"start": 21.076,
+"end": 21.152
+},
+{
+"text": "fifty,",
+"start": 21.229,
+"end": 21.838
+},
+{
+"text": "three",
+"start": 21.952,
+"end": 22.067
+},
+{
+"text": "fifty,",
+"start": 22.143,
+"end": 22.676
+},
+{
+"text": "four",
+"start": 22.79,
+"end": 22.905
+},
+{
+"text": "hundred:",
+"start": 22.981,
+"end": 23.667
+},
+{
+"text": "same",
+"start": 23.781,
+"end": 23.895
+},
+{
+"text": "story.",
+"start": 23.971,
+"end": 24.809
+},
+{
+"text": "Seven",
+"start": 24.886,
+"end": 25.114
+},
+{
+"text": "of",
+"start": 25.19,
+"end": 25.343
+},
+{
+"text": "nine",
+"start": 25.419,
+"end": 25.648
+},
+{
+"text": "times,",
+"start": 25.724,
+"end": 26.181
+},
+{
+"text": "he",
+"start": 26.257,
+"end": 26.333
+},
+{
+"text": "bought",
+"start": 26.409,
+"end": 26.638
+},
+{
+"text": "back",
+"start": 26.752,
+"end": 26.867
+},
+{
+"text": "higher.",
+"start": 26.943,
+"end": 27.431
+},
+{
+"text": "And",
+"start": 27.507,
+"end": 27.736
+},
+{
+"text": "that",
+"start": 27.812,
+"end": 27.964
+},
+{
+"text": "milestone",
+"start": 28.041,
+"end": 28.498
+},
+{
+"text": "before",
+"start": 28.65,
+"end": 28.802
+},
+{
+"text": "two",
+"start": 28.879,
+"end": 28.955
+},
+{
+"text": "thousand",
+"start": 29.031,
+"end": 29.26
+},
+{
+"text": "eight?",
+"start": 29.336,
+"end": 29.682
+},
+{
+"text": "May",
+"start": 29.758,
+"end": 29.986
+},
+{
+"text": "two",
+"start": 30.063,
+"end": 30.139
+},
+{
+"text": "thousand",
+"start": 30.215,
+"end": 30.596
+},
+{
+"text": "seven.",
+"start": 30.672,
+"end": 31.063
+},
+{
+"text": "He",
+"start": 31.178,
+"end": 31.292
+},
+{
+"text": "sells,",
+"start": 31.33,
+"end": 31.901
+},
+{
+"text": "then",
+"start": 32.016,
+"end": 32.13
+},
+{
+"text": "buys",
+"start": 32.168,
+"end": 32.359
+},
+{
+"text": "back",
+"start": 32.435,
+"end": 32.587
+},
+{
+"text": "cheaper.",
+"start": 32.663,
+"end": 33.209
+},
+{
+"text": "Genius?",
+"start": 33.285,
+"end": 33.793
+},
+{
+"text": "He",
+"start": 33.831,
+"end": 33.869
+},
+{
+"text": "was",
+"start": 33.945,
+"end": 34.097
+},
+{
+"text": "back",
+"start": 34.212,
+"end": 34.326
+},
+{
+"text": "by",
+"start": 34.402,
+"end": 34.555
+},
+{
+"text": "August,",
+"start": 34.631,
+"end": 35.24
+},
+{
+"text": "two",
+"start": 35.316,
+"end": 35.545
+},
+{
+"text": "months",
+"start": 35.621,
+"end": 35.85
+},
+{
+"text": "before",
+"start": 35.926,
+"end": 36.155
+},
+{
+"text": "the",
+"start": 36.231,
+"end": 36.307
+},
+{
+"text": "top.",
+"start": 36.65,
+"end": 36.783
+},
+{
+"text": "So",
+"start": 36.835,
+"end": 36.885
+},
+{
+"text": "the",
+"start": 36.923,
+"end": 36.961
+},
+{
+"text": "round",
+"start": 37.076,
+"end": 37.19
+},
+{
+"text": "number",
+"start": 37.266,
+"end": 37.647
+},
+{
+"text": "never",
+"start": 37.723,
+"end": 37.952
+},
+{
+"text": "saved",
+"start": 38.028,
+"end": 38.257
+},
+{
+"text": "him.",
+"start": 38.333,
+"end": 38.89
+},
+{
+"text": "Now,",
+"start": 38.966,
+"end": 39.474
+},
+{
+"text": "the",
+"start": 39.525,
+"end": 39.576
+},
+{
+"text": "totals.",
+"start": 40.033,
+"end": 40.301
+},
+{
+"text": "Milestone",
+"start": 40.339,
+"end": 40.796
+},
+{
+"text": "seller:",
+"start": 40.872,
+"end": 41.406
+},
+{
+"text": "fifty-two",
+"start": 41.444,
+"end": 41.863
+},
+{
+"text": "thousand",
+"start": 41.939,
+"end": 42.396
+},
+{
+"text": "seven",
+"start": 42.472,
+"end": 42.701
+},
+{
+"text": "hundred.",
+"start": 42.739,
+"end": 43.263
+},
+{
+"text": "Just",
+"start": 43.301,
+"end": 43.453
+},
+{
+"text": "holding:",
+"start": 43.796,
+"end": 44.177
+},
+{
+"text": "seventy",
+"start": 44.215,
+"end": 44.52
+},
+{
+"text": "thousand",
+"start": 44.596,
+"end": 44.977
+},
+{
+"text": "two",
+"start": 45.053,
+"end": 45.13
+},
+{
+"text": "hundred.",
+"start": 45.206,
+"end": 45.694
+},
+{
+"text": "Round",
+"start": 45.758,
+"end": 45.986
+},
+{
+"text": "numbers",
+"start": 46.177,
+"end": 46.367
+},
+{
+"text": "make",
+"start": 46.443,
+"end": 46.672
+},
+{
+"text": "headlines.",
+"start": 46.786,
+"end": 47.663
+},
+{
+"text": "Selling",
+"start": 47.701,
+"end": 47.967
+},
+{
+"text": "them",
+"start": 48.082,
+"end": 48.196
+},
+{
+"text": "cost",
+"start": 48.31,
+"end": 48.424
+},
+{
+"text": "over",
+"start": 48.501,
+"end": 48.805
+},
+{
+"text": "seventeen",
+"start": 48.882,
+"end": 49.415
+},
+{
+"text": "thousand.",
+"start": 49.491,
+"end": 50.177
+}
+]
+}
