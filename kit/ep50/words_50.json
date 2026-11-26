@@ -1,0 +1,644 @@
+{
+"words": [
+{
+"text": "Black",
+"start": 0.02,
+"end": 0.227
+},
+{
+"text": "Friday",
+"start": 0.304,
+"end": 0.615
+},
+{
+"text": "stocks:",
+"start": 0.693,
+"end": 1.314
+},
+{
+"text": "up",
+"start": 1.47,
+"end": 1.625
+},
+{
+"text": "just",
+"start": 1.703,
+"end": 1.936
+},
+{
+"text": "ten",
+"start": 2.013,
+"end": 2.246
+},
+{
+"text": "of",
+"start": 2.324,
+"end": 2.479
+},
+{
+"text": "twenty.",
+"start": 2.557,
+"end": 3.13
+},
+{
+"text": "Doubled,",
+"start": 3.207,
+"end": 3.673
+},
+{
+"text": "A?",
+"start": 3.751,
+"end": 4.062
+},
+{
+"text": "Or",
+"start": 4.179,
+"end": 4.295
+},
+{
+"text": "four",
+"start": 4.412,
+"end": 4.528
+},
+{
+"text": "times,",
+"start": 4.606,
+"end": 5.227
+},
+{
+"text": "B?",
+"start": 5.305,
+"end": 5.659
+},
+{
+"text": "Every",
+"start": 5.776,
+"end": 5.892
+},
+{
+"text": "Black",
+"start": 5.97,
+"end": 6.203
+},
+{
+"text": "Friday",
+"start": 6.281,
+"end": 6.591
+},
+{
+"text": "since",
+"start": 6.747,
+"end": 6.902
+},
+{
+"text": "two",
+"start": 6.941,
+"end": 6.98
+},
+{
+"text": "thousand",
+"start": 7.057,
+"end": 7.446
+},
+{
+"text": "five:",
+"start": 7.601,
+"end": 8.067
+},
+{
+"text": "a",
+"start": 8.184,
+"end": 8.3
+},
+{
+"text": "thousand",
+"start": 8.378,
+"end": 8.766
+},
+{
+"text": "dollars",
+"start": 8.844,
+"end": 9.155
+},
+{
+"text": "into",
+"start": 9.271,
+"end": 9.388
+},
+{
+"text": "SPY,",
+"start": 9.465,
+"end": 10.397
+},
+{
+"text": "instead",
+"start": 10.63,
+"end": 10.863
+},
+{
+"text": "of",
+"start": 10.902,
+"end": 10.941
+},
+{
+"text": "the",
+"start": 11.019,
+"end": 11.057
+},
+{
+"text": "mall.",
+"start": 11.096,
+"end": 11.619
+},
+{
+"text": "One",
+"start": 11.736,
+"end": 11.852
+},
+{
+"text": "Black",
+"start": 11.93,
+"end": 12.163
+},
+{
+"text": "Friday",
+"start": 12.24,
+"end": 12.629
+},
+{
+"text": "will",
+"start": 12.745,
+"end": 12.862
+},
+{
+"text": "steal",
+"start": 13.017,
+"end": 13.328
+},
+{
+"text": "the",
+"start": 13.405,
+"end": 13.483
+},
+{
+"text": "show.",
+"start": 13.638,
+"end": 13.912
+},
+{
+"text": "Then",
+"start": 13.989,
+"end": 14.378
+},
+{
+"text": "two",
+"start": 14.455,
+"end": 14.533
+},
+{
+"text": "thousand",
+"start": 14.611,
+"end": 14.921
+},
+{
+"text": "eight",
+"start": 14.999,
+"end": 15.077
+},
+{
+"text": "hits.",
+"start": 15.271,
+"end": 15.707
+},
+{
+"text": "Six",
+"start": 15.824,
+"end": 15.94
+},
+{
+"text": "years",
+"start": 16.057,
+"end": 16.173
+},
+{
+"text": "in,",
+"start": 16.251,
+"end": 16.691
+},
+{
+"text": "the",
+"start": 16.743,
+"end": 16.795
+},
+{
+"text": "pile",
+"start": 16.872,
+"end": 17.183
+},
+{
+"text": "is",
+"start": 17.261,
+"end": 17.494
+},
+{
+"text": "barely",
+"start": 17.61,
+"end": 17.882
+},
+{
+"text": "back",
+"start": 17.96,
+"end": 18.038
+},
+{
+"text": "to",
+"start": 18.115,
+"end": 18.193
+},
+{
+"text": "even.",
+"start": 18.271,
+"end": 18.863
+},
+{
+"text": "It",
+"start": 18.902,
+"end": 19.057
+},
+{
+"text": "doubles",
+"start": 19.135,
+"end": 19.445
+},
+{
+"text": "for",
+"start": 19.523,
+"end": 19.601
+},
+{
+"text": "the",
+"start": 19.678,
+"end": 19.756
+},
+{
+"text": "first",
+"start": 19.834,
+"end": 20.067
+},
+{
+"text": "time",
+"start": 20.222,
+"end": 20.377
+},
+{
+"text": "in",
+"start": 20.455,
+"end": 20.61
+},
+{
+"text": "twenty",
+"start": 20.766,
+"end": 20.921
+},
+{
+"text": "seventeen.",
+"start": 20.96,
+"end": 21.618
+},
+{
+"text": "Twenty",
+"start": 21.735,
+"end": 21.851
+},
+{
+"text": "twenty:",
+"start": 21.929,
+"end": 22.338
+},
+{
+"text": "a",
+"start": 22.455,
+"end": 22.571
+},
+{
+"text": "third",
+"start": 22.649,
+"end": 22.882
+},
+{
+"text": "gone",
+"start": 22.96,
+"end": 23.348
+},
+{
+"text": "in",
+"start": 23.387,
+"end": 23.426
+},
+{
+"text": "a",
+"start": 23.464,
+"end": 23.503
+},
+{
+"text": "month.",
+"start": 23.736,
+"end": 24.202
+},
+{
+"text": "Now,",
+"start": 24.28,
+"end": 24.901
+},
+{
+"text": "about",
+"start": 25.057,
+"end": 25.212
+},
+{
+"text": "the",
+"start": 25.251,
+"end": 25.29
+},
+{
+"text": "scary",
+"start": 25.445,
+"end": 25.834
+},
+{
+"text": "one.",
+"start": 25.911,
+"end": 26.298
+},
+{
+"text": "Black",
+"start": 26.375,
+"end": 26.608
+},
+{
+"text": "Friday,",
+"start": 26.686,
+"end": 27.23
+},
+{
+"text": "two",
+"start": 27.307,
+"end": 27.385
+},
+{
+"text": "thousand",
+"start": 27.463,
+"end": 27.773
+},
+{
+"text": "eight.",
+"start": 27.89,
+"end": 28.219
+},
+{
+"text": "Stocks",
+"start": 28.413,
+"end": 28.685
+},
+{
+"text": "are",
+"start": 28.763,
+"end": 28.996
+},
+{
+"text": "deep",
+"start": 29.073,
+"end": 29.229
+},
+{
+"text": "in",
+"start": 29.306,
+"end": 29.384
+},
+{
+"text": "a",
+"start": 29.423,
+"end": 29.462
+},
+{
+"text": "crash.",
+"start": 29.539,
+"end": 30.238
+},
+{
+"text": "Nobody's",
+"start": 30.316,
+"end": 30.782
+},
+{
+"text": "buying.",
+"start": 30.899,
+"end": 31.225
+},
+{
+"text": "That",
+"start": 31.303,
+"end": 31.381
+},
+{
+"text": "thousand",
+"start": 31.419,
+"end": 31.691
+},
+{
+"text": "dollars?",
+"start": 31.769,
+"end": 32.39
+},
+{
+"text": "It",
+"start": 32.468,
+"end": 32.546
+},
+{
+"text": "grows",
+"start": 32.623,
+"end": 32.934
+},
+{
+"text": "almost",
+"start": 33.128,
+"end": 33.322
+},
+{
+"text": "nine",
+"start": 33.478,
+"end": 33.788
+},
+{
+"text": "times,",
+"start": 33.866,
+"end": 34.487
+},
+{
+"text": "the",
+"start": 34.565,
+"end": 34.72
+},
+{
+"text": "best",
+"start": 34.798,
+"end": 35.031
+},
+{
+"text": "buy",
+"start": 35.186,
+"end": 35.342
+},
+{
+"text": "of",
+"start": 35.419,
+"end": 35.575
+},
+{
+"text": "all",
+"start": 35.652,
+"end": 35.885
+},
+{
+"text": "twenty.",
+"start": 36.313,
+"end": 36.689
+},
+{
+"text": "Final",
+"start": 36.758,
+"end": 36.991
+},
+{
+"text": "tally.",
+"start": 37.068,
+"end": 37.634
+},
+{
+"text": "Twenty",
+"start": 37.75,
+"end": 37.867
+},
+{
+"text": "thousand",
+"start": 37.944,
+"end": 38.333
+},
+{
+"text": "in.",
+"start": 38.41,
+"end": 38.915
+},
+{
+"text": "Seventy-nine",
+"start": 38.954,
+"end": 39.575
+},
+{
+"text": "thousand",
+"start": 39.653,
+"end": 40.041
+},
+{
+"text": "nine",
+"start": 40.119,
+"end": 40.352
+},
+{
+"text": "hundred",
+"start": 40.391,
+"end": 40.741
+},
+{
+"text": "out.",
+"start": 40.896,
+"end": 41.389
+},
+{
+"text": "Four",
+"start": 41.455,
+"end": 41.61
+},
+{
+"text": "times,",
+"start": 41.688,
+"end": 42.309
+},
+{
+"text": "a",
+"start": 42.387,
+"end": 42.464
+},
+{
+"text": "hundred",
+"start": 42.503,
+"end": 42.853
+},
+{
+"text": "thirty-eight",
+"start": 42.93,
+"end": 43.319
+},
+{
+"text": "dollars",
+"start": 43.396,
+"end": 43.785
+},
+{
+"text": "short.",
+"start": 44.095,
+"end": 44.254
+},
+{
+"text": "The",
+"start": 44.306,
+"end": 44.358
+},
+{
+"text": "best",
+"start": 44.474,
+"end": 44.591
+},
+{
+"text": "Black",
+"start": 44.707,
+"end": 44.824
+},
+{
+"text": "Friday",
+"start": 44.901,
+"end": 45.212
+},
+{
+"text": "deal",
+"start": 45.445,
+"end": 45.678
+},
+{
+"text": "was",
+"start": 45.833,
+"end": 45.989
+},
+{
+"text": "never",
+"start": 46.066,
+"end": 46.299
+},
+{
+"text": "in",
+"start": 46.338,
+"end": 46.377
+},
+{
+"text": "a",
+"start": 46.455,
+"end": 46.532
+},
+{
+"text": "store.",
+"start": 46.843,
+"end": 47.014
+}
+]
+}

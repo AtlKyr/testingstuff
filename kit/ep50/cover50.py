@@ -1,0 +1,38 @@
+import sys; sys.path.insert(0, ".."); sys.path.insert(0, ".")
+import math, os
+from coverlib import *
+from PIL import ImageDraw
+cv = Cover()
+cv.paste(vgrad(S(W), S(H), (58, 8, 30), (8, 2, 6)).convert("RGBA"))
+cv.paste(radial(S(W), S(H), S(540), S(860), S(760), (255, 80, 140), 0.20))
+G = Image.new("RGBA", cv.im.size, (0, 0, 0, 0)); g = ImageDraw.Draw(G)
+INK = (20, 24, 28, 255); BF = (232, 47, 90, 255)
+AN = os.path.expanduser("~/.fonts/anton-latin-400-normal.ttf")
+# shopping bag (original drawing)
+bx, by = 790, 900
+g.arc([S(bx - 75), S(by - 230), S(bx + 75), S(by - 80)], 180, 360, fill=INK, width=S(26))
+g.rounded_rectangle([S(bx - 150), S(by - 160), S(bx + 150), S(by + 170)], radius=S(20), fill=BF, outline=INK, width=S(9))
+g.rectangle([S(bx - 145), S(by - 155), S(bx + 145), S(by - 115)], fill=(176, 24, 64, 255))
+tag_ = Image.new("RGBA", (S(240), S(120)), (0, 0, 0, 0)); tg = ImageDraw.Draw(tag_)
+tg.rounded_rectangle([0, 0, S(238), S(118)], radius=S(14), fill=(255, 255, 255, 255), outline=INK, width=S(7))
+tg.text((S(119), S(62)), "SALE", font=ImageFont.truetype(AN, S(80)), fill=BF, anchor="mm")
+tag_ = tag_.rotate(8, expand=True, resample=Image.BICUBIC)
+G.alpha_composite(tag_, (S(bx - 130), S(by - 40)))
+# calendar NOV ??
+px_, py_ = 420, 900
+g.rounded_rectangle([S(px_ - 105), S(py_ - 110), S(px_ + 105), S(py_ + 110)], radius=S(14), fill=(250, 250, 250, 255), outline=INK, width=S(8))
+g.rectangle([S(px_ - 101), S(py_ - 106), S(px_ + 101), S(py_ - 50)], fill=(240, 62, 90, 255))
+g.text((S(px_), S(py_ - 78)), "NOV", font=ImageFont.truetype(AN, S(44)), fill=(255, 255, 255, 255), anchor="mm")
+g.text((S(px_), S(py_ + 32)), "??", font=ImageFont.truetype(AN, S(110)), fill=INK, anchor="mm")
+cv.glow(G, (255, 90, 140), 24, 0.55)
+cv.paste(G)
+cv.bottom_fade(1250, alpha=0.95)
+cv.stamp("CASE #50", 300, 150, 70, sub="STRATEGY AUTOPSY", rot=-4)
+cv.title("NOBODY WAS", 540, 350, 160, (255, 255, 255), (255, 220, 230), rot=-4, stroke=12, glow_col=(255, 90, 140), glow=22)
+cv.title("BUYING.", 540, 570, 190, (255, 236, 160), (255, 190, 60), rot=-4, stroke=13, glow_col=(255, 190, 60), glow=26)
+cv.redacted("WORTH:", 470, 1165, 760, 116, rot=-3)
+roc = rocco_sprite(19, "shock", "party", None)
+cv.sprite(roc, 300, 1210, spot=(255, 220, 230))
+cv.title("2X OR 4X?", 540, 1790, 130, (255, 255, 255), (255, 214, 64), stroke=12, extrude=12, glow_col=(0, 0, 0), glow=22)
+cv.save("StrategyAutopsy_50_kapak.png")
+print("ok")

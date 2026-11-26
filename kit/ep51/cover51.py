@@ -1,0 +1,35 @@
+import sys; sys.path.insert(0, ".."); sys.path.insert(0, ".")
+import math, os
+from coverlib import *
+from PIL import ImageDraw
+cv = Cover()
+cv.paste(vgrad(S(W), S(H), (18, 22, 56), (3, 4, 12)).convert("RGBA"))
+cv.paste(radial(S(W), S(H), S(540), S(860), S(760), (255, 140, 70), 0.16))
+G = Image.new("RGBA", cv.im.size, (0, 0, 0, 0)); g = ImageDraw.Draw(G)
+INK = (20, 24, 28, 255); DG = (34, 229, 139, 255); DR = (255, 77, 106, 255)
+AN = os.path.expanduser("~/.fonts/anton-latin-400-normal.ttf")
+for j in range(14):   # dots flipping above / below a white line (decorative)
+    x = 150 + j * 52; yl = 980 - j * 9 + 30 * math.sin(j * 0.9)
+    up = (j // 2) % 2 == 0
+    y = yl + (70 if up else -70)
+    g.ellipse([S(x - 20), S(y - 20), S(x + 20), S(y + 20)], fill=INK)
+    g.ellipse([S(x - 15), S(y - 15), S(x + 15), S(y + 15)], fill=DG if up else DR)
+pts = [(S(150 + j * 52), S(980 - j * 9 + 30 * math.sin(j * 0.9))) for j in range(14)]
+g.line(pts, fill=(255, 255, 255, 255), width=S(10), joint="curve")
+px_, py_ = 880, 975
+g.rounded_rectangle([S(px_ - 95), S(py_ - 100), S(px_ + 95), S(py_ + 100)], radius=S(14), fill=(250, 250, 250, 255), outline=INK, width=S(8))
+g.rectangle([S(px_ - 91), S(py_ - 96), S(px_ + 91), S(py_ - 45)], fill=(240, 62, 90, 255))
+g.text((S(px_), S(py_ - 70)), "20??", font=ImageFont.truetype(AN, S(40)), fill=(255, 255, 255, 255), anchor="mm")
+g.text((S(px_), S(py_ + 30)), "?", font=ImageFont.truetype(AN, S(100)), fill=INK, anchor="mm")
+cv.glow(G, (255, 140, 70), 22, 0.5)
+cv.paste(G)
+cv.bottom_fade(1250, alpha=0.95)
+cv.stamp("CASE #51", 300, 150, 70, sub="STRATEGY AUTOPSY", rot=-4)
+cv.title("IT FLIPPED", 540, 350, 160, (255, 255, 255), (220, 235, 255), rot=-4, stroke=12, glow_col=(255, 140, 70), glow=22)
+cv.title("16 TIMES.", 540, 570, 190, (255, 236, 160), (255, 150, 60), rot=-4, stroke=13, glow_col=(255, 150, 60), glow=26)
+cv.redacted("WINNER:", 470, 1165, 760, 116, rot=-3)
+roc = rocco_sprite(19, "shock", "race", None)
+cv.sprite(roc, 300, 1210, spot=(255, 230, 190))
+cv.title("DOTS OR HOLD?", 540, 1790, 120, (255, 255, 255), (255, 214, 64), stroke=12, extrude=12, glow_col=(0, 0, 0), glow=22)
+cv.save("StrategyAutopsy_51_kapak.png")
+print("ok")

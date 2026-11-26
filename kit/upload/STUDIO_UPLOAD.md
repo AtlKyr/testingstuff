@@ -67,3 +67,7 @@ JavaScript cannot run on claude.ai pages.
 - 2026-11-25: viewport 1440x722 -> coordinates in LESSONS 37 (title (550,295), Next (1145,638), Schedule (1130,640), today in the date picker (443,478)). Browser deviceId 8541bef0 was listed as "Browser 2".
 - Studio shows a red banner "Your payment method can't be charged" (Google Ads billing). It does not block uploads.
 - Never click "Promote" in the published dialog; never touch Google Ads from here.
+- 2026-11-26: only ONE browser was connected (deviceId 2e2f69c6-3029-481e-bdfe-0d49778cb1b9, "Browser 1"). select_browser OK, but
+  tabs_context_mcp(createIfEmpty:true) and navigate kept failing with "Failed to query tabs: No group with id: …" -> no upload that day.
+  The desktop Browser pane (remote-devices Claude_Browser) is not signed in to YouTube -> do not use it, never sign in. Fallback = send
+  files + texts. Check Chrome FIRST thing in the run (before producing) so a failure is reported early.

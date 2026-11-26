@@ -929,3 +929,28 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - Timing: clone 14:42 -> A scheduled ~15:01, B ~15:10, C ~15:19. TTS credits 839/823/788. 135/134/130 words -> 57.8/57.5/57.5 s raw
   -> tight + TEMPO 1.05 -> 50.2/48.6/48.6 s voice. Loudness -14.3/-14.3/-14.4 LUFS (alimiter 0.70). Supermetrics TRIAL_EXPIRED,
   Subscribr searches still used up; reading the session transcript for the backlog patch is still refused (rewrite from project_read).
+
+---------------------------------------------------------------------------------------------------------------------
+## 38. Added after #49 + #50 + #51 (2026-11-26, Thursday = Thanksgiving) — three Shorts produced, UPLOAD FAILED (Chrome)
+- Worked examples: `kit/ep49/` (A 17:30, V0 trend: October PCE inflation 3.8% y/y released 11-25 (Yahoo live blog + CappNotes).
+  Rule: FRED PCEPI y/y > 3% -> cash at the next open, back in when <= 3%; month M usable from the first trading day of M+2 (no
+  look-ahead; revised data, say so in the description). $89,536 vs $70,214 (a WINNER) but without the Dec-2007 exit $52,390 and a 2.5%
+  trigger $60,486 -> verdict "It won. Take away that one December, and it loses." Hidden thing = Dec 4 2007 sale (8 weeks after the
+  peak, back Dec 2 2008 40%+ cheaper on adjusted AND raw prices). thermometer() / prop_thermo() / heat_waves(), infl_chart() (y/y line
+  + dashed 3% + red fill above), out_zoom() (price zoom with an orange IN CASH band + labelled marks)), `kit/ep50/` (B 23:30, V1
+  seasonal: $1,000 at every Black Friday open 2005-2024 -> $79,862 = 4x minus $138; Black Friday itself up 10 of 20; 2008 BF $1,000 ->
+  $8,981 = hidden thing; race = PUT IN (stepped) vs WORTH; bag() shopping bag, mini_cards20(), growth bars per Black Friday) and
+  `kit/ep51/` (C 04:30, V1 evergreen: Parabolic SAR 0.02/0.20, 30-bar warm-up from 2005-02-16; 250 round trips, $12,564 vs $70,580,
+  190/250 rebuys higher, 2008 -38% vs -37%, 2021 +2% vs +29% with 16 trades = hidden thing; sar_chart() with green/red SAR dots,
+  dot_ball() prop). Scene files = ep48 scenes + own overrides appended. Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- CHROME FAILURE: list_connected_browsers showed ONE browser (deviceId 2e2f69c6-…, "Browser 1", inUse) — not the old 8541bef0.
+  select_browser worked, but every tabs_context_mcp(createIfEmpty) / navigate failed with "Failed to query tabs: No group with id: N"
+  (a new id each time) over ~1 h. The desktop app's built-in Browser pane (remote-devices Claude_Browser) opened Studio but is NOT
+  signed in to Google -> unusable (never sign in). Fallback used: mp4 + cover + all upload texts sent to the user for manual upload,
+  plus a push notification right after A. Next run: try once at the very start (before producing) so the user can fix Chrome early.
+- A guess scene that ends right after "B?" shows the B card for <0.5 s (#50 first snap) -> keep the guess scene until the rule's first
+  noun and shrink the A/B cards there (same trick as LESSONS 32).
+- Name clash again: ep48's data tail redefines I_S07 / I_B08 -> new episode globals got a Q_ prefix (LESSONS 30).
+- Timing: clone 14:41 -> all three rendered by ~15:40. TTS credits 840/773/771. 133/128/127 words -> 57.8/53.0/55.4 s raw ->
+  tight + TEMPO 1.04/1.03/1.04 -> 50.0/47.1/49.1 s voice (51.0/48.0/50.1 s video). Loudness -14.3/-14.3/-14.4 LUFS, -2.2/-2.4/-2.7 dBTP
+  (alimiter 0.70). Supermetrics TRIAL_EXPIRED; Subscribr searches still used up.

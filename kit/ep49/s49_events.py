@@ -1,0 +1,26 @@
+EVENTS = [
+    (0.02, 440, 590, [HOTC, GOLD, C["white"]], 1.6),
+    (T["three"], 440, 590, [HOTC, C["white"]], 1.1),
+    (T["A"] - 0.3, 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["Keep"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["sell"], 290, 1100, [REDC, C["white"]], 1.1),
+    (T["buy"], 790, 1100, [GRNC, C["white"]], 1.1),
+    (T["Prices"], 540, 470, [HOTC, C["white"]], 1.0),
+    (T["June"], 540, 1090, [C["cream"], C["white"]], 1.0),
+    (T["tumble"], 540, 470, [REDC, C["white"]], 1.0),
+    (T["Genius"], 540, 1110, [GOLD, C["white"]], 1.5),
+    (T["rally"], 540, 470, [GRNC, C["white"]], 1.0),
+    (T["more"], 540, 1090, [C["cream"], C["white"]], 1.1),
+    (T["Now"], 540, 520, [GOLD, C["white"]], 1.2),
+    (T["Dec3"], 540, 470, [GOLD, C["white"]], 1.2),
+    (T["sold"], 540, 700, [REDC, C["white"]], 1.3),
+    (T["forty"], 540, 1090, [LCOL, GOLD, C["white"]], 1.5),
+    (T["rev1"], 540, 515, [LCOL, GOLD, C["white"]], 1.6),
+    (T["rev2"], 540, 720, [HCOL, C["white"]], 1.2),
+    (T["Verd"], 540, 540, [GRNC, C["white"]], 1.3),
+    (T["big"], 550, 540, [GOLD, C["white"], LCOL], 1.6),
+]
+PUNCH = [0.02, T["three"], T["A"], T["B"], T["Keep"], T["sell"], T["buy"], T["Prices"], T["June"], T["tumble"], T["Genius"], T["more"],
+         T["Now"], T["Dec3"], T["sold"], T["forty"], T["rev1"], T["rev2"], T["Verd"], T["big"]]
+FLASH = [0.02, T["Genius"], T["Now"], T["sold"], T["rev1"], T["Verd"]]

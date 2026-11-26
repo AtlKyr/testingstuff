@@ -1,0 +1,28 @@
+EVENTS = [
+    (0.02, 540, 400, [LCOL, GOLD, C["white"]], 1.6),
+    (T["fifty"], 540, 400, [LCOL, C["white"]], 1.1),
+    (T["A"] - 0.3, 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["Watch"], 540, 515, [GOLD, C["white"]], 1.0),
+    (T["inn"], 290, 1100, [GRNC, C["white"]], 1.1),
+    (T["out"], 790, 1100, [REDC, C["white"]], 1.1),
+    (T["f1"], 250, 470, [DOTR, C["white"]], 0.9),
+    (T["f2"], 540, 490, [DOTG, C["white"]], 0.9),
+    (T["f3"], 830, 470, [DOTR, C["white"]], 0.9),
+    (T["hard"], 540, 1090, [C["cream"], C["white"]], 1.1),
+    (T["drop"], 540, 1060, [REDC, C["white"]], 1.0),
+    (T["bounce"], 540, 1130, [GRNC, C["white"]], 1.0),
+    (T["higher"], 540, 1060, [GOLD, C["white"]], 1.3),
+    (T["Now"], 540, 520, [GOLD, C["white"]], 1.2),
+    (T["Tw21"], 540, 470, [GOLD, C["white"]], 1.1),
+    (T["twentynine"], 540, 1090, [HCOL, C["white"]], 1.4),
+    (T["sixteen"], 540, 470, [DOTR, C["white"]], 1.2),
+    (T["two"], 540, 1090, [LCOL, C["white"]], 1.3),
+    (T["rev1"], 540, 515, [LCOL, C["white"]], 1.2),
+    (T["rev2"], 540, 720, [HCOL, GOLD, C["white"]], 1.6),
+    (T["Verd"], 540, 540, [REDC, C["white"]], 1.3),
+    (T["big"], 550, 540, [GOLD, C["white"], LCOL], 1.6),
+]
+PUNCH = [0.02, T["fifty"], T["A"], T["B"], T["Watch"], T["inn"], T["out"], T["f1"], T["f2"], T["f3"], T["hard"], T["drop"], T["bounce"],
+         T["higher"], T["Now"], T["twentynine"], T["sixteen"], T["two"], T["rev1"], T["rev2"], T["Verd"], T["big"]]
+FLASH = [0.02, T["higher"], T["Now"], T["two"], T["rev2"], T["Verd"]]

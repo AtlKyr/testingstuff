@@ -1,0 +1,25 @@
+EVENTS = [
+    (0.02, 420, 570, [GRNC, GOLD, C["white"]], 1.6),
+    (T["ten"], 420, 570, [GRNC, C["white"]], 1.1),
+    (T["A"] - 0.3, 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["thousand"], 540, 470, [GOLD, C["white"]], 1.0),
+    (T["mall"], 540, 1100, [BFC, C["white"]], 1.1),
+    (T["steal"], 540, 1000, [GOLD, C["white"]], 1.2),
+    (T["eight"], 540, 470, [REDC, C["white"]], 1.0),
+    (T["even"], 540, 1090, [C["cream"], C["white"]], 1.0),
+    (T["seventeen_"], 540, 1110, [GOLD, GRNC, C["white"]], 1.4),
+    (T["third"], 540, 1090, [REDC, C["white"]], 1.2),
+    (T["Now"], 540, 520, [GOLD, C["white"]], 1.2),
+    (T["BF08"], 300, 760, [GOLD, C["white"]], 1.2),
+    (T["Stocks"], 540, 470, [REDC, C["white"]], 1.0),
+    (T["nine"], 400, 700, [GOLD, C["white"]], 1.6),
+    (T["best"], 540, 1110, [GOLD, C["white"]], 1.2),
+    (T["rev1"], 540, 515, [HCOL, C["white"]], 1.2),
+    (T["rev2"], 540, 720, [LCOL, GOLD, C["white"]], 1.6),
+    (T["Verd"], 540, 540, [GRNC, C["white"]], 1.3),
+    (T["big"], 550, 540, [GOLD, C["white"], BFC], 1.6),
+]
+PUNCH = [0.02, T["ten"], T["A"], T["B"], T["thousand"], T["mall"], T["steal"], T["eight"], T["even"], T["seventeen_"], T["third"],
+         T["Now"], T["BF08"], T["nine"], T["best"], T["rev1"], T["rev2"], T["Verd"], T["big"]]
+FLASH = [0.02, T["steal"], T["Now"], T["nine"], T["rev2"], T["Verd"]]
