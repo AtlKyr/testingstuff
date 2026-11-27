@@ -71,3 +71,5 @@ JavaScript cannot run on claude.ai pages.
   tabs_context_mcp(createIfEmpty:true) and navigate kept failing with "Failed to query tabs: No group with id: …" -> no upload that day.
   The desktop Browser pane (remote-devices Claude_Browser) is not signed in to YouTube -> do not use it, never sign in. Fallback = send
   files + texts. Check Chrome FIRST thing in the run (before producing) so a failure is reported early.
+- 2026-11-27: same failure as 11-26 (one browser 2e2f69c6 "Browser 1"; tabs_context_mcp/navigate -> "No group with id: N", 4 tries over
+  25 min). Nothing reached Studio. A push notification at the start of the run told the user to restart Chrome / reconnect the extension.

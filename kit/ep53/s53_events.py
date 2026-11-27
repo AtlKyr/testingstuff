@@ -1,0 +1,26 @@
+EVENTS = [
+    (0.02, 540, 400, [REDC, C["white"]], 1.6),
+    (T["bear"], 540, 700, [GOLD, C["white"]], 1.2),
+    (T["A"] - 0.3, 310, 420, [GRNC, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["four"], 540, 560, [REDC, C["white"]], 1.0),
+    (T["One"], 540, 520, [GOLD, C["white"]], 1.0),
+    (T["record"], 290, 1100, [REDC, C["white"]], 1.1),
+    (T["close"], 790, 1100, [GRNC, C["white"]], 1.1),
+    (T["bottom"], 540, 1060, [GRNC, C["white"]], 1.0),
+    (T["more18"], 540, 1130, [HCOL, C["white"]], 1.0),
+    (T["again"], 540, 1060, [GRNC, C["white"]], 1.0),
+    (T["more22"], 540, 1060, [HCOL, C["white"]], 1.0),
+    (T["Around"], 540, 600, [GOLD, GRNC, C["white"]], 1.3),
+    (T["Now"], 540, 520, [GOLD, C["white"]], 1.2),
+    (T["buys08"], 540, 700, [GRNC, C["white"]], 1.0),
+    (T["half"], 540, 1090, [REDC, C["white"]], 1.3),
+    (T["quarter"], 540, 1090, [GOLD, HCOL, C["white"]], 1.5),
+    (T["rev1"], 540, 515, [GRNC, C["white"]], 1.2),
+    (T["rev2"], 540, 720, [HCOL, GOLD, C["white"]], 1.6),
+    (T["Verd"], 540, 540, [GOLD, C["white"]], 1.3),
+    (T["big"], 550, 540, [GOLD, C["white"], HCOL], 1.6),
+]
+PUNCH = [0.02, T["bear"], T["A"], T["B"], T["four"], T["One"], T["record"], T["close"], T["bottom"], T["again"], T["more22"],
+         T["Around"], T["Now"], T["half"], T["quarter"], T["rev1"], T["rev2"], T["Verd"], T["big"]]
+FLASH = [0.02, T["Around"], T["Now"], T["quarter"], T["rev2"], T["Verd"]]

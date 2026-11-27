@@ -954,3 +954,31 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - Timing: clone 14:41 -> all three rendered by ~15:40. TTS credits 840/773/771. 133/128/127 words -> 57.8/53.0/55.4 s raw ->
   tight + TEMPO 1.04/1.03/1.04 -> 50.0/47.1/49.1 s voice (51.0/48.0/50.1 s video). Loudness -14.3/-14.3/-14.4 LUFS, -2.2/-2.4/-2.7 dBTP
   (alimiter 0.70). Supermetrics TRIAL_EXPIRED; Subscribr searches still used up.
+
+---------------------------------------------------------------------------------------------------------------------
+## 39. Added after #52 + #53 + #54 (2026-11-27, Friday = Black Friday half day) — produced, UPLOAD FAILED (Chrome, 2nd day)
+- Worked examples: `kit/ep52/` (A 17:30, V1 trend: Dow erased a 1,105-point intraday drop on 11-25. Rule: SPY intraday low <= prior adj
+  close -2% -> sell AT -2% (or at the open if it gapped below), buy back at the next open. $37,530 vs $70,214; 353 sells, 176 rebought
+  higher; ahead in Dec 2008; all triggers -1.5..-4% and zero fees lose. Hidden thing = "the next morning" (2008-09-18 sold at -2%, next open
+  +10.9% raw). cz_chart() = real daily CANDLES with SELL/BUY markers at the real fills (good for intraday/next-open stories); news_card()
+  with the two news numbers), `kit/ep53/` (B 23:30, V0: 4 SPY bear markets (nominal close -20% from record, reset at a new record).
+  Twin A buys $10K the morning after; twin B waits for +20% off the RUNNING low (not the hindsight low!) -> A wins 3 of 4 rounds, B wins
+  the total $147,600 vs $131,543 because of 2008 (27.7% cheaper). round_board() = one tile per round as the "race" when cumulative lines
+  would spoil the leader; zline() = raw price window with dashed record/-20%/+20%-off-low levels; generic bear_head()) and `kit/ep54/`
+  (C 04:30, V0: January Barometer: red January -> cash Feb 1 .. next January's first open; $29,866 vs $70,214; 10 red Januaries, rest of
+  year up 8 times; hidden thing = Jan 2020 -0.04%. month_strip(), quote_card(); race_chart with orange cash bands). Scene files = ep51
+  scenes + #52 overrides (+ #53, + #54 overrides). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- HINDSIGHT TRAP: "+20% off the low" must use the running minimum since the signal, not the eventual bottom (that is only known later).
+  The first draft used the true low (2009-03-09) and bought B in March 2009; the honest running-min rule buys 2008-12-09.
+- TIMING: hook words + A/B — a 7-word V1 first sentence with a comma ("Down two percent, closed green: thirty-one times.") took 3.8 s ->
+  A/B ended at 5.8 s. V1 sentences with a list structure are slow; keep V1 to ~5 words when the A/B line follows.
+- PARAMETER SENSITIVITY: the classic January Barometer (any red January) loses, but "only Januaries under -5%" WINS ($85,347, 3 sells,
+  all thanks to 2008). Verdict kept on the classic rule; footnote shows -2% and -5%. Check the threshold scan BEFORE writing the verdict line.
+- RESULTS JSON: numpy ints written with default=str become strings ("31") -> comparisons in the data asserts fail. Cast with int()/float()
+  in the backtest (or default=lambda o: o.item()).
+- Python keyword as a T-dict name (`as=wi(16)`) is a SyntaxError in the generated render file -> name anchors As/Is/In...
+- CHROME FAILED AGAIN: 1 browser (2e2f69c6, "Browser 1"); select_browser OK; tabs_context_mcp(createIfEmpty) / navigate "No group with id: N"
+  at 14:43, 14:53, 15:01, 15:06. Push notification sent at the START (before producing) so the user could fix it; fallback = files + texts.
+- Timing: clone 14:42 -> A delivered ~14:55, B ~15:03, C ~15:08 (container clock). TTS credits 857/806/848. 134/136/138 words ->
+  62.6/61.4/63.7 s raw -> tight + TEMPO 1.06/1.06/1.08 -> 53.3/52.7/52.1 s voice. Loudness -14.4/-14.3/-14.2 LUFS (alimiter 0.70).
+  Subscribr searches still used up; Supermetrics not retried. Reading the session transcript for the backlog patch is still refused.

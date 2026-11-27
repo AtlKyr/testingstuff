@@ -1,0 +1,6 @@
+e=open("../_engine.py").read().replace("words_r2.json","words_53.json").replace("TOTAL = END + 1.4","TOTAL = END + 0.7")
+e=e.replace("#@@DATA@@",open("s53_data.py").read())
+e=e.replace("#@@MOTION@@",open("s53_timing.py").read())
+e=e.replace("#@@SCENES@@",open("../_dip_helpers.py").read()+"\n"+open("s53_helpers.py").read()+"\n"+open("s53_scenes.py").read())
+e=e.replace("#@@EVENTS@@",open("s53_events.py").read())
+open("render_53.py","w").write(e)

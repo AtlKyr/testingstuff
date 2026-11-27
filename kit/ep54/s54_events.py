@@ -1,0 +1,27 @@
+EVENTS = [
+    (0.02, 540, 400, [REDC, C["white"]], 1.6),
+    (T["eleven"], 540, 700, [GOLD, C["white"]], 1.2),
+    (T["A"] - 0.3, 310, 420, [LCOL, C["white"]], 1.0),
+    (T["B"], 770, 420, [HCOL, C["white"]], 1.0),
+    (T["As"], 540, 560, [GOLD, C["white"]], 1.0),
+    (T["quiet"], 540, 520, [GOLD, C["white"]], 1.0),
+    (T["sell"], 290, 1100, [REDC, C["white"]], 1.1),
+    (T["next"], 790, 1100, [GRNC, C["white"]], 1.1),
+    (T["Ten"], 540, 470, [GOLD, C["white"]], 0.9),
+    (T["red08"], 540, 470, [REDC, C["white"]], 1.0),
+    (T["way"], 540, 470, [GOLD, LCOL, C["white"]], 1.3),
+    (T["red09"], 540, 470, [REDC, C["white"]], 1.0),
+    (T["rockets"], 540, 1090, [GRNC, C["white"]], 1.2),
+    (T["eight"], 540, 1060, [GRNC, C["white"]], 1.3),
+    (T["Now"], 540, 520, [GOLD, C["white"]], 1.2),
+    (T["four"], 540, 760, [REDC, C["white"]], 1.2),
+    (T["sells20"], 540, 700, [REDC, C["white"]], 1.0),
+    (T["fifteen"], 540, 1090, [GRNC, GOLD, C["white"]], 1.5),
+    (T["rev1"], 540, 515, [LCOL, C["white"]], 1.2),
+    (T["rev2"], 540, 720, [HCOL, GOLD, C["white"]], 1.6),
+    (T["Verd"], 540, 540, [GOLD, C["white"]], 1.3),
+    (T["big"], 550, 540, [GOLD, C["white"], HCOL], 1.6),
+]
+PUNCH = [0.02, T["eleven"], T["A"], T["B"], T["As"], T["quiet"], T["sell"], T["next"], T["red08"], T["way"], T["red09"], T["rockets"],
+         T["eight"], T["Now"], T["four"], T["fifteen"], T["rev1"], T["rev2"], T["Verd"], T["big"]]
+FLASH = [0.02, T["way"], T["Now"], T["fifteen"], T["rev2"], T["Verd"]]

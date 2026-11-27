@@ -1,0 +1,694 @@
+{
+"words": [
+{
+"text": "Red",
+"start": 0.02,
+"end": 0.338
+},
+{
+"text": "January.",
+"start": 0.486,
+"end": 1.227
+},
+{
+"text": "Skip",
+"start": 1.356,
+"end": 1.578
+},
+{
+"text": "the",
+"start": 1.615,
+"end": 1.652
+},
+{
+"text": "next",
+"start": 1.726,
+"end": 1.874
+},
+{
+"text": "eleven",
+"start": 1.949,
+"end": 2.245
+},
+{
+"text": "months?",
+"start": 2.393,
+"end": 2.862
+},
+{
+"text": "Skip,",
+"start": 2.949,
+"end": 3.394
+},
+{
+"text": "A?",
+"start": 3.468,
+"end": 3.69
+},
+{
+"text": "Or",
+"start": 3.71,
+"end": 3.784
+},
+{
+"text": "stay,",
+"start": 3.932,
+"end": 4.525
+},
+{
+"text": "B?",
+"start": 4.599,
+"end": 4.895
+},
+{
+"text": "Wall",
+"start": 4.972,
+"end": 5.12
+},
+{
+"text": "Street's",
+"start": 5.194,
+"end": 5.491
+},
+{
+"text": "old",
+"start": 5.565,
+"end": 5.713
+},
+{
+"text": "saying:",
+"start": 5.787,
+"end": 6.231
+},
+{
+"text": "as",
+"start": 6.528,
+"end": 6.602
+},
+{
+"text": "January",
+"start": 6.75,
+"end": 7.12
+},
+{
+"text": "goes,",
+"start": 7.194,
+"end": 7.787
+},
+{
+"text": "so",
+"start": 7.935,
+"end": 8.083
+},
+{
+"text": "goes",
+"start": 8.157,
+"end": 8.38
+},
+{
+"text": "the",
+"start": 8.454,
+"end": 8.528
+},
+{
+"text": "year.",
+"start": 8.602,
+"end": 8.961
+},
+{
+"text": "Keep",
+"start": 8.999,
+"end": 9.147
+},
+{
+"text": "an",
+"start": 9.184,
+"end": 9.221
+},
+{
+"text": "eye",
+"start": 9.295,
+"end": 9.443
+},
+{
+"text": "on",
+"start": 9.554,
+"end": 9.666
+},
+{
+"text": "one",
+"start": 9.74,
+"end": 9.888
+},
+{
+"text": "quiet",
+"start": 10.11,
+"end": 10.48
+},
+{
+"text": "January.",
+"start": 10.554,
+"end": 11.147
+},
+{
+"text": "The",
+"start": 11.215,
+"end": 11.289
+},
+{
+"text": "rule:",
+"start": 11.363,
+"end": 11.769
+},
+{
+"text": "red",
+"start": 11.843,
+"end": 11.991
+},
+{
+"text": "January,",
+"start": 12.065,
+"end": 12.806
+},
+{
+"text": "sell",
+"start": 12.954,
+"end": 13.102
+},
+{
+"text": "in",
+"start": 13.176,
+"end": 13.251
+},
+{
+"text": "February,",
+"start": 13.325,
+"end": 14.065
+},
+{
+"text": "sit",
+"start": 14.139,
+"end": 14.288
+},
+{
+"text": "in",
+"start": 14.362,
+"end": 14.436
+},
+{
+"text": "cash",
+"start": 14.51,
+"end": 14.88
+},
+{
+"text": "until",
+"start": 14.954,
+"end": 15.251
+},
+{
+"text": "next",
+"start": 15.325,
+"end": 15.547
+},
+{
+"text": "January.",
+"start": 15.621,
+"end": 16.188
+},
+{
+"text": "Ten",
+"start": 16.259,
+"end": 16.333
+},
+{
+"text": "thousand",
+"start": 16.481,
+"end": 16.703
+},
+{
+"text": "dollars,",
+"start": 16.777,
+"end": 17.518
+},
+{
+"text": "twenty",
+"start": 17.666,
+"end": 17.814
+},
+{
+"text": "years.",
+"start": 17.888,
+"end": 18.419
+},
+{
+"text": "January",
+"start": 18.493,
+"end": 18.937
+},
+{
+"text": "two",
+"start": 19.086,
+"end": 19.16
+},
+{
+"text": "thousand",
+"start": 19.234,
+"end": 19.456
+},
+{
+"text": "eight:",
+"start": 19.604,
+"end": 20.006
+},
+{
+"text": "red.",
+"start": 20.081,
+"end": 20.461
+},
+{
+"text": "The",
+"start": 20.516,
+"end": 20.59
+},
+{
+"text": "rule",
+"start": 20.664,
+"end": 20.96
+},
+{
+"text": "sells",
+"start": 21.256,
+"end": 21.627
+},
+{
+"text": "and",
+"start": 21.738,
+"end": 21.849
+},
+{
+"text": "dodges",
+"start": 21.886,
+"end": 22.219
+},
+{
+"text": "the",
+"start": 22.293,
+"end": 22.368
+},
+{
+"text": "crash.",
+"start": 22.442,
+"end": 22.935
+},
+{
+"text": "By",
+"start": 22.972,
+"end": 23.009
+},
+{
+"text": "that",
+"start": 23.083,
+"end": 23.231
+},
+{
+"text": "November,",
+"start": 23.454,
+"end": 23.898
+},
+{
+"text": "it's",
+"start": 23.935,
+"end": 24.194
+},
+{
+"text": "way",
+"start": 24.268,
+"end": 24.417
+},
+{
+"text": "ahead.",
+"start": 24.602,
+"end": 24.837
+},
+{
+"text": "Two",
+"start": 24.907,
+"end": 24.981
+},
+{
+"text": "thousand",
+"start": 25.055,
+"end": 25.351
+},
+{
+"text": "nine:",
+"start": 25.425,
+"end": 26.043
+},
+{
+"text": "red",
+"start": 26.117,
+"end": 26.191
+},
+{
+"text": "again.",
+"start": 26.265,
+"end": 26.754
+},
+{
+"text": "The",
+"start": 26.772,
+"end": 26.809
+},
+{
+"text": "rule",
+"start": 26.883,
+"end": 27.18
+},
+{
+"text": "sits",
+"start": 27.328,
+"end": 27.55
+},
+{
+"text": "out,",
+"start": 27.624,
+"end": 27.994
+},
+{
+"text": "and",
+"start": 28.031,
+"end": 28.068
+},
+{
+"text": "the",
+"start": 28.143,
+"end": 28.217
+},
+{
+"text": "market",
+"start": 28.402,
+"end": 28.587
+},
+{
+"text": "rockets",
+"start": 28.735,
+"end": 29.106
+},
+{
+"text": "without",
+"start": 29.254,
+"end": 29.402
+},
+{
+"text": "it.",
+"start": 29.476,
+"end": 29.652
+},
+{
+"text": "In",
+"start": 29.763,
+"end": 29.875
+},
+{
+"text": "ten",
+"start": 29.949,
+"end": 30.171
+},
+{
+"text": "red",
+"start": 30.319,
+"end": 30.541
+},
+{
+"text": "Januaries,",
+"start": 30.652,
+"end": 31.356
+},
+{
+"text": "the",
+"start": 31.43,
+"end": 31.504
+},
+{
+"text": "rest",
+"start": 31.615,
+"end": 31.726
+},
+{
+"text": "of",
+"start": 31.763,
+"end": 31.801
+},
+{
+"text": "the",
+"start": 31.875,
+"end": 31.949
+},
+{
+"text": "year",
+"start": 32.023,
+"end": 32.245
+},
+{
+"text": "rose",
+"start": 32.319,
+"end": 32.615
+},
+{
+"text": "eight",
+"start": 32.689,
+"end": 32.912
+},
+{
+"text": "times.",
+"start": 32.986,
+"end": 33.607
+},
+{
+"text": "Now,",
+"start": 33.682,
+"end": 33.978
+},
+{
+"text": "that",
+"start": 34.052,
+"end": 34.274
+},
+{
+"text": "quiet",
+"start": 34.496,
+"end": 34.867
+},
+{
+"text": "January.",
+"start": 34.941,
+"end": 35.589
+},
+{
+"text": "Twenty",
+"start": 35.659,
+"end": 35.881
+},
+{
+"text": "twenty:",
+"start": 35.955,
+"end": 36.39
+},
+{
+"text": "January",
+"start": 36.464,
+"end": 36.909
+},
+{
+"text": "ends",
+"start": 36.983,
+"end": 37.205
+},
+{
+"text": "down",
+"start": 37.279,
+"end": 37.575
+},
+{
+"text": "four",
+"start": 37.649,
+"end": 37.798
+},
+{
+"text": "hundredths",
+"start": 37.946,
+"end": 38.39
+},
+{
+"text": "of",
+"start": 38.427,
+"end": 38.464
+},
+{
+"text": "a",
+"start": 38.501,
+"end": 38.538
+},
+{
+"text": "percent.",
+"start": 38.612,
+"end": 39.121
+},
+{
+"text": "The",
+"start": 39.141,
+"end": 39.178
+},
+{
+"text": "rule",
+"start": 39.326,
+"end": 39.623
+},
+{
+"text": "sells.",
+"start": 39.771,
+"end": 40.511
+},
+{
+"text": "The",
+"start": 40.548,
+"end": 40.586
+},
+{
+"text": "rest",
+"start": 40.66,
+"end": 40.882
+},
+{
+"text": "of",
+"start": 40.919,
+"end": 40.956
+},
+{
+"text": "the",
+"start": 41.03,
+"end": 41.067
+},
+{
+"text": "year",
+"start": 41.104,
+"end": 41.326
+},
+{
+"text": "climbs",
+"start": 41.4,
+"end": 41.771
+},
+{
+"text": "over",
+"start": 41.845,
+"end": 42.067
+},
+{
+"text": "fifteen",
+"start": 42.215,
+"end": 42.66
+},
+{
+"text": "percent.",
+"start": 42.808,
+"end": 43.694
+},
+{
+"text": "Twenty",
+"start": 43.942,
+"end": 43.991
+},
+{
+"text": "years",
+"start": 44.065,
+"end": 44.287
+},
+{
+"text": "later.",
+"start": 44.361,
+"end": 44.822
+},
+{
+"text": "The",
+"start": 44.859,
+"end": 44.896
+},
+{
+"text": "barometer:",
+"start": 44.97,
+"end": 45.526
+},
+{
+"text": "twenty-nine",
+"start": 45.637,
+"end": 45.897
+},
+{
+"text": "thousand",
+"start": 46.045,
+"end": 46.415
+},
+{
+"text": "nine",
+"start": 46.489,
+"end": 46.637
+},
+{
+"text": "hundred.",
+"start": 46.711,
+"end": 47.193
+},
+{
+"text": "Just",
+"start": 47.267,
+"end": 47.341
+},
+{
+"text": "holding:",
+"start": 47.415,
+"end": 48.082
+},
+{
+"text": "seventy",
+"start": 48.156,
+"end": 48.452
+},
+{
+"text": "thousand",
+"start": 48.526,
+"end": 48.897
+},
+{
+"text": "two",
+"start": 48.971,
+"end": 49.045
+},
+{
+"text": "hundred.",
+"start": 49.119,
+"end": 49.603
+},
+{
+"text": "January",
+"start": 49.899,
+"end": 50.196
+},
+{
+"text": "only",
+"start": 50.418,
+"end": 50.64
+},
+{
+"text": "predicted",
+"start": 50.714,
+"end": 51.233
+},
+{
+"text": "January.",
+"start": 51.307,
+"end": 52.122
+}
+]
+}
