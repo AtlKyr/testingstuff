@@ -73,3 +73,6 @@ JavaScript cannot run on claude.ai pages.
   files + texts. Check Chrome FIRST thing in the run (before producing) so a failure is reported early.
 - 2026-11-27: same failure as 11-26 (one browser 2e2f69c6 "Browser 1"; tabs_context_mcp/navigate -> "No group with id: N", 4 tries over
   25 min). Nothing reached Studio. A push notification at the start of the run told the user to restart Chrome / reconnect the extension.
+- 2026-11-28: third day of the same failure (one browser 2e2f69c6 "Browser 1"; select_browser OK; tabs_context_mcp/navigate -> "No group with
+  id: N" at 14:41, 14:53, 15:04, 15:10). Fallback = files + texts; push at the start. The user probably has to restart Chrome or re-install /
+  reconnect the Claude extension (the extension's tab-group state looks stale).

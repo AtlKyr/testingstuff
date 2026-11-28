@@ -1,0 +1,32 @@
+import sys; sys.path.insert(0, ".."); sys.path.insert(0, ".")
+import math, os
+from coverlib import *
+from PIL import ImageDraw
+cv = Cover()
+cv.paste(vgrad(S(W), S(H), (8, 40, 30), (2, 6, 8)).convert("RGBA"))
+cv.paste(radial(S(W), S(H), S(560), S(900), S(760), (255, 200, 90), 0.16))
+G = Image.new("RGBA", cv.im.size, (0, 0, 0, 0)); g = ImageDraw.Draw(G)
+INK = (20, 24, 28, 255); WOOD = (139, 90, 43, 255); SAND = (255, 210, 74, 255)
+AN = os.path.expanduser("~/.fonts/anton-latin-400-normal.ttf")
+# big glowing hourglass (the hidden "long wait") with a "?" on its frame
+cx, cy = 560, 905
+g.rounded_rectangle([S(cx - 170), S(cy - 205), S(cx + 170), S(cy - 175)], radius=S(10), fill=WOOD, outline=INK, width=S(8))
+g.rounded_rectangle([S(cx - 170), S(cy + 175), S(cx + 170), S(cy + 205)], radius=S(10), fill=WOOD, outline=INK, width=S(8))
+g.polygon([(S(cx - 140), S(cy - 175)), (S(cx + 140), S(cy - 175)), (S(cx + 14), S(cy)), (S(cx - 14), S(cy))], fill=(215, 240, 255, 110), outline=INK, width=S(8))
+g.polygon([(S(cx - 140), S(cy + 175)), (S(cx + 140), S(cy + 175)), (S(cx + 14), S(cy)), (S(cx - 14), S(cy))], fill=(215, 240, 255, 110), outline=INK, width=S(8))
+g.polygon([(S(cx - 70), S(cy - 90)), (S(cx + 70), S(cy - 90)), (S(cx + 10), S(cy - 6)), (S(cx - 10), S(cy - 6))], fill=SAND)
+g.polygon([(S(cx - 120), S(cy + 172)), (S(cx + 120), S(cy + 172)), (S(cx), S(cy + 95))], fill=SAND)
+g.rectangle([S(cx - 3), S(cy), S(cx + 3), S(cy + 165)], fill=SAND)
+g.text((S(cx + 210), S(cy - 120)), "?", font=ImageFont.truetype(AN, S(200)), fill=SAND, anchor="mm", stroke_width=S(8), stroke_fill=INK)
+cv.glow(G, (255, 200, 90), 26, 0.55)
+cv.paste(G)
+cv.bottom_fade(1250, alpha=0.95)
+cv.stamp("CASE #55", 300, 150, 70, sub="STRATEGY AUTOPSY", rot=-4)
+cv.title("HE WAITED.", 540, 350, 190, (255, 255, 255), (220, 235, 255), rot=-4, stroke=12, glow_col=(60, 220, 140), glow=22)
+cv.title("AND WAITED.", 540, 570, 175, (255, 236, 160), (255, 150, 60), rot=-4, stroke=13, glow_col=(255, 150, 60), glow=26)
+cv.redacted("WINNER:", 470, 1165, 760, 116, rot=-3)
+roc = rocco_sprite(19, "shock", "night", None)
+cv.sprite(roc, 270, 1210, spot=(255, 230, 190))
+cv.title("SELL OR HOLD?", 540, 1790, 120, (255, 255, 255), (255, 214, 64), stroke=12, extrude=12, glow_col=(0, 0, 0), glow=22)
+cv.save("StrategyAutopsy_55_kapak.png")
+print("ok")

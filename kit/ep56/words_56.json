@@ -1,0 +1,684 @@
+{
+"words": [
+{
+"text": "Triple",
+"start": 0.02,
+"end": 0.4
+},
+{
+"text": "leverage.",
+"start": 0.476,
+"end": 1.162
+},
+{
+"text": "Down",
+"start": 1.314,
+"end": 1.543
+},
+{
+"text": "over",
+"start": 1.619,
+"end": 1.848
+},
+{
+"text": "eighty-five",
+"start": 1.924,
+"end": 2.381
+},
+{
+"text": "percent",
+"start": 2.533,
+"end": 2.914
+},
+{
+"text": "in",
+"start": 2.99,
+"end": 3.143
+},
+{
+"text": "one",
+"start": 3.219,
+"end": 3.371
+},
+{
+"text": "year.",
+"start": 3.524,
+"end": 3.934
+},
+{
+"text": "Triple",
+"start": 4.027,
+"end": 4.256
+},
+{
+"text": "fund,",
+"start": 4.332,
+"end": 4.713
+},
+{
+"text": "A?",
+"start": 4.789,
+"end": 5.233
+},
+{
+"text": "Or",
+"start": 5.271,
+"end": 5.309
+},
+{
+"text": "plain",
+"start": 5.385,
+"end": 5.69
+},
+{
+"text": "S",
+"start": 5.842,
+"end": 5.919
+},
+{
+"text": "and",
+"start": 5.995,
+"end": 6.071
+},
+{
+"text": "P,",
+"start": 6.147,
+"end": 6.681
+},
+{
+"text": "B?",
+"start": 6.757,
+"end": 7.088
+},
+{
+"text": "One",
+"start": 7.164,
+"end": 7.316
+},
+{
+"text": "strange",
+"start": 7.468,
+"end": 7.849
+},
+{
+"text": "year",
+"start": 7.926,
+"end": 8.078
+},
+{
+"text": "explains",
+"start": 8.154,
+"end": 8.611
+},
+{
+"text": "it.",
+"start": 8.688,
+"end": 9.066
+},
+{
+"text": "Ten",
+"start": 9.142,
+"end": 9.294
+},
+{
+"text": "thousand",
+"start": 9.447,
+"end": 9.752
+},
+{
+"text": "dollars",
+"start": 9.828,
+"end": 10.133
+},
+{
+"text": "each,",
+"start": 10.209,
+"end": 10.59
+},
+{
+"text": "starting",
+"start": 10.666,
+"end": 10.971
+},
+{
+"text": "two",
+"start": 11.047,
+"end": 11.123
+},
+{
+"text": "thousand",
+"start": 11.199,
+"end": 11.504
+},
+{
+"text": "five.",
+"start": 11.58,
+"end": 12.197
+},
+{
+"text": "The",
+"start": 12.273,
+"end": 12.349
+},
+{
+"text": "triple",
+"start": 12.387,
+"end": 12.578
+},
+{
+"text": "fund",
+"start": 12.654,
+"end": 12.959
+},
+{
+"text": "moves",
+"start": 13.111,
+"end": 13.263
+},
+{
+"text": "three",
+"start": 13.34,
+"end": 13.568
+},
+{
+"text": "times",
+"start": 13.644,
+"end": 14.025
+},
+{
+"text": "the",
+"start": 14.063,
+"end": 14.102
+},
+{
+"text": "S",
+"start": 14.178,
+"end": 14.254
+},
+{
+"text": "and",
+"start": 14.33,
+"end": 14.406
+},
+{
+"text": "P,",
+"start": 14.482,
+"end": 14.94
+},
+{
+"text": "every",
+"start": 15.13,
+"end": 15.321
+},
+{
+"text": "single",
+"start": 15.397,
+"end": 15.702
+},
+{
+"text": "day.",
+"start": 15.778,
+"end": 16.12
+},
+{
+"text": "Two",
+"start": 16.19,
+"end": 16.267
+},
+{
+"text": "thousand",
+"start": 16.343,
+"end": 16.648
+},
+{
+"text": "seven:",
+"start": 16.724,
+"end": 17.127
+},
+{
+"text": "triple's",
+"start": 17.165,
+"end": 17.432
+},
+{
+"text": "ahead.",
+"start": 17.508,
+"end": 17.965
+},
+{
+"text": "Then",
+"start": 18.041,
+"end": 18.422
+},
+{
+"text": "the",
+"start": 18.499,
+"end": 18.575
+},
+{
+"text": "crash.",
+"start": 18.651,
+"end": 19.489
+},
+{
+"text": "By",
+"start": 19.565,
+"end": 19.641
+},
+{
+"text": "March",
+"start": 19.718,
+"end": 19.946
+},
+{
+"text": "two",
+"start": 20.022,
+"end": 20.099
+},
+{
+"text": "thousand",
+"start": 20.175,
+"end": 20.48
+},
+{
+"text": "nine,",
+"start": 20.594,
+"end": 20.937
+},
+{
+"text": "its",
+"start": 21.051,
+"end": 21.165
+},
+{
+"text": "ten",
+"start": 21.241,
+"end": 21.394
+},
+{
+"text": "thousand",
+"start": 21.546,
+"end": 21.927
+},
+{
+"text": "is",
+"start": 22.003,
+"end": 22.232
+},
+{
+"text": "eight",
+"start": 22.346,
+"end": 22.46
+},
+{
+"text": "hundred",
+"start": 22.537,
+"end": 22.765
+},
+{
+"text": "dollars.",
+"start": 22.918,
+"end": 23.473
+},
+{
+"text": "Game",
+"start": 23.58,
+"end": 23.694
+},
+{
+"text": "over?",
+"start": 23.77,
+"end": 24.043
+},
+{
+"text": "It",
+"start": 24.117,
+"end": 24.193
+},
+{
+"text": "crawls",
+"start": 24.269,
+"end": 24.65
+},
+{
+"text": "back.",
+"start": 24.803,
+"end": 25.412
+},
+{
+"text": "Eight",
+"start": 25.565,
+"end": 25.717
+},
+{
+"text": "years",
+"start": 25.869,
+"end": 26.25
+},
+{
+"text": "just",
+"start": 26.327,
+"end": 26.479
+},
+{
+"text": "to",
+"start": 26.555,
+"end": 26.631
+},
+{
+"text": "catch",
+"start": 26.708,
+"end": 26.936
+},
+{
+"text": "the",
+"start": 27.012,
+"end": 27.165
+},
+{
+"text": "plain",
+"start": 27.317,
+"end": 27.469
+},
+{
+"text": "S",
+"start": 27.546,
+"end": 27.622
+},
+{
+"text": "and",
+"start": 27.698,
+"end": 27.774
+},
+{
+"text": "P.",
+"start": 27.85,
+"end": 28.144
+},
+{
+"text": "Then",
+"start": 28.22,
+"end": 28.601
+},
+{
+"text": "twenty",
+"start": 28.754,
+"end": 28.906
+},
+{
+"text": "twenty:",
+"start": 29.059,
+"end": 29.592
+},
+{
+"text": "down",
+"start": 29.668,
+"end": 29.973
+},
+{
+"text": "seventy-six",
+"start": 30.049,
+"end": 30.582
+},
+{
+"text": "percent",
+"start": 30.659,
+"end": 31.116
+},
+{
+"text": "in",
+"start": 31.192,
+"end": 31.268
+},
+{
+"text": "a",
+"start": 31.306,
+"end": 31.344
+},
+{
+"text": "month.",
+"start": 31.497,
+"end": 31.941
+},
+{
+"text": "Now,",
+"start": 32.017,
+"end": 32.398
+},
+{
+"text": "that",
+"start": 32.513,
+"end": 32.627
+},
+{
+"text": "strange",
+"start": 32.703,
+"end": 33.16
+},
+{
+"text": "year.",
+"start": 33.236,
+"end": 33.706
+},
+{
+"text": "Twenty",
+"start": 33.762,
+"end": 33.991
+},
+{
+"text": "eleven.",
+"start": 34.105,
+"end": 34.624
+},
+{
+"text": "The",
+"start": 34.7,
+"end": 34.776
+},
+{
+"text": "S",
+"start": 34.852,
+"end": 34.928
+},
+{
+"text": "and",
+"start": 35.005,
+"end": 35.081
+},
+{
+"text": "P",
+"start": 35.157,
+"end": 35.386
+},
+{
+"text": "went",
+"start": 35.462,
+"end": 35.69
+},
+{
+"text": "basically",
+"start": 35.767,
+"end": 36.148
+},
+{
+"text": "nowhere.",
+"start": 36.224,
+"end": 36.762
+},
+{
+"text": "The",
+"start": 36.8,
+"end": 36.838
+},
+{
+"text": "triple",
+"start": 36.876,
+"end": 37.066
+},
+{
+"text": "fund?",
+"start": 37.142,
+"end": 37.541
+},
+{
+"text": "Lost",
+"start": 37.693,
+"end": 37.846
+},
+{
+"text": "eleven",
+"start": 37.922,
+"end": 38.303
+},
+{
+"text": "percent.",
+"start": 38.379,
+"end": 39.369
+},
+{
+"text": "Every",
+"start": 39.56,
+"end": 39.75
+},
+{
+"text": "up-and-down",
+"start": 39.827,
+"end": 40.36
+},
+{
+"text": "day",
+"start": 40.436,
+"end": 40.741
+},
+{
+"text": "quietly",
+"start": 40.893,
+"end": 41.427
+},
+{
+"text": "eats",
+"start": 41.465,
+"end": 41.655
+},
+{
+"text": "it.",
+"start": 41.731,
+"end": 41.909
+},
+{
+"text": "Twenty",
+"start": 42.296,
+"end": 42.525
+},
+{
+"text": "years",
+"start": 42.677,
+"end": 42.906
+},
+{
+"text": "later:",
+"start": 42.982,
+"end": 43.368
+},
+{
+"text": "plain",
+"start": 43.419,
+"end": 43.647
+},
+{
+"text": "S",
+"start": 43.723,
+"end": 43.876
+},
+{
+"text": "and",
+"start": 43.914,
+"end": 43.952
+},
+{
+"text": "P,",
+"start": 44.028,
+"end": 44.485
+},
+{
+"text": "seventy-one",
+"start": 44.561,
+"end": 45.019
+},
+{
+"text": "thousand.",
+"start": 45.171,
+"end": 45.759
+},
+{
+"text": "Triple,",
+"start": 45.911,
+"end": 46.259
+},
+{
+"text": "one",
+"start": 46.335,
+"end": 46.488
+},
+{
+"text": "hundred",
+"start": 46.564,
+"end": 46.869
+},
+{
+"text": "seventy-four",
+"start": 47.021,
+"end": 47.63
+},
+{
+"text": "thousand.",
+"start": 47.783,
+"end": 48.361
+},
+{
+"text": "Triple",
+"start": 48.615,
+"end": 48.666
+},
+{
+"text": "won.",
+"start": 48.818,
+"end": 49.213
+},
+{
+"text": "If",
+"start": 49.327,
+"end": 49.441
+},
+{
+"text": "you",
+"start": 49.517,
+"end": 49.594
+},
+{
+"text": "could",
+"start": 49.67,
+"end": 49.746
+},
+{
+"text": "stomach",
+"start": 49.822,
+"end": 50.051
+},
+{
+"text": "losing",
+"start": 50.127,
+"end": 50.432
+},
+{
+"text": "ninety-two",
+"start": 50.508,
+"end": 50.813
+},
+{
+"text": "percent.",
+"start": 50.889,
+"end": 51.475
+}
+]
+}

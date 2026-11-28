@@ -982,3 +982,31 @@ SYNTHESIS: put the surprising, TRUE tension (a number) at second 0, keep the ver
 - Timing: clone 14:42 -> A delivered ~14:55, B ~15:03, C ~15:08 (container clock). TTS credits 857/806/848. 134/136/138 words ->
   62.6/61.4/63.7 s raw -> tight + TEMPO 1.06/1.06/1.08 -> 53.3/52.7/52.1 s voice. Loudness -14.4/-14.3/-14.2 LUFS (alimiter 0.70).
   Subscribr searches still used up; Supermetrics not retried. Reading the session transcript for the backlog patch is still refused.
+
+---------------------------------------------------------------------------------------------------------------------
+## 40. Added after #55 + #56 + #57 (2026-11-28, Saturday) — produced, UPLOAD FAILED (Chrome, 3rd day in a row)
+- Worked examples: `kit/ep55/` (A 17:30, V0 trend: S&P +5.6% week (Nov 23–27, best since April 2025; 6,910.39 -> 7,297.49 checked by hand
+  because Yahoo's live-blog TEXT said "+1.7% for the week" while its own closing table matched +5.6% — always recompute a weekly % from two
+  closes). Rule: SPY week (W-FRI, adj close) <= -5% -> sell next open; in cash, week >= +5% -> buy back next open. $51,296 vs $70,214; 11 sells,
+  8 rebought higher; hidden thing = Aug 2015 sale -> next +5% week only Mar 2020 (4.6 years, raw +36%). week_card(), wait_zoom() = raw price
+  zoom with orange IN CASH band + SOLD/BUY dots + a live "NO +5% WEEK: x.x YEARS" counter), `kit/ep56/` (B 23:30, V1: simulated 3x daily fund
+  (3x SPY daily - 2x T-bill/252 - 0.91%/yr) vs 1x; $173,742 vs $70,949; low $805 Mar 2009; hidden thing = 2011 (S&P +1.9% TR / -0.2% price,
+  3x -10.9%) + a +10%/-10% decay example tile; day_pair(), val_zoom(); race_chart with vmin 0 for a 805..174K range) and `kit/ep57/` (C 04:30,
+  V1: FRED T10Y2Y yield-curve inversion with a 1-day publication lag; $41,612 vs $70,214, max DD -55% = buy & hold; hidden thing = the June 2007
+  "all-clear" buy 4 months before the top; curve_icon() schematic curve, bell() alarm, raw_zoom()). Scene files = ep54 scenes + #55 overrides
+  (+ #56, + #57 overrides appended; each sNN_over.py is also saved separately). Same run recipe (PYTHONPATH=/home/claude/short, inside epNN/).
+- SAME-DAY ARC CHECK: the first B candidate (Sahm rule, kit/ep56x/) had the same arc as A ("won 2008, lost it in 2020") and almost the same
+  final ($51.7K vs A's $51.3K) -> moved to the backlog. Compare the three stories of the day, not only the last 3 episodes.
+- C QUEUE CHECK: Double RSI / Williams %R repeat the "high win rate, still loses" story (#4, #45); inside bar is parameter noise ($8K-$87K).
+  A famous macro rule with FRED data (yield curve) gave a fresh arc. cand57.py/ib57.py keep the numbers.
+- The 3x story is a WINNER for the strategy (honest): keep A/B neutral ("3X fund, A? Or plain S&P, B?") and make the verdict carry the cost
+  ("Triple won. If you could stomach losing ninety-two percent."). hud() must reveal the real winner's value, not always buy & hold.
+- A V1 first sentence of 9 words ("Triple leverage. Down over eighty-five percent in one year.") pushed the A/B line to 4.0–6.8 s -> keep V1 to <= 7 words.
+- The first `cp -r kit/* short/` failed silently because it was inside a `bash -c` containing `rm -rf` (blocked by the safety check) -> write the
+  font setup as a script file (no rm) and copy the kit in a separate command.
+- Reading the session transcript for the backlog patch is still refused (2026-11-28) -> the backlog was rewritten from project_read.
+- Timing: clone 14:41 -> A delivered ~14:55, B ~15:05, C ~15:11 (container clock). TTS credits 812/854/847. 138/136/138 words -> 57.4/60.9/59.7 s
+  raw -> tight + TEMPO 1.03/1.05/1.05 -> 49.1/51.5/51.8 s voice. Loudness -14.4/-14.3/-14.5 LUFS, -2.6/-2.4/-1.7 dBTP (alimiter 0.70).
+- CHROME: one browser (2e2f69c6, "Browser 1"); select_browser OK; tabs_context_mcp(createIfEmpty) / navigate -> "No group with id: N" at 14:41,
+  14:53, 15:04, 15:10. Push sent at the start; files + texts delivered for manual upload. Computer-use on the desktop would need a live approval
+  (request_access) -> not usable in an unattended run.
